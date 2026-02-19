@@ -1,6 +1,4 @@
-# CleanImp Experiment Logs
-
-Live logs from 5 experiments running on NYU bigdata servers. Updated every 5 minutes.
+Live logs from 5 experiments running on my servers. Updated every 30 seconds.
 
 | Server | File | Algorithm |
 |--------|------|-----------|
