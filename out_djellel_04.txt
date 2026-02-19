@@ -25,3 +25,4 @@ PRISTI is tested with mcar on ACSF1, started at 2026-02-19 22:11:28.
 	caching stored for recovery and missing matrix: acsf1_mcar_pristi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: acsf1_mcar_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: acsf1_mcar_pristi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: acsf1_mcar_pristi_60_20_contbyclass_imputationbyclass
