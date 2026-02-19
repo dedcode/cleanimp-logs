@@ -279,3 +279,4 @@ done!
 
 
 TimesNet is tested with aligned_series on BirdChicken, started at 2026-02-20 00:04:21.
+	caching stored for recovery and missing matrix: birdchicken_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
