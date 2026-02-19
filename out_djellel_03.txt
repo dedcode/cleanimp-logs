@@ -236,3 +236,23 @@ TimesNet is tested with aligned_series on Beef, started at 2026-02-19 23:56:26.
 	caching stored for recovery and missing matrix: beef_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: beef_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: beef_aligned_series_timesnet_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: beef_aligned_series_timesnet_80_20_contbyclass_imputationbyclass
+done!
+
+
+TimesNet is tested with aligned_timestamps on Beef, started at 2026-02-19 23:59:55.
+
+
+(ERROR) Imputation error with TimesNet, the number of NaNs values injected with ImputeGAP filled all the sequence, please change the seq_len or the contamination percentage. 
+	Currently, the number of NaNs might reach 47 for a sequence and the size of seq_len is 48.
+
+
+
+(ERROR) Imputation error with TimesNet, the number of NaNs values injected with ImputeGAP filled all the sequence, please change the seq_len or the contamination percentage. 
+	Currently, the number of NaNs might reach 47 for a sequence and the size of seq_len is 48.
+
+
+
+(ERROR) Imputation error with TimesNet, the number of NaNs values injected with ImputeGAP filled all the sequence, please change the seq_len or the contamination percentage. 
+	Currently, the number of NaNs might reach 47 for a sequence and the size of seq_len is 48.
+
