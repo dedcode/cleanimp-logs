@@ -291,3 +291,12 @@ TimesNet is tested with aligned_timestamps on BirdChicken, started at 2026-02-20
 	caching stored for recovery and missing matrix: birdchicken_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: birdchicken_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: birdchicken_aligned_timestamps_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: birdchicken_aligned_timestamps_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with BirdChicken, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with mcar on CBF, started at 2026-02-20 00:09:49.
+	caching stored for recovery and missing matrix: cbf_mcar_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: cbf_mcar_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: cbf_mcar_timesnet_40_20_contbyclass_imputationbyclass
