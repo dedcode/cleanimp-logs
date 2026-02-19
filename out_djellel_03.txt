@@ -629,3 +629,19 @@ done!
 TimesNet is tested with mcar on ECGFiveDays, started at 2026-02-20 01:15:06.
 	caching stored for recovery and missing matrix: ecgfivedays_mcar_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: ecgfivedays_mcar_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: ecgfivedays_mcar_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: ecgfivedays_mcar_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with ECGFiveDays, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with aligned_series on ECGFiveDays, started at 2026-02-20 01:15:20.
+	caching stored for recovery and missing matrix: ecgfivedays_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: ecgfivedays_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: ecgfivedays_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: ecgfivedays_aligned_series_timesnet_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: ecgfivedays_aligned_series_timesnet_80_20_contbyclass_imputationbyclass
+done!
+
+
+TimesNet is tested with aligned_timestamps on ECGFiveDays, started at 2026-02-20 01:15:43.
