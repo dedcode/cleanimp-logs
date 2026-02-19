@@ -691,3 +691,4 @@ done!
 
 TimesNet is tested with aligned_series on EOGVerticalSignal, started at 2026-02-20 03:06:49.
 	caching stored for recovery and missing matrix: eogverticalsignal_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: eogverticalsignal_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
