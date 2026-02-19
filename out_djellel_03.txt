@@ -469,3 +469,4 @@ done!
 
 TimesNet is tested with aligned_series on CricketX, started at 2026-02-20 01:04:46.
 	caching stored for recovery and missing matrix: cricketx_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: cricketx_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
