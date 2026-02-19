@@ -263,3 +263,4 @@ TimesNet is tested with aligned_timestamps on Beef, started at 2026-02-19 23:59:
 
 Error during benchmark for TimesNet, with Beef, and 0.1%: autodetected range of [nan, nan] is not finite
 	caching stored for recovery and missing matrix: beef_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: beef_aligned_timestamps_timesnet_40_20_contbyclass_imputationbyclass
