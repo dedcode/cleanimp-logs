@@ -25,3 +25,4 @@ CSDI is tested with mcar on ACSF1, started at 2026-02-19 22:11:07.
 	caching stored for recovery and missing matrix: acsf1_mcar_csdi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: acsf1_mcar_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: acsf1_mcar_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: acsf1_mcar_csdi_60_20_contbyclass_imputationbyclass
