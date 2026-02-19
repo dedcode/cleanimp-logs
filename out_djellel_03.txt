@@ -443,3 +443,4 @@ done!
 TimesNet is tested with aligned_series on Computers, started at 2026-02-20 00:56:31.
 	caching stored for recovery and missing matrix: computers_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: computers_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: computers_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
