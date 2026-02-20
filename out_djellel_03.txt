@@ -1983,3 +1983,21 @@ TimesNet is tested with aligned_timestamps on SmallKitchenAppliances, started at
 	caching stored for recovery and missing matrix: smallkitchenappliances_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: smallkitchenappliances_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: smallkitchenappliances_aligned_timestamps_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: smallkitchenappliances_aligned_timestamps_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with SmallKitchenAppliances, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with mcar on SonyAIBORobotSurface1, started at 2026-02-20 14:59:22.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (14, 70).
+	One series has 70 values, with the offset, 66 values are available to contamination. Thus, the number of data to remove is 7 (int(66 * 0.1)), but block size is 10 -> (10 must be < 7)
+		(ACTION) block_size is set to : 3
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (6, 70).
+	One series has 70 values, with the offset, 66 values are available to contamination. Thus, the number of data to remove is 7 (int(66 * 0.1)), but block size is 10 -> (10 must be < 7)
+		(ACTION) block_size is set to : 3
+
+	caching stored for recovery and missing matrix: sonyaiborobotsurface1_mcar_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: sonyaiborobotsurface1_mcar_timesnet_20_20_contbyclass_imputationbyclass
