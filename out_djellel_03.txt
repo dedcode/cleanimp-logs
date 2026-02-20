@@ -906,3 +906,6 @@ done!
 
 
 TimesNet is tested with aligned_series on FreezerSmallTrain, started at 2026-02-20 05:18:40.
+	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
