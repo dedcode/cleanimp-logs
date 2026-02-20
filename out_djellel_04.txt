@@ -109,3 +109,8 @@ PRISTI is tested with mcar on Beef, started at 2026-02-21 00:26:34.
 	caching stored for recovery and missing matrix: beef_mcar_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: beef_mcar_pristi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: beef_mcar_pristi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: beef_mcar_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_series on Beef, started at 2026-02-21 01:38:57.
