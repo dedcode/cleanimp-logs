@@ -63,3 +63,4 @@ CSDI is tested with aligned_series on Adiac, started at 2026-02-20 10:07:56.
   fig, axes = plt.subplots(n_rows, n_cols, figsize=(x_size, y_size), squeeze=False)
 	caching stored for recovery and missing matrix: adiac_aligned_series_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: adiac_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: adiac_aligned_series_csdi_60_20_contbyclass_imputationbyclass
