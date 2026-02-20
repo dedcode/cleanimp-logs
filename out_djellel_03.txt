@@ -1052,3 +1052,4 @@ done!
 TimesNet is tested with aligned_timestamps on Ham, started at 2026-02-20 05:30:10.
 	caching stored for recovery and missing matrix: ham_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: ham_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: ham_aligned_timestamps_timesnet_40_20_contbyclass_imputationbyclass
