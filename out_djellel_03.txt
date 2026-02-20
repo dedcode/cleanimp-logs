@@ -1089,3 +1089,9 @@ TimesNet is tested with mcar on Herring, started at 2026-02-20 06:09:00.
 	caching stored for recovery and missing matrix: herring_mcar_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: herring_mcar_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: herring_mcar_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: herring_mcar_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with Herring, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with aligned_series on Herring, started at 2026-02-20 06:11:19.
