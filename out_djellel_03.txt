@@ -1365,3 +1365,9 @@ TimesNet is tested with aligned_series on MedicalImages, started at 2026-02-20 0
 	caching stored for recovery and missing matrix: medicalimages_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: medicalimages_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: medicalimages_aligned_series_timesnet_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: medicalimages_aligned_series_timesnet_80_20_contbyclass_imputationbyclass
+done!
+
+
+TimesNet is tested with aligned_timestamps on MedicalImages, started at 2026-02-20 07:57:52.
+	caching stored for recovery and missing matrix: medicalimages_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
