@@ -1260,3 +1260,4 @@ TimesNet is tested with aligned_series on Lightning7, started at 2026-02-20 07:4
 	caching stored for recovery and missing matrix: lightning7_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: lightning7_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: lightning7_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: lightning7_aligned_series_timesnet_60_20_contbyclass_imputationbyclass
