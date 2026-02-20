@@ -845,3 +845,4 @@ done!
 TimesNet is tested with mcar on Fish, started at 2026-02-20 05:04:54.
 	caching stored for recovery and missing matrix: fish_mcar_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: fish_mcar_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: fish_mcar_timesnet_40_20_contbyclass_imputationbyclass
