@@ -1614,3 +1614,20 @@ TimesNet is tested with mcar on ProximalPhalanxOutlineAgeGroup, started at 2026-
 	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_mcar_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_mcar_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_mcar_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_mcar_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with ProximalPhalanxOutlineAgeGroup, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with aligned_series on ProximalPhalanxOutlineAgeGroup, started at 2026-02-20 08:33:15.
+	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_aligned_series_timesnet_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_aligned_series_timesnet_80_20_contbyclass_imputationbyclass
+done!
+
+
+TimesNet is tested with aligned_timestamps on ProximalPhalanxOutlineAgeGroup, started at 2026-02-20 08:33:37.
+	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
