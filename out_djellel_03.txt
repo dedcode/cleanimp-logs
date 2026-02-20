@@ -2076,3 +2076,4 @@ done!
 
 TimesNet is tested with mcar on SwedishLeaf, started at 2026-02-20 15:01:24.
 	caching stored for recovery and missing matrix: swedishleaf_mcar_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: swedishleaf_mcar_timesnet_20_20_contbyclass_imputationbyclass
