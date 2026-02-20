@@ -4042,3 +4042,1878 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], arsenal}
 
 The plots have been generated...
 
+
+FaceAll: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0183769224    
+  0.2      0.9730087625    
+  0.4      0.9972523354    
+  0.6      1.0097591111    
+  0.8          nan         
+
+
+
+FaceAll: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    35244.2348003387  
+  0.2    33318.2840347290  
+  0.4    35852.8566360474  
+  0.6    30957.6139450073  
+  0.8          nan         
+
+
+
+FaceAll: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.4791258473    
+  0.2      1.4569001187    
+  0.4      1.4635305605    
+  0.6      1.4425677095    
+  0.8      1.4727808069    
+
+
+
+FaceAll: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    33232.9025268555  
+  0.2    34056.3733577728  
+  0.4    32706.9711685181  
+  0.6    34518.3043479919  
+  0.8    35678.0049800873  
+
+
+
+FaceAll: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.3834489377    
+  0.2      1.5099954022    
+  0.4      1.3255904406    
+  0.6      1.2394863686    
+  0.8          nan         
+
+
+
+FaceAll: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    33246.7358112335  
+  0.2    34057.1157932281  
+  0.4    30186.9721412659  
+  0.6    16017.0974731445  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+FaceFour: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.2428534310    
+  0.2      0.9598475742    
+  0.4      0.8464200525    
+  0.6      1.0503352588    
+  0.8          nan         
+
+
+
+FaceFour: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    18294.0695285797  
+  0.2    18145.2710628510  
+  0.4    23093.1823253632  
+  0.6    13690.5016899109  
+  0.8          nan         
+
+
+
+FaceFour: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.9718326455    
+  0.2      1.0211646486    
+  0.4      0.9436791252    
+  0.6      0.9783729112    
+  0.8      0.9010699278    
+
+
+
+FaceFour: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    16265.4285430908  
+  0.2    18993.8642978668  
+  0.4    18068.9644813538  
+  0.6    18299.5991706848  
+  0.8    17331.9857120514  
+
+
+
+FaceFour: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0976594390    
+  0.2      0.9886130289    
+  0.4      0.8083228165    
+  0.6      0.7200632756    
+  0.8          nan         
+
+
+
+FaceFour: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    18083.5328102112  
+  0.2    17380.5119991302  
+  0.4    21228.2435894012  
+  0.6    14164.7400856018  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+FacesUCR: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0871868951    
+  0.2      1.0066093894    
+  0.4      1.0647257537    
+  0.6      1.0502846065    
+  0.8          nan         
+
+
+
+FacesUCR: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    30724.5872020721  
+  0.2    31557.2986602783  
+  0.4    33744.7223663330  
+  0.6    27142.6494121552  
+  0.8          nan         
+
+
+
+FacesUCR: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6221949172    
+  0.2      0.6371012675    
+  0.4      0.6423669040    
+  0.6      0.6439702537    
+  0.8      0.6378402092    
+
+
+
+FacesUCR: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    34276.9014835358  
+  0.2    32522.4926471710  
+  0.4    32086.1771106720  
+  0.6    31174.4947433472  
+  0.8    31965.2817249298  
+
+
+
+FacesUCR: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6517460576    
+  0.2      0.6440443413    
+  0.4      0.6789819737    
+  0.6      0.8340345472    
+  0.8          nan         
+
+
+
+FacesUCR: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    34066.9181346893  
+  0.2    33706.7489624023  
+  0.4    36293.7896251678  
+  0.6    13537.7049446106  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+Fish: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.5724230415    
+  0.2      0.6360469609    
+  0.4      0.9055584417    
+  0.6      0.9097084103    
+  0.8          nan         
+
+
+
+Fish: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    36619.5752620697  
+  0.2    37131.4365863800  
+  0.4    66941.0784244537  
+  0.6    44954.9653530121  
+  0.8          nan         
+
+
+
+Fish: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3000646770    
+  0.2      0.3112595040    
+  0.4      0.3364494988    
+  0.6      0.3367247668    
+  0.8      0.3501604764    
+
+
+
+Fish: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    38222.8956222534  
+  0.2    41541.3815975189  
+  0.4    38412.0390415192  
+  0.6    36057.7189922333  
+  0.8    34652.5535583496  
+
+
+
+Fish: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8394171736    
+  0.2      0.3356328941    
+  0.4      1.3439198779    
+  0.6      0.9543834092    
+  0.8          nan         
+
+
+
+Fish: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    38478.5075187683  
+  0.2    39762.7751827240  
+  0.4    67401.8936157227  
+  0.6    41679.1496276855  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+FreezerRegularTrain: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6396011648    
+  0.2      0.5916236253    
+  0.4      0.8488031535    
+  0.6      0.9386316443    
+  0.8          nan         
+
+
+
+FreezerRegularTrain: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    17996.2224960327  
+  0.2    16296.6051101685  
+  0.4    14003.5216808319  
+  0.6    6455.4023742676   
+  0.8          nan         
+
+
+
+FreezerRegularTrain: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.4316714416    
+  0.2      1.4621986442    
+  0.4      1.4025074062    
+  0.6      1.3949232400    
+  0.8      1.4109518415    
+
+
+
+FreezerRegularTrain: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    13801.6340732574  
+  0.2    17994.5929050446  
+  0.4    15577.7535438538  
+  0.6    13161.5343093872  
+  0.8    10628.2827854156  
+
+
+
+FreezerRegularTrain: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.6938811650    
+  0.2      1.3985593237    
+  0.4      1.1181482955    
+  0.6      0.8566081308    
+  0.8          nan         
+
+
+
+FreezerRegularTrain: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    17504.5139789581  
+  0.2    13774.0101814270  
+  0.4    13837.3508453369  
+  0.6    5553.1463623047   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+FreezerSmallTrain: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.4278348678    
+  0.2      0.7677008133    
+  0.4      1.0051903676    
+  0.6      1.2442918411    
+  0.8          nan         
+
+
+
+FreezerSmallTrain: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    12558.4127902985  
+  0.2    14952.3272514343  
+  0.4    10157.4125289917  
+  0.6    5480.7984828949   
+  0.8          nan         
+
+
+
+FreezerSmallTrain: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.3202067455    
+  0.2      1.4489426611    
+  0.4      1.5280173670    
+  0.6      1.5102359432    
+  0.8      1.2863763507    
+
+
+
+FreezerSmallTrain: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    14105.9346199036  
+  0.2    14036.4637374878  
+  0.4    13419.2483425140  
+  0.6    14940.3424263000  
+  0.8    12647.6721763611  
+
+
+
+FreezerSmallTrain: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.3655295567    
+  0.2      1.1790725880    
+  0.4      0.9764458752    
+  0.6      0.9357517498    
+  0.8          nan         
+
+
+
+FreezerSmallTrain: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    13665.7769680023  
+  0.2    15510.1203918457  
+  0.4    9548.5432147980   
+  0.6    5561.4287853241   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+GunPoint: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0569128012    
+  0.2      0.9553036343    
+  0.4      0.8360395753    
+  0.6      1.1937327631    
+  0.8          nan         
+
+
+
+GunPoint: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    6314.1329288483   
+  0.2    6441.4086341858   
+  0.4    6732.3849201202   
+  0.6    2654.9088954926   
+  0.8          nan         
+
+
+
+GunPoint: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0737332456    
+  0.2      1.1413597844    
+  0.4      1.3108695431    
+  0.6      1.3987799029    
+  0.8      1.2980688892    
+
+
+
+GunPoint: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    6087.1100425720   
+  0.2    6414.2463207245   
+  0.4    6443.2542324066   
+  0.6    6440.2575492859   
+  0.8    6750.7143020630   
+
+
+
+GunPoint: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8417563127    
+  0.2      1.3706143784    
+  0.4      1.3402828951    
+  0.6      1.4039376997    
+  0.8          nan         
+
+
+
+GunPoint: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    5909.4002246857   
+  0.2    5604.1474342346   
+  0.4    6754.3494701385   
+  0.6    2263.8151645660   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+GunPointAgeSpan: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.9211781194    
+  0.2      0.8391967477    
+  0.4      0.8509280427    
+  0.6      1.1637783361    
+  0.8          nan         
+
+
+
+GunPointAgeSpan: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    6961.8577957153   
+  0.2    6963.7327194214   
+  0.4    6322.1571445465   
+  0.6    2660.7234477997   
+  0.8          nan         
+
+
+
+GunPointAgeSpan: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.2056063755    
+  0.2      1.2342050617    
+  0.4      1.3372183792    
+  0.6      1.2683718081    
+  0.8      1.3665963433    
+
+
+
+GunPointAgeSpan: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    6004.4677257538   
+  0.2    6356.9359779358   
+  0.4    5784.1854095459   
+  0.6    6133.4431171417   
+  0.8    6676.1569976807   
+
+
+
+GunPointAgeSpan: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0788162329    
+  0.2      1.2212626265    
+  0.4      1.2179968631    
+  0.6      1.2758915618    
+  0.8          nan         
+
+
+
+GunPointAgeSpan: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    7050.7447719574   
+  0.2    6301.8465042114   
+  0.4    7311.7499351501   
+  0.6    2424.8228073120   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+GunPointMaleVersusFemale: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8676627954    
+  0.2      0.8720393213    
+  0.4      0.9705144015    
+  0.6      1.1464068778    
+  0.8          nan         
+
+
+
+GunPointMaleVersusFemale: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    6608.8144779205   
+  0.2    6980.8547496796   
+  0.4    7332.6606750488   
+  0.6    2778.4497737885   
+  0.8          nan         
+
+
+
+GunPointMaleVersusFemale: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.5584895802    
+  0.2      1.3141710697    
+  0.4      1.2897177242    
+  0.6      1.2766864223    
+  0.8      1.2778480347    
+
+
+
+GunPointMaleVersusFemale: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    7343.6663150787   
+  0.2    7308.2263469696   
+  0.4    5657.1795940399   
+  0.6    6928.2815456390   
+  0.8    7293.5028076172   
+
+
+
+GunPointMaleVersusFemale: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.2097841712    
+  0.2      1.2086052456    
+  0.4      1.5253414725    
+  0.6      1.2404806026    
+  0.8          nan         
+
+
+
+GunPointMaleVersusFemale: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    7283.1637859344   
+  0.2    7290.7161712646   
+  0.4    6577.9597759247   
+  0.6    2564.2542839050   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+GunPointOldVersusYoung: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.9172638831    
+  0.2      0.9097307866    
+  0.4      1.1115275034    
+  0.6      1.1483173093    
+  0.8          nan         
+
+
+
+GunPointOldVersusYoung: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    7265.6352519989   
+  0.2    6555.1872253418   
+  0.4    5915.9600734711   
+  0.6    2252.0272731781   
+  0.8          nan         
+
+
+
+GunPointOldVersusYoung: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.1984488559    
+  0.2      1.4227201751    
+  0.4      1.3803078044    
+  0.6      1.3160505408    
+  0.8      1.3058783080    
+
+
+
+GunPointOldVersusYoung: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    6586.3859653473   
+  0.2    7196.3033676147   
+  0.4    6898.4746932983   
+  0.6    6551.6376495361   
+  0.8    5814.9704933167   
+
+
+
+GunPointOldVersusYoung: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.2924180515    
+  0.2      1.3086975311    
+  0.4      1.5152000748    
+  0.6      1.2372785277    
+  0.8          nan         
+
+
+
+GunPointOldVersusYoung: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    7166.4042472839   
+  0.2    7121.3772296906   
+  0.4    7183.9423179626   
+  0.6    2519.8037624359   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+Ham: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.7134123563    
+  0.2      0.7570753276    
+  0.4      0.8320621831    
+  0.6      1.1597969691    
+  0.8          nan         
+
+
+
+Ham: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    17231.3649654388  
+  0.2    15729.4144630432  
+  0.4    30697.5615024567  
+  0.6    16095.6797599792  
+  0.8          nan         
+
+
+
+Ham: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3390044665    
+  0.2      0.3479364358    
+  0.4      0.3870916173    
+  0.6      0.3965661217    
+  0.8      0.4148711665    
+
+
+
+Ham: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    17797.9781627655  
+  0.2    19778.3715724945  
+  0.4    19230.9532165527  
+  0.6    16239.6807670593  
+  0.8    16466.2091732025  
+
+
+
+Ham: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.2304762448    
+  0.2      0.3766063293    
+  0.4      0.6626073778    
+  0.6      0.9503564223    
+  0.8          nan         
+
+
+
+Ham: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    19184.0758323669  
+  0.2    19448.8303661346  
+  0.4    29054.5332431793  
+  0.6    17750.1444816589  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+Haptics: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.2321373756    
+  0.2      0.3608718487    
+  0.4      0.5435449777    
+  0.6      0.8695825745    
+  0.8          nan         
+
+
+
+Haptics: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   175223.8292694092  
+  0.2   176688.2305145264  
+  0.4   180914.8902893066  
+  0.6   120749.6864795685  
+  0.8          nan         
+
+
+
+Haptics: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.4050263253    
+  0.2      0.3961777982    
+  0.4      0.4125850815    
+  0.6      0.4149158713    
+  0.8      0.3942633067    
+
+
+
+Haptics: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   179606.8389415741  
+  0.2   181788.5239124298  
+  0.4   185986.5040779114  
+  0.6   179970.7334041595  
+  0.8   174615.0517463684  
+
+
+
+Haptics: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3341030185    
+  0.2      0.4152621348    
+  0.4      0.5168715452    
+  0.6      1.2064802458    
+  0.8          nan         
+
+
+
+Haptics: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   182037.1496677399  
+  0.2   190181.2407970428  
+  0.4   168200.2127170563  
+  0.6   124908.3130359650  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+Herring: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.2766784773    
+  0.2      0.3780137433    
+  0.4      0.6404203004    
+  0.6      0.9561827952    
+  0.8          nan         
+
+
+
+Herring: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    36263.8068199158  
+  0.2    41167.6156520844  
+  0.4    33865.0236129761  
+  0.6    21333.6651325226  
+  0.8          nan         
+
+
+
+Herring: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.4109949820    
+  0.2      0.3245333753    
+  0.4      0.3536926674    
+  0.6      0.3746663427    
+  0.8      0.3842171066    
+
+
+
+Herring: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    41542.5803661346  
+  0.2    41288.6919975281  
+  0.4    41580.9803009033  
+  0.6    41240.8010959625  
+  0.8    41097.9981422424  
+
+
+
+Herring: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3126738309    
+  0.2      0.3845293531    
+  0.4      1.2880592941    
+  0.6      1.0002597684    
+  0.8          nan         
+
+
+
+Herring: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    38817.6372051239  
+  0.2    41637.4385356903  
+  0.4    36658.2880020142  
+  0.6    21649.7626304626  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+InlineSkate: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3168972122    
+  0.2      0.5315926970    
+  0.4      0.7295440911    
+  0.6      1.0422839417    
+  0.8          nan         
+
+
+
+InlineSkate: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   231292.7136421204  
+  0.2   235201.4529705048  
+  0.4   251129.6215057373  
+  0.6   173327.1796703339  
+  0.8          nan         
+
+
+
+InlineSkate: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3577167935    
+  0.2      0.3607926641    
+  0.4      0.4479548069    
+  0.6      0.4576309357    
+  0.8      0.4689762745    
+
+
+
+InlineSkate: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   243084.8956108093  
+  0.2   223811.1412525177  
+  0.4   220866.5874004364  
+  0.6   213186.2599849701  
+  0.8   218185.4119300842  
+
+
+
+InlineSkate: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.2423534447    
+  0.2      0.3633266551    
+  0.4      0.7940944604    
+  0.6      0.8977411121    
+  0.8          nan         
+
+
+
+InlineSkate: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   249292.1495437622  
+  0.2   196345.6356525421  
+  0.4   245483.0837249756  
+  0.6   165109.2216968536  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+InsectEPGRegularTrain: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3930733423    
+  0.2      0.4794539296    
+  0.4      0.7377612816    
+  0.6      1.0859864342    
+  0.8          nan         
+
+
+
+InsectEPGRegularTrain: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    16195.5318450928  
+  0.2    41468.5099124908  
+  0.4    44624.9630451202  
+  0.6    26929.3334484100  
+  0.8          nan         
+
+
+
+InsectEPGRegularTrain: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.4894622966    
+  0.2      0.5747523614    
+  0.4      0.6996516153    
+  0.6      0.5977974062    
+  0.8      0.6580209832    
+
+
+
+InsectEPGRegularTrain: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    35904.4280052185  
+  0.2    39439.2197132111  
+  0.4    39019.5262432098  
+  0.6    40746.9480037689  
+  0.8    27168.6048507690  
+
+
+
+InsectEPGRegularTrain: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6001036526    
+  0.2      0.6289476037    
+  0.4      1.3160668257    
+  0.6      1.2201587022    
+  0.8          nan         
+
+
+
+InsectEPGRegularTrain: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    18429.5506477356  
+  0.2    36475.9006500244  
+  0.4    45353.9593219757  
+  0.6    26758.2781314850  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+InsectWingbeatSound: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6873430719    
+  0.2      0.8699581888    
+  0.4      0.9325316557    
+  0.6      0.9807738835    
+  0.8          nan         
+
+
+
+InsectWingbeatSound: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    66991.1658763885  
+  0.2    65341.0372734070  
+  0.4    55977.5357246399  
+  0.6    40322.4081993103  
+  0.8          nan         
+
+
+
+InsectWingbeatSound: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.4001429201    
+  0.2      1.3559523511    
+  0.4      1.3450226565    
+  0.6      1.2917366859    
+  0.8      1.2980778767    
+
+
+
+InsectWingbeatSound: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    63865.4775619507  
+  0.2    64138.0298137665  
+  0.4    63173.2590198517  
+  0.6    70951.2317180634  
+  0.8    62525.1429080963  
+
+
+
+InsectWingbeatSound: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0971224973    
+  0.2      1.2970167550    
+  0.4      1.3855303446    
+  0.6      1.2431201757    
+  0.8          nan         
+
+
+
+InsectWingbeatSound: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    73563.0819797516  
+  0.2    67133.7985992432  
+  0.4    56187.2467994690  
+  0.6    23236.5489006042  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+LargeKitchenAppliances: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.9756838830    
+  0.2      0.9951214143    
+  0.4      1.1489272613    
+  0.6      1.1613648989    
+  0.8          nan         
+
+
+
+LargeKitchenAppliances: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    24526.2520313263  
+  0.2    48912.8651618958  
+  0.4    48483.2880496979  
+  0.6    30969.8078632355  
+  0.8          nan         
+
+
+
+LargeKitchenAppliances: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.7454778559    
+  0.2      0.8244654442    
+  0.4      0.6535860147    
+  0.6      0.6035366289    
+  0.8      0.5751464847    
+
+
+
+LargeKitchenAppliances: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    40527.1229743958  
+  0.2    45898.9083766937  
+  0.4    46028.0330181122  
+  0.6    50524.4061946869  
+  0.8    40186.1248016357  
+
+
+
+LargeKitchenAppliances: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8285842468    
+  0.2      0.7391494772    
+  0.4      0.9711195335    
+  0.6      1.0585205963    
+  0.8          nan         
+
+
+
+LargeKitchenAppliances: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    30454.3321132660  
+  0.2    38111.3235950470  
+  0.4    43950.1245021820  
+  0.6    25634.8705291748  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+Lightning2: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.7979981318    
+  0.2      0.7914498905    
+  0.4      0.8230154140    
+  0.6      1.0679652611    
+  0.8          nan         
+
+
+
+Lightning2: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    20444.1978931427  
+  0.2    25762.2621059418  
+  0.4    52417.1643257141  
+  0.6    27632.2340965271  
+  0.8          nan         
+
+
+
+Lightning2: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3228276577    
+  0.2      0.3719486153    
+  0.4      0.2998788875    
+  0.6      0.2716433546    
+  0.8      0.2506898686    
+
+
+
+Lightning2: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    25299.1878986359  
+  0.2    19963.1495475769  
+  0.4    31992.0034408569  
+  0.6    35004.2686462402  
+  0.8    26920.8016395569  
+
+
+
+Lightning2: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.1572558636    
+  0.2      0.3586889771    
+  0.4      0.6512807791    
+  0.6      0.7616686577    
+  0.8          nan         
+
+
+
+Lightning2: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    20317.1410560608  
+  0.2    31813.7867450714  
+  0.4    42214.2145633698  
+  0.6    32220.5398082733  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+Lightning7: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6917479600    
+  0.2      0.8640813501    
+  0.4      0.8380609912    
+  0.6      0.9742085282    
+  0.8          nan         
+
+
+
+Lightning7: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    24611.5121841431  
+  0.2    21917.0205593109  
+  0.4    23329.5483589172  
+  0.6    28017.3482894897  
+  0.8          nan         
+
+
+
+Lightning7: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.4335077613    
+  0.2      0.4791876970    
+  0.4      0.5116078580    
+  0.6      0.4190432688    
+  0.8      0.4717068372    
+
+
+
+Lightning7: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    23448.8875865936  
+  0.2    23589.5712375641  
+  0.4    25959.7144126892  
+  0.6    24914.1099452972  
+  0.8    27715.5690193176  
+
+
+
+Lightning7: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3209369698    
+  0.2      0.5854416097    
+  0.4      0.8295898013    
+  0.6      0.9665867702    
+  0.8          nan         
+
+
+
+Lightning7: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    20355.2103042603  
+  0.2    21678.0636310577  
+  0.4    55740.5381202698  
+  0.6    23055.3185939789  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+Meat: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3062937281    
+  0.2      0.3163460662    
+  0.4      0.8304206066    
+  0.6      1.0135622007    
+  0.8          nan         
+
+
+
+Meat: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    48789.6010875702  
+  0.2    50308.7174892426  
+  0.4    39240.7746315002  
+  0.6    29472.7272987366  
+  0.8          nan         
+
+
+
+Meat: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.0680925196    
+  0.2      0.0701113354    
+  0.4      0.0686775004    
+  0.6      0.0689696342    
+  0.8      0.0725086557    
+
+
+
+Meat: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    29828.6693096161  
+  0.2    27736.5696430206  
+  0.4    27263.5359764099  
+  0.6    27501.4970302582  
+  0.8    25809.4625473022  
+
+
+
+Meat: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.0975319479    
+  0.2      0.0722627850    
+  0.4      0.1262877201    
+  0.6      0.8015219248    
+  0.8          nan         
+
+
+
+Meat: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    52971.7762470245  
+  0.2    27362.9348278046  
+  0.4    46346.7118740082  
+  0.6    16094.3222045898  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+MedicalImages: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6977173514    
+  0.2      0.6546231602    
+  0.4      0.6517159225    
+  0.6      0.7960427331    
+  0.8          nan         
+
+
+
+MedicalImages: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    12499.2733001709  
+  0.2    12872.3595142365  
+  0.4    15145.9360122681  
+  0.6    8920.1421737671   
+  0.8          nan         
+
+
+
+MedicalImages: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.4191594156    
+  0.2      1.3598549023    
+  0.4      1.2731706849    
+  0.6      1.2678037065    
+  0.8      1.2580184085    
+
+
+
+MedicalImages: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    12559.4067573547  
+  0.2    15274.2242813110  
+  0.4    12892.6615715027  
+  0.6    12712.9600048065  
+  0.8    11987.2572422028  
+
+
+
+MedicalImages: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.7546560272    
+  0.2      1.3667541420    
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+MedicalImages: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    11965.6949043274  
+  0.2    12826.5335559845  
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+MoteStrain: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.5695757349    
+  0.2      0.5795712744    
+  0.4      1.0605341587    
+  0.6      1.3593884478    
+  0.8          nan         
+
+
+
+MoteStrain: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    2870.8312511444   
+  0.2    2796.7240810394   
+  0.4    1248.4502792358   
+  0.6    1096.7237949371   
+  0.8          nan         
+
+
+
+MoteStrain: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6336801520    
+  0.2      0.7011361507    
+  0.4      0.8389547550    
+  0.6      0.8636081444    
+  0.8      0.9953275797    
+
+
+
+MoteStrain: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    3652.1439552307   
+  0.2    3116.5916919708   
+  0.4    2249.9556541443   
+  0.6    2591.2899971008   
+  0.8    2428.4975528717   
+
+
+
+MoteStrain: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.1138782585    
+  0.2      0.7055526981    
+  0.4      0.6722168535    
+  0.6      1.0310453843    
+  0.8          nan         
+
+
+
+MoteStrain: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    3103.8045883179   
+  0.2    2946.4662075043   
+  0.4    1415.8613681793   
+  0.6    1061.2077713013   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+OSULeaf: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8180094483    
+  0.2      0.8893995787    
+  0.4      1.0039183524    
+  0.6      1.0528675453    
+  0.8          nan         
+
+
+
+OSULeaf: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    30368.5891628265  
+  0.2    27448.6992359161  
+  0.4    45683.4256649017  
+  0.6    33118.7310218811  
+  0.8          nan         
+
+
+
+OSULeaf: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0071283280    
+  0.2      1.0359038213    
+  0.4      1.0483969121    
+  0.6      1.0586891453    
+  0.8      1.0458138035    
+
+
+
+OSULeaf: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    45136.2688541412  
+  0.2    44979.4037342072  
+  0.4    43631.4413547516  
+  0.6    41481.0259342194  
+  0.8    37403.5377502441  
+
+
+
+OSULeaf: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0301975639    
+  0.2      1.0258193184    
+  0.4      1.1632902904    
+  0.6      1.0927689417    
+  0.8          nan         
+
+
+
+OSULeaf: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    36424.9649047852  
+  0.2    45109.3127727509  
+  0.4    47461.6863727570  
+  0.6    28511.4579200745  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+OliveOil: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.5539532732    
+  0.2      0.4620150264    
+  0.4      0.4528789196    
+  0.6      1.0100122123    
+  0.8          nan         
+
+
+
+OliveOil: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    58113.8136386871  
+  0.2   104172.5344657898  
+  0.4   100738.0118370056  
+  0.6    39077.6698589325  
+  0.8          nan         
+
+
+
+OliveOil: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.7191380756    
+  0.2      0.7064881800    
+  0.4      0.8029837026    
+  0.6      0.8082485585    
+  0.8      0.9213816914    
+
+
+
+OliveOil: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   109508.5105895996  
+  0.2   109885.8382701874  
+  0.4   111091.5236473083  
+  0.6   112966.6354656219  
+  0.8   109880.2266120911  
+
+
+
+OliveOil: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.1277481405    
+  0.2      0.7160237343    
+  0.4      1.0472639465    
+  0.6      1.0022101591    
+  0.8          nan         
+
+
+
+OliveOil: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    56998.2757568359  
+  0.2   100976.2508869171  
+  0.4    63047.6422309875  
+  0.6    36098.3505249023  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+PhalangesOutlinesCorrect: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8754520686    
+  0.2      0.9053052133    
+  0.4      0.9725972261    
+  0.6      1.0533240967    
+  0.8          nan         
+
+
+
+PhalangesOutlinesCorrect: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    2152.2986888885   
+  0.2    2210.3788852692   
+  0.4    2445.9586143494   
+  0.6    2419.9235439301   
+  0.8          nan         
+
+
+
+PhalangesOutlinesCorrect: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6685424722    
+  0.2      0.6376121599    
+  0.4      0.6094136904    
+  0.6      0.5835763645    
+  0.8      0.5933258427    
+
+
+
+PhalangesOutlinesCorrect: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    2057.1773052216   
+  0.2    2325.1223564148   
+  0.4    2421.5266704559   
+  0.6    1760.3101730347   
+  0.8    1983.6297035217   
+
+
+
+PhalangesOutlinesCorrect: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.5950850977    
+  0.2      0.6239945457    
+  0.4      1.0256396193    
+  0.6      1.0811142436    
+  0.8          nan         
+
+
+
+PhalangesOutlinesCorrect: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    2082.7612876892   
+  0.2    2112.6570701599   
+  0.4    2413.7363433838   
+  0.6    1932.9912662506   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
