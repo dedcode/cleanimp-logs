@@ -171,3 +171,4 @@ CSDI is tested with aligned_series on CBF, started at 2026-02-20 18:11:41.
 	caching stored for recovery and missing matrix: cbf_aligned_series_csdi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: cbf_aligned_series_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: cbf_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: cbf_aligned_series_csdi_60_20_contbyclass_imputationbyclass
