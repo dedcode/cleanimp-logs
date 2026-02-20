@@ -1296,3 +1296,60 @@ TimesNet is tested with aligned_timestamps on Meat, started at 2026-02-20 07:53:
 	caching stored for recovery and missing matrix: meat_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: meat_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: meat_aligned_timestamps_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: meat_aligned_timestamps_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with Meat, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with mcar on MedicalImages, started at 2026-02-20 07:55:45.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (203, 99).
+	One series has 99 values, with the offset, 94 values are available to contamination. Thus, the number of data to remove is 9 (int(94 * 0.1)), but block size is 10 -> (10 must be < 9)
+		(ACTION) block_size is set to : 4
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (16, 99).
+	One series has 99 values, with the offset, 94 values are available to contamination. Thus, the number of data to remove is 9 (int(94 * 0.1)), but block size is 10 -> (10 must be < 9)
+		(ACTION) block_size is set to : 4
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (46, 99).
+	One series has 99 values, with the offset, 94 values are available to contamination. Thus, the number of data to remove is 9 (int(94 * 0.1)), but block size is 10 -> (10 must be < 9)
+		(ACTION) block_size is set to : 4
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (35, 99).
+	One series has 99 values, with the offset, 94 values are available to contamination. Thus, the number of data to remove is 9 (int(94 * 0.1)), but block size is 10 -> (10 must be < 9)
+		(ACTION) block_size is set to : 4
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (25, 99).
+	One series has 99 values, with the offset, 94 values are available to contamination. Thus, the number of data to remove is 9 (int(94 * 0.1)), but block size is 10 -> (10 must be < 9)
+		(ACTION) block_size is set to : 4
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (18, 99).
+	One series has 99 values, with the offset, 94 values are available to contamination. Thus, the number of data to remove is 9 (int(94 * 0.1)), but block size is 10 -> (10 must be < 9)
+		(ACTION) block_size is set to : 4
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (15, 99).
+	One series has 99 values, with the offset, 94 values are available to contamination. Thus, the number of data to remove is 9 (int(94 * 0.1)), but block size is 10 -> (10 must be < 9)
+		(ACTION) block_size is set to : 4
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (10, 99).
+	One series has 99 values, with the offset, 94 values are available to contamination. Thus, the number of data to remove is 9 (int(94 * 0.1)), but block size is 10 -> (10 must be < 9)
+		(ACTION) block_size is set to : 4
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (6, 99).
+	One series has 99 values, with the offset, 94 values are available to contamination. Thus, the number of data to remove is 9 (int(94 * 0.1)), but block size is 10 -> (10 must be < 9)
+		(ACTION) block_size is set to : 4
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (7, 99).
+	One series has 99 values, with the offset, 94 values are available to contamination. Thus, the number of data to remove is 9 (int(94 * 0.1)), but block size is 10 -> (10 must be < 9)
+		(ACTION) block_size is set to : 4
+
+	caching stored for recovery and missing matrix: medicalimages_mcar_timesnet_10_20_contbyclass_imputationbyclass
