@@ -2140,3 +2140,12 @@ TimesNet is tested with mcar on SyntheticControl, started at 2026-02-20 15:08:34
 	caching stored for recovery and missing matrix: syntheticcontrol_mcar_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: syntheticcontrol_mcar_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: syntheticcontrol_mcar_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: syntheticcontrol_mcar_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with SyntheticControl, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+TimesNet is tested with aligned_series on SyntheticControl, started at 2026-02-20 15:09:04.
+	caching stored for recovery and missing matrix: syntheticcontrol_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: syntheticcontrol_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: syntheticcontrol_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
