@@ -1150,3 +1150,4 @@ done!
 
 TimesNet is tested with aligned_series on InsectEPGRegularTrain, started at 2026-02-20 07:07:37.
 	caching stored for recovery and missing matrix: insectepgregulartrain_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: insectepgregulartrain_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
