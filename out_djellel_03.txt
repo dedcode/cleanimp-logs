@@ -2362,3 +2362,12 @@ TimesNet is tested with aligned_timestamps on TwoPatterns, started at 2026-02-20
 (ERROR) Imputation error with TimesNet, the number of NaNs values injected with ImputeGAP filled all the sequence, please change the seq_len or the contamination percentage. 
 	Currently, the number of NaNs might reach 76 for a sequence and the size of seq_len is 80.
 
+Error during benchmark for TimesNet, with TwoPatterns, and 0.6%: autodetected range of [nan, nan] is not finite
+Error during benchmark for TimesNet, with TwoPatterns, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with mcar on UMD, started at 2026-02-20 15:20:39.
+	caching stored for recovery and missing matrix: umd_mcar_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: umd_mcar_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: umd_mcar_timesnet_40_20_contbyclass_imputationbyclass
