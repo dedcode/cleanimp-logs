@@ -2472,3 +2472,8 @@ TimesNet is tested with aligned_series on Worms, started at 2026-02-20 15:38:25.
 	caching stored for recovery and missing matrix: worms_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: worms_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: worms_aligned_series_timesnet_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: worms_aligned_series_timesnet_80_20_contbyclass_imputationbyclass
+done!
+
+
+TimesNet is tested with aligned_timestamps on Worms, started at 2026-02-20 15:57:59.
