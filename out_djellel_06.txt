@@ -225,3 +225,4 @@ imputed_matrix.shape = (1000, 10)
   U_i -= (lr * param.lambda_s *
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: invalid value encountered in add
   U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
+imputed_matrix.shape = (1000, 10)
