@@ -26,3 +26,8 @@ DeepMVI is tested with mcar on ACSF1, started at 2026-02-20 19:33:38.
 	caching stored for recovery and missing matrix: acsf1_mcar_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: acsf1_mcar_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: acsf1_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: acsf1_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with mcar on ACSF1, started at 2026-02-20 22:12:39.
