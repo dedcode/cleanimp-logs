@@ -1224,3 +1224,10 @@ TimesNet is tested with mcar on Lightning2, started at 2026-02-20 07:35:09.
 	caching stored for recovery and missing matrix: lightning2_mcar_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: lightning2_mcar_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: lightning2_mcar_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: lightning2_mcar_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with Lightning2, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with aligned_series on Lightning2, started at 2026-02-20 07:37:21.
+	caching stored for recovery and missing matrix: lightning2_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
