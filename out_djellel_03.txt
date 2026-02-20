@@ -1631,3 +1631,32 @@ done!
 TimesNet is tested with aligned_timestamps on ProximalPhalanxOutlineAgeGroup, started at 2026-02-20 08:33:37.
 	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_aligned_timestamps_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_aligned_timestamps_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with ProximalPhalanxOutlineAgeGroup, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with mcar on ProximalPhalanxOutlineCorrect, started at 2026-02-20 08:33:53.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (406, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (194, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+	caching stored for recovery and missing matrix: proximalphalanxoutlinecorrect_mcar_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: proximalphalanxoutlinecorrect_mcar_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: proximalphalanxoutlinecorrect_mcar_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: proximalphalanxoutlinecorrect_mcar_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with ProximalPhalanxOutlineCorrect, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with aligned_series on ProximalPhalanxOutlineCorrect, started at 2026-02-20 08:34:07.
+	caching stored for recovery and missing matrix: proximalphalanxoutlinecorrect_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: proximalphalanxoutlinecorrect_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: proximalphalanxoutlinecorrect_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
