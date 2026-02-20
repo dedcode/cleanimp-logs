@@ -1196,3 +1196,4 @@ done!
 TimesNet is tested with mcar on LargeKitchenAppliances, started at 2026-02-20 07:26:13.
 	caching stored for recovery and missing matrix: largekitchenappliances_mcar_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: largekitchenappliances_mcar_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: largekitchenappliances_mcar_timesnet_40_20_contbyclass_imputationbyclass
