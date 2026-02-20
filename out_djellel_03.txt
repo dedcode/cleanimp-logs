@@ -943,3 +943,13 @@ done!
 
 TimesNet is tested with aligned_timestamps on GunPoint, started at 2026-02-20 05:21:50.
 	caching stored for recovery and missing matrix: gunpoint_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: gunpoint_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: gunpoint_aligned_timestamps_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: gunpoint_aligned_timestamps_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with GunPoint, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with mcar on GunPointAgeSpan, started at 2026-02-20 05:22:16.
+	caching stored for recovery and missing matrix: gunpointagespan_mcar_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: gunpointagespan_mcar_timesnet_20_20_contbyclass_imputationbyclass
