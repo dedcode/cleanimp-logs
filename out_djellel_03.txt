@@ -1212,3 +1212,4 @@ done!
 
 
 TimesNet is tested with aligned_timestamps on LargeKitchenAppliances, started at 2026-02-20 07:32:44.
+	caching stored for recovery and missing matrix: largekitchenappliances_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
