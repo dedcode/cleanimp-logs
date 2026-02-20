@@ -782,3 +782,5 @@ done!
 TimesNet is tested with aligned_timestamps on FaceAll, started at 2026-02-20 04:51:45.
 	caching stored for recovery and missing matrix: faceall_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: faceall_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: faceall_aligned_timestamps_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: faceall_aligned_timestamps_timesnet_60_20_contbyclass_imputationbyclass
