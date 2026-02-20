@@ -5917,3 +5917,4447 @@ PhalangesOutlinesCorrect: {aligned_timestamps, RUNTIME[ms], arsenal}
 
 The plots have been generated...
 
+
+Plane: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.9174226818    
+  0.2      0.9432964507    
+  0.4      0.8819110288    
+  0.6      1.0155735224    
+  0.8          nan         
+
+
+
+Plane: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    16891.7365074158  
+  0.2    17738.7640476227  
+  0.4    18216.6175842285  
+  0.6    8978.5273075104   
+  0.8          nan         
+
+
+
+Plane: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0145931151    
+  0.2      0.9418515748    
+  0.4      0.9696450436    
+  0.6      0.8830945448    
+  0.8      0.9840650132    
+
+
+
+Plane: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    18348.3169078827  
+  0.2    16109.1620922089  
+  0.4    17025.8669853210  
+  0.6    17762.1390819550  
+  0.8    17400.6602764130  
+
+
+
+Plane: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6968982263    
+  0.2      0.8446202641    
+  0.4      1.0497069668    
+  0.6      0.8729271313    
+  0.8          nan         
+
+
+
+Plane: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    18022.6080417633  
+  0.2    17027.0783901215  
+  0.4    17704.0019035339  
+  0.6    14689.7914409637  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+PowerCons: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.1035233740    
+  0.2      1.1804462107    
+  0.4      1.0987887692    
+  0.6      1.1283611215    
+  0.8          nan         
+
+
+
+PowerCons: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    5427.5639057159   
+  0.2    5124.8383522034   
+  0.4    5175.0655174255   
+  0.6    2083.0256938934   
+  0.8          nan         
+
+
+
+PowerCons: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6679742887    
+  0.2      0.7730152464    
+  0.4      0.7954730004    
+  0.6      0.7948513125    
+  0.8      0.8327039169    
+
+
+
+PowerCons: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    4771.2488174438   
+  0.2    5626.3825893402   
+  0.4    4705.1095962524   
+  0.6    4323.0843544006   
+  0.8    4961.0683917999   
+
+
+
+PowerCons: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6460613453    
+  0.2      0.8246822242    
+  0.4      1.0086261870    
+  0.6      0.9509477739    
+  0.8          nan         
+
+
+
+PowerCons: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    5434.8442554474   
+  0.2    5034.6221923828   
+  0.4    4300.6837368011   
+  0.6    1746.4275360107   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+ProximalPhalanxOutlineAgeGroup: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.9187081060    
+  0.2      0.8911731244    
+  0.4      0.9375676906    
+  0.6      1.0330604157    
+  0.8          nan         
+
+
+
+ProximalPhalanxOutlineAgeGroup: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    2666.3475036621   
+  0.2    2870.1658248901   
+  0.4    2687.5314712524   
+  0.6    2827.9683589935   
+  0.8          nan         
+
+
+
+ProximalPhalanxOutlineAgeGroup: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6321920209    
+  0.2      0.6299554815    
+  0.4      0.6532645069    
+  0.6      0.6500104574    
+  0.8      0.6493690833    
+
+
+
+ProximalPhalanxOutlineAgeGroup: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    2964.5910263062   
+  0.2    3033.2853794098   
+  0.4    3046.5953350067   
+  0.6    2769.6156501770   
+  0.8    2863.0220890045   
+
+
+
+ProximalPhalanxOutlineAgeGroup: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.5698866868    
+  0.2      0.6705666163    
+  0.4      1.1307709780    
+  0.6      1.1402745688    
+  0.8          nan         
+
+
+
+ProximalPhalanxOutlineAgeGroup: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    2785.5236530304   
+  0.2    2691.7209625244   
+  0.4    3012.6276016235   
+  0.6    2517.0292854309   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+ProximalPhalanxOutlineCorrect: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8574721522    
+  0.2      0.9605297735    
+  0.4      0.9095456828    
+  0.6      1.0441289772    
+  0.8          nan         
+
+
+
+ProximalPhalanxOutlineCorrect: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    2048.2487678528   
+  0.2    1932.5087070465   
+  0.4    2169.1126823425   
+  0.6    2036.0767841339   
+  0.8          nan         
+
+
+
+ProximalPhalanxOutlineCorrect: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6348245744    
+  0.2      0.6707365343    
+  0.4      0.6545889056    
+  0.6      0.6498827993    
+  0.8      0.6414082015    
+
+
+
+ProximalPhalanxOutlineCorrect: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    1857.5344085693   
+  0.2    2132.8654289246   
+  0.4    2050.8844852448   
+  0.6    1673.0542182922   
+  0.8    1749.2942810059   
+
+
+
+ProximalPhalanxOutlineCorrect: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6561330475    
+  0.2      0.6757473099    
+  0.4      1.0923279279    
+  0.6      1.1358317943    
+  0.8          nan         
+
+
+
+ProximalPhalanxOutlineCorrect: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    2033.6608886719   
+  0.2    2133.6195468903   
+  0.4    2034.9323749542   
+  0.6    1780.4961204529   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+RefrigerationDevices: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0707204020    
+  0.2      1.0693887441    
+  0.4      1.0970738944    
+  0.6      1.1386670420    
+  0.8          nan         
+
+
+
+RefrigerationDevices: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    41765.6471729279  
+  0.2    71783.3411693573  
+  0.4    64827.6956081390  
+  0.6    44401.6652107239  
+  0.8          nan         
+
+
+
+RefrigerationDevices: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.1891230028    
+  0.2      1.1313042110    
+  0.4      1.0930766751    
+  0.6      1.0816970378    
+  0.8      1.0661173164    
+
+
+
+RefrigerationDevices: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    64911.4885330200  
+  0.2    62401.4730453491  
+  0.4    61086.0812664032  
+  0.6    64892.4198150635  
+  0.8    57541.5699481964  
+
+
+
+RefrigerationDevices: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0838495314    
+  0.2      1.1423789554    
+  0.4      1.1353229376    
+  0.6      1.1583839432    
+  0.8          nan         
+
+
+
+RefrigerationDevices: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    52627.6996135712  
+  0.2    68066.5559768677  
+  0.4    60066.5385723114  
+  0.6    41202.1720409393  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+Rock: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.2384624736    
+  0.2      0.3406138989    
+  0.4      0.5337621826    
+  0.6      0.8506046028    
+  0.8          nan         
+
+
+
+Rock: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   119594.1112041473  
+  0.2   130330.2621841431  
+  0.4   144530.3380489349  
+  0.6    93179.6467304230  
+  0.8          nan         
+
+
+
+Rock: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.4159641624    
+  0.2      0.4025744351    
+  0.4      0.4547034184    
+  0.6      0.4318381141    
+  0.8      0.3679656984    
+
+
+
+Rock: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   130094.8534011841  
+  0.2   139697.9000568390  
+  0.4   121851.3777256012  
+  0.6   135950.4389762878  
+  0.8   118773.3671665192  
+
+
+
+Rock: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.2770367295    
+  0.2      0.4230407459    
+  0.4      0.4134297907    
+  0.6      0.8521590823    
+  0.8          nan         
+
+
+
+Rock: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   121289.6943092346  
+  0.2   124589.8263454437  
+  0.4   143250.2529621124  
+  0.6    90125.9973049164  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+ScreenType: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.7123490068    
+  0.2      0.8717468042    
+  0.4      0.9846291824    
+  0.6      1.0738997879    
+  0.8          nan         
+
+
+
+ScreenType: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    31450.8268833160  
+  0.2    48460.0257873535  
+  0.4    58936.5050792694  
+  0.6    37254.9498081207  
+  0.8          nan         
+
+
+
+ScreenType: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6973767720    
+  0.2      0.6000696118    
+  0.4      0.6104709700    
+  0.6      0.6073906317    
+  0.8      0.6075354801    
+
+
+
+ScreenType: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    57591.6128158569  
+  0.2    47616.9846057892  
+  0.4    47686.8038177490  
+  0.6    34014.5153999329  
+  0.8    32133.9530944824  
+
+
+
+ScreenType: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.5217556546    
+  0.2      0.6053168589    
+  0.4      0.9332923234    
+  0.6      1.0820673019    
+  0.8          nan         
+
+
+
+ScreenType: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    42694.0391063690  
+  0.2    48951.5547752380  
+  0.4    38200.8860111237  
+  0.6    28343.2166576385  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+SemgHandGenderCh2: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8977390060    
+  0.2      1.0240835250    
+  0.4      1.0705054362    
+  0.6      1.1544912120    
+  0.8          nan         
+
+
+
+SemgHandGenderCh2: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    66278.3019542694  
+  0.2    62042.9575443268  
+  0.4    69501.6040802002  
+  0.6    54670.9654331207  
+  0.8          nan         
+
+
+
+SemgHandGenderCh2: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6836494676    
+  0.2      0.6569215885    
+  0.4      0.6877438122    
+  0.6      0.6801241989    
+  0.8      0.6841168229    
+
+
+
+SemgHandGenderCh2: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    57645.4875469208  
+  0.2    67317.2547817230  
+  0.4    53849.5676517487  
+  0.6    59575.3059387207  
+  0.8    77092.1697616577  
+
+
+
+SemgHandGenderCh2: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3380852839    
+  0.2      0.6548398590    
+  0.4      1.1290917218    
+  0.6      1.2205419363    
+  0.8          nan         
+
+
+
+SemgHandGenderCh2: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    57449.7888088226  
+  0.2    69535.7594490051  
+  0.4    79004.4341087341  
+  0.6    53703.2761573792  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+SemgHandMovementCh2: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.9579265438    
+  0.2      0.9219198423    
+  0.4      1.0316252965    
+  0.6      1.1434351132    
+  0.8          nan         
+
+
+
+SemgHandMovementCh2: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   173398.2160091400  
+  0.2   173278.8197994232  
+  0.4   209491.6183948517  
+  0.6   139116.5626049042  
+  0.8          nan         
+
+
+
+SemgHandMovementCh2: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6646238307    
+  0.2      0.6736362575    
+  0.4      0.6745015296    
+  0.6      0.6817323492    
+  0.8      0.6892582311    
+
+
+
+SemgHandMovementCh2: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   229835.8547687531  
+  0.2   188165.0021076202  
+  0.4   149223.4613895416  
+  0.6   180926.8155097961  
+  0.8   185280.9398174286  
+
+
+
+SemgHandMovementCh2: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3512463376    
+  0.2      0.6628488543    
+  0.4      1.1723082911    
+  0.6      1.2169819714    
+  0.8          nan         
+
+
+
+SemgHandMovementCh2: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   156340.0051593781  
+  0.2   174415.5123233795  
+  0.4   206620.4607486725  
+  0.6   145248.9888668060  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+SemgHandSubjectCh2: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.9124199922    
+  0.2      0.9654695520    
+  0.4      1.0429536329    
+  0.6      1.1187838417    
+  0.8          nan         
+
+
+
+SemgHandSubjectCh2: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   158010.5538368225  
+  0.2   151542.8011417389  
+  0.4   169537.4817848206  
+  0.6   124752.8426647186  
+  0.8          nan         
+
+
+
+SemgHandSubjectCh2: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6627863049    
+  0.2      0.6569517872    
+  0.4      0.6820542613    
+  0.6      0.6946188532    
+  0.8      0.6913739976    
+
+
+
+SemgHandSubjectCh2: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   175999.0446567535  
+  0.2   149277.6863574982  
+  0.4   161858.4656715393  
+  0.6   140619.3397045135  
+  0.8   167415.2553081512  
+
+
+
+SemgHandSubjectCh2: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3547010944    
+  0.2      0.6643116575    
+  0.4      1.1236483004    
+  0.6      1.2159167016    
+  0.8          nan         
+
+
+
+SemgHandSubjectCh2: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   148197.2613334656  
+  0.2   185353.3992767334  
+  0.4   170981.0135364532  
+  0.6   117304.3463230133  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+ShapeletSim: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.9565222981    
+  0.2      1.0016023369    
+  0.4      1.0632892153    
+  0.6      1.1222220048    
+  0.8          nan         
+
+
+
+ShapeletSim: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    18726.8478870392  
+  0.2    17804.1365146637  
+  0.4    25671.7846393585  
+  0.6    12111.3834381104  
+  0.8          nan         
+
+
+
+ShapeletSim: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0366866044    
+  0.2      1.0627356047    
+  0.4      1.0130795369    
+  0.6      1.0146871082    
+  0.8      1.0066921460    
+
+
+
+ShapeletSim: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    13405.7083129883  
+  0.2    20715.9397602081  
+  0.4    17727.1273136139  
+  0.6    16383.4564685822  
+  0.8    14252.0680427551  
+
+
+
+ShapeletSim: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0196389631    
+  0.2      1.0399855119    
+  0.4      1.0626996206    
+  0.6      1.1733782446    
+  0.8          nan         
+
+
+
+ShapeletSim: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    23451.2214660645  
+  0.2    13043.8413619995  
+  0.4    24554.3801784515  
+  0.6    11525.5925655365  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+ShapesAll: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3510878090    
+  0.2      0.3881754005    
+  0.4      0.6277977873    
+  0.6      1.0318586068    
+  0.8          nan         
+
+
+
+ShapesAll: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   1118036.6222858429 
+  0.2   1143749.5648860931 
+  0.4   1102827.5029659271 
+  0.6   629979.3798923492  
+  0.8          nan         
+
+
+
+ShapesAll: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.7935258078    
+  0.2      0.7854370926    
+  0.4      0.8041499753    
+  0.6      0.8562471549    
+  0.8      0.8921204870    
+
+
+
+ShapesAll: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   1208708.3053588867 
+  0.2   1239077.3708820343 
+  0.4   1245822.7927684784 
+  0.6   1222843.1839942932 
+  0.8   1175533.5943698883 
+
+
+
+ShapesAll: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6096370839    
+  0.2      0.7826199369    
+  0.4      1.2220093639    
+  0.6      1.1018806071    
+  0.8          nan         
+
+
+
+ShapesAll: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   1033195.8529949188 
+  0.2   1212753.6053657532 
+  0.4   1060400.9146690369 
+  0.6   616763.0956172943  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+SharePriceIncrease: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0871383946    
+  0.2      1.0828455555    
+  0.4          nan         
+  0.6      1.1111496735    
+  0.8          nan         
+
+
+
+SharePriceIncrease: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    3032.4361324310   
+  0.2    2952.6681900024   
+  0.4          nan         
+  0.6    1308.6030483246   
+  0.8          nan         
+
+
+
+SharePriceIncrease: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.1613931677    
+  0.2      1.1721471191    
+  0.4      1.1445097275    
+  0.6          nan         
+  0.8      1.1273245242    
+
+
+
+SharePriceIncrease: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    3211.4613056183   
+  0.2    2765.2995586395   
+  0.4    2609.2710494995   
+  0.6          nan         
+  0.8    2823.5752582550   
+
+
+
+SharePriceIncrease: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.1636318682    
+  0.2      1.1410527801    
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+SharePriceIncrease: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    3636.6784572601   
+  0.2    3329.6232223511   
+  0.4    1989.4554615021   
+  0.6    1526.6423225403   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+SmallKitchenAppliances: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.9426211435    
+  0.2      1.0005199953    
+  0.4      1.0566598897    
+  0.6      1.0961073234    
+  0.8          nan         
+
+
+
+SmallKitchenAppliances: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    26218.3508872986  
+  0.2    54560.0371360779  
+  0.4    51221.0245132446  
+  0.6    28849.6360778809  
+  0.8          nan         
+
+
+
+SmallKitchenAppliances: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3618928165    
+  0.2      0.3040260119    
+  0.4      0.4584084495    
+  0.6      0.4029750217    
+  0.8      0.4361011666    
+
+
+
+SmallKitchenAppliances: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    46735.6197834015  
+  0.2    52745.1069355011  
+  0.4    29868.1097030640  
+  0.6    43528.9185047150  
+  0.8    41659.9247455597  
+
+
+
+SmallKitchenAppliances: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.2299899341    
+  0.2      0.4219353073    
+  0.4      1.0741285755    
+  0.6      1.0652035987    
+  0.8          nan         
+
+
+
+SmallKitchenAppliances: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    32523.0543613434  
+  0.2    34145.8871364594  
+  0.4    47158.5686206818  
+  0.6    28652.3592472076  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+SonyAIBORobotSurface1: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8852172147    
+  0.2      0.8292945125    
+  0.4      1.0613890242    
+  0.6      1.0448766256    
+  0.8          nan         
+
+
+
+SonyAIBORobotSurface1: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    2324.4719505310   
+  0.2    3762.8791332245   
+  0.4    2248.5184669495   
+  0.6    1135.7111930847   
+  0.8          nan         
+
+
+
+SonyAIBORobotSurface1: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.7620865603    
+  0.2      1.4741764466    
+  0.4      1.5423671634    
+  0.6      1.5228460808    
+  0.8          nan         
+
+
+
+SonyAIBORobotSurface1: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    2719.1200256348   
+  0.2    2638.5550498962   
+  0.4    2960.3238105774   
+  0.6    1780.8833122253   
+  0.8          nan         
+
+
+
+SonyAIBORobotSurface1: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1          nan         
+  0.2      1.4925666860    
+  0.4      1.4381346936    
+  0.6      1.1566371131    
+  0.8          nan         
+
+
+
+SonyAIBORobotSurface1: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1          nan         
+  0.2    2304.2087554932   
+  0.4    1382.0531368256   
+  0.6    1255.1472187042   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+Strawberry: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6922910850    
+  0.2      0.7271050444    
+  0.4      0.7931428838    
+  0.6      0.9579068863    
+  0.8          nan         
+
+
+
+Strawberry: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    5378.7417411804   
+  0.2    4773.9059925079   
+  0.4    4590.2619361877   
+  0.6    5348.9668369293   
+  0.8          nan         
+
+
+
+Strawberry: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.1971424781    
+  0.2      1.1919285469    
+  0.4      1.2129294690    
+  0.6      1.2165012345    
+  0.8      1.2147972961    
+
+
+
+Strawberry: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    5091.0766124725   
+  0.2    4118.3335781097   
+  0.4    5241.6484355927   
+  0.6    5320.7828998566   
+  0.8    5184.1149330139   
+
+
+
+Strawberry: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.9938855374    
+  0.2      1.1866427675    
+  0.4          nan         
+  0.6      1.1558275527    
+  0.8          nan         
+
+
+
+Strawberry: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    5342.0984745026   
+  0.2    4572.5510120392   
+  0.4    4729.1972637177   
+  0.6    4808.5076808929   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+SwedishLeaf: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.7796914840    
+  0.2      0.8046717811    
+  0.4      1.0758528126    
+  0.6      1.0966282842    
+  0.8          nan         
+
+
+
+SwedishLeaf: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    36144.4909572601  
+  0.2    35123.7668991089  
+  0.4    27395.7769870758  
+  0.6    17971.6997146606  
+  0.8          nan         
+
+
+
+SwedishLeaf: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.7229505671    
+  0.2      0.7662384814    
+  0.4      0.7401621512    
+  0.6      0.7552299790    
+  0.8      0.7320856683    
+
+
+
+SwedishLeaf: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    37647.0677852631  
+  0.2    34238.1007671356  
+  0.4    36364.4459247589  
+  0.6    35159.0721607208  
+  0.8    35314.0413761139  
+
+
+
+SwedishLeaf: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8412173600    
+  0.2      0.7257166345    
+  0.4      1.2981940019    
+  0.6          nan         
+  0.8          nan         
+
+
+
+SwedishLeaf: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    35696.1684226990  
+  0.2    37540.4553413391  
+  0.4    27568.8889026642  
+  0.6          nan         
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+SyntheticControl: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8084448304    
+  0.2      0.8570920703    
+  0.4      0.8748768856    
+  0.6      0.9548369716    
+  0.8          nan         
+
+
+
+SyntheticControl: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    7383.7168216705   
+  0.2    8931.7059516907   
+  0.4    3724.6074676514   
+  0.6    4360.0459098816   
+  0.8          nan         
+
+
+
+SyntheticControl: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8365483227    
+  0.2      0.8810001260    
+  0.4      0.8436044933    
+  0.6          nan         
+  0.8          nan         
+
+
+
+SyntheticControl: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    7743.5803413391   
+  0.2    7598.8745689392   
+  0.4    7943.8116550446   
+  0.6          nan         
+  0.8          nan         
+
+
+
+SyntheticControl: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8044039583    
+  0.2      0.8445472848    
+  0.4      0.8859545532    
+  0.6          nan         
+  0.8          nan         
+
+
+
+SyntheticControl: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    7325.3114223480   
+  0.2    7294.0886020660   
+  0.4    3745.8353042603   
+  0.6          nan         
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+ToeSegmentation1: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.9784047689    
+  0.2      1.1162578222    
+  0.4      1.0670506583    
+  0.6      0.9881183523    
+  0.8          nan         
+
+
+
+ToeSegmentation1: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    13677.1569252014  
+  0.2    11654.0026664734  
+  0.4    12753.7589073181  
+  0.6    7970.1354503632   
+  0.8          nan         
+
+
+
+ToeSegmentation1: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.3556225575    
+  0.2      1.2024588087    
+  0.4      1.1110426258    
+  0.6      1.2034538572    
+  0.8      1.1522151907    
+
+
+
+ToeSegmentation1: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    12416.5196418762  
+  0.2    12373.2116222382  
+  0.4    12376.3515949249  
+  0.6    13712.6514911652  
+  0.8    12449.8407840729  
+
+
+
+ToeSegmentation1: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8311094072    
+  0.2      1.1071926712    
+  0.4      1.1075203522    
+  0.6      1.0258809656    
+  0.8          nan         
+
+
+
+ToeSegmentation1: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    12333.5301876068  
+  0.2    13760.9875202179  
+  0.4    12964.6472930908  
+  0.6    4388.0653381348   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+ToeSegmentation2: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.9012410815    
+  0.2      1.0544504817    
+  0.4      1.0552566124    
+  0.6      1.0959645348    
+  0.8          nan         
+
+
+
+ToeSegmentation2: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    5730.4854393005   
+  0.2    7488.0063533783   
+  0.4    10266.9491767883  
+  0.6    7833.2076072693   
+  0.8          nan         
+
+
+
+ToeSegmentation2: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0481560070    
+  0.2      1.3744506729    
+  0.4      1.2598953391    
+  0.6      1.2254154823    
+  0.8      1.1066074496    
+
+
+
+ToeSegmentation2: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    6593.4703350067   
+  0.2    6745.3012466431   
+  0.4    6520.6725597382   
+  0.6    7082.1800231934   
+  0.8    4766.6537761688   
+
+
+
+ToeSegmentation2: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.2673524510    
+  0.2      1.3504082274    
+  0.4      1.1900978145    
+  0.6      1.1558031556    
+  0.8          nan         
+
+
+
+ToeSegmentation2: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    6427.9444217682   
+  0.2    6737.8556728363   
+  0.4    10145.7614898682  
+  0.6    7083.3983421326   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+Trace: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.5803716697    
+  0.2      0.6235001945    
+  0.4      0.6943231386    
+  0.6      1.0266682924    
+  0.8          nan         
+
+
+
+Trace: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    10800.8368015289  
+  0.2    11227.3318767548  
+  0.4    15564.4106864929  
+  0.6    11006.0696601868  
+  0.8          nan         
+
+
+
+Trace: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.4516475480    
+  0.2      1.3731789308    
+  0.4      1.3924854493    
+  0.6      1.4133652840    
+  0.8      1.4244284769    
+
+
+
+Trace: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    10962.1503353119  
+  0.2    9762.6621723175   
+  0.4    9988.9569282532   
+  0.6    9385.1900100708   
+  0.8    10042.8645610809  
+
+
+
+Trace: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.9079193150    
+  0.2      1.3855949534    
+  0.4      1.2889228734    
+  0.6      1.1673487358    
+  0.8          nan         
+
+
+
+Trace: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    10131.1888694763  
+  0.2    11266.6106224060  
+  0.4    16170.8166599274  
+  0.6    10434.9169731140  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+TwoLeadECG: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3978520751    
+  0.2      0.5441645242    
+  0.4      0.7373175876    
+  0.6      1.5135958347    
+  0.8          nan         
+
+
+
+TwoLeadECG: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    1520.7884311676   
+  0.2    3227.4758815765   
+  0.4    1384.3200206757   
+  0.6    1800.2634048462   
+  0.8          nan         
+
+
+
+TwoLeadECG: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.2039947789    
+  0.2      0.1918971072    
+  0.4      0.2150590874    
+  0.6          nan         
+  0.8          nan         
+
+
+
+TwoLeadECG: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    2506.4210891724   
+  0.2    3274.0423679352   
+  0.4    3109.3235015869   
+  0.6          nan         
+  0.8    2943.3538913727   
+
+
+
+TwoLeadECG: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1          nan         
+  0.2          nan         
+  0.4      1.4233389313    
+  0.6      1.2910995532    
+  0.8          nan         
+
+
+
+TwoLeadECG: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    1642.6343917847   
+  0.2          nan         
+  0.4    1754.5683383942   
+  0.6    1512.2611522675   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+TwoPatterns: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.1516348660    
+  0.2      1.1971773077    
+  0.4      1.1636035197    
+  0.6      1.2074070895    
+  0.8          nan         
+
+
+
+TwoPatterns: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    11300.1773357391  
+  0.2    11532.1447849274  
+  0.4    7545.9697246552   
+  0.6    5290.4033660889   
+  0.8          nan         
+
+
+
+TwoPatterns: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0221422433    
+  0.2      1.0456208726    
+  0.4      1.0465613639    
+  0.6      1.0105597986    
+  0.8      1.0270385920    
+
+
+
+TwoPatterns: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    10414.3419265747  
+  0.2    9001.3921260834   
+  0.4    8987.7521991730   
+  0.6    8740.0398254395   
+  0.8    9022.8846073151   
+
+
+
+TwoPatterns: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.9674817293    
+  0.2      1.0442023867    
+  0.4      1.0468410471    
+  0.6          nan         
+  0.8          nan         
+
+
+
+TwoPatterns: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    9856.9810390472   
+  0.2    8728.3880710602   
+  0.4    6973.4148979187   
+  0.6          nan         
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+UMD: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.7519995642    
+  0.2      0.7548239253    
+  0.4      1.1695175422    
+  0.6      1.3141853734    
+  0.8          nan         
+
+
+
+UMD: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    9922.0678806305   
+  0.2    9676.7024993896   
+  0.4    8374.0627765656   
+  0.6    3613.9349937439   
+  0.8          nan         
+
+
+
+UMD: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.1850260635    
+  0.2      1.3816487419    
+  0.4      1.2554221353    
+  0.6      1.1312280905    
+  0.8      1.3926850536    
+
+
+
+UMD: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    9838.7846946716   
+  0.2    8302.8428554535   
+  0.4    8996.5298175812   
+  0.6    9519.6695327759   
+  0.8    10192.3437118530  
+
+
+
+UMD: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8058827200    
+  0.2      1.2450256674    
+  0.4      1.4892651640    
+  0.6      1.2449413017    
+  0.8          nan         
+
+
+
+UMD: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    9220.0946807861   
+  0.2    9566.3983821869   
+  0.4    9512.7420425415   
+  0.6    3506.8378448486   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+Wafer: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8752148102    
+  0.2      0.8810010317    
+  0.4      1.0100313602    
+  0.6      1.1588974803    
+  0.8          nan         
+
+
+
+Wafer: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    5520.9512710571   
+  0.2    4640.4719352722   
+  0.4    3742.3846721649   
+  0.6    3060.4848861694   
+  0.8          nan         
+
+
+
+Wafer: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.5184705518    
+  0.2      1.4819351443    
+  0.4      1.5260699430    
+  0.6      1.5224798806    
+  0.8      1.5079474062    
+
+
+
+Wafer: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    4956.7377567291   
+  0.2    5150.9451866150   
+  0.4    3213.9477729797   
+  0.6    4274.7247219086   
+  0.8    3781.7680835724   
+
+
+
+Wafer: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.2333961210    
+  0.2      1.4945337958    
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+Wafer: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    3878.4036636353   
+  0.2    5164.0305519104   
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+Wine: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.3650720314    
+  0.2      0.8746902204    
+  0.4      1.0033854906    
+  0.6      1.0431207853    
+  0.8          nan         
+
+
+
+Wine: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    3134.7746849060   
+  0.2    6153.7871360779   
+  0.4    6057.4955940247   
+  0.6    4467.1499729156   
+  0.8          nan         
+
+
+
+Wine: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.5826227650    
+  0.2      0.5961299814    
+  0.4      0.6108904579    
+  0.6      0.6028421802    
+  0.8      0.6063680040    
+
+
+
+Wine: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    6129.0302276611   
+  0.2    5707.1166038513   
+  0.4    6355.9722900391   
+  0.6    6976.9015312195   
+  0.8    5046.6041564941   
+
+
+
+Wine: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6862544184    
+  0.2      0.6078131289    
+  0.4      0.5079552841    
+  0.6      0.6069787319    
+  0.8          nan         
+
+
+
+Wine: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    7663.3887290955   
+  0.2    7035.3624820709   
+  0.4    5640.4259204865   
+  0.6    3842.1964645386   
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+Worms: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.5668544033    
+  0.2      0.7271467359    
+  0.4      0.9361755653    
+  0.6      1.0053613723    
+  0.8          nan         
+
+
+
+Worms: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   195252.0806789398  
+  0.2   256549.8607158661  
+  0.4   164058.9239597321  
+  0.6   155356.3041687012  
+  0.8          nan         
+
+
+
+Worms: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8087951436    
+  0.2      0.8172521462    
+  0.4      0.8771818124    
+  0.6      0.8712841033    
+  0.8      0.9041428663    
+
+
+
+Worms: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   237529.9899578094  
+  0.2   253435.9557628632  
+  0.4   242582.7872753143  
+  0.6   221616.9092655182  
+  0.8   211529.5724868774  
+
+
+
+Worms: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.7246884822    
+  0.2      0.8499936964    
+  0.4      1.0398178322    
+  0.6      0.9577392934    
+  0.8          nan         
+
+
+
+Worms: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   205334.9614143372  
+  0.2   258864.3550872803  
+  0.4   161216.7801856995  
+  0.6   150223.5386371613  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+WormsTwoClass: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6469376214    
+  0.2      0.7681347908    
+  0.4      0.9360531687    
+  0.6      1.0296557852    
+  0.8          nan         
+
+
+
+WormsTwoClass: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    63443.4695243835  
+  0.2   105342.0510292053  
+  0.4    64204.1079998016  
+  0.6    59181.2486648560  
+  0.8          nan         
+
+
+
+WormsTwoClass: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      1.0359923995    
+  0.2      0.9985064185    
+  0.4      0.9149165370    
+  0.6      0.8871837001    
+  0.8      0.9473558335    
+
+
+
+WormsTwoClass: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    87286.1769199371  
+  0.2    73525.0649452209  
+  0.4   106336.2936973572  
+  0.6    67012.6841068268  
+  0.8    74434.5164299011  
+
+
+
+WormsTwoClass: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.8866711312    
+  0.2      1.0199500989    
+  0.4      1.0208913441    
+  0.6      1.0553532542    
+  0.8          nan         
+
+
+
+WormsTwoClass: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    70832.7054977417  
+  0.2   104132.7357292175  
+  0.4    68174.5209693909  
+  0.6    64261.7962360382  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+Yoga: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.7706584293    
+  0.2      0.7376862834    
+  0.4      1.0403845945    
+  0.6      1.0365566891    
+  0.8          nan         
+
+
+
+Yoga: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    11111.7243766785  
+  0.2    10799.5040416718  
+  0.4    16645.1451778412  
+  0.6    12489.0367984772  
+  0.8          nan         
+
+
+
+Yoga: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.6760606371    
+  0.2      0.7450496723    
+  0.4      0.7223881216    
+  0.6      0.7352348769    
+  0.8      0.7294261021    
+
+
+
+Yoga: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    10600.8949279785  
+  0.2    10792.7670478821  
+  0.4    11127.8400421143  
+  0.6    9473.8016128540   
+  0.8    10195.8091259003  
+
+
+
+Yoga: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.7284356309    
+  0.2      0.7283159763    
+  0.4      1.2011699703    
+  0.6      1.1754197204    
+  0.8          nan         
+
+
+
+Yoga: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1    10677.9606342316  
+  0.2    8344.3689346313   
+  0.4    13349.8215675354  
+  0.6    10992.8834438324  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+{aligned_series, RMSE, none}
+--------------------------------------------------------------
+             Dataset                Rate        TimesNet      
+--------------------------------------------------------------
+              ACSF1                 0.1       0.7508895696    
+              Adiac                 0.1           nan         
+            ArrowHead               0.1       0.6989948738    
+               Beef                 0.1       0.3421338675    
+           BirdChicken              0.1       0.6622527162    
+               CBF                  0.1       1.2439933965    
+               Car                  0.1       0.6400229139    
+      ChlorineConcentration         0.1       0.9534510594    
+           CinCECGTorso             0.1       0.0932594019    
+            Colposcopy              0.1       1.3104632542    
+            Computers               0.1       0.5865154778    
+             CricketX               0.1       1.2357655778    
+   DistalPhalanxOutlineAgeGroup     0.1       0.5621856487    
+   DistalPhalanxOutlineCorrect      0.1       0.6549540338    
+         DistalPhalanxTW            0.1       0.5641592560    
+           ECGFiveDays              0.1       0.0708856457    
+       EOGHorizontalSignal          0.1       0.3047496018    
+        EOGVerticalSignal           0.1       0.2903422590    
+           Earthquakes              0.1       1.0235407449    
+           EthanolLevel             0.1       0.2061561507    
+             FaceAll                0.1       1.4791258473    
+             FaceFour               0.1       0.9718326455    
+             FacesUCR               0.1       0.6221949172    
+               Fish                 0.1       0.3000646770    
+       FreezerRegularTrain          0.1       1.4316714416    
+        FreezerSmallTrain           0.1       1.3202067455    
+             GunPoint               0.1       1.0737332456    
+         GunPointAgeSpan            0.1       1.2056063755    
+     GunPointMaleVersusFemale       0.1       1.5584895802    
+      GunPointOldVersusYoung        0.1       1.1984488559    
+               Ham                  0.1       0.3390044665    
+             Haptics                0.1       0.4050263253    
+             Herring                0.1       0.4109949820    
+           InlineSkate              0.1       0.3577167935    
+      InsectEPGRegularTrain         0.1       0.4894622966    
+       InsectWingbeatSound          0.1       1.4001429201    
+      LargeKitchenAppliances        0.1       0.7454778559    
+            Lightning2              0.1       0.3228276577    
+            Lightning7              0.1       0.4335077613    
+               Meat                 0.1       0.0680925196    
+          MedicalImages             0.1       1.4191594156    
+            MoteStrain              0.1       0.6336801520    
+             OSULeaf                0.1       1.0071283280    
+             OliveOil               0.1       0.7191380756    
+     PhalangesOutlinesCorrect       0.1       0.6685424722    
+              Plane                 0.1       1.0145931151    
+            PowerCons               0.1       0.6679742887    
+  ProximalPhalanxOutlineAgeGroup    0.1       0.6321920209    
+  ProximalPhalanxOutlineCorrect     0.1       0.6348245744    
+       RefrigerationDevices         0.1       1.1891230028    
+               Rock                 0.1       0.4159641624    
+            ScreenType              0.1       0.6973767720    
+        SemgHandGenderCh2           0.1       0.6836494676    
+       SemgHandMovementCh2          0.1       0.6646238307    
+        SemgHandSubjectCh2          0.1       0.6627863049    
+           ShapeletSim              0.1       1.0366866044    
+            ShapesAll               0.1       0.7935258078    
+        SharePriceIncrease          0.1       1.1613931677    
+      SmallKitchenAppliances        0.1       0.3618928165    
+      SonyAIBORobotSurface1         0.1       1.7620865603    
+            Strawberry              0.1       1.1971424781    
+           SwedishLeaf              0.1       0.7229505671    
+         SyntheticControl           0.1       0.8365483227    
+         ToeSegmentation1           0.1       1.3556225575    
+         ToeSegmentation2           0.1       1.0481560070    
+              Trace                 0.1       1.4516475480    
+            TwoLeadECG              0.1       0.2039947789    
+           TwoPatterns              0.1       1.0221422433    
+               UMD                  0.1       1.1850260635    
+              Wafer                 0.1       1.5184705518    
+               Wine                 0.1       0.5826227650    
+              Worms                 0.1       0.8087951436    
+          WormsTwoClass             0.1       1.0359923995    
+               Yoga                 0.1       0.6760606371    
+              ACSF1                 0.2       0.5980913492    
+              Adiac                 0.2       0.3814998251    
+            ArrowHead               0.2       0.7511684960    
+               Beef                 0.2       0.2505624672    
+           BirdChicken              0.2       0.7873292795    
+               CBF                  0.2       1.0375411113    
+               Car                  0.2       0.6554293884    
+      ChlorineConcentration         0.2       0.9183142971    
+           CinCECGTorso             0.2       0.0932553741    
+            Colposcopy              0.2       1.1951914662    
+            Computers               0.2       0.6196011609    
+             CricketX               0.2       1.1911485789    
+   DistalPhalanxOutlineAgeGroup     0.2       0.6569000724    
+   DistalPhalanxOutlineCorrect      0.2       0.5902474422    
+         DistalPhalanxTW            0.2       0.5768482389    
+           ECGFiveDays              0.2       0.1207888835    
+       EOGHorizontalSignal          0.2       0.3248004148    
+        EOGVerticalSignal           0.2       0.2881012434    
+           Earthquakes              0.2       1.0082985712    
+           EthanolLevel             0.2       0.2006871312    
+             FaceAll                0.2       1.4569001187    
+             FaceFour               0.2       1.0211646486    
+             FacesUCR               0.2       0.6371012675    
+               Fish                 0.2       0.3112595040    
+       FreezerRegularTrain          0.2       1.4621986442    
+        FreezerSmallTrain           0.2       1.4489426611    
+             GunPoint               0.2       1.1413597844    
+         GunPointAgeSpan            0.2       1.2342050617    
+     GunPointMaleVersusFemale       0.2       1.3141710697    
+      GunPointOldVersusYoung        0.2       1.4227201751    
+               Ham                  0.2       0.3479364358    
+             Haptics                0.2       0.3961777982    
+             Herring                0.2       0.3245333753    
+           InlineSkate              0.2       0.3607926641    
+      InsectEPGRegularTrain         0.2       0.5747523614    
+       InsectWingbeatSound          0.2       1.3559523511    
+      LargeKitchenAppliances        0.2       0.8244654442    
+            Lightning2              0.2       0.3719486153    
+            Lightning7              0.2       0.4791876970    
+               Meat                 0.2       0.0701113354    
+          MedicalImages             0.2       1.3598549023    
+            MoteStrain              0.2       0.7011361507    
+             OSULeaf                0.2       1.0359038213    
+             OliveOil               0.2       0.7064881800    
+     PhalangesOutlinesCorrect       0.2       0.6376121599    
+              Plane                 0.2       0.9418515748    
+            PowerCons               0.2       0.7730152464    
+  ProximalPhalanxOutlineAgeGroup    0.2       0.6299554815    
+  ProximalPhalanxOutlineCorrect     0.2       0.6707365343    
+       RefrigerationDevices         0.2       1.1313042110    
+               Rock                 0.2       0.4025744351    
+            ScreenType              0.2       0.6000696118    
+        SemgHandGenderCh2           0.2       0.6569215885    
+       SemgHandMovementCh2          0.2       0.6736362575    
+        SemgHandSubjectCh2          0.2       0.6569517872    
+           ShapeletSim              0.2       1.0627356047    
+            ShapesAll               0.2       0.7854370926    
+        SharePriceIncrease          0.2       1.1721471191    
+      SmallKitchenAppliances        0.2       0.3040260119    
+      SonyAIBORobotSurface1         0.2       1.4741764466    
+            Strawberry              0.2       1.1919285469    
+           SwedishLeaf              0.2       0.7662384814    
+         SyntheticControl           0.2       0.8810001260    
+         ToeSegmentation1           0.2       1.2024588087    
+         ToeSegmentation2           0.2       1.3744506729    
+              Trace                 0.2       1.3731789308    
+            TwoLeadECG              0.2       0.1918971072    
+           TwoPatterns              0.2       1.0456208726    
+               UMD                  0.2       1.3816487419    
+              Wafer                 0.2       1.4819351443    
+               Wine                 0.2       0.5961299814    
+              Worms                 0.2       0.8172521462    
+          WormsTwoClass             0.2       0.9985064185    
+               Yoga                 0.2       0.7450496723    
+              ACSF1                 0.4       0.5741422553    
+              Adiac                 0.4           nan         
+            ArrowHead               0.4       0.6437050919    
+               Beef                 0.4       0.3057000692    
+           BirdChicken              0.4       0.7244571833    
+               CBF                  0.4       1.2217041112    
+               Car                  0.4       0.6628862494    
+      ChlorineConcentration         0.4       0.8852699481    
+           CinCECGTorso             0.4       0.1090161149    
+            Colposcopy              0.4       1.1462255230    
+            Computers               0.4       0.5374219556    
+             CricketX               0.4       1.2149810376    
+   DistalPhalanxOutlineAgeGroup     0.4       0.6123346759    
+   DistalPhalanxOutlineCorrect      0.4       0.6191671524    
+         DistalPhalanxTW            0.4       0.5536267601    
+           ECGFiveDays              0.4       0.1201882247    
+       EOGHorizontalSignal          0.4       0.3326426035    
+        EOGVerticalSignal           0.4       0.2961977466    
+           Earthquakes              0.4       1.0333788029    
+           EthanolLevel             0.4       0.2003865739    
+             FaceAll                0.4       1.4635305605    
+             FaceFour               0.4       0.9436791252    
+             FacesUCR               0.4       0.6423669040    
+               Fish                 0.4       0.3364494988    
+       FreezerRegularTrain          0.4       1.4025074062    
+        FreezerSmallTrain           0.4       1.5280173670    
+             GunPoint               0.4       1.3108695431    
+         GunPointAgeSpan            0.4       1.3372183792    
+     GunPointMaleVersusFemale       0.4       1.2897177242    
+      GunPointOldVersusYoung        0.4       1.3803078044    
+               Ham                  0.4       0.3870916173    
+             Haptics                0.4       0.4125850815    
+             Herring                0.4       0.3536926674    
+           InlineSkate              0.4       0.4479548069    
+      InsectEPGRegularTrain         0.4       0.6996516153    
+       InsectWingbeatSound          0.4       1.3450226565    
+      LargeKitchenAppliances        0.4       0.6535860147    
+            Lightning2              0.4       0.2998788875    
+            Lightning7              0.4       0.5116078580    
+               Meat                 0.4       0.0686775004    
+          MedicalImages             0.4       1.2731706849    
+            MoteStrain              0.4       0.8389547550    
+             OSULeaf                0.4       1.0483969121    
+             OliveOil               0.4       0.8029837026    
+     PhalangesOutlinesCorrect       0.4       0.6094136904    
+              Plane                 0.4       0.9696450436    
+            PowerCons               0.4       0.7954730004    
+  ProximalPhalanxOutlineAgeGroup    0.4       0.6532645069    
+  ProximalPhalanxOutlineCorrect     0.4       0.6545889056    
+       RefrigerationDevices         0.4       1.0930766751    
+               Rock                 0.4       0.4547034184    
+            ScreenType              0.4       0.6104709700    
+        SemgHandGenderCh2           0.4       0.6877438122    
+       SemgHandMovementCh2          0.4       0.6745015296    
+        SemgHandSubjectCh2          0.4       0.6820542613    
+           ShapeletSim              0.4       1.0130795369    
+            ShapesAll               0.4       0.8041499753    
+        SharePriceIncrease          0.4       1.1445097275    
+      SmallKitchenAppliances        0.4       0.4584084495    
+      SonyAIBORobotSurface1         0.4       1.5423671634    
+            Strawberry              0.4       1.2129294690    
+           SwedishLeaf              0.4       0.7401621512    
+         SyntheticControl           0.4       0.8436044933    
+         ToeSegmentation1           0.4       1.1110426258    
+         ToeSegmentation2           0.4       1.2598953391    
+              Trace                 0.4       1.3924854493    
+            TwoLeadECG              0.4       0.2150590874    
+           TwoPatterns              0.4       1.0465613639    
+               UMD                  0.4       1.2554221353    
+              Wafer                 0.4       1.5260699430    
+               Wine                 0.4       0.6108904579    
+              Worms                 0.4       0.8771818124    
+          WormsTwoClass             0.4       0.9149165370    
+               Yoga                 0.4       0.7223881216    
+              ACSF1                 0.6       0.5773124294    
+              Adiac                 0.6           nan         
+            ArrowHead               0.6       0.7508832476    
+               Beef                 0.6       0.3307271226    
+           BirdChicken              0.6       0.8305906367    
+               CBF                  0.6       1.2205624973    
+               Car                  0.6       0.6445014408    
+      ChlorineConcentration         0.6       0.8946811548    
+           CinCECGTorso             0.6       0.0955396243    
+            Colposcopy              0.6       1.1157207414    
+            Computers               0.6       0.5799699597    
+             CricketX               0.6       1.2599964914    
+   DistalPhalanxOutlineAgeGroup     0.6       0.5442452790    
+   DistalPhalanxOutlineCorrect      0.6       0.6063641785    
+         DistalPhalanxTW            0.6       0.6076331880    
+           ECGFiveDays              0.6       0.1440582726    
+       EOGHorizontalSignal          0.6       0.3422777397    
+        EOGVerticalSignal           0.6       0.3063555935    
+           Earthquakes              0.6       1.0300607784    
+           EthanolLevel             0.6       0.2018191126    
+             FaceAll                0.6       1.4425677095    
+             FaceFour               0.6       0.9783729112    
+             FacesUCR               0.6       0.6439702537    
+               Fish                 0.6       0.3367247668    
+       FreezerRegularTrain          0.6       1.3949232400    
+        FreezerSmallTrain           0.6       1.5102359432    
+             GunPoint               0.6       1.3987799029    
+         GunPointAgeSpan            0.6       1.2683718081    
+     GunPointMaleVersusFemale       0.6       1.2766864223    
+      GunPointOldVersusYoung        0.6       1.3160505408    
+               Ham                  0.6       0.3965661217    
+             Haptics                0.6       0.4149158713    
+             Herring                0.6       0.3746663427    
+           InlineSkate              0.6       0.4576309357    
+      InsectEPGRegularTrain         0.6       0.5977974062    
+       InsectWingbeatSound          0.6       1.2917366859    
+      LargeKitchenAppliances        0.6       0.6035366289    
+            Lightning2              0.6       0.2716433546    
+            Lightning7              0.6       0.4190432688    
+               Meat                 0.6       0.0689696342    
+          MedicalImages             0.6       1.2678037065    
+            MoteStrain              0.6       0.8636081444    
+             OSULeaf                0.6       1.0586891453    
+             OliveOil               0.6       0.8082485585    
+     PhalangesOutlinesCorrect       0.6       0.5835763645    
+              Plane                 0.6       0.8830945448    
+            PowerCons               0.6       0.7948513125    
+  ProximalPhalanxOutlineAgeGroup    0.6       0.6500104574    
+  ProximalPhalanxOutlineCorrect     0.6       0.6498827993    
+       RefrigerationDevices         0.6       1.0816970378    
+               Rock                 0.6       0.4318381141    
+            ScreenType              0.6       0.6073906317    
+        SemgHandGenderCh2           0.6       0.6801241989    
+       SemgHandMovementCh2          0.6       0.6817323492    
+        SemgHandSubjectCh2          0.6       0.6946188532    
+           ShapeletSim              0.6       1.0146871082    
+            ShapesAll               0.6       0.8562471549    
+        SharePriceIncrease          0.6           nan         
+      SmallKitchenAppliances        0.6       0.4029750217    
+      SonyAIBORobotSurface1         0.6       1.5228460808    
+            Strawberry              0.6       1.2165012345    
+           SwedishLeaf              0.6       0.7552299790    
+         SyntheticControl           0.6           nan         
+         ToeSegmentation1           0.6       1.2034538572    
+         ToeSegmentation2           0.6       1.2254154823    
+              Trace                 0.6       1.4133652840    
+            TwoLeadECG              0.6           nan         
+           TwoPatterns              0.6       1.0105597986    
+               UMD                  0.6       1.1312280905    
+              Wafer                 0.6       1.5224798806    
+               Wine                 0.6       0.6028421802    
+              Worms                 0.6       0.8712841033    
+          WormsTwoClass             0.6       0.8871837001    
+               Yoga                 0.6       0.7352348769    
+              ACSF1                 0.8       0.6171082164    
+              Adiac                 0.8           nan         
+            ArrowHead               0.8       0.7766644085    
+               Beef                 0.8       0.2989299575    
+           BirdChicken              0.8       0.8043878125    
+               CBF                  0.8       1.2906406034    
+               Car                  0.8       0.7783343749    
+      ChlorineConcentration         0.8       0.9126325773    
+           CinCECGTorso             0.8       0.0971828862    
+            Colposcopy              0.8       1.1580265155    
+            Computers               0.8       0.5743510794    
+             CricketX               0.8       1.2456692007    
+   DistalPhalanxOutlineAgeGroup     0.8       0.5944973433    
+   DistalPhalanxOutlineCorrect      0.8       0.6004204583    
+         DistalPhalanxTW            0.8       0.5671326390    
+           ECGFiveDays              0.8       0.1096313369    
+       EOGHorizontalSignal          0.8       0.3482744214    
+        EOGVerticalSignal           0.8       0.3091185279    
+           Earthquakes              0.8       1.0186785565    
+           EthanolLevel             0.8       0.2030053133    
+             FaceAll                0.8       1.4727808069    
+             FaceFour               0.8       0.9010699278    
+             FacesUCR               0.8       0.6378402092    
+               Fish                 0.8       0.3501604764    
+       FreezerRegularTrain          0.8       1.4109518415    
+        FreezerSmallTrain           0.8       1.2863763507    
+             GunPoint               0.8       1.2980688892    
+         GunPointAgeSpan            0.8       1.3665963433    
+     GunPointMaleVersusFemale       0.8       1.2778480347    
+      GunPointOldVersusYoung        0.8       1.3058783080    
+               Ham                  0.8       0.4148711665    
+             Haptics                0.8       0.3942633067    
+             Herring                0.8       0.3842171066    
+           InlineSkate              0.8       0.4689762745    
+      InsectEPGRegularTrain         0.8       0.6580209832    
+       InsectWingbeatSound          0.8       1.2980778767    
+      LargeKitchenAppliances        0.8       0.5751464847    
+            Lightning2              0.8       0.2506898686    
+            Lightning7              0.8       0.4717068372    
+               Meat                 0.8       0.0725086557    
+          MedicalImages             0.8       1.2580184085    
+            MoteStrain              0.8       0.9953275797    
+             OSULeaf                0.8       1.0458138035    
+             OliveOil               0.8       0.9213816914    
+     PhalangesOutlinesCorrect       0.8       0.5933258427    
+              Plane                 0.8       0.9840650132    
+            PowerCons               0.8       0.8327039169    
+  ProximalPhalanxOutlineAgeGroup    0.8       0.6493690833    
+  ProximalPhalanxOutlineCorrect     0.8       0.6414082015    
+       RefrigerationDevices         0.8       1.0661173164    
+               Rock                 0.8       0.3679656984    
+            ScreenType              0.8       0.6075354801    
+        SemgHandGenderCh2           0.8       0.6841168229    
+       SemgHandMovementCh2          0.8       0.6892582311    
+        SemgHandSubjectCh2          0.8       0.6913739976    
+           ShapeletSim              0.8       1.0066921460    
+            ShapesAll               0.8       0.8921204870    
+        SharePriceIncrease          0.8       1.1273245242    
+      SmallKitchenAppliances        0.8       0.4361011666    
+      SonyAIBORobotSurface1         0.8           nan         
+            Strawberry              0.8       1.2147972961    
+           SwedishLeaf              0.8       0.7320856683    
+         SyntheticControl           0.8           nan         
+         ToeSegmentation1           0.8       1.1522151907    
+         ToeSegmentation2           0.8       1.1066074496    
+              Trace                 0.8       1.4244284769    
+            TwoLeadECG              0.8           nan         
+           TwoPatterns              0.8       1.0270385920    
+               UMD                  0.8       1.3926850536    
+              Wafer                 0.8       1.5079474062    
+               Wine                 0.8       0.6063680040    
+              Worms                 0.8       0.9041428663    
+          WormsTwoClass             0.8       0.9473558335    
+               Yoga                 0.8       0.7294261021    
+--------------------------------------------------------------
+
+
+{aligned_series, RUNTIME[ms], none}
+--------------------------------------------------------------
+             Dataset                Rate        TimesNet      
+--------------------------------------------------------------
+              ACSF1                 0.1    394568.5279369354  
+              Adiac                 0.1           nan         
+            ArrowHead               0.1     9831.8724632263   
+               Beef                 0.1     43889.7283077240  
+           BirdChicken              0.1     41547.0352172852  
+               CBF                  0.1     5381.8609714508   
+               Car                  0.1     56283.0817699432  
+      ChlorineConcentration         0.1     7939.9299621582   
+           CinCECGTorso             0.1    124105.2727699280  
+            Colposcopy              0.1     20850.9223461151  
+            Computers               0.1     30578.2802104950  
+             CricketX               0.1     41452.5909423828  
+   DistalPhalanxOutlineAgeGroup     0.1     3088.9554023743   
+   DistalPhalanxOutlineCorrect      0.1     2066.1067962646   
+         DistalPhalanxTW            0.1     5564.6812915802   
+           ECGFiveDays              0.1     3605.9765815735   
+       EOGHorizontalSignal          0.1    417654.9007892609  
+        EOGVerticalSignal           0.1    435614.5703792572  
+           Earthquakes              0.1     29347.9070663452  
+           EthanolLevel             0.1    165092.5490856171  
+             FaceAll                0.1     33232.9025268555  
+             FaceFour               0.1     16265.4285430908  
+             FacesUCR               0.1     34276.9014835358  
+               Fish                 0.1     38222.8956222534  
+       FreezerRegularTrain          0.1     13801.6340732574  
+        FreezerSmallTrain           0.1     14105.9346199036  
+             GunPoint               0.1     6087.1100425720   
+         GunPointAgeSpan            0.1     6004.4677257538   
+     GunPointMaleVersusFemale       0.1     7343.6663150787   
+      GunPointOldVersusYoung        0.1     6586.3859653473   
+               Ham                  0.1     17797.9781627655  
+             Haptics                0.1    179606.8389415741  
+             Herring                0.1     41542.5803661346  
+           InlineSkate              0.1    243084.8956108093  
+      InsectEPGRegularTrain         0.1     35904.4280052185  
+       InsectWingbeatSound          0.1     63865.4775619507  
+      LargeKitchenAppliances        0.1     40527.1229743958  
+            Lightning2              0.1     25299.1878986359  
+            Lightning7              0.1     23448.8875865936  
+               Meat                 0.1     29828.6693096161  
+          MedicalImages             0.1     12559.4067573547  
+            MoteStrain              0.1     3652.1439552307   
+             OSULeaf                0.1     45136.2688541412  
+             OliveOil               0.1    109508.5105895996  
+     PhalangesOutlinesCorrect       0.1     2057.1773052216   
+              Plane                 0.1     18348.3169078827  
+            PowerCons               0.1     4771.2488174438   
+  ProximalPhalanxOutlineAgeGroup    0.1     2964.5910263062   
+  ProximalPhalanxOutlineCorrect     0.1     1857.5344085693   
+       RefrigerationDevices         0.1     64911.4885330200  
+               Rock                 0.1    130094.8534011841  
+            ScreenType              0.1     57591.6128158569  
+        SemgHandGenderCh2           0.1     57645.4875469208  
+       SemgHandMovementCh2          0.1    229835.8547687531  
+        SemgHandSubjectCh2          0.1    175999.0446567535  
+           ShapeletSim              0.1     13405.7083129883  
+            ShapesAll               0.1    1208708.3053588867 
+        SharePriceIncrease          0.1     3211.4613056183   
+      SmallKitchenAppliances        0.1     46735.6197834015  
+      SonyAIBORobotSurface1         0.1     2719.1200256348   
+            Strawberry              0.1     5091.0766124725   
+           SwedishLeaf              0.1     37647.0677852631  
+         SyntheticControl           0.1     7743.5803413391   
+         ToeSegmentation1           0.1     12416.5196418762  
+         ToeSegmentation2           0.1     6593.4703350067   
+              Trace                 0.1     10962.1503353119  
+            TwoLeadECG              0.1     2506.4210891724   
+           TwoPatterns              0.1     10414.3419265747  
+               UMD                  0.1     9838.7846946716   
+              Wafer                 0.1     4956.7377567291   
+               Wine                 0.1     6129.0302276611   
+              Worms                 0.1    237529.9899578094  
+          WormsTwoClass             0.1     87286.1769199371  
+               Yoga                 0.1     10600.8949279785  
+              ACSF1                 0.2    402982.2778701782  
+              Adiac                 0.2     84816.8232440948  
+            ArrowHead               0.2     9818.1152343750   
+               Beef                 0.2     40930.3610324860  
+           BirdChicken              0.2     37667.2899723053  
+               CBF                  0.2     7053.2274246216   
+               Car                  0.2     57531.3766002655  
+      ChlorineConcentration         0.2     6313.6286735535   
+           CinCECGTorso             0.2    137374.2964267731  
+            Colposcopy              0.2     21167.3436164856  
+            Computers               0.2     32133.7947845459  
+             CricketX               0.2     44324.7137069702  
+   DistalPhalanxOutlineAgeGroup     0.2     2547.8892326355   
+   DistalPhalanxOutlineCorrect      0.2     2202.1296024323   
+         DistalPhalanxTW            0.2     4984.2143058777   
+           ECGFiveDays              0.2     3337.4860286713   
+       EOGHorizontalSignal          0.2    424672.7333068848  
+        EOGVerticalSignal           0.2    391785.9921455383  
+           Earthquakes              0.2     31250.5881786346  
+           EthanolLevel             0.2    156670.9246635437  
+             FaceAll                0.2     34056.3733577728  
+             FaceFour               0.2     18993.8642978668  
+             FacesUCR               0.2     32522.4926471710  
+               Fish                 0.2     41541.3815975189  
+       FreezerRegularTrain          0.2     17994.5929050446  
+        FreezerSmallTrain           0.2     14036.4637374878  
+             GunPoint               0.2     6414.2463207245   
+         GunPointAgeSpan            0.2     6356.9359779358   
+     GunPointMaleVersusFemale       0.2     7308.2263469696   
+      GunPointOldVersusYoung        0.2     7196.3033676147   
+               Ham                  0.2     19778.3715724945  
+             Haptics                0.2    181788.5239124298  
+             Herring                0.2     41288.6919975281  
+           InlineSkate              0.2    223811.1412525177  
+      InsectEPGRegularTrain         0.2     39439.2197132111  
+       InsectWingbeatSound          0.2     64138.0298137665  
+      LargeKitchenAppliances        0.2     45898.9083766937  
+            Lightning2              0.2     19963.1495475769  
+            Lightning7              0.2     23589.5712375641  
+               Meat                 0.2     27736.5696430206  
+          MedicalImages             0.2     15274.2242813110  
+            MoteStrain              0.2     3116.5916919708   
+             OSULeaf                0.2     44979.4037342072  
+             OliveOil               0.2    109885.8382701874  
+     PhalangesOutlinesCorrect       0.2     2325.1223564148   
+              Plane                 0.2     16109.1620922089  
+            PowerCons               0.2     5626.3825893402   
+  ProximalPhalanxOutlineAgeGroup    0.2     3033.2853794098   
+  ProximalPhalanxOutlineCorrect     0.2     2132.8654289246   
+       RefrigerationDevices         0.2     62401.4730453491  
+               Rock                 0.2    139697.9000568390  
+            ScreenType              0.2     47616.9846057892  
+        SemgHandGenderCh2           0.2     67317.2547817230  
+       SemgHandMovementCh2          0.2    188165.0021076202  
+        SemgHandSubjectCh2          0.2    149277.6863574982  
+           ShapeletSim              0.2     20715.9397602081  
+            ShapesAll               0.2    1239077.3708820343 
+        SharePriceIncrease          0.2     2765.2995586395   
+      SmallKitchenAppliances        0.2     52745.1069355011  
+      SonyAIBORobotSurface1         0.2     2638.5550498962   
+            Strawberry              0.2     4118.3335781097   
+           SwedishLeaf              0.2     34238.1007671356  
+         SyntheticControl           0.2     7598.8745689392   
+         ToeSegmentation1           0.2     12373.2116222382  
+         ToeSegmentation2           0.2     6745.3012466431   
+              Trace                 0.2     9762.6621723175   
+            TwoLeadECG              0.2     3274.0423679352   
+           TwoPatterns              0.2     9001.3921260834   
+               UMD                  0.2     8302.8428554535   
+              Wafer                 0.2     5150.9451866150   
+               Wine                 0.2     5707.1166038513   
+              Worms                 0.2    253435.9557628632  
+          WormsTwoClass             0.2     73525.0649452209  
+               Yoga                 0.2     10792.7670478821  
+              ACSF1                 0.4    420875.2176761627  
+              Adiac                 0.4           nan         
+            ArrowHead               0.4     9892.2750949860   
+               Beef                 0.4     39679.2714595795  
+           BirdChicken              0.4     39629.2521953583  
+               CBF                  0.4     4253.6942958832   
+               Car                  0.4     55829.1540145874  
+      ChlorineConcentration         0.4     7098.0443954468   
+           CinCECGTorso             0.4    131415.8949851990  
+            Colposcopy              0.4     19360.3904247284  
+            Computers               0.4     30158.3416461945  
+             CricketX               0.4     38543.6410903931  
+   DistalPhalanxOutlineAgeGroup     0.4     3012.7019882202   
+   DistalPhalanxOutlineCorrect      0.4     3346.7066287994   
+         DistalPhalanxTW            0.4     5191.1039352417   
+           ECGFiveDays              0.4     3268.8033580780   
+       EOGHorizontalSignal          0.4    382976.2759208679  
+        EOGVerticalSignal           0.4    379664.4027233124  
+           Earthquakes              0.4     35252.0563602448  
+           EthanolLevel             0.4    155646.4428901672  
+             FaceAll                0.4     32706.9711685181  
+             FaceFour               0.4     18068.9644813538  
+             FacesUCR               0.4     32086.1771106720  
+               Fish                 0.4     38412.0390415192  
+       FreezerRegularTrain          0.4     15577.7535438538  
+        FreezerSmallTrain           0.4     13419.2483425140  
+             GunPoint               0.4     6443.2542324066   
+         GunPointAgeSpan            0.4     5784.1854095459   
+     GunPointMaleVersusFemale       0.4     5657.1795940399   
+      GunPointOldVersusYoung        0.4     6898.4746932983   
+               Ham                  0.4     19230.9532165527  
+             Haptics                0.4    185986.5040779114  
+             Herring                0.4     41580.9803009033  
+           InlineSkate              0.4    220866.5874004364  
+      InsectEPGRegularTrain         0.4     39019.5262432098  
+       InsectWingbeatSound          0.4     63173.2590198517  
+      LargeKitchenAppliances        0.4     46028.0330181122  
+            Lightning2              0.4     31992.0034408569  
+            Lightning7              0.4     25959.7144126892  
+               Meat                 0.4     27263.5359764099  
+          MedicalImages             0.4     12892.6615715027  
+            MoteStrain              0.4     2249.9556541443   
+             OSULeaf                0.4     43631.4413547516  
+             OliveOil               0.4    111091.5236473083  
+     PhalangesOutlinesCorrect       0.4     2421.5266704559   
+              Plane                 0.4     17025.8669853210  
+            PowerCons               0.4     4705.1095962524   
+  ProximalPhalanxOutlineAgeGroup    0.4     3046.5953350067   
+  ProximalPhalanxOutlineCorrect     0.4     2050.8844852448   
+       RefrigerationDevices         0.4     61086.0812664032  
+               Rock                 0.4    121851.3777256012  
+            ScreenType              0.4     47686.8038177490  
+        SemgHandGenderCh2           0.4     53849.5676517487  
+       SemgHandMovementCh2          0.4    149223.4613895416  
+        SemgHandSubjectCh2          0.4    161858.4656715393  
+           ShapeletSim              0.4     17727.1273136139  
+            ShapesAll               0.4    1245822.7927684784 
+        SharePriceIncrease          0.4     2609.2710494995   
+      SmallKitchenAppliances        0.4     29868.1097030640  
+      SonyAIBORobotSurface1         0.4     2960.3238105774   
+            Strawberry              0.4     5241.6484355927   
+           SwedishLeaf              0.4     36364.4459247589  
+         SyntheticControl           0.4     7943.8116550446   
+         ToeSegmentation1           0.4     12376.3515949249  
+         ToeSegmentation2           0.4     6520.6725597382   
+              Trace                 0.4     9988.9569282532   
+            TwoLeadECG              0.4     3109.3235015869   
+           TwoPatterns              0.4     8987.7521991730   
+               UMD                  0.4     8996.5298175812   
+              Wafer                 0.4     3213.9477729797   
+               Wine                 0.4     6355.9722900391   
+              Worms                 0.4    242582.7872753143  
+          WormsTwoClass             0.4    106336.2936973572  
+               Yoga                 0.4     11127.8400421143  
+              ACSF1                 0.6    407878.4945011139  
+              Adiac                 0.6           nan         
+            ArrowHead               0.6     9466.7375087738   
+               Beef                 0.6     39151.1769294739  
+           BirdChicken              0.6     33530.1234722137  
+               CBF                  0.6     7795.5043315887   
+               Car                  0.6     53332.2036266327  
+      ChlorineConcentration         0.6     7853.3511161804   
+           CinCECGTorso             0.6    133251.8754005432  
+            Colposcopy              0.6     21287.0204448700  
+            Computers               0.6     35908.3676338196  
+             CricketX               0.6     40521.2652683258  
+   DistalPhalanxOutlineAgeGroup     0.6     3103.6510467529   
+   DistalPhalanxOutlineCorrect      0.6     2006.2577724457   
+         DistalPhalanxTW            0.6     5139.3728256226   
+           ECGFiveDays              0.6     3261.7509365082   
+       EOGHorizontalSignal          0.6    399085.8843326569  
+        EOGVerticalSignal           0.6    399532.9189300537  
+           Earthquakes              0.6     40605.4244041443  
+           EthanolLevel             0.6    147604.4676303864  
+             FaceAll                0.6     34518.3043479919  
+             FaceFour               0.6     18299.5991706848  
+             FacesUCR               0.6     31174.4947433472  
+               Fish                 0.6     36057.7189922333  
+       FreezerRegularTrain          0.6     13161.5343093872  
+        FreezerSmallTrain           0.6     14940.3424263000  
+             GunPoint               0.6     6440.2575492859   
+         GunPointAgeSpan            0.6     6133.4431171417   
+     GunPointMaleVersusFemale       0.6     6928.2815456390   
+      GunPointOldVersusYoung        0.6     6551.6376495361   
+               Ham                  0.6     16239.6807670593  
+             Haptics                0.6    179970.7334041595  
+             Herring                0.6     41240.8010959625  
+           InlineSkate              0.6    213186.2599849701  
+      InsectEPGRegularTrain         0.6     40746.9480037689  
+       InsectWingbeatSound          0.6     70951.2317180634  
+      LargeKitchenAppliances        0.6     50524.4061946869  
+            Lightning2              0.6     35004.2686462402  
+            Lightning7              0.6     24914.1099452972  
+               Meat                 0.6     27501.4970302582  
+          MedicalImages             0.6     12712.9600048065  
+            MoteStrain              0.6     2591.2899971008   
+             OSULeaf                0.6     41481.0259342194  
+             OliveOil               0.6    112966.6354656219  
+     PhalangesOutlinesCorrect       0.6     1760.3101730347   
+              Plane                 0.6     17762.1390819550  
+            PowerCons               0.6     4323.0843544006   
+  ProximalPhalanxOutlineAgeGroup    0.6     2769.6156501770   
+  ProximalPhalanxOutlineCorrect     0.6     1673.0542182922   
+       RefrigerationDevices         0.6     64892.4198150635  
+               Rock                 0.6    135950.4389762878  
+            ScreenType              0.6     34014.5153999329  
+        SemgHandGenderCh2           0.6     59575.3059387207  
+       SemgHandMovementCh2          0.6    180926.8155097961  
+        SemgHandSubjectCh2          0.6    140619.3397045135  
+           ShapeletSim              0.6     16383.4564685822  
+            ShapesAll               0.6    1222843.1839942932 
+        SharePriceIncrease          0.6           nan         
+      SmallKitchenAppliances        0.6     43528.9185047150  
+      SonyAIBORobotSurface1         0.6     1780.8833122253   
+            Strawberry              0.6     5320.7828998566   
+           SwedishLeaf              0.6     35159.0721607208  
+         SyntheticControl           0.6           nan         
+         ToeSegmentation1           0.6     13712.6514911652  
+         ToeSegmentation2           0.6     7082.1800231934   
+              Trace                 0.6     9385.1900100708   
+            TwoLeadECG              0.6           nan         
+           TwoPatterns              0.6     8740.0398254395   
+               UMD                  0.6     9519.6695327759   
+              Wafer                 0.6     4274.7247219086   
+               Wine                 0.6     6976.9015312195   
+              Worms                 0.6    221616.9092655182  
+          WormsTwoClass             0.6     67012.6841068268  
+               Yoga                 0.6     9473.8016128540   
+              ACSF1                 0.8    412187.5340938568  
+              Adiac                 0.8           nan         
+            ArrowHead               0.8     9327.5501728058   
+               Beef                 0.8     39187.7753734589  
+           BirdChicken              0.8     39890.1963233948  
+               CBF                  0.8     7280.3785800934   
+               Car                  0.8     48277.5983810425  
+      ChlorineConcentration         0.8     6586.5027904510   
+           CinCECGTorso             0.8    121615.2734756470  
+            Colposcopy              0.8     21441.5702819824  
+            Computers               0.8     20879.8410892487  
+             CricketX               0.8     39422.4915504456  
+   DistalPhalanxOutlineAgeGroup     0.8     3112.2786998749   
+   DistalPhalanxOutlineCorrect      0.8     2008.4621906281   
+         DistalPhalanxTW            0.8     5157.9203605652   
+           ECGFiveDays              0.8     3815.9701824188   
+       EOGHorizontalSignal          0.8    386318.6540603638  
+        EOGVerticalSignal           0.8    405545.3939437866  
+           Earthquakes              0.8     33840.2757644653  
+           EthanolLevel             0.8    154936.0961914062  
+             FaceAll                0.8     35678.0049800873  
+             FaceFour               0.8     17331.9857120514  
+             FacesUCR               0.8     31965.2817249298  
+               Fish                 0.8     34652.5535583496  
+       FreezerRegularTrain          0.8     10628.2827854156  
+        FreezerSmallTrain           0.8     12647.6721763611  
+             GunPoint               0.8     6750.7143020630   
+         GunPointAgeSpan            0.8     6676.1569976807   
+     GunPointMaleVersusFemale       0.8     7293.5028076172   
+      GunPointOldVersusYoung        0.8     5814.9704933167   
+               Ham                  0.8     16466.2091732025  
+             Haptics                0.8    174615.0517463684  
+             Herring                0.8     41097.9981422424  
+           InlineSkate              0.8    218185.4119300842  
+      InsectEPGRegularTrain         0.8     27168.6048507690  
+       InsectWingbeatSound          0.8     62525.1429080963  
+      LargeKitchenAppliances        0.8     40186.1248016357  
+            Lightning2              0.8     26920.8016395569  
+            Lightning7              0.8     27715.5690193176  
+               Meat                 0.8     25809.4625473022  
+          MedicalImages             0.8     11987.2572422028  
+            MoteStrain              0.8     2428.4975528717   
+             OSULeaf                0.8     37403.5377502441  
+             OliveOil               0.8    109880.2266120911  
+     PhalangesOutlinesCorrect       0.8     1983.6297035217   
+              Plane                 0.8     17400.6602764130  
+            PowerCons               0.8     4961.0683917999   
+  ProximalPhalanxOutlineAgeGroup    0.8     2863.0220890045   
+  ProximalPhalanxOutlineCorrect     0.8     1749.2942810059   
+       RefrigerationDevices         0.8     57541.5699481964  
+               Rock                 0.8    118773.3671665192  
+            ScreenType              0.8     32133.9530944824  
+        SemgHandGenderCh2           0.8     77092.1697616577  
+       SemgHandMovementCh2          0.8    185280.9398174286  
+        SemgHandSubjectCh2          0.8    167415.2553081512  
+           ShapeletSim              0.8     14252.0680427551  
+            ShapesAll               0.8    1175533.5943698883 
+        SharePriceIncrease          0.8     2823.5752582550   
+      SmallKitchenAppliances        0.8     41659.9247455597  
+      SonyAIBORobotSurface1         0.8           nan         
+            Strawberry              0.8     5184.1149330139   
+           SwedishLeaf              0.8     35314.0413761139  
+         SyntheticControl           0.8           nan         
+         ToeSegmentation1           0.8     12449.8407840729  
+         ToeSegmentation2           0.8     4766.6537761688   
+              Trace                 0.8     10042.8645610809  
+            TwoLeadECG              0.8     2943.3538913727   
+           TwoPatterns              0.8     9022.8846073151   
+               UMD                  0.8     10192.3437118530  
+              Wafer                 0.8     3781.7680835724   
+               Wine                 0.8     5046.6041564941   
+              Worms                 0.8    211529.5724868774  
+          WormsTwoClass             0.8     74434.5164299011  
+               Yoga                 0.8     10195.8091259003  
+--------------------------------------------------------------
+
+
+{aligned_timestamps, RMSE, none}
+--------------------------------------------------------------
+             Dataset                Rate        TimesNet      
+--------------------------------------------------------------
+              ACSF1                 0.1       0.4691411954    
+              Adiac                 0.1           nan         
+            ArrowHead               0.1       0.9386839004    
+               Beef                 0.1           nan         
+           BirdChicken              0.1       0.5021032484    
+               CBF                  0.1       1.1674977802    
+               Car                  0.1       0.7127773500    
+      ChlorineConcentration         0.1       0.8252810653    
+           CinCECGTorso             0.1       0.0541729768    
+            Colposcopy              0.1       1.1006171752    
+            Computers               0.1       0.7058306218    
+             CricketX               0.1       1.2570829575    
+   DistalPhalanxOutlineAgeGroup     0.1       0.6109431580    
+   DistalPhalanxOutlineCorrect      0.1       0.5893890775    
+         DistalPhalanxTW            0.1       0.5740418221    
+           ECGFiveDays              0.1       0.0374210011    
+       EOGHorizontalSignal          0.1       0.1153804878    
+        EOGVerticalSignal           0.1       0.1201934485    
+           Earthquakes              0.1       1.0106927659    
+           EthanolLevel             0.1       0.0873374581    
+             FaceAll                0.1       1.3834489377    
+             FaceFour               0.1       1.0976594390    
+             FacesUCR               0.1       0.6517460576    
+               Fish                 0.1       0.8394171736    
+       FreezerRegularTrain          0.1       1.6938811650    
+        FreezerSmallTrain           0.1       1.3655295567    
+             GunPoint               0.1       0.8417563127    
+         GunPointAgeSpan            0.1       1.0788162329    
+     GunPointMaleVersusFemale       0.1       1.2097841712    
+      GunPointOldVersusYoung        0.1       1.2924180515    
+               Ham                  0.1       0.2304762448    
+             Haptics                0.1       0.3341030185    
+             Herring                0.1       0.3126738309    
+           InlineSkate              0.1       0.2423534447    
+      InsectEPGRegularTrain         0.1       0.6001036526    
+       InsectWingbeatSound          0.1       1.0971224973    
+      LargeKitchenAppliances        0.1       0.8285842468    
+            Lightning2              0.1       0.1572558636    
+            Lightning7              0.1       0.3209369698    
+               Meat                 0.1       0.0975319479    
+          MedicalImages             0.1       1.7546560272    
+            MoteStrain              0.1       1.1138782585    
+             OSULeaf                0.1       1.0301975639    
+             OliveOil               0.1       0.1277481405    
+     PhalangesOutlinesCorrect       0.1       0.5950850977    
+              Plane                 0.1       0.6968982263    
+            PowerCons               0.1       0.6460613453    
+  ProximalPhalanxOutlineAgeGroup    0.1       0.5698866868    
+  ProximalPhalanxOutlineCorrect     0.1       0.6561330475    
+       RefrigerationDevices         0.1       1.0838495314    
+               Rock                 0.1       0.2770367295    
+            ScreenType              0.1       0.5217556546    
+        SemgHandGenderCh2           0.1       0.3380852839    
+       SemgHandMovementCh2          0.1       0.3512463376    
+        SemgHandSubjectCh2          0.1       0.3547010944    
+           ShapeletSim              0.1       1.0196389631    
+            ShapesAll               0.1       0.6096370839    
+        SharePriceIncrease          0.1       1.1636318682    
+      SmallKitchenAppliances        0.1       0.2299899341    
+      SonyAIBORobotSurface1         0.1           nan         
+            Strawberry              0.1       0.9938855374    
+           SwedishLeaf              0.1       0.8412173600    
+         SyntheticControl           0.1       0.8044039583    
+         ToeSegmentation1           0.1       0.8311094072    
+         ToeSegmentation2           0.1       1.2673524510    
+              Trace                 0.1       0.9079193150    
+            TwoLeadECG              0.1           nan         
+           TwoPatterns              0.1       0.9674817293    
+               UMD                  0.1       0.8058827200    
+              Wafer                 0.1       1.2333961210    
+               Wine                 0.1       0.6862544184    
+              Worms                 0.1       0.7246884822    
+          WormsTwoClass             0.1       0.8866711312    
+               Yoga                 0.1       0.7284356309    
+              ACSF1                 0.2       0.5943302747    
+              Adiac                 0.2       0.3928244627    
+            ArrowHead               0.2       0.6060648659    
+               Beef                 0.2       0.2362650352    
+           BirdChicken              0.2       0.7810698883    
+               CBF                  0.2       1.2792745629    
+               Car                  0.2       0.6332249053    
+      ChlorineConcentration         0.2       0.9109357677    
+           CinCECGTorso             0.2       0.0886401762    
+            Colposcopy              0.2       1.2483161159    
+            Computers               0.2       0.6289212940    
+             CricketX               0.2       1.2458062465    
+   DistalPhalanxOutlineAgeGroup     0.2       0.5981666247    
+   DistalPhalanxOutlineCorrect      0.2       0.5945156060    
+         DistalPhalanxTW            0.2       0.5790820761    
+           ECGFiveDays              0.2       0.1121571518    
+       EOGHorizontalSignal          0.2       0.3234585874    
+        EOGVerticalSignal           0.2       0.2990113024    
+           Earthquakes              0.2       1.0191025720    
+           EthanolLevel             0.2       0.2003090470    
+             FaceAll                0.2       1.5099954022    
+             FaceFour               0.2       0.9886130289    
+             FacesUCR               0.2       0.6440443413    
+               Fish                 0.2       0.3356328941    
+       FreezerRegularTrain          0.2       1.3985593237    
+        FreezerSmallTrain           0.2       1.1790725880    
+             GunPoint               0.2       1.3706143784    
+         GunPointAgeSpan            0.2       1.2212626265    
+     GunPointMaleVersusFemale       0.2       1.2086052456    
+      GunPointOldVersusYoung        0.2       1.3086975311    
+               Ham                  0.2       0.3766063293    
+             Haptics                0.2       0.4152621348    
+             Herring                0.2       0.3845293531    
+           InlineSkate              0.2       0.3633266551    
+      InsectEPGRegularTrain         0.2       0.6289476037    
+       InsectWingbeatSound          0.2       1.2970167550    
+      LargeKitchenAppliances        0.2       0.7391494772    
+            Lightning2              0.2       0.3586889771    
+            Lightning7              0.2       0.5854416097    
+               Meat                 0.2       0.0722627850    
+          MedicalImages             0.2       1.3667541420    
+            MoteStrain              0.2       0.7055526981    
+             OSULeaf                0.2       1.0258193184    
+             OliveOil               0.2       0.7160237343    
+     PhalangesOutlinesCorrect       0.2       0.6239945457    
+              Plane                 0.2       0.8446202641    
+            PowerCons               0.2       0.8246822242    
+  ProximalPhalanxOutlineAgeGroup    0.2       0.6705666163    
+  ProximalPhalanxOutlineCorrect     0.2       0.6757473099    
+       RefrigerationDevices         0.2       1.1423789554    
+               Rock                 0.2       0.4230407459    
+            ScreenType              0.2       0.6053168589    
+        SemgHandGenderCh2           0.2       0.6548398590    
+       SemgHandMovementCh2          0.2       0.6628488543    
+        SemgHandSubjectCh2          0.2       0.6643116575    
+           ShapeletSim              0.2       1.0399855119    
+            ShapesAll               0.2       0.7826199369    
+        SharePriceIncrease          0.2       1.1410527801    
+      SmallKitchenAppliances        0.2       0.4219353073    
+      SonyAIBORobotSurface1         0.2       1.4925666860    
+            Strawberry              0.2       1.1866427675    
+           SwedishLeaf              0.2       0.7257166345    
+         SyntheticControl           0.2       0.8445472848    
+         ToeSegmentation1           0.2       1.1071926712    
+         ToeSegmentation2           0.2       1.3504082274    
+              Trace                 0.2       1.3855949534    
+            TwoLeadECG              0.2           nan         
+           TwoPatterns              0.2       1.0442023867    
+               UMD                  0.2       1.2450256674    
+              Wafer                 0.2       1.4945337958    
+               Wine                 0.2       0.6078131289    
+              Worms                 0.2       0.8499936964    
+          WormsTwoClass             0.2       1.0199500989    
+               Yoga                 0.2       0.7283159763    
+              ACSF1                 0.4       0.8542911976    
+              Adiac                 0.4       1.4691562089    
+            ArrowHead               0.4       1.0758742686    
+               Beef                 0.4       0.3373947215    
+           BirdChicken              0.4       0.8307608873    
+               CBF                  0.4       1.1794413889    
+               Car                  0.4       1.2534235685    
+      ChlorineConcentration         0.4       0.8649618091    
+           CinCECGTorso             0.4       0.3139116877    
+            Colposcopy              0.4       1.0160559566    
+            Computers               0.4       1.0129774691    
+             CricketX               0.4       1.2785018755    
+   DistalPhalanxOutlineAgeGroup     0.4       1.0778203478    
+   DistalPhalanxOutlineCorrect      0.4       1.0501798103    
+         DistalPhalanxTW            0.4       0.9650117717    
+           ECGFiveDays              0.4       1.5766239630    
+       EOGHorizontalSignal          0.4       1.3408385692    
+        EOGVerticalSignal           0.4       1.4551534295    
+           Earthquakes              0.4       1.0565508161    
+           EthanolLevel             0.4       0.3883082224    
+             FaceAll                0.4       1.3255904406    
+             FaceFour               0.4       0.8083228165    
+             FacesUCR               0.4       0.6789819737    
+               Fish                 0.4       1.3439198779    
+       FreezerRegularTrain          0.4       1.1181482955    
+        FreezerSmallTrain           0.4       0.9764458752    
+             GunPoint               0.4       1.3402828951    
+         GunPointAgeSpan            0.4       1.2179968631    
+     GunPointMaleVersusFemale       0.4       1.5253414725    
+      GunPointOldVersusYoung        0.4       1.5152000748    
+               Ham                  0.4       0.6626073778    
+             Haptics                0.4       0.5168715452    
+             Herring                0.4       1.2880592941    
+           InlineSkate              0.4       0.7940944604    
+      InsectEPGRegularTrain         0.4       1.3160668257    
+       InsectWingbeatSound          0.4       1.3855303446    
+      LargeKitchenAppliances        0.4       0.9711195335    
+            Lightning2              0.4       0.6512807791    
+            Lightning7              0.4       0.8295898013    
+               Meat                 0.4       0.1262877201    
+          MedicalImages             0.4           nan         
+            MoteStrain              0.4       0.6722168535    
+             OSULeaf                0.4       1.1632902904    
+             OliveOil               0.4       1.0472639465    
+     PhalangesOutlinesCorrect       0.4       1.0256396193    
+              Plane                 0.4       1.0497069668    
+            PowerCons               0.4       1.0086261870    
+  ProximalPhalanxOutlineAgeGroup    0.4       1.1307709780    
+  ProximalPhalanxOutlineCorrect     0.4       1.0923279279    
+       RefrigerationDevices         0.4       1.1353229376    
+               Rock                 0.4       0.4134297907    
+            ScreenType              0.4       0.9332923234    
+        SemgHandGenderCh2           0.4       1.1290917218    
+       SemgHandMovementCh2          0.4       1.1723082911    
+        SemgHandSubjectCh2          0.4       1.1236483004    
+           ShapeletSim              0.4       1.0626996206    
+            ShapesAll               0.4       1.2220093639    
+        SharePriceIncrease          0.4           nan         
+      SmallKitchenAppliances        0.4       1.0741285755    
+      SonyAIBORobotSurface1         0.4       1.4381346936    
+            Strawberry              0.4           nan         
+           SwedishLeaf              0.4       1.2981940019    
+         SyntheticControl           0.4       0.8859545532    
+         ToeSegmentation1           0.4       1.1075203522    
+         ToeSegmentation2           0.4       1.1900978145    
+              Trace                 0.4       1.2889228734    
+            TwoLeadECG              0.4       1.4233389313    
+           TwoPatterns              0.4       1.0468410471    
+               UMD                  0.4       1.4892651640    
+              Wafer                 0.4           nan         
+               Wine                 0.4       0.5079552841    
+              Worms                 0.4       1.0398178322    
+          WormsTwoClass             0.4       1.0208913441    
+               Yoga                 0.4       1.2011699703    
+              ACSF1                 0.6       1.1342672045    
+              Adiac                 0.6       1.0907024089    
+            ArrowHead               0.6       0.9540541684    
+               Beef                 0.6       0.8523442305    
+           BirdChicken              0.6       1.1392290218    
+               CBF                  0.6       1.1681319012    
+               Car                  0.6       1.0838480500    
+      ChlorineConcentration         0.6       0.7380850235    
+           CinCECGTorso             0.6       1.1030463852    
+            Colposcopy              0.6       1.0171525859    
+            Computers               0.6       1.0189411702    
+             CricketX               0.6       1.3004493809    
+   DistalPhalanxOutlineAgeGroup     0.6       1.0587988584    
+   DistalPhalanxOutlineCorrect      0.6           nan         
+         DistalPhalanxTW            0.6       1.0092124446    
+           ECGFiveDays              0.6       1.4179570246    
+       EOGHorizontalSignal          0.6       1.1374684242    
+        EOGVerticalSignal           0.6       1.2465119617    
+           Earthquakes              0.6       1.1230916406    
+           EthanolLevel             0.6       0.4865100498    
+             FaceAll                0.6       1.2394863686    
+             FaceFour               0.6       0.7200632756    
+             FacesUCR               0.6       0.8340345472    
+               Fish                 0.6       0.9543834092    
+       FreezerRegularTrain          0.6       0.8566081308    
+        FreezerSmallTrain           0.6       0.9357517498    
+             GunPoint               0.6       1.4039376997    
+         GunPointAgeSpan            0.6       1.2758915618    
+     GunPointMaleVersusFemale       0.6       1.2404806026    
+      GunPointOldVersusYoung        0.6       1.2372785277    
+               Ham                  0.6       0.9503564223    
+             Haptics                0.6       1.2064802458    
+             Herring                0.6       1.0002597684    
+           InlineSkate              0.6       0.8977411121    
+      InsectEPGRegularTrain         0.6       1.2201587022    
+       InsectWingbeatSound          0.6       1.2431201757    
+      LargeKitchenAppliances        0.6       1.0585205963    
+            Lightning2              0.6       0.7616686577    
+            Lightning7              0.6       0.9665867702    
+               Meat                 0.6       0.8015219248    
+          MedicalImages             0.6           nan         
+            MoteStrain              0.6       1.0310453843    
+             OSULeaf                0.6       1.0927689417    
+             OliveOil               0.6       1.0022101591    
+     PhalangesOutlinesCorrect       0.6       1.0811142436    
+              Plane                 0.6       0.8729271313    
+            PowerCons               0.6       0.9509477739    
+  ProximalPhalanxOutlineAgeGroup    0.6       1.1402745688    
+  ProximalPhalanxOutlineCorrect     0.6       1.1358317943    
+       RefrigerationDevices         0.6       1.1583839432    
+               Rock                 0.6       0.8521590823    
+            ScreenType              0.6       1.0820673019    
+        SemgHandGenderCh2           0.6       1.2205419363    
+       SemgHandMovementCh2          0.6       1.2169819714    
+        SemgHandSubjectCh2          0.6       1.2159167016    
+           ShapeletSim              0.6       1.1733782446    
+            ShapesAll               0.6       1.1018806071    
+        SharePriceIncrease          0.6           nan         
+      SmallKitchenAppliances        0.6       1.0652035987    
+      SonyAIBORobotSurface1         0.6       1.1566371131    
+            Strawberry              0.6       1.1558275527    
+           SwedishLeaf              0.6           nan         
+         SyntheticControl           0.6           nan         
+         ToeSegmentation1           0.6       1.0258809656    
+         ToeSegmentation2           0.6       1.1558031556    
+              Trace                 0.6       1.1673487358    
+            TwoLeadECG              0.6       1.2910995532    
+           TwoPatterns              0.6           nan         
+               UMD                  0.6       1.2449413017    
+              Wafer                 0.6           nan         
+               Wine                 0.6       0.6069787319    
+              Worms                 0.6       0.9577392934    
+          WormsTwoClass             0.6       1.0553532542    
+               Yoga                 0.6       1.1754197204    
+              ACSF1                 0.8           nan         
+              Adiac                 0.8           nan         
+            ArrowHead               0.8           nan         
+               Beef                 0.8           nan         
+           BirdChicken              0.8           nan         
+               CBF                  0.8           nan         
+               Car                  0.8           nan         
+      ChlorineConcentration         0.8           nan         
+           CinCECGTorso             0.8           nan         
+            Colposcopy              0.8           nan         
+            Computers               0.8           nan         
+             CricketX               0.8           nan         
+   DistalPhalanxOutlineAgeGroup     0.8           nan         
+   DistalPhalanxOutlineCorrect      0.8           nan         
+         DistalPhalanxTW            0.8           nan         
+           ECGFiveDays              0.8           nan         
+       EOGHorizontalSignal          0.8           nan         
+        EOGVerticalSignal           0.8           nan         
+           Earthquakes              0.8           nan         
+           EthanolLevel             0.8           nan         
+             FaceAll                0.8           nan         
+             FaceFour               0.8           nan         
+             FacesUCR               0.8           nan         
+               Fish                 0.8           nan         
+       FreezerRegularTrain          0.8           nan         
+        FreezerSmallTrain           0.8           nan         
+             GunPoint               0.8           nan         
+         GunPointAgeSpan            0.8           nan         
+     GunPointMaleVersusFemale       0.8           nan         
+      GunPointOldVersusYoung        0.8           nan         
+               Ham                  0.8           nan         
+             Haptics                0.8           nan         
+             Herring                0.8           nan         
+           InlineSkate              0.8           nan         
+      InsectEPGRegularTrain         0.8           nan         
+       InsectWingbeatSound          0.8           nan         
+      LargeKitchenAppliances        0.8           nan         
+            Lightning2              0.8           nan         
+            Lightning7              0.8           nan         
+               Meat                 0.8           nan         
+          MedicalImages             0.8           nan         
+            MoteStrain              0.8           nan         
+             OSULeaf                0.8           nan         
+             OliveOil               0.8           nan         
+     PhalangesOutlinesCorrect       0.8           nan         
+              Plane                 0.8           nan         
+            PowerCons               0.8           nan         
+  ProximalPhalanxOutlineAgeGroup    0.8           nan         
+  ProximalPhalanxOutlineCorrect     0.8           nan         
+       RefrigerationDevices         0.8           nan         
+               Rock                 0.8           nan         
+            ScreenType              0.8           nan         
+        SemgHandGenderCh2           0.8           nan         
+       SemgHandMovementCh2          0.8           nan         
+        SemgHandSubjectCh2          0.8           nan         
+           ShapeletSim              0.8           nan         
+            ShapesAll               0.8           nan         
+        SharePriceIncrease          0.8           nan         
+      SmallKitchenAppliances        0.8           nan         
+      SonyAIBORobotSurface1         0.8           nan         
+            Strawberry              0.8           nan         
+           SwedishLeaf              0.8           nan         
+         SyntheticControl           0.8           nan         
+         ToeSegmentation1           0.8           nan         
+         ToeSegmentation2           0.8           nan         
+              Trace                 0.8           nan         
+            TwoLeadECG              0.8           nan         
+           TwoPatterns              0.8           nan         
+               UMD                  0.8           nan         
+              Wafer                 0.8           nan         
+               Wine                 0.8           nan         
+              Worms                 0.8           nan         
+          WormsTwoClass             0.8           nan         
+               Yoga                 0.8           nan         
+--------------------------------------------------------------
+
+
+{aligned_timestamps, RUNTIME[ms], none}
+--------------------------------------------------------------
+             Dataset                Rate        TimesNet      
+--------------------------------------------------------------
+              ACSF1                 0.1    355011.5494728088  
+              Adiac                 0.1           nan         
+            ArrowHead               0.1     9486.6232872009   
+               Beef                 0.1           nan         
+           BirdChicken              0.1     31310.8599185944  
+               CBF                  0.1     4785.7820987701   
+               Car                  0.1     42320.5604553223  
+      ChlorineConcentration         0.1     8099.3249416351   
+           CinCECGTorso             0.1    126721.4987277985  
+            Colposcopy              0.1     21202.6259899139  
+            Computers               0.1     33797.8780269623  
+             CricketX               0.1     42446.1522102356  
+   DistalPhalanxOutlineAgeGroup     0.1     2449.5692253113   
+   DistalPhalanxOutlineCorrect      0.1     1893.3615684509   
+         DistalPhalanxTW            0.1     5350.8121967316   
+           ECGFiveDays              0.1     1752.2850036621   
+       EOGHorizontalSignal          0.1    428781.7668914795  
+        EOGVerticalSignal           0.1    407824.8481750488  
+           Earthquakes              0.1     28167.7043437958  
+           EthanolLevel             0.1    165602.4115085602  
+             FaceAll                0.1     33246.7358112335  
+             FaceFour               0.1     18083.5328102112  
+             FacesUCR               0.1     34066.9181346893  
+               Fish                 0.1     38478.5075187683  
+       FreezerRegularTrain          0.1     17504.5139789581  
+        FreezerSmallTrain           0.1     13665.7769680023  
+             GunPoint               0.1     5909.4002246857   
+         GunPointAgeSpan            0.1     7050.7447719574   
+     GunPointMaleVersusFemale       0.1     7283.1637859344   
+      GunPointOldVersusYoung        0.1     7166.4042472839   
+               Ham                  0.1     19184.0758323669  
+             Haptics                0.1    182037.1496677399  
+             Herring                0.1     38817.6372051239  
+           InlineSkate              0.1    249292.1495437622  
+      InsectEPGRegularTrain         0.1     18429.5506477356  
+       InsectWingbeatSound          0.1     73563.0819797516  
+      LargeKitchenAppliances        0.1     30454.3321132660  
+            Lightning2              0.1     20317.1410560608  
+            Lightning7              0.1     20355.2103042603  
+               Meat                 0.1     52971.7762470245  
+          MedicalImages             0.1     11965.6949043274  
+            MoteStrain              0.1     3103.8045883179   
+             OSULeaf                0.1     36424.9649047852  
+             OliveOil               0.1     56998.2757568359  
+     PhalangesOutlinesCorrect       0.1     2082.7612876892   
+              Plane                 0.1     18022.6080417633  
+            PowerCons               0.1     5434.8442554474   
+  ProximalPhalanxOutlineAgeGroup    0.1     2785.5236530304   
+  ProximalPhalanxOutlineCorrect     0.1     2033.6608886719   
+       RefrigerationDevices         0.1     52627.6996135712  
+               Rock                 0.1    121289.6943092346  
+            ScreenType              0.1     42694.0391063690  
+        SemgHandGenderCh2           0.1     57449.7888088226  
+       SemgHandMovementCh2          0.1    156340.0051593781  
+        SemgHandSubjectCh2          0.1    148197.2613334656  
+           ShapeletSim              0.1     23451.2214660645  
+            ShapesAll               0.1    1033195.8529949188 
+        SharePriceIncrease          0.1     3636.6784572601   
+      SmallKitchenAppliances        0.1     32523.0543613434  
+      SonyAIBORobotSurface1         0.1           nan         
+            Strawberry              0.1     5342.0984745026   
+           SwedishLeaf              0.1     35696.1684226990  
+         SyntheticControl           0.1     7325.3114223480   
+         ToeSegmentation1           0.1     12333.5301876068  
+         ToeSegmentation2           0.1     6427.9444217682   
+              Trace                 0.1     10131.1888694763  
+            TwoLeadECG              0.1     1642.6343917847   
+           TwoPatterns              0.1     9856.9810390472   
+               UMD                  0.1     9220.0946807861   
+              Wafer                 0.1     3878.4036636353   
+               Wine                 0.1     7663.3887290955   
+              Worms                 0.1    205334.9614143372  
+          WormsTwoClass             0.1     70832.7054977417  
+               Yoga                 0.1     10677.9606342316  
+              ACSF1                 0.2    393345.9346294403  
+              Adiac                 0.2     82309.6580505371  
+            ArrowHead               0.2     9754.8100948334   
+               Beef                 0.2     43372.6191520691  
+           BirdChicken              0.2     41285.7747077942  
+               CBF                  0.2     6292.1495437622   
+               Car                  0.2     60652.8277397156  
+      ChlorineConcentration         0.2     7862.2584342957   
+           CinCECGTorso             0.2    128151.2832641602  
+            Colposcopy              0.2     21657.4800014496  
+            Computers               0.2     25872.6835250854  
+             CricketX               0.2     41442.9669380188  
+   DistalPhalanxOutlineAgeGroup     0.2     2915.7309532166   
+   DistalPhalanxOutlineCorrect      0.2     2200.7756233215   
+         DistalPhalanxTW            0.2     5203.6895751953   
+           ECGFiveDays              0.2     3307.0359230042   
+       EOGHorizontalSignal          0.2    449752.6288032532  
+        EOGVerticalSignal           0.2    418162.3487472534  
+           Earthquakes              0.2     31927.4699687958  
+           EthanolLevel             0.2    167177.5782108307  
+             FaceAll                0.2     34057.1157932281  
+             FaceFour               0.2     17380.5119991302  
+             FacesUCR               0.2     33706.7489624023  
+               Fish                 0.2     39762.7751827240  
+       FreezerRegularTrain          0.2     13774.0101814270  
+        FreezerSmallTrain           0.2     15510.1203918457  
+             GunPoint               0.2     5604.1474342346   
+         GunPointAgeSpan            0.2     6301.8465042114   
+     GunPointMaleVersusFemale       0.2     7290.7161712646   
+      GunPointOldVersusYoung        0.2     7121.3772296906   
+               Ham                  0.2     19448.8303661346  
+             Haptics                0.2    190181.2407970428  
+             Herring                0.2     41637.4385356903  
+           InlineSkate              0.2    196345.6356525421  
+      InsectEPGRegularTrain         0.2     36475.9006500244  
+       InsectWingbeatSound          0.2     67133.7985992432  
+      LargeKitchenAppliances        0.2     38111.3235950470  
+            Lightning2              0.2     31813.7867450714  
+            Lightning7              0.2     21678.0636310577  
+               Meat                 0.2     27362.9348278046  
+          MedicalImages             0.2     12826.5335559845  
+            MoteStrain              0.2     2946.4662075043   
+             OSULeaf                0.2     45109.3127727509  
+             OliveOil               0.2    100976.2508869171  
+     PhalangesOutlinesCorrect       0.2     2112.6570701599   
+              Plane                 0.2     17027.0783901215  
+            PowerCons               0.2     5034.6221923828   
+  ProximalPhalanxOutlineAgeGroup    0.2     2691.7209625244   
+  ProximalPhalanxOutlineCorrect     0.2     2133.6195468903   
+       RefrigerationDevices         0.2     68066.5559768677  
+               Rock                 0.2    124589.8263454437  
+            ScreenType              0.2     48951.5547752380  
+        SemgHandGenderCh2           0.2     69535.7594490051  
+       SemgHandMovementCh2          0.2    174415.5123233795  
+        SemgHandSubjectCh2          0.2    185353.3992767334  
+           ShapeletSim              0.2     13043.8413619995  
+            ShapesAll               0.2    1212753.6053657532 
+        SharePriceIncrease          0.2     3329.6232223511   
+      SmallKitchenAppliances        0.2     34145.8871364594  
+      SonyAIBORobotSurface1         0.2     2304.2087554932   
+            Strawberry              0.2     4572.5510120392   
+           SwedishLeaf              0.2     37540.4553413391  
+         SyntheticControl           0.2     7294.0886020660   
+         ToeSegmentation1           0.2     13760.9875202179  
+         ToeSegmentation2           0.2     6737.8556728363   
+              Trace                 0.2     11266.6106224060  
+            TwoLeadECG              0.2           nan         
+           TwoPatterns              0.2     8728.3880710602   
+               UMD                  0.2     9566.3983821869   
+              Wafer                 0.2     5164.0305519104   
+               Wine                 0.2     7035.3624820709   
+              Worms                 0.2    258864.3550872803  
+          WormsTwoClass             0.2    104132.7357292175  
+               Yoga                 0.2     8344.3689346313   
+              ACSF1                 0.4    437627.2823810577  
+              Adiac                 0.4     82156.4223766327  
+            ArrowHead               0.4     10428.0090332031  
+               Beef                 0.4     42162.1515750885  
+           BirdChicken              0.4     34421.9748973846  
+               CBF                  0.4     4863.3067607880   
+               Car                  0.4     46767.9181098938  
+      ChlorineConcentration         0.4     6530.1871299744   
+           CinCECGTorso             0.4    120815.6325817108  
+            Colposcopy              0.4     22040.3559207916  
+            Computers               0.4     31748.8963603973  
+             CricketX               0.4    103543.4260368347  
+   DistalPhalanxOutlineAgeGroup     0.4     2259.1605186462   
+   DistalPhalanxOutlineCorrect      0.4     2209.6705436707   
+         DistalPhalanxTW            0.4     4895.7107067108   
+           ECGFiveDays              0.4     2610.7089519501   
+       EOGHorizontalSignal          0.4    421294.6958541870  
+        EOGVerticalSignal           0.4    427245.5942630768  
+           Earthquakes              0.4     32317.1122074127  
+           EthanolLevel             0.4    152732.9072952271  
+             FaceAll                0.4     30186.9721412659  
+             FaceFour               0.4     21228.2435894012  
+             FacesUCR               0.4     36293.7896251678  
+               Fish                 0.4     67401.8936157227  
+       FreezerRegularTrain          0.4     13837.3508453369  
+        FreezerSmallTrain           0.4     9548.5432147980   
+             GunPoint               0.4     6754.3494701385   
+         GunPointAgeSpan            0.4     7311.7499351501   
+     GunPointMaleVersusFemale       0.4     6577.9597759247   
+      GunPointOldVersusYoung        0.4     7183.9423179626   
+               Ham                  0.4     29054.5332431793  
+             Haptics                0.4    168200.2127170563  
+             Herring                0.4     36658.2880020142  
+           InlineSkate              0.4    245483.0837249756  
+      InsectEPGRegularTrain         0.4     45353.9593219757  
+       InsectWingbeatSound          0.4     56187.2467994690  
+      LargeKitchenAppliances        0.4     43950.1245021820  
+            Lightning2              0.4     42214.2145633698  
+            Lightning7              0.4     55740.5381202698  
+               Meat                 0.4     46346.7118740082  
+          MedicalImages             0.4           nan         
+            MoteStrain              0.4     1415.8613681793   
+             OSULeaf                0.4     47461.6863727570  
+             OliveOil               0.4     63047.6422309875  
+     PhalangesOutlinesCorrect       0.4     2413.7363433838   
+              Plane                 0.4     17704.0019035339  
+            PowerCons               0.4     4300.6837368011   
+  ProximalPhalanxOutlineAgeGroup    0.4     3012.6276016235   
+  ProximalPhalanxOutlineCorrect     0.4     2034.9323749542   
+       RefrigerationDevices         0.4     60066.5385723114  
+               Rock                 0.4    143250.2529621124  
+            ScreenType              0.4     38200.8860111237  
+        SemgHandGenderCh2           0.4     79004.4341087341  
+       SemgHandMovementCh2          0.4    206620.4607486725  
+        SemgHandSubjectCh2          0.4    170981.0135364532  
+           ShapeletSim              0.4     24554.3801784515  
+            ShapesAll               0.4    1060400.9146690369 
+        SharePriceIncrease          0.4     1989.4554615021   
+      SmallKitchenAppliances        0.4     47158.5686206818  
+      SonyAIBORobotSurface1         0.4     1382.0531368256   
+            Strawberry              0.4     4729.1972637177   
+           SwedishLeaf              0.4     27568.8889026642  
+         SyntheticControl           0.4     3745.8353042603   
+         ToeSegmentation1           0.4     12964.6472930908  
+         ToeSegmentation2           0.4     10145.7614898682  
+              Trace                 0.4     16170.8166599274  
+            TwoLeadECG              0.4     1754.5683383942   
+           TwoPatterns              0.4     6973.4148979187   
+               UMD                  0.4     9512.7420425415   
+              Wafer                 0.4           nan         
+               Wine                 0.4     5640.4259204865   
+              Worms                 0.4    161216.7801856995  
+          WormsTwoClass             0.4     68174.5209693909  
+               Yoga                 0.4     13349.8215675354  
+              ACSF1                 0.6    295909.5311164856  
+              Adiac                 0.6     57473.8221168518  
+            ArrowHead               0.6     7305.4025173187   
+               Beef                 0.6     26951.7648220062  
+           BirdChicken              0.6     19709.8104953766  
+               CBF                  0.6     3210.9467983246   
+               Car                  0.6     34365.6253814697  
+      ChlorineConcentration         0.6     4637.3107433319   
+           CinCECGTorso             0.6     84682.3685169220  
+            Colposcopy              0.6     8119.1046237946   
+            Computers               0.6     19192.5473213196  
+             CricketX               0.6     32916.7768955231  
+   DistalPhalanxOutlineAgeGroup     0.6     2481.0082912445   
+   DistalPhalanxOutlineCorrect      0.6           nan         
+         DistalPhalanxTW            0.6     4555.8657646179   
+           ECGFiveDays              0.6     2352.5748252869   
+       EOGHorizontalSignal          0.6    291203.4349441528  
+        EOGVerticalSignal           0.6    294766.3333415985  
+           Earthquakes              0.6     23043.2753562927  
+           EthanolLevel             0.6    107682.0015907288  
+             FaceAll                0.6     16017.0974731445  
+             FaceFour               0.6     14164.7400856018  
+             FacesUCR               0.6     13537.7049446106  
+               Fish                 0.6     41679.1496276855  
+       FreezerRegularTrain          0.6     5553.1463623047   
+        FreezerSmallTrain           0.6     5561.4287853241   
+             GunPoint               0.6     2263.8151645660   
+         GunPointAgeSpan            0.6     2424.8228073120   
+     GunPointMaleVersusFemale       0.6     2564.2542839050   
+      GunPointOldVersusYoung        0.6     2519.8037624359   
+               Ham                  0.6     17750.1444816589  
+             Haptics                0.6    124908.3130359650  
+             Herring                0.6     21649.7626304626  
+           InlineSkate              0.6    165109.2216968536  
+      InsectEPGRegularTrain         0.6     26758.2781314850  
+       InsectWingbeatSound          0.6     23236.5489006042  
+      LargeKitchenAppliances        0.6     25634.8705291748  
+            Lightning2              0.6     32220.5398082733  
+            Lightning7              0.6     23055.3185939789  
+               Meat                 0.6     16094.3222045898  
+          MedicalImages             0.6           nan         
+            MoteStrain              0.6     1061.2077713013   
+             OSULeaf                0.6     28511.4579200745  
+             OliveOil               0.6     36098.3505249023  
+     PhalangesOutlinesCorrect       0.6     1932.9912662506   
+              Plane                 0.6     14689.7914409637  
+            PowerCons               0.6     1746.4275360107   
+  ProximalPhalanxOutlineAgeGroup    0.6     2517.0292854309   
+  ProximalPhalanxOutlineCorrect     0.6     1780.4961204529   
+       RefrigerationDevices         0.6     41202.1720409393  
+               Rock                 0.6     90125.9973049164  
+            ScreenType              0.6     28343.2166576385  
+        SemgHandGenderCh2           0.6     53703.2761573792  
+       SemgHandMovementCh2          0.6    145248.9888668060  
+        SemgHandSubjectCh2          0.6    117304.3463230133  
+           ShapeletSim              0.6     11525.5925655365  
+            ShapesAll               0.6    616763.0956172943  
+        SharePriceIncrease          0.6     1526.6423225403   
+      SmallKitchenAppliances        0.6     28652.3592472076  
+      SonyAIBORobotSurface1         0.6     1255.1472187042   
+            Strawberry              0.6     4808.5076808929   
+           SwedishLeaf              0.6           nan         
+         SyntheticControl           0.6           nan         
+         ToeSegmentation1           0.6     4388.0653381348   
+         ToeSegmentation2           0.6     7083.3983421326   
+              Trace                 0.6     10434.9169731140  
+            TwoLeadECG              0.6     1512.2611522675   
+           TwoPatterns              0.6           nan         
+               UMD                  0.6     3506.8378448486   
+              Wafer                 0.6           nan         
+               Wine                 0.6     3842.1964645386   
+              Worms                 0.6    150223.5386371613  
+          WormsTwoClass             0.6     64261.7962360382  
+               Yoga                 0.6     10992.8834438324  
+              ACSF1                 0.8           nan         
+              Adiac                 0.8           nan         
+            ArrowHead               0.8           nan         
+               Beef                 0.8           nan         
+           BirdChicken              0.8           nan         
+               CBF                  0.8           nan         
+               Car                  0.8           nan         
+      ChlorineConcentration         0.8           nan         
+           CinCECGTorso             0.8           nan         
+            Colposcopy              0.8           nan         
+            Computers               0.8           nan         
+             CricketX               0.8           nan         
+   DistalPhalanxOutlineAgeGroup     0.8           nan         
+   DistalPhalanxOutlineCorrect      0.8           nan         
+         DistalPhalanxTW            0.8           nan         
+           ECGFiveDays              0.8           nan         
+       EOGHorizontalSignal          0.8           nan         
+        EOGVerticalSignal           0.8           nan         
+           Earthquakes              0.8           nan         
+           EthanolLevel             0.8           nan         
+             FaceAll                0.8           nan         
+             FaceFour               0.8           nan         
+             FacesUCR               0.8           nan         
+               Fish                 0.8           nan         
+       FreezerRegularTrain          0.8           nan         
+        FreezerSmallTrain           0.8           nan         
+             GunPoint               0.8           nan         
+         GunPointAgeSpan            0.8           nan         
+     GunPointMaleVersusFemale       0.8           nan         
+      GunPointOldVersusYoung        0.8           nan         
+               Ham                  0.8           nan         
+             Haptics                0.8           nan         
+             Herring                0.8           nan         
+           InlineSkate              0.8           nan         
+      InsectEPGRegularTrain         0.8           nan         
+       InsectWingbeatSound          0.8           nan         
+      LargeKitchenAppliances        0.8           nan         
+            Lightning2              0.8           nan         
+            Lightning7              0.8           nan         
+               Meat                 0.8           nan         
+          MedicalImages             0.8           nan         
+            MoteStrain              0.8           nan         
+             OSULeaf                0.8           nan         
+             OliveOil               0.8           nan         
+     PhalangesOutlinesCorrect       0.8           nan         
+              Plane                 0.8           nan         
+            PowerCons               0.8           nan         
+  ProximalPhalanxOutlineAgeGroup    0.8           nan         
+  ProximalPhalanxOutlineCorrect     0.8           nan         
+       RefrigerationDevices         0.8           nan         
+               Rock                 0.8           nan         
+            ScreenType              0.8           nan         
+        SemgHandGenderCh2           0.8           nan         
+       SemgHandMovementCh2          0.8           nan         
+        SemgHandSubjectCh2          0.8           nan         
+           ShapeletSim              0.8           nan         
+            ShapesAll               0.8           nan         
+        SharePriceIncrease          0.8           nan         
+      SmallKitchenAppliances        0.8           nan         
+      SonyAIBORobotSurface1         0.8           nan         
+            Strawberry              0.8           nan         
+           SwedishLeaf              0.8           nan         
+         SyntheticControl           0.8           nan         
+         ToeSegmentation1           0.8           nan         
+         ToeSegmentation2           0.8           nan         
+              Trace                 0.8           nan         
+            TwoLeadECG              0.8           nan         
+           TwoPatterns              0.8           nan         
+               UMD                  0.8           nan         
+              Wafer                 0.8           nan         
+               Wine                 0.8           nan         
+              Worms                 0.8           nan         
+          WormsTwoClass             0.8           nan         
+               Yoga                 0.8           nan         
+--------------------------------------------------------------
+
+
+{mcar, RMSE, none}
+--------------------------------------------------------------
+             Dataset                Rate        TimesNet      
+--------------------------------------------------------------
+              ACSF1                 0.1       0.2729779626    
+              Adiac                 0.1       0.3266091934    
+            ArrowHead               0.1       0.6664306781    
+               Beef                 0.1       0.3998471773    
+           BirdChicken              0.1       0.4143459078    
+               CBF                  0.1       0.6076381718    
+               Car                  0.1       0.1737469369    
+      ChlorineConcentration         0.1       0.7358952788    
+           CinCECGTorso             0.1       0.6346554339    
+            Colposcopy              0.1       1.0047140522    
+            Computers               0.1       0.7307275762    
+             CricketX               0.1       0.8473275335    
+   DistalPhalanxOutlineAgeGroup     0.1       0.8274537290    
+   DistalPhalanxOutlineCorrect      0.1       0.8313602473    
+         DistalPhalanxTW            0.1       0.7948251091    
+           ECGFiveDays              0.1       1.3192144856    
+       EOGHorizontalSignal          0.1       0.2380943335    
+        EOGVerticalSignal           0.1       0.3616574072    
+           Earthquakes              0.1       1.0543723603    
+           EthanolLevel             0.1       0.1292823949    
+             FaceAll                0.1       1.0183769224    
+             FaceFour               0.1       1.2428534310    
+             FacesUCR               0.1       1.0871868951    
+               Fish                 0.1       0.5724230415    
+       FreezerRegularTrain          0.1       0.6396011648    
+        FreezerSmallTrain           0.1       0.4278348678    
+             GunPoint               0.1       1.0569128012    
+         GunPointAgeSpan            0.1       0.9211781194    
+     GunPointMaleVersusFemale       0.1       0.8676627954    
+      GunPointOldVersusYoung        0.1       0.9172638831    
+               Ham                  0.1       0.7134123563    
+             Haptics                0.1       0.2321373756    
+             Herring                0.1       0.2766784773    
+           InlineSkate              0.1       0.3168972122    
+      InsectEPGRegularTrain         0.1       0.3930733423    
+       InsectWingbeatSound          0.1       0.6873430719    
+      LargeKitchenAppliances        0.1       0.9756838830    
+            Lightning2              0.1       0.7979981318    
+            Lightning7              0.1       0.6917479600    
+               Meat                 0.1       0.3062937281    
+          MedicalImages             0.1       0.6977173514    
+            MoteStrain              0.1       0.5695757349    
+             OSULeaf                0.1       0.8180094483    
+             OliveOil               0.1       0.5539532732    
+     PhalangesOutlinesCorrect       0.1       0.8754520686    
+              Plane                 0.1       0.9174226818    
+            PowerCons               0.1       1.1035233740    
+  ProximalPhalanxOutlineAgeGroup    0.1       0.9187081060    
+  ProximalPhalanxOutlineCorrect     0.1       0.8574721522    
+       RefrigerationDevices         0.1       1.0707204020    
+               Rock                 0.1       0.2384624736    
+            ScreenType              0.1       0.7123490068    
+        SemgHandGenderCh2           0.1       0.8977390060    
+       SemgHandMovementCh2          0.1       0.9579265438    
+        SemgHandSubjectCh2          0.1       0.9124199922    
+           ShapeletSim              0.1       0.9565222981    
+            ShapesAll               0.1       0.3510878090    
+        SharePriceIncrease          0.1       1.0871383946    
+      SmallKitchenAppliances        0.1       0.9426211435    
+      SonyAIBORobotSurface1         0.1       0.8852172147    
+            Strawberry              0.1       0.6922910850    
+           SwedishLeaf              0.1       0.7796914840    
+         SyntheticControl           0.1       0.8084448304    
+         ToeSegmentation1           0.1       0.9784047689    
+         ToeSegmentation2           0.1       0.9012410815    
+              Trace                 0.1       0.5803716697    
+            TwoLeadECG              0.1       0.3978520751    
+           TwoPatterns              0.1       1.1516348660    
+               UMD                  0.1       0.7519995642    
+              Wafer                 0.1       0.8752148102    
+               Wine                 0.1       0.3650720314    
+              Worms                 0.1       0.5668544033    
+          WormsTwoClass             0.1       0.6469376214    
+               Yoga                 0.1       0.7706584293    
+              ACSF1                 0.2       0.4270233456    
+              Adiac                 0.2       0.5490341795    
+            ArrowHead               0.2       0.7883023389    
+               Beef                 0.2       0.2934465827    
+           BirdChicken              0.2       0.5316800433    
+               CBF                  0.2       0.7664338117    
+               Car                  0.2       0.6522989519    
+      ChlorineConcentration         0.2       0.7554136108    
+           CinCECGTorso             0.2       0.9048266594    
+            Colposcopy              0.2       0.8416493052    
+            Computers               0.2       0.9415069606    
+             CricketX               0.2       0.8168592149    
+   DistalPhalanxOutlineAgeGroup     0.2       0.9853184342    
+   DistalPhalanxOutlineCorrect      0.2       1.0122197881    
+         DistalPhalanxTW            0.2       0.9302973460    
+           ECGFiveDays              0.2       1.4899246721    
+       EOGHorizontalSignal          0.2       0.4473393941    
+        EOGVerticalSignal           0.2       0.5924856450    
+           Earthquakes              0.2       1.0319641725    
+           EthanolLevel             0.2       0.1594623225    
+             FaceAll                0.2       0.9730087625    
+             FaceFour               0.2       0.9598475742    
+             FacesUCR               0.2       1.0066093894    
+               Fish                 0.2       0.6360469609    
+       FreezerRegularTrain          0.2       0.5916236253    
+        FreezerSmallTrain           0.2       0.7677008133    
+             GunPoint               0.2       0.9553036343    
+         GunPointAgeSpan            0.2       0.8391967477    
+     GunPointMaleVersusFemale       0.2       0.8720393213    
+      GunPointOldVersusYoung        0.2       0.9097307866    
+               Ham                  0.2       0.7570753276    
+             Haptics                0.2       0.3608718487    
+             Herring                0.2       0.3780137433    
+           InlineSkate              0.2       0.5315926970    
+      InsectEPGRegularTrain         0.2       0.4794539296    
+       InsectWingbeatSound          0.2       0.8699581888    
+      LargeKitchenAppliances        0.2       0.9951214143    
+            Lightning2              0.2       0.7914498905    
+            Lightning7              0.2       0.8640813501    
+               Meat                 0.2       0.3163460662    
+          MedicalImages             0.2       0.6546231602    
+            MoteStrain              0.2       0.5795712744    
+             OSULeaf                0.2       0.8893995787    
+             OliveOil               0.2       0.4620150264    
+     PhalangesOutlinesCorrect       0.2       0.9053052133    
+              Plane                 0.2       0.9432964507    
+            PowerCons               0.2       1.1804462107    
+  ProximalPhalanxOutlineAgeGroup    0.2       0.8911731244    
+  ProximalPhalanxOutlineCorrect     0.2       0.9605297735    
+       RefrigerationDevices         0.2       1.0693887441    
+               Rock                 0.2       0.3406138989    
+            ScreenType              0.2       0.8717468042    
+        SemgHandGenderCh2           0.2       1.0240835250    
+       SemgHandMovementCh2          0.2       0.9219198423    
+        SemgHandSubjectCh2          0.2       0.9654695520    
+           ShapeletSim              0.2       1.0016023369    
+            ShapesAll               0.2       0.3881754005    
+        SharePriceIncrease          0.2       1.0828455555    
+      SmallKitchenAppliances        0.2       1.0005199953    
+      SonyAIBORobotSurface1         0.2       0.8292945125    
+            Strawberry              0.2       0.7271050444    
+           SwedishLeaf              0.2       0.8046717811    
+         SyntheticControl           0.2       0.8570920703    
+         ToeSegmentation1           0.2       1.1162578222    
+         ToeSegmentation2           0.2       1.0544504817    
+              Trace                 0.2       0.6235001945    
+            TwoLeadECG              0.2       0.5441645242    
+           TwoPatterns              0.2       1.1971773077    
+               UMD                  0.2       0.7548239253    
+              Wafer                 0.2       0.8810010317    
+               Wine                 0.2       0.8746902204    
+              Worms                 0.2       0.7271467359    
+          WormsTwoClass             0.2       0.7681347908    
+               Yoga                 0.2       0.7376862834    
+              ACSF1                 0.4       0.6838239781    
+              Adiac                 0.4       1.1422085742    
+            ArrowHead               0.4       1.1377207535    
+               Beef                 0.4       0.7350894799    
+           BirdChicken              0.4       0.7949428237    
+               CBF                  0.4       0.8843976852    
+               Car                  0.4       0.9406632076    
+      ChlorineConcentration         0.4       0.7861808715    
+           CinCECGTorso             0.4       0.9818220996    
+            Colposcopy              0.4       0.8603772059    
+            Computers               0.4       1.0255979280    
+             CricketX               0.4       0.9552712009    
+   DistalPhalanxOutlineAgeGroup     0.4       0.9531259971    
+   DistalPhalanxOutlineCorrect      0.4       0.9814926117    
+         DistalPhalanxTW            0.4       0.9985886774    
+           ECGFiveDays              0.4       1.1065911293    
+       EOGHorizontalSignal          0.4       0.6668614372    
+        EOGVerticalSignal           0.4       0.7831544521    
+           Earthquakes              0.4       1.0499923396    
+           EthanolLevel             0.4       0.4486394337    
+             FaceAll                0.4       0.9972523354    
+             FaceFour               0.4       0.8464200525    
+             FacesUCR               0.4       1.0647257537    
+               Fish                 0.4       0.9055584417    
+       FreezerRegularTrain          0.4       0.8488031535    
+        FreezerSmallTrain           0.4       1.0051903676    
+             GunPoint               0.4       0.8360395753    
+         GunPointAgeSpan            0.4       0.8509280427    
+     GunPointMaleVersusFemale       0.4       0.9705144015    
+      GunPointOldVersusYoung        0.4       1.1115275034    
+               Ham                  0.4       0.8320621831    
+             Haptics                0.4       0.5435449777    
+             Herring                0.4       0.6404203004    
+           InlineSkate              0.4       0.7295440911    
+      InsectEPGRegularTrain         0.4       0.7377612816    
+       InsectWingbeatSound          0.4       0.9325316557    
+      LargeKitchenAppliances        0.4       1.1489272613    
+            Lightning2              0.4       0.8230154140    
+            Lightning7              0.4       0.8380609912    
+               Meat                 0.4       0.8304206066    
+          MedicalImages             0.4       0.6517159225    
+            MoteStrain              0.4       1.0605341587    
+             OSULeaf                0.4       1.0039183524    
+             OliveOil               0.4       0.4528789196    
+     PhalangesOutlinesCorrect       0.4       0.9725972261    
+              Plane                 0.4       0.8819110288    
+            PowerCons               0.4       1.0987887692    
+  ProximalPhalanxOutlineAgeGroup    0.4       0.9375676906    
+  ProximalPhalanxOutlineCorrect     0.4       0.9095456828    
+       RefrigerationDevices         0.4       1.0970738944    
+               Rock                 0.4       0.5337621826    
+            ScreenType              0.4       0.9846291824    
+        SemgHandGenderCh2           0.4       1.0705054362    
+       SemgHandMovementCh2          0.4       1.0316252965    
+        SemgHandSubjectCh2          0.4       1.0429536329    
+           ShapeletSim              0.4       1.0632892153    
+            ShapesAll               0.4       0.6277977873    
+        SharePriceIncrease          0.4           nan         
+      SmallKitchenAppliances        0.4       1.0566598897    
+      SonyAIBORobotSurface1         0.4       1.0613890242    
+            Strawberry              0.4       0.7931428838    
+           SwedishLeaf              0.4       1.0758528126    
+         SyntheticControl           0.4       0.8748768856    
+         ToeSegmentation1           0.4       1.0670506583    
+         ToeSegmentation2           0.4       1.0552566124    
+              Trace                 0.4       0.6943231386    
+            TwoLeadECG              0.4       0.7373175876    
+           TwoPatterns              0.4       1.1636035197    
+               UMD                  0.4       1.1695175422    
+              Wafer                 0.4       1.0100313602    
+               Wine                 0.4       1.0033854906    
+              Worms                 0.4       0.9361755653    
+          WormsTwoClass             0.4       0.9360531687    
+               Yoga                 0.4       1.0403845945    
+              ACSF1                 0.6       0.9929745744    
+              Adiac                 0.6       0.9789702786    
+            ArrowHead               0.6       1.0868106766    
+               Beef                 0.6       0.8646696369    
+           BirdChicken              0.6       1.0743848492    
+               CBF                  0.6       0.9943629620    
+               Car                  0.6       0.8780988773    
+      ChlorineConcentration         0.6       0.7972706928    
+           CinCECGTorso             0.6       1.0400467929    
+            Colposcopy              0.6       0.9644164631    
+            Computers               0.6       1.0495656226    
+             CricketX               0.6       1.1113829761    
+   DistalPhalanxOutlineAgeGroup     0.6       1.0694617992    
+   DistalPhalanxOutlineCorrect      0.6       1.0255418242    
+         DistalPhalanxTW            0.6       0.9662865362    
+           ECGFiveDays              0.6       1.3241850139    
+       EOGHorizontalSignal          0.6       1.0415278418    
+        EOGVerticalSignal           0.6       1.0707393589    
+           Earthquakes              0.6       1.1180373298    
+           EthanolLevel             0.6       0.8406602080    
+             FaceAll                0.6       1.0097591111    
+             FaceFour               0.6       1.0503352588    
+             FacesUCR               0.6       1.0502846065    
+               Fish                 0.6       0.9097084103    
+       FreezerRegularTrain          0.6       0.9386316443    
+        FreezerSmallTrain           0.6       1.2442918411    
+             GunPoint               0.6       1.1937327631    
+         GunPointAgeSpan            0.6       1.1637783361    
+     GunPointMaleVersusFemale       0.6       1.1464068778    
+      GunPointOldVersusYoung        0.6       1.1483173093    
+               Ham                  0.6       1.1597969691    
+             Haptics                0.6       0.8695825745    
+             Herring                0.6       0.9561827952    
+           InlineSkate              0.6       1.0422839417    
+      InsectEPGRegularTrain         0.6       1.0859864342    
+       InsectWingbeatSound          0.6       0.9807738835    
+      LargeKitchenAppliances        0.6       1.1613648989    
+            Lightning2              0.6       1.0679652611    
+            Lightning7              0.6       0.9742085282    
+               Meat                 0.6       1.0135622007    
+          MedicalImages             0.6       0.7960427331    
+            MoteStrain              0.6       1.3593884478    
+             OSULeaf                0.6       1.0528675453    
+             OliveOil               0.6       1.0100122123    
+     PhalangesOutlinesCorrect       0.6       1.0533240967    
+              Plane                 0.6       1.0155735224    
+            PowerCons               0.6       1.1283611215    
+  ProximalPhalanxOutlineAgeGroup    0.6       1.0330604157    
+  ProximalPhalanxOutlineCorrect     0.6       1.0441289772    
+       RefrigerationDevices         0.6       1.1386670420    
+               Rock                 0.6       0.8506046028    
+            ScreenType              0.6       1.0738997879    
+        SemgHandGenderCh2           0.6       1.1544912120    
+       SemgHandMovementCh2          0.6       1.1434351132    
+        SemgHandSubjectCh2          0.6       1.1187838417    
+           ShapeletSim              0.6       1.1222220048    
+            ShapesAll               0.6       1.0318586068    
+        SharePriceIncrease          0.6       1.1111496735    
+      SmallKitchenAppliances        0.6       1.0961073234    
+      SonyAIBORobotSurface1         0.6       1.0448766256    
+            Strawberry              0.6       0.9579068863    
+           SwedishLeaf              0.6       1.0966282842    
+         SyntheticControl           0.6       0.9548369716    
+         ToeSegmentation1           0.6       0.9881183523    
+         ToeSegmentation2           0.6       1.0959645348    
+              Trace                 0.6       1.0266682924    
+            TwoLeadECG              0.6       1.5135958347    
+           TwoPatterns              0.6       1.2074070895    
+               UMD                  0.6       1.3141853734    
+              Wafer                 0.6       1.1588974803    
+               Wine                 0.6       1.0431207853    
+              Worms                 0.6       1.0053613723    
+          WormsTwoClass             0.6       1.0296557852    
+               Yoga                 0.6       1.0365566891    
+              ACSF1                 0.8           nan         
+              Adiac                 0.8           nan         
+            ArrowHead               0.8           nan         
+               Beef                 0.8           nan         
+           BirdChicken              0.8           nan         
+               CBF                  0.8           nan         
+               Car                  0.8           nan         
+      ChlorineConcentration         0.8           nan         
+           CinCECGTorso             0.8           nan         
+            Colposcopy              0.8           nan         
+            Computers               0.8           nan         
+             CricketX               0.8           nan         
+   DistalPhalanxOutlineAgeGroup     0.8           nan         
+   DistalPhalanxOutlineCorrect      0.8           nan         
+         DistalPhalanxTW            0.8           nan         
+           ECGFiveDays              0.8           nan         
+       EOGHorizontalSignal          0.8           nan         
+        EOGVerticalSignal           0.8           nan         
+           Earthquakes              0.8           nan         
+           EthanolLevel             0.8           nan         
+             FaceAll                0.8           nan         
+             FaceFour               0.8           nan         
+             FacesUCR               0.8           nan         
+               Fish                 0.8           nan         
+       FreezerRegularTrain          0.8           nan         
+        FreezerSmallTrain           0.8           nan         
+             GunPoint               0.8           nan         
+         GunPointAgeSpan            0.8           nan         
+     GunPointMaleVersusFemale       0.8           nan         
+      GunPointOldVersusYoung        0.8           nan         
+               Ham                  0.8           nan         
+             Haptics                0.8           nan         
+             Herring                0.8           nan         
+           InlineSkate              0.8           nan         
+      InsectEPGRegularTrain         0.8           nan         
+       InsectWingbeatSound          0.8           nan         
+      LargeKitchenAppliances        0.8           nan         
+            Lightning2              0.8           nan         
+            Lightning7              0.8           nan         
+               Meat                 0.8           nan         
+          MedicalImages             0.8           nan         
+            MoteStrain              0.8           nan         
+             OSULeaf                0.8           nan         
+             OliveOil               0.8           nan         
+     PhalangesOutlinesCorrect       0.8           nan         
+              Plane                 0.8           nan         
+            PowerCons               0.8           nan         
+  ProximalPhalanxOutlineAgeGroup    0.8           nan         
+  ProximalPhalanxOutlineCorrect     0.8           nan         
+       RefrigerationDevices         0.8           nan         
+               Rock                 0.8           nan         
+            ScreenType              0.8           nan         
+        SemgHandGenderCh2           0.8           nan         
+       SemgHandMovementCh2          0.8           nan         
+        SemgHandSubjectCh2          0.8           nan         
+           ShapeletSim              0.8           nan         
+            ShapesAll               0.8           nan         
+        SharePriceIncrease          0.8           nan         
+      SmallKitchenAppliances        0.8           nan         
+      SonyAIBORobotSurface1         0.8           nan         
+            Strawberry              0.8           nan         
+           SwedishLeaf              0.8           nan         
+         SyntheticControl           0.8           nan         
+         ToeSegmentation1           0.8           nan         
+         ToeSegmentation2           0.8           nan         
+              Trace                 0.8           nan         
+            TwoLeadECG              0.8           nan         
+           TwoPatterns              0.8           nan         
+               UMD                  0.8           nan         
+              Wafer                 0.8           nan         
+               Wine                 0.8           nan         
+              Worms                 0.8           nan         
+          WormsTwoClass             0.8           nan         
+               Yoga                 0.8           nan         
+--------------------------------------------------------------
+
+
+{mcar, RUNTIME[ms], none}
+--------------------------------------------------------------
+             Dataset                Rate        TimesNet      
+--------------------------------------------------------------
+              ACSF1                 0.1    341387.0546817780  
+              Adiac                 0.1     51483.7391376495  
+            ArrowHead               0.1     9841.1426544189   
+               Beef                 0.1     25648.7834453583  
+           BirdChicken              0.1     32650.9401798248  
+               CBF                  0.1     5639.6753787994   
+               Car                  0.1     26400.3798961639  
+      ChlorineConcentration         0.1     8144.3006992340   
+           CinCECGTorso             0.1    123576.0955810547  
+            Colposcopy              0.1     20494.2436218262  
+            Computers               0.1     29505.2533149719  
+             CricketX               0.1     38164.4310951233  
+   DistalPhalanxOutlineAgeGroup     0.1     2625.5619525909   
+   DistalPhalanxOutlineCorrect      0.1     1791.4793491364   
+         DistalPhalanxTW            0.1     5204.4613361359   
+           ECGFiveDays              0.1     1747.5256919861   
+       EOGHorizontalSignal          0.1    373946.5060234070  
+        EOGVerticalSignal           0.1    366055.0410747528  
+           Earthquakes              0.1     26894.5693969727  
+           EthanolLevel             0.1    156146.0139751434  
+             FaceAll                0.1     35244.2348003387  
+             FaceFour               0.1     18294.0695285797  
+             FacesUCR               0.1     30724.5872020721  
+               Fish                 0.1     36619.5752620697  
+       FreezerRegularTrain          0.1     17996.2224960327  
+        FreezerSmallTrain           0.1     12558.4127902985  
+             GunPoint               0.1     6314.1329288483   
+         GunPointAgeSpan            0.1     6961.8577957153   
+     GunPointMaleVersusFemale       0.1     6608.8144779205   
+      GunPointOldVersusYoung        0.1     7265.6352519989   
+               Ham                  0.1     17231.3649654388  
+             Haptics                0.1    175223.8292694092  
+             Herring                0.1     36263.8068199158  
+           InlineSkate              0.1    231292.7136421204  
+      InsectEPGRegularTrain         0.1     16195.5318450928  
+       InsectWingbeatSound          0.1     66991.1658763885  
+      LargeKitchenAppliances        0.1     24526.2520313263  
+            Lightning2              0.1     20444.1978931427  
+            Lightning7              0.1     24611.5121841431  
+               Meat                 0.1     48789.6010875702  
+          MedicalImages             0.1     12499.2733001709  
+            MoteStrain              0.1     2870.8312511444   
+             OSULeaf                0.1     30368.5891628265  
+             OliveOil               0.1     58113.8136386871  
+     PhalangesOutlinesCorrect       0.1     2152.2986888885   
+              Plane                 0.1     16891.7365074158  
+            PowerCons               0.1     5427.5639057159   
+  ProximalPhalanxOutlineAgeGroup    0.1     2666.3475036621   
+  ProximalPhalanxOutlineCorrect     0.1     2048.2487678528   
+       RefrigerationDevices         0.1     41765.6471729279  
+               Rock                 0.1    119594.1112041473  
+            ScreenType              0.1     31450.8268833160  
+        SemgHandGenderCh2           0.1     66278.3019542694  
+       SemgHandMovementCh2          0.1    173398.2160091400  
+        SemgHandSubjectCh2          0.1    158010.5538368225  
+           ShapeletSim              0.1     18726.8478870392  
+            ShapesAll               0.1    1118036.6222858429 
+        SharePriceIncrease          0.1     3032.4361324310   
+      SmallKitchenAppliances        0.1     26218.3508872986  
+      SonyAIBORobotSurface1         0.1     2324.4719505310   
+            Strawberry              0.1     5378.7417411804   
+           SwedishLeaf              0.1     36144.4909572601  
+         SyntheticControl           0.1     7383.7168216705   
+         ToeSegmentation1           0.1     13677.1569252014  
+         ToeSegmentation2           0.1     5730.4854393005   
+              Trace                 0.1     10800.8368015289  
+            TwoLeadECG              0.1     1520.7884311676   
+           TwoPatterns              0.1     11300.1773357391  
+               UMD                  0.1     9922.0678806305   
+              Wafer                 0.1     5520.9512710571   
+               Wine                 0.1     3134.7746849060   
+              Worms                 0.1    195252.0806789398  
+          WormsTwoClass             0.1     63443.4695243835  
+               Yoga                 0.1     11111.7243766785  
+              ACSF1                 0.2    395305.2015304565  
+              Adiac                 0.2     78965.1999473572  
+            ArrowHead               0.2     9132.0126056671   
+               Beef                 0.2     34819.8838233948  
+           BirdChicken              0.2     32580.1758766174  
+               CBF                  0.2     7025.7227420807   
+               Car                  0.2     57167.8826808929  
+      ChlorineConcentration         0.2     7803.3456802368   
+           CinCECGTorso             0.2    122228.4259796143  
+            Colposcopy              0.2     21635.3340148926  
+            Computers               0.2     29048.0933189392  
+             CricketX               0.2     42760.7719898224  
+   DistalPhalanxOutlineAgeGroup     0.2     2714.4064903259   
+   DistalPhalanxOutlineCorrect      0.2     1888.6878490448   
+         DistalPhalanxTW            0.2     4520.2522277832   
+           ECGFiveDays              0.2     4144.3898677826   
+       EOGHorizontalSignal          0.2    411712.5127315521  
+        EOGVerticalSignal           0.2    410249.0274906158  
+           Earthquakes              0.2     32885.4939937592  
+           EthanolLevel             0.2    162331.4540386200  
+             FaceAll                0.2     33318.2840347290  
+             FaceFour               0.2     18145.2710628510  
+             FacesUCR               0.2     31557.2986602783  
+               Fish                 0.2     37131.4365863800  
+       FreezerRegularTrain          0.2     16296.6051101685  
+        FreezerSmallTrain           0.2     14952.3272514343  
+             GunPoint               0.2     6441.4086341858   
+         GunPointAgeSpan            0.2     6963.7327194214   
+     GunPointMaleVersusFemale       0.2     6980.8547496796   
+      GunPointOldVersusYoung        0.2     6555.1872253418   
+               Ham                  0.2     15729.4144630432  
+             Haptics                0.2    176688.2305145264  
+             Herring                0.2     41167.6156520844  
+           InlineSkate              0.2    235201.4529705048  
+      InsectEPGRegularTrain         0.2     41468.5099124908  
+       InsectWingbeatSound          0.2     65341.0372734070  
+      LargeKitchenAppliances        0.2     48912.8651618958  
+            Lightning2              0.2     25762.2621059418  
+            Lightning7              0.2     21917.0205593109  
+               Meat                 0.2     50308.7174892426  
+          MedicalImages             0.2     12872.3595142365  
+            MoteStrain              0.2     2796.7240810394   
+             OSULeaf                0.2     27448.6992359161  
+             OliveOil               0.2    104172.5344657898  
+     PhalangesOutlinesCorrect       0.2     2210.3788852692   
+              Plane                 0.2     17738.7640476227  
+            PowerCons               0.2     5124.8383522034   
+  ProximalPhalanxOutlineAgeGroup    0.2     2870.1658248901   
+  ProximalPhalanxOutlineCorrect     0.2     1932.5087070465   
+       RefrigerationDevices         0.2     71783.3411693573  
+               Rock                 0.2    130330.2621841431  
+            ScreenType              0.2     48460.0257873535  
+        SemgHandGenderCh2           0.2     62042.9575443268  
+       SemgHandMovementCh2          0.2    173278.8197994232  
+        SemgHandSubjectCh2          0.2    151542.8011417389  
+           ShapeletSim              0.2     17804.1365146637  
+            ShapesAll               0.2    1143749.5648860931 
+        SharePriceIncrease          0.2     2952.6681900024   
+      SmallKitchenAppliances        0.2     54560.0371360779  
+      SonyAIBORobotSurface1         0.2     3762.8791332245   
+            Strawberry              0.2     4773.9059925079   
+           SwedishLeaf              0.2     35123.7668991089  
+         SyntheticControl           0.2     8931.7059516907   
+         ToeSegmentation1           0.2     11654.0026664734  
+         ToeSegmentation2           0.2     7488.0063533783   
+              Trace                 0.2     11227.3318767548  
+            TwoLeadECG              0.2     3227.4758815765   
+           TwoPatterns              0.2     11532.1447849274  
+               UMD                  0.2     9676.7024993896   
+              Wafer                 0.2     4640.4719352722   
+               Wine                 0.2     6153.7871360779   
+              Worms                 0.2    256549.8607158661  
+          WormsTwoClass             0.2    105342.0510292053  
+               Yoga                 0.2     10799.5040416718  
+              ACSF1                 0.4    467586.9979858398  
+              Adiac                 0.4     84610.1927757263  
+            ArrowHead               0.4     10817.7909851074  
+               Beef                 0.4     47349.0395545959  
+           BirdChicken              0.4     35255.1999092102  
+               CBF                  0.4     4822.4484920502   
+               Car                  0.4     48533.1823825836  
+      ChlorineConcentration         0.4     6834.6951007843   
+           CinCECGTorso             0.4    111885.6847286224  
+            Colposcopy              0.4     22398.0860710144  
+            Computers               0.4     31611.5555763245  
+             CricketX               0.4    101897.9902267456  
+   DistalPhalanxOutlineAgeGroup     0.4     2648.9582061768   
+   DistalPhalanxOutlineCorrect      0.4     1801.0761737823   
+         DistalPhalanxTW            0.4     5397.8683948517   
+           ECGFiveDays              0.4     2224.3573665619   
+       EOGHorizontalSignal          0.4    439526.1166095734  
+        EOGVerticalSignal           0.4    428838.3073806763  
+           Earthquakes              0.4     35759.7088813782  
+           EthanolLevel             0.4    153216.4490222931  
+             FaceAll                0.4     35852.8566360474  
+             FaceFour               0.4     23093.1823253632  
+             FacesUCR               0.4     33744.7223663330  
+               Fish                 0.4     66941.0784244537  
+       FreezerRegularTrain          0.4     14003.5216808319  
+        FreezerSmallTrain           0.4     10157.4125289917  
+             GunPoint               0.4     6732.3849201202   
+         GunPointAgeSpan            0.4     6322.1571445465   
+     GunPointMaleVersusFemale       0.4     7332.6606750488   
+      GunPointOldVersusYoung        0.4     5915.9600734711   
+               Ham                  0.4     30697.5615024567  
+             Haptics                0.4    180914.8902893066  
+             Herring                0.4     33865.0236129761  
+           InlineSkate              0.4    251129.6215057373  
+      InsectEPGRegularTrain         0.4     44624.9630451202  
+       InsectWingbeatSound          0.4     55977.5357246399  
+      LargeKitchenAppliances        0.4     48483.2880496979  
+            Lightning2              0.4     52417.1643257141  
+            Lightning7              0.4     23329.5483589172  
+               Meat                 0.4     39240.7746315002  
+          MedicalImages             0.4     15145.9360122681  
+            MoteStrain              0.4     1248.4502792358   
+             OSULeaf                0.4     45683.4256649017  
+             OliveOil               0.4    100738.0118370056  
+     PhalangesOutlinesCorrect       0.4     2445.9586143494   
+              Plane                 0.4     18216.6175842285  
+            PowerCons               0.4     5175.0655174255   
+  ProximalPhalanxOutlineAgeGroup    0.4     2687.5314712524   
+  ProximalPhalanxOutlineCorrect     0.4     2169.1126823425   
+       RefrigerationDevices         0.4     64827.6956081390  
+               Rock                 0.4    144530.3380489349  
+            ScreenType              0.4     58936.5050792694  
+        SemgHandGenderCh2           0.4     69501.6040802002  
+       SemgHandMovementCh2          0.4    209491.6183948517  
+        SemgHandSubjectCh2          0.4    169537.4817848206  
+           ShapeletSim              0.4     25671.7846393585  
+            ShapesAll               0.4    1102827.5029659271 
+        SharePriceIncrease          0.4           nan         
+      SmallKitchenAppliances        0.4     51221.0245132446  
+      SonyAIBORobotSurface1         0.4     2248.5184669495   
+            Strawberry              0.4     4590.2619361877   
+           SwedishLeaf              0.4     27395.7769870758  
+         SyntheticControl           0.4     3724.6074676514   
+         ToeSegmentation1           0.4     12753.7589073181  
+         ToeSegmentation2           0.4     10266.9491767883  
+              Trace                 0.4     15564.4106864929  
+            TwoLeadECG              0.4     1384.3200206757   
+           TwoPatterns              0.4     7545.9697246552   
+               UMD                  0.4     8374.0627765656   
+              Wafer                 0.4     3742.3846721649   
+               Wine                 0.4     6057.4955940247   
+              Worms                 0.4    164058.9239597321  
+          WormsTwoClass             0.4     64204.1079998016  
+               Yoga                 0.4     16645.1451778412  
+              ACSF1                 0.6    281503.2615661621  
+              Adiac                 0.6     61679.6855926514  
+            ArrowHead               0.6     7163.4943485260   
+               Beef                 0.6     29940.8824443817  
+           BirdChicken              0.6     20572.5402832031  
+               CBF                  0.6     3104.4836044312   
+               Car                  0.6     36032.6073169708  
+      ChlorineConcentration         0.6     5640.7332420349   
+           CinCECGTorso             0.6     91469.2256450653  
+            Colposcopy              0.6     8370.7377910614   
+            Computers               0.6     22507.1177482605  
+             CricketX               0.6     32104.0873527527  
+   DistalPhalanxOutlineAgeGroup     0.6     2463.4196758270   
+   DistalPhalanxOutlineCorrect      0.6     1967.7906036377   
+         DistalPhalanxTW            0.6     4781.2054157257   
+           ECGFiveDays              0.6     2112.2665405273   
+       EOGHorizontalSignal          0.6    291895.0884342194  
+        EOGVerticalSignal           0.6    296480.9148311615  
+           Earthquakes              0.6     21875.1053810120  
+           EthanolLevel             0.6    108364.3219470978  
+             FaceAll                0.6     30957.6139450073  
+             FaceFour               0.6     13690.5016899109  
+             FacesUCR               0.6     27142.6494121552  
+               Fish                 0.6     44954.9653530121  
+       FreezerRegularTrain          0.6     6455.4023742676   
+        FreezerSmallTrain           0.6     5480.7984828949   
+             GunPoint               0.6     2654.9088954926   
+         GunPointAgeSpan            0.6     2660.7234477997   
+     GunPointMaleVersusFemale       0.6     2778.4497737885   
+      GunPointOldVersusYoung        0.6     2252.0272731781   
+               Ham                  0.6     16095.6797599792  
+             Haptics                0.6    120749.6864795685  
+             Herring                0.6     21333.6651325226  
+           InlineSkate              0.6    173327.1796703339  
+      InsectEPGRegularTrain         0.6     26929.3334484100  
+       InsectWingbeatSound          0.6     40322.4081993103  
+      LargeKitchenAppliances        0.6     30969.8078632355  
+            Lightning2              0.6     27632.2340965271  
+            Lightning7              0.6     28017.3482894897  
+               Meat                 0.6     29472.7272987366  
+          MedicalImages             0.6     8920.1421737671   
+            MoteStrain              0.6     1096.7237949371   
+             OSULeaf                0.6     33118.7310218811  
+             OliveOil               0.6     39077.6698589325  
+     PhalangesOutlinesCorrect       0.6     2419.9235439301   
+              Plane                 0.6     8978.5273075104   
+            PowerCons               0.6     2083.0256938934   
+  ProximalPhalanxOutlineAgeGroup    0.6     2827.9683589935   
+  ProximalPhalanxOutlineCorrect     0.6     2036.0767841339   
+       RefrigerationDevices         0.6     44401.6652107239  
+               Rock                 0.6     93179.6467304230  
+            ScreenType              0.6     37254.9498081207  
+        SemgHandGenderCh2           0.6     54670.9654331207  
+       SemgHandMovementCh2          0.6    139116.5626049042  
+        SemgHandSubjectCh2          0.6    124752.8426647186  
+           ShapeletSim              0.6     12111.3834381104  
+            ShapesAll               0.6    629979.3798923492  
+        SharePriceIncrease          0.6     1308.6030483246   
+      SmallKitchenAppliances        0.6     28849.6360778809  
+      SonyAIBORobotSurface1         0.6     1135.7111930847   
+            Strawberry              0.6     5348.9668369293   
+           SwedishLeaf              0.6     17971.6997146606  
+         SyntheticControl           0.6     4360.0459098816   
+         ToeSegmentation1           0.6     7970.1354503632   
+         ToeSegmentation2           0.6     7833.2076072693   
+              Trace                 0.6     11006.0696601868  
+            TwoLeadECG              0.6     1800.2634048462   
+           TwoPatterns              0.6     5290.4033660889   
+               UMD                  0.6     3613.9349937439   
+              Wafer                 0.6     3060.4848861694   
+               Wine                 0.6     4467.1499729156   
+              Worms                 0.6    155356.3041687012  
+          WormsTwoClass             0.6     59181.2486648560  
+               Yoga                 0.6     12489.0367984772  
+              ACSF1                 0.8           nan         
+              Adiac                 0.8           nan         
+            ArrowHead               0.8           nan         
+               Beef                 0.8           nan         
+           BirdChicken              0.8           nan         
+               CBF                  0.8           nan         
+               Car                  0.8           nan         
+      ChlorineConcentration         0.8           nan         
+           CinCECGTorso             0.8           nan         
+            Colposcopy              0.8           nan         
+            Computers               0.8           nan         
+             CricketX               0.8           nan         
+   DistalPhalanxOutlineAgeGroup     0.8           nan         
+   DistalPhalanxOutlineCorrect      0.8           nan         
+         DistalPhalanxTW            0.8           nan         
+           ECGFiveDays              0.8           nan         
+       EOGHorizontalSignal          0.8           nan         
+        EOGVerticalSignal           0.8           nan         
+           Earthquakes              0.8           nan         
+           EthanolLevel             0.8           nan         
+             FaceAll                0.8           nan         
+             FaceFour               0.8           nan         
+             FacesUCR               0.8           nan         
+               Fish                 0.8           nan         
+       FreezerRegularTrain          0.8           nan         
+        FreezerSmallTrain           0.8           nan         
+             GunPoint               0.8           nan         
+         GunPointAgeSpan            0.8           nan         
+     GunPointMaleVersusFemale       0.8           nan         
+      GunPointOldVersusYoung        0.8           nan         
+               Ham                  0.8           nan         
+             Haptics                0.8           nan         
+             Herring                0.8           nan         
+           InlineSkate              0.8           nan         
+      InsectEPGRegularTrain         0.8           nan         
+       InsectWingbeatSound          0.8           nan         
+      LargeKitchenAppliances        0.8           nan         
+            Lightning2              0.8           nan         
+            Lightning7              0.8           nan         
+               Meat                 0.8           nan         
+          MedicalImages             0.8           nan         
+            MoteStrain              0.8           nan         
+             OSULeaf                0.8           nan         
+             OliveOil               0.8           nan         
+     PhalangesOutlinesCorrect       0.8           nan         
+              Plane                 0.8           nan         
+            PowerCons               0.8           nan         
+  ProximalPhalanxOutlineAgeGroup    0.8           nan         
+  ProximalPhalanxOutlineCorrect     0.8           nan         
+       RefrigerationDevices         0.8           nan         
+               Rock                 0.8           nan         
+            ScreenType              0.8           nan         
+        SemgHandGenderCh2           0.8           nan         
+       SemgHandMovementCh2          0.8           nan         
+        SemgHandSubjectCh2          0.8           nan         
+           ShapeletSim              0.8           nan         
+            ShapesAll               0.8           nan         
+        SharePriceIncrease          0.8           nan         
+      SmallKitchenAppliances        0.8           nan         
+      SonyAIBORobotSurface1         0.8           nan         
+            Strawberry              0.8           nan         
+           SwedishLeaf              0.8           nan         
+         SyntheticControl           0.8           nan         
+         ToeSegmentation1           0.8           nan         
+         ToeSegmentation2           0.8           nan         
+              Trace                 0.8           nan         
+            TwoLeadECG              0.8           nan         
+           TwoPatterns              0.8           nan         
+               UMD                  0.8           nan         
+              Wafer                 0.8           nan         
+               Wine                 0.8           nan         
+              Worms                 0.8           nan         
+          WormsTwoClass             0.8           nan         
+               Yoga                 0.8           nan         
+--------------------------------------------------------------
+
+--- Summary (mean ± std) per algorithm ---
+
+TimesNet = RMSE=0.657413±0.232195, DOWNSTREAM_ACC=nan±nan, RUNTIME=385090±53370.3
+
+
+The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_03_26_02_19_22_11_28 
+
