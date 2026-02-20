@@ -2185,3 +2185,11 @@ done!
 
 TimesNet is tested with mcar on ToeSegmentation1, started at 2026-02-20 15:10:14.
 	caching stored for recovery and missing matrix: toesegmentation1_mcar_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_mcar_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_mcar_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_mcar_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with ToeSegmentation1, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with aligned_series on ToeSegmentation1, started at 2026-02-20 15:11:05.
