@@ -2533,3 +2533,87 @@ done!
 TimesNet is tested with aligned_timestamps on Yoga, started at 2026-02-20 16:30:04.
 	caching stored for recovery and missing matrix: yoga_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: yoga_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: yoga_aligned_timestamps_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: yoga_aligned_timestamps_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with Yoga, and 0.8%: __len__() should return >= 0
+done!
+
+
+
+> logs: benchmark - Execution Time: 65971.3158 seconds,  (18:19:31.316 hh:mm:ss)
+
+
+ACSF1: {mcar, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.2729779626    
+  0.2      0.4270233456    
+  0.4      0.6838239781    
+  0.6      0.9929745744    
+  0.8          nan         
+
+
+
+ACSF1: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   341387.0546817780  
+  0.2   395305.2015304565  
+  0.4   467586.9979858398  
+  0.6   281503.2615661621  
+  0.8          nan         
+
+
+
+ACSF1: {aligned_series, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.7508895696    
+  0.2      0.5980913492    
+  0.4      0.5741422553    
+  0.6      0.5773124294    
+  0.8      0.6171082164    
+
+
+
+ACSF1: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   394568.5279369354  
+  0.2   402982.2778701782  
+  0.4   420875.2176761627  
+  0.6   407878.4945011139  
+  0.8   412187.5340938568  
+
+
+
+ACSF1: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        TimesNet      
+
+  0.1      0.4691411954    
+  0.2      0.5943302747    
+  0.4      0.8542911976    
+  0.6      1.1342672045    
+  0.8          nan         
+
+
+
+ACSF1: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        TimesNet      
+
+  0.1   355011.5494728088  
+  0.2   393345.9346294403  
+  0.4   437627.2823810577  
+  0.6   295909.5311164856  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
