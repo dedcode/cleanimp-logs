@@ -1169,3 +1169,4 @@ done!
 TimesNet is tested with mcar on InsectWingbeatSound, started at 2026-02-20 07:13:03.
 	caching stored for recovery and missing matrix: insectwingbeatsound_mcar_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: insectwingbeatsound_mcar_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: insectwingbeatsound_mcar_timesnet_40_20_contbyclass_imputationbyclass
