@@ -719,3 +719,4 @@ done!
 TimesNet is tested with aligned_series on Earthquakes, started at 2026-02-20 04:08:28.
 	caching stored for recovery and missing matrix: earthquakes_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: earthquakes_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: earthquakes_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
