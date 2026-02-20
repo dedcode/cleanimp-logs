@@ -1221,3 +1221,4 @@ done!
 
 
 TimesNet is tested with mcar on Lightning2, started at 2026-02-20 07:35:09.
+	caching stored for recovery and missing matrix: lightning2_mcar_timesnet_10_20_contbyclass_imputationbyclass
