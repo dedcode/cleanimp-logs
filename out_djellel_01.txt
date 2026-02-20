@@ -190,3 +190,8 @@ CSDI is tested with mcar on Car, started at 2026-02-20 18:22:06.
 	caching stored for recovery and missing matrix: car_mcar_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: car_mcar_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: car_mcar_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: car_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on Car, started at 2026-02-20 20:20:31.
