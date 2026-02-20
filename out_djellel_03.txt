@@ -2197,3 +2197,10 @@ TimesNet is tested with aligned_series on ToeSegmentation1, started at 2026-02-2
 	caching stored for recovery and missing matrix: toesegmentation1_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: toesegmentation1_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: toesegmentation1_aligned_series_timesnet_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_aligned_series_timesnet_80_20_contbyclass_imputationbyclass
+done!
+
+
+TimesNet is tested with aligned_timestamps on ToeSegmentation1, started at 2026-02-20 15:12:15.
+	caching stored for recovery and missing matrix: toesegmentation1_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
