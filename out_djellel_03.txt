@@ -2436,3 +2436,12 @@ TimesNet is tested with mcar on Wine, started at 2026-02-20 15:23:57.
 	caching stored for recovery and missing matrix: wine_mcar_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: wine_mcar_timesnet_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: wine_mcar_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with Wine, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with aligned_series on Wine, started at 2026-02-20 15:24:22.
+	caching stored for recovery and missing matrix: wine_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: wine_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: wine_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: wine_aligned_series_timesnet_60_20_contbyclass_imputationbyclass
