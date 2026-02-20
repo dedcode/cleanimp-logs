@@ -1107,3 +1107,9 @@ TimesNet is tested with aligned_timestamps on Herring, started at 2026-02-20 06:
 	caching stored for recovery and missing matrix: herring_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: herring_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: herring_aligned_timestamps_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: herring_aligned_timestamps_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with Herring, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with mcar on InlineSkate, started at 2026-02-20 06:17:17.
