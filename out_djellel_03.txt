@@ -1543,3 +1543,6 @@ done!
 
 TimesNet is tested with mcar on Plane, started at 2026-02-20 08:27:50.
 	caching stored for recovery and missing matrix: plane_mcar_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: plane_mcar_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: plane_mcar_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: plane_mcar_timesnet_60_20_contbyclass_imputationbyclass
