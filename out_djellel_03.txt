@@ -711,3 +711,9 @@ TimesNet is tested with mcar on Earthquakes, started at 2026-02-20 04:06:25.
 	caching stored for recovery and missing matrix: earthquakes_mcar_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: earthquakes_mcar_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: earthquakes_mcar_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: earthquakes_mcar_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with Earthquakes, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with aligned_series on Earthquakes, started at 2026-02-20 04:08:28.
