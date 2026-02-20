@@ -1924,3 +1924,41 @@ TimesNet is tested with aligned_series on SharePriceIncrease, started at 2026-02
 	Currently, the number of NaNs might reach 12 for a sequence and the size of seq_len is 16.
 
 Error during benchmark for TimesNet, with SharePriceIncrease, and 0.6%: autodetected range of [nan, nan] is not finite
+	caching stored for recovery and missing matrix: sharepriceincrease_aligned_series_timesnet_80_20_contbyclass_imputationbyclass
+done!
+
+
+TimesNet is tested with aligned_timestamps on SharePriceIncrease, started at 2026-02-20 14:50:06.
+	caching stored for recovery and missing matrix: sharepriceincrease_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: sharepriceincrease_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
+
+
+(ERROR) Imputation error with TimesNet, the number of NaNs values injected with ImputeGAP filled all the sequence, please change the seq_len or the contamination percentage. 
+	Currently, the number of NaNs might reach 24 for a sequence and the size of seq_len is 26.
+
+
+
+(ERROR) Imputation error with TimesNet, the number of NaNs values injected with ImputeGAP filled all the sequence, please change the seq_len or the contamination percentage. 
+	Currently, the number of NaNs might reach 24 for a sequence and the size of seq_len is 26.
+
+(EVAL) timesnet ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+	caching stored for recovery and missing matrix: sharepriceincrease_aligned_timestamps_timesnet_40_20_contbyclass_imputationbyclass
+
+
+(ERROR) Imputation error with TimesNet, the number of NaNs values injected with ImputeGAP filled all the sequence, please change the seq_len or the contamination percentage. 
+	Currently, the number of NaNs might reach 36 for a sequence and the size of seq_len is 38.
+
+
+
+(ERROR) Imputation error with TimesNet, the number of NaNs values injected with ImputeGAP filled all the sequence, please change the seq_len or the contamination percentage. 
+	Currently, the number of NaNs might reach 36 for a sequence and the size of seq_len is 38.
+
+(EVAL) timesnet ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+	caching stored for recovery and missing matrix: sharepriceincrease_aligned_timestamps_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with SharePriceIncrease, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with mcar on SmallKitchenAppliances, started at 2026-02-20 14:50:22.
