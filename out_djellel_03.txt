@@ -2505,3 +2505,4 @@ done!
 
 TimesNet is tested with aligned_timestamps on WormsTwoClass, started at 2026-02-20 16:22:54.
 	caching stored for recovery and missing matrix: wormstwoclass_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: wormstwoclass_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
