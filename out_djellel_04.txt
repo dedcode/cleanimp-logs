@@ -64,3 +64,8 @@ PRISTI is tested with aligned_series on Adiac, started at 2026-02-20 17:47:05.
 	caching stored for recovery and missing matrix: adiac_aligned_series_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: adiac_aligned_series_pristi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: adiac_aligned_series_pristi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: adiac_aligned_series_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_timestamps on Adiac, started at 2026-02-20 20:33:55.
