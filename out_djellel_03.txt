@@ -2094,3 +2094,4 @@ done!
 
 TimesNet is tested with aligned_timestamps on SwedishLeaf, started at 2026-02-20 15:06:32.
 	caching stored for recovery and missing matrix: swedishleaf_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: swedishleaf_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
