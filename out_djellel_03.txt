@@ -1823,3 +1823,8 @@ TimesNet is tested with aligned_series on SemgHandSubjectCh2, started at 2026-02
 	caching stored for recovery and missing matrix: semghandsubjectch2_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: semghandsubjectch2_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: semghandsubjectch2_aligned_series_timesnet_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: semghandsubjectch2_aligned_series_timesnet_80_20_contbyclass_imputationbyclass
+done!
+
+
+TimesNet is tested with aligned_timestamps on SemgHandSubjectCh2, started at 2026-02-20 10:41:01.
