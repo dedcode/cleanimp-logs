@@ -1857,3 +1857,10 @@ done!
 TimesNet is tested with aligned_timestamps on ShapeletSim, started at 2026-02-20 10:54:17.
 	caching stored for recovery and missing matrix: shapeletsim_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: shapeletsim_aligned_timestamps_timesnet_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: shapeletsim_aligned_timestamps_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: shapeletsim_aligned_timestamps_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with ShapeletSim, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with mcar on ShapesAll, started at 2026-02-20 10:55:34.
