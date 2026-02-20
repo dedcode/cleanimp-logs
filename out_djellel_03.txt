@@ -2371,3 +2371,11 @@ TimesNet is tested with mcar on UMD, started at 2026-02-20 15:20:39.
 	caching stored for recovery and missing matrix: umd_mcar_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: umd_mcar_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: umd_mcar_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: umd_mcar_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with UMD, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with aligned_series on UMD, started at 2026-02-20 15:21:16.
+	caching stored for recovery and missing matrix: umd_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: umd_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
