@@ -883,3 +883,9 @@ TimesNet is tested with aligned_series on FreezerRegularTrain, started at 2026-0
 	caching stored for recovery and missing matrix: freezerregulartrain_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezerregulartrain_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezerregulartrain_aligned_series_timesnet_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: freezerregulartrain_aligned_series_timesnet_80_20_contbyclass_imputationbyclass
+done!
+
+
+TimesNet is tested with aligned_timestamps on FreezerRegularTrain, started at 2026-02-20 05:16:52.
+	caching stored for recovery and missing matrix: freezerregulartrain_aligned_timestamps_timesnet_10_20_contbyclass_imputationbyclass
