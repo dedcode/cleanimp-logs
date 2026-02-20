@@ -1877,3 +1877,8 @@ TimesNet is tested with aligned_series on ShapesAll, started at 2026-02-20 12:02
 	caching stored for recovery and missing matrix: shapesall_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: shapesall_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: shapesall_aligned_series_timesnet_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: shapesall_aligned_series_timesnet_80_20_contbyclass_imputationbyclass
+done!
+
+
+TimesNet is tested with aligned_timestamps on ShapesAll, started at 2026-02-20 13:43:56.
