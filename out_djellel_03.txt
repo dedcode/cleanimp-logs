@@ -1786,3 +1786,9 @@ TimesNet is tested with mcar on SemgHandMovementCh2, started at 2026-02-20 09:38
 	caching stored for recovery and missing matrix: semghandmovementch2_mcar_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: semghandmovementch2_mcar_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: semghandmovementch2_mcar_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: semghandmovementch2_mcar_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with SemgHandMovementCh2, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with aligned_series on SemgHandMovementCh2, started at 2026-02-20 09:50:11.
