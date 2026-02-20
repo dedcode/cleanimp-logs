@@ -1850,3 +1850,8 @@ TimesNet is tested with aligned_series on ShapeletSim, started at 2026-02-20 10:
 	caching stored for recovery and missing matrix: shapeletsim_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: shapeletsim_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: shapeletsim_aligned_series_timesnet_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: shapeletsim_aligned_series_timesnet_80_20_contbyclass_imputationbyclass
+done!
+
+
+TimesNet is tested with aligned_timestamps on ShapeletSim, started at 2026-02-20 10:54:17.
