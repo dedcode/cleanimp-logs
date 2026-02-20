@@ -2490,3 +2490,8 @@ TimesNet is tested with mcar on WormsTwoClass, started at 2026-02-20 16:11:00.
 	caching stored for recovery and missing matrix: wormstwoclass_mcar_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: wormstwoclass_mcar_timesnet_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: wormstwoclass_mcar_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with WormsTwoClass, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with aligned_series on WormsTwoClass, started at 2026-02-20 16:15:58.
