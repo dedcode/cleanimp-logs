@@ -1454,3 +1454,9 @@ TimesNet is tested with mcar on OSULeaf, started at 2026-02-20 07:59:23.
 	caching stored for recovery and missing matrix: osuleaf_mcar_timesnet_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: osuleaf_mcar_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: osuleaf_mcar_timesnet_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: osuleaf_mcar_timesnet_60_20_contbyclass_imputationbyclass
+Error during benchmark for TimesNet, with OSULeaf, and 0.8%: __len__() should return >= 0
+done!
+
+
+TimesNet is tested with aligned_series on OSULeaf, started at 2026-02-20 08:01:45.
