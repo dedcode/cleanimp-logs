@@ -1068,3 +1068,4 @@ done!
 
 
 TimesNet is tested with aligned_series on Haptics, started at 2026-02-20 05:42:40.
+	caching stored for recovery and missing matrix: haptics_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
