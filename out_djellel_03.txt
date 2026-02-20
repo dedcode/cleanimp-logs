@@ -1742,3 +1742,8 @@ TimesNet is tested with aligned_series on ScreenType, started at 2026-02-20 09:1
 	caching stored for recovery and missing matrix: screentype_aligned_series_timesnet_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: screentype_aligned_series_timesnet_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: screentype_aligned_series_timesnet_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: screentype_aligned_series_timesnet_80_20_contbyclass_imputationbyclass
+done!
+
+
+TimesNet is tested with aligned_timestamps on ScreenType, started at 2026-02-20 09:21:32.
