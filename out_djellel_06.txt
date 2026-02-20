@@ -288,3 +288,9 @@ imputed_matrix.shape = (1000, 10)
   U_i -= (lr * param.lambda_s *
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: invalid value encountered in add
   U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
+imputed_matrix.shape = (1000, 10)
+Error during benchmark for HKMFT, with ACSF1, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+DeepMVI is tested with aligned_series on ACSF1, started at 2026-02-21 00:29:02.
