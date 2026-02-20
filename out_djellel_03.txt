@@ -1711,3 +1711,4 @@ done!
 
 
 TimesNet is tested with aligned_series on Rock, started at 2026-02-20 08:55:46.
+	caching stored for recovery and missing matrix: rock_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
