@@ -771,3 +771,4 @@ done!
 
 
 TimesNet is tested with aligned_series on FaceAll, started at 2026-02-20 04:48:48.
+	caching stored for recovery and missing matrix: faceall_aligned_series_timesnet_10_20_contbyclass_imputationbyclass
