@@ -216,3 +216,4 @@ CSDI is tested with mcar on ChlorineConcentration, started at 2026-02-21 00:06:4
 	caching stored for recovery and missing matrix: chlorineconcentration_mcar_csdi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: chlorineconcentration_mcar_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: chlorineconcentration_mcar_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: chlorineconcentration_mcar_csdi_60_20_contbyclass_imputationbyclass
