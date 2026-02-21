@@ -271,3 +271,8 @@ CSDI is tested with mcar on Colposcopy, started at 2026-02-21 21:31:38.
 	caching stored for recovery and missing matrix: colposcopy_mcar_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: colposcopy_mcar_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: colposcopy_mcar_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: colposcopy_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on Colposcopy, started at 2026-02-21 21:56:27.
