@@ -153,3 +153,4 @@ PRISTI is tested with aligned_timestamps on BirdChicken, started at 2026-02-21 0
 	caching stored for recovery and missing matrix: birdchicken_aligned_timestamps_pristi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: birdchicken_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: birdchicken_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: birdchicken_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
