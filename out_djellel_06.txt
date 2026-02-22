@@ -1767,3 +1767,10 @@ imputed_matrix.shape = (251, 12)
 imputed_matrix.shape = (251, 12)
 	caching stored for recovery and missing matrix: arrowhead_mcar_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (251, 12)
+imputed_matrix.shape = (251, 12)
+imputed_matrix.shape = (251, 12)
+	caching stored for recovery and missing matrix: arrowhead_mcar_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (251, 12)
+imputed_matrix.shape = (251, 12)
+imputed_matrix.shape = (251, 12)
+	caching stored for recovery and missing matrix: arrowhead_mcar_hkmft_40_20_contbyclass_imputationbyclass
