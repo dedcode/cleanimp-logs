@@ -1145,3 +1145,11 @@ done!
 
 DeepMVI is tested with mcar on Adiac, started at 2026-02-22 21:16:53.
 Error during benchmark for DeepMVI, with Adiac, and 0.1%: 
+Error during benchmark for DeepMVI, with Adiac, and 0.2%: 
+Error during benchmark for DeepMVI, with Adiac, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with mcar on Adiac, started at 2026-02-22 21:27:14.
