@@ -1813,3 +1813,9 @@ imputed_matrix.shape = (251, 12)
 	caching stored for recovery and missing matrix: arrowhead_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (251, 12)
 imputed_matrix.shape = (251, 12)
+imputed_matrix.shape = (251, 12)
+	caching stored for recovery and missing matrix: arrowhead_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on ArrowHead, started at 2026-02-22 23:18:51.
