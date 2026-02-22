@@ -1758,3 +1758,12 @@ DeepMVI is tested with mcar on ArrowHead, started at 2026-02-22 22:16:11.
 	caching stored for recovery and missing matrix: arrowhead_mcar_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: arrowhead_mcar_deepmvi_60_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: arrowhead_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with mcar on ArrowHead, started at 2026-02-22 22:41:50.
+imputed_matrix.shape = (251, 12)
+imputed_matrix.shape = (251, 12)
+imputed_matrix.shape = (251, 12)
+	caching stored for recovery and missing matrix: arrowhead_mcar_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (251, 12)
