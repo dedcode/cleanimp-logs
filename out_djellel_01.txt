@@ -404,3 +404,8 @@ CSDI is tested with mcar on DistalPhalanxOutlineCorrect, started at 2026-02-22 1
 	caching stored for recovery and missing matrix: distalphalanxoutlinecorrect_mcar_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: distalphalanxoutlinecorrect_mcar_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: distalphalanxoutlinecorrect_mcar_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: distalphalanxoutlinecorrect_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on DistalPhalanxOutlineCorrect, started at 2026-02-22 18:55:44.
