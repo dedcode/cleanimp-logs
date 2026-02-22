@@ -505,3 +505,4 @@ CSDI is tested with aligned_timestamps on ECGFiveDays, started at 2026-02-22 22:
 	caching stored for recovery and missing matrix: ecgfivedays_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: ecgfivedays_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: ecgfivedays_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: ecgfivedays_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
