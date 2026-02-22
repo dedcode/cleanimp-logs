@@ -2613,3 +2613,9 @@ imputed_matrix.shape = (512, 10)
   U_i -= (lr * param.lambda_s *
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in subtract
   V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
+imputed_matrix.shape = (512, 10)
+Error during benchmark for HKMFT, with BirdChicken, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+DeepMVI is tested with aligned_series on BirdChicken, started at 2026-02-23 03:52:40.
