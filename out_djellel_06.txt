@@ -1932,3 +1932,9 @@ imputed_matrix.shape = (470, 6)
 imputed_matrix.shape = (470, 6)
 imputed_matrix.shape = (470, 6)
 imputed_matrix.shape = (470, 6)
+imputed_matrix.shape = (470, 6)
+	caching stored for recovery and missing matrix: beef_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on Beef, started at 2026-02-23 02:05:21.
