@@ -325,3 +325,8 @@ PRISTI is tested with mcar on CricketX, started at 2026-02-22 12:44:37.
 	caching stored for recovery and missing matrix: cricketx_mcar_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: cricketx_mcar_pristi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: cricketx_mcar_pristi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: cricketx_mcar_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_series on CricketX, started at 2026-02-22 17:35:17.
