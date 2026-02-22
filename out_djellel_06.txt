@@ -1854,3 +1854,4 @@ done!
 DeepMVI is tested with mcar on Beef, started at 2026-02-22 23:40:58.
 	caching stored for recovery and missing matrix: beef_mcar_deepmvi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: beef_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: beef_mcar_deepmvi_40_20_contbyclass_imputationbyclass
