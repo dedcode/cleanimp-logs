@@ -2541,3 +2541,4 @@ HKMFT is tested with mcar on BirdChicken, started at 2026-02-23 03:47:28.
 imputed_matrix.shape = (512, 10)
 imputed_matrix.shape = (512, 10)
 	caching stored for recovery and missing matrix: birdchicken_mcar_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (512, 10)
