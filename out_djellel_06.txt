@@ -845,3 +845,13 @@ imputed_matrix.shape = (1000, 10)
   (2.0 * param.lambda_s * new_U_i_V_t * self._U[i, :])))
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:137: RuntimeWarning: overflow encountered in multiply
   V_t += (lr * param.lambda_s *
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: overflow encountered in matmul
+  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: invalid value encountered in matmul
+  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in multiply
+  V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:132: RuntimeWarning: overflow encountered in multiply
+  (2.0 * param.lambda_s * new_U_i_V_t * self._U[i, :])))
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:137: RuntimeWarning: overflow encountered in multiply
+  V_t += (lr * param.lambda_s *
