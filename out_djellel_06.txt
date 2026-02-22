@@ -1324,3 +1324,36 @@ imputed_matrix.shape = (176, 11)
 imputed_matrix.shape = (176, 11)
 imputed_matrix.shape = (176, 5)
 imputed_matrix.shape = (176, 14)
+imputed_matrix.shape = (176, 12)
+imputed_matrix.shape = (176, 9)
+imputed_matrix.shape = (176, 12)
+imputed_matrix.shape = (176, 13)
+imputed_matrix.shape = (176, 9)
+imputed_matrix.shape = (176, 13)
+imputed_matrix.shape = (176, 15)
+imputed_matrix.shape = (176, 8)
+imputed_matrix.shape = (176, 13)
+imputed_matrix.shape = (176, 9)
+imputed_matrix.shape = (176, 13)
+imputed_matrix.shape = (176, 13)
+imputed_matrix.shape = (176, 9)
+imputed_matrix.shape = (176, 10)
+imputed_matrix.shape = (176, 10)
+imputed_matrix.shape = (176, 14)
+imputed_matrix.shape = (176, 6)
+imputed_matrix.shape = (176, 4)
+	caching stored for recovery and missing matrix: adiac_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on Adiac, started at 2026-02-22 21:34:33.
+Error during benchmark for DeepMVI, with Adiac, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with aligned_series on Adiac, started at 2026-02-22 21:34:33.
+imputed_matrix.shape = (176, 10)
