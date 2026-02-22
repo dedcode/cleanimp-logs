@@ -385,3 +385,13 @@ CSDI is tested with aligned_timestamps on DistalPhalanxOutlineAgeGroup, started 
 	caching stored for recovery and missing matrix: distalphalanxoutlineagegroup_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: distalphalanxoutlineagegroup_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: distalphalanxoutlineagegroup_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: distalphalanxoutlineagegroup_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on DistalPhalanxOutlineCorrect, started at 2026-02-22 17:50:20.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (378, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
