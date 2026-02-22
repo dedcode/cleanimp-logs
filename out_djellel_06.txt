@@ -1144,3 +1144,4 @@ done!
 
 
 DeepMVI is tested with mcar on Adiac, started at 2026-02-22 21:16:53.
+Error during benchmark for DeepMVI, with Adiac, and 0.1%: 
