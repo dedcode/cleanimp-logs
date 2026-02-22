@@ -1357,3 +1357,16 @@ done!
 
 HKMFT is tested with aligned_series on Adiac, started at 2026-02-22 21:34:33.
 imputed_matrix.shape = (176, 10)
+imputed_matrix.shape = (176, 13)
+imputed_matrix.shape = (176, 8)
+imputed_matrix.shape = (176, 12)
+imputed_matrix.shape = (176, 10)
+imputed_matrix.shape = (176, 9)
+imputed_matrix.shape = (176, 11)
+imputed_matrix.shape = (176, 10)
+imputed_matrix.shape = (176, 9)
+imputed_matrix.shape = (176, 9)
+imputed_matrix.shape = (176, 13)
+imputed_matrix.shape = (176, 9)
+imputed_matrix.shape = (176, 11)
+imputed_matrix.shape = (176, 10)
