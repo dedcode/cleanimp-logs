@@ -457,3 +457,4 @@ CSDI is tested with mcar on DistalPhalanxTW, started at 2026-02-22 21:11:37.
 	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
 		(ACTION) block_size is set to : 4
 
+	caching stored for recovery and missing matrix: distalphalanxtw_mcar_csdi_10_20_contbyclass_imputationbyclass
