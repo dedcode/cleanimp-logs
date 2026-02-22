@@ -1136,3 +1136,11 @@ imputed_matrix.shape = (1000, 10)
   new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: invalid value encountered in matmul
   new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
+imputed_matrix.shape = (1000, 10)
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+	caching stored for recovery and missing matrix: acsf1_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with mcar on Adiac, started at 2026-02-22 21:16:53.
