@@ -367,3 +367,4 @@ DeepMVI is tested with aligned_timestamps on ACSF1, started at 2026-02-22 01:48:
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/recovery/manager.py:783: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
   fig, axes = plt.subplots(n_rows, n_cols, figsize=(x_size, y_size), squeeze=False)
 	caching stored for recovery and missing matrix: acsf1_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: acsf1_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
