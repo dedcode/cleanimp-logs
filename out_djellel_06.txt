@@ -2885,3 +2885,11 @@ imputed_matrix.shape = (128, 12)
 	caching stored for recovery and missing matrix: cbf_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (128, 10)
 imputed_matrix.shape = (128, 8)
+imputed_matrix.shape = (128, 12)
+	caching stored for recovery and missing matrix: cbf_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (128, 10)
+imputed_matrix.shape = (128, 8)
+imputed_matrix.shape = (128, 12)
+	caching stored for recovery and missing matrix: cbf_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (128, 10)
+imputed_matrix.shape = (128, 8)
