@@ -2628,3 +2628,4 @@ done!
 
 
 HKMFT is tested with aligned_series on BirdChicken, started at 2026-02-23 04:13:30.
+imputed_matrix.shape = (512, 10)
