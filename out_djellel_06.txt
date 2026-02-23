@@ -3897,3 +3897,5 @@ HKMFT is tested with aligned_series on CinCECGTorso, started at 2026-02-23 16:57
 imputed_matrix.shape = (1000, 5)
 imputed_matrix.shape = (1000, 12)
 imputed_matrix.shape = (1000, 10)
+imputed_matrix.shape = (1000, 13)
+	caching stored for recovery and missing matrix: cincecgtorso_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
