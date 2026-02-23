@@ -3889,3 +3889,8 @@ DeepMVI is tested with aligned_series on CinCECGTorso, started at 2026-02-23 15:
 	caching stored for recovery and missing matrix: cincecgtorso_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: cincecgtorso_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: cincecgtorso_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: cincecgtorso_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_series on CinCECGTorso, started at 2026-02-23 16:57:14.
