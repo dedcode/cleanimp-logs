@@ -3795,3 +3795,8 @@ DeepMVI is tested with mcar on CinCECGTorso, started at 2026-02-23 13:59:48.
 	caching stored for recovery and missing matrix: cincecgtorso_mcar_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: cincecgtorso_mcar_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: cincecgtorso_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: cincecgtorso_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with mcar on CinCECGTorso, started at 2026-02-23 14:52:08.
