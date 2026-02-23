@@ -2948,3 +2948,5 @@ HKMFT is tested with mcar on Car, started at 2026-02-23 06:21:42.
 imputed_matrix.shape = (577, 16)
 imputed_matrix.shape = (577, 17)
 imputed_matrix.shape = (577, 16)
+imputed_matrix.shape = (577, 11)
+	caching stored for recovery and missing matrix: car_mcar_hkmft_10_20_contbyclass_imputationbyclass
