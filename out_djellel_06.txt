@@ -3000,3 +3000,9 @@ imputed_matrix.shape = (577, 16)
   V_t += (lr * param.lambda_s *
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in subtract
   V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
+imputed_matrix.shape = (577, 11)
+Error during benchmark for HKMFT, with Car, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+DeepMVI is tested with aligned_series on Car, started at 2026-02-23 06:43:12.
