@@ -479,3 +479,8 @@ PRISTI is tested with aligned_timestamps on DistalPhalanxTW, started at 2026-02-
 	caching stored for recovery and missing matrix: distalphalanxtw_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: distalphalanxtw_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: distalphalanxtw_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: distalphalanxtw_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on ECGFiveDays, started at 2026-02-23 08:07:28.
