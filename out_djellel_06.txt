@@ -2623,3 +2623,8 @@ DeepMVI is tested with aligned_series on BirdChicken, started at 2026-02-23 03:5
 	caching stored for recovery and missing matrix: birdchicken_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: birdchicken_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: birdchicken_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: birdchicken_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_series on BirdChicken, started at 2026-02-23 04:13:30.
