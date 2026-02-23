@@ -3693,3 +3693,11 @@ done!
 
 DeepMVI is tested with mcar on ChlorineConcentration, started at 2026-02-23 12:46:17.
 	caching stored for recovery and missing matrix: chlorineconcentration_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: chlorineconcentration_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with mcar on ChlorineConcentration, started at 2026-02-23 13:13:59.
