@@ -2839,3 +2839,14 @@ done!
 DeepMVI is tested with mcar on CBF, started at 2026-02-23 05:19:01.
 Error during benchmark for DeepMVI, with CBF, and 0.1%: 
 Error during benchmark for DeepMVI, with CBF, and 0.2%: 
+Error during benchmark for DeepMVI, with CBF, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with CBF, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with CBF, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with mcar on CBF, started at 2026-02-23 05:20:19.
+imputed_matrix.shape = (128, 10)
+imputed_matrix.shape = (128, 8)
+imputed_matrix.shape = (128, 12)
+	caching stored for recovery and missing matrix: cbf_mcar_hkmft_10_20_contbyclass_imputationbyclass
