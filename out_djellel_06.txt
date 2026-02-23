@@ -3048,3 +3048,8 @@ DeepMVI is tested with aligned_timestamps on Car, started at 2026-02-23 09:54:16
 	caching stored for recovery and missing matrix: car_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: car_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: car_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: car_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on Car, started at 2026-02-23 11:07:15.
