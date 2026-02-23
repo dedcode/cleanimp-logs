@@ -2893,3 +2893,13 @@ imputed_matrix.shape = (128, 12)
 	caching stored for recovery and missing matrix: cbf_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (128, 10)
 imputed_matrix.shape = (128, 8)
+imputed_matrix.shape = (128, 12)
+	caching stored for recovery and missing matrix: cbf_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (128, 10)
+imputed_matrix.shape = (128, 8)
+imputed_matrix.shape = (128, 12)
+	caching stored for recovery and missing matrix: cbf_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on CBF, started at 2026-02-23 05:21:49.
