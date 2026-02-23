@@ -3927,3 +3927,8 @@ DeepMVI is tested with aligned_timestamps on CinCECGTorso, started at 2026-02-24
 	caching stored for recovery and missing matrix: cincecgtorso_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: cincecgtorso_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: cincecgtorso_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: cincecgtorso_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on CinCECGTorso, started at 2026-02-24 03:42:34.
