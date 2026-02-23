@@ -3719,3 +3719,19 @@ imputed_matrix.shape = (166, 91)
 	caching stored for recovery and missing matrix: chlorineconcentration_mcar_hkmft_60_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (166, 114)
 imputed_matrix.shape = (166, 262)
+imputed_matrix.shape = (166, 91)
+	caching stored for recovery and missing matrix: chlorineconcentration_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on ChlorineConcentration, started at 2026-02-23 13:20:37.
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with aligned_series on ChlorineConcentration, started at 2026-02-23 13:20:37.
+imputed_matrix.shape = (166, 114)
