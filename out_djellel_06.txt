@@ -4361,3 +4361,25 @@ imputed_matrix.shape = (180, 12)
 imputed_matrix.shape = (180, 10)
 imputed_matrix.shape = (180, 24)
 imputed_matrix.shape = (180, 18)
+imputed_matrix.shape = (180, 28)
+	caching stored for recovery and missing matrix: colposcopy_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on Colposcopy, started at 2026-02-24 11:22:28.
+Error during benchmark for DeepMVI, with Colposcopy, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with aligned_series on Colposcopy, started at 2026-02-24 11:22:28.
+imputed_matrix.shape = (180, 7)
+imputed_matrix.shape = (180, 12)
+imputed_matrix.shape = (180, 10)
+imputed_matrix.shape = (180, 24)
+imputed_matrix.shape = (180, 18)
+imputed_matrix.shape = (180, 28)
+	caching stored for recovery and missing matrix: colposcopy_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
