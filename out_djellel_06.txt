@@ -4321,3 +4321,14 @@ done!
 DeepMVI is tested with mcar on Colposcopy, started at 2026-02-24 11:13:54.
 Error during benchmark for DeepMVI, with Colposcopy, and 0.1%: 
 Error during benchmark for DeepMVI, with Colposcopy, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with mcar on Colposcopy, started at 2026-02-24 11:20:27.
+imputed_matrix.shape = (180, 7)
+imputed_matrix.shape = (180, 12)
+imputed_matrix.shape = (180, 10)
+imputed_matrix.shape = (180, 24)
