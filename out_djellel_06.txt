@@ -4320,3 +4320,4 @@ done!
 
 DeepMVI is tested with mcar on Colposcopy, started at 2026-02-24 11:13:54.
 Error during benchmark for DeepMVI, with Colposcopy, and 0.1%: 
+Error during benchmark for DeepMVI, with Colposcopy, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
