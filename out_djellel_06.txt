@@ -4311,3 +4311,11 @@ imputed_matrix.shape = (1000, 10)
   (2.0 * param.lambda_s * new_U_i_V_t * self._U[i, :])))
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:137: RuntimeWarning: overflow encountered in multiply
   V_t += (lr * param.lambda_s *
+imputed_matrix.shape = (1000, 13)
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+	caching stored for recovery and missing matrix: cincecgtorso_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with mcar on Colposcopy, started at 2026-02-24 11:13:54.
