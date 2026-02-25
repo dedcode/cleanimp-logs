@@ -7908,3 +7908,4 @@ DeepMVI is tested with aligned_series on CricketX, started at 2026-02-25 23:38:3
 	caching stored for recovery and missing matrix: cricketx_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: cricketx_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: cricketx_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: cricketx_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
