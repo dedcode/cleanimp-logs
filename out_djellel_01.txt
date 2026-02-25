@@ -560,3 +560,8 @@ CSDI is tested with aligned_timestamps on EOGVerticalSignal, started at 2026-02-
 	caching stored for recovery and missing matrix: eogverticalsignal_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: eogverticalsignal_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: eogverticalsignal_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: eogverticalsignal_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on Earthquakes, started at 2026-02-25 18:54:50.
