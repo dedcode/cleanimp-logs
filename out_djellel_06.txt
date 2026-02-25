@@ -7916,3 +7916,4 @@ done!
 HKMFT is tested with aligned_series on CricketX, started at 2026-02-26 01:29:07.
 imputed_matrix.shape = (300, 32)
 imputed_matrix.shape = (300, 25)
+imputed_matrix.shape = (300, 38)
