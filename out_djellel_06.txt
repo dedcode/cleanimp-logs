@@ -7831,3 +7831,9 @@ DeepMVI is tested with mcar on CricketX, started at 2026-02-25 21:21:47.
 	caching stored for recovery and missing matrix: cricketx_mcar_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: cricketx_mcar_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: cricketx_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: cricketx_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with mcar on CricketX, started at 2026-02-25 23:17:21.
+imputed_matrix.shape = (300, 32)
