@@ -534,3 +534,7 @@ PRISTI is tested with aligned_timestamps on EOGHorizontalSignal, started at 2026
 	caching stored for recovery and missing matrix: eoghorizontalsignal_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: eoghorizontalsignal_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: eoghorizontalsignal_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on EOGVerticalSignal, started at 2026-02-25 08:06:57.
