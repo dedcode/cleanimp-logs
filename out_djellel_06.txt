@@ -7899,3 +7899,9 @@ imputed_matrix.shape = (300, 39)
 imputed_matrix.shape = (300, 36)
 imputed_matrix.shape = (300, 31)
 imputed_matrix.shape = (300, 34)
+imputed_matrix.shape = (300, 31)
+	caching stored for recovery and missing matrix: cricketx_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on CricketX, started at 2026-02-25 23:38:32.
