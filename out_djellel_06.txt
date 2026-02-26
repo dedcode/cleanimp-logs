@@ -10221,3 +10221,4 @@ done!
 
 
 HKMFT is tested with aligned_series on EOGHorizontalSignal, started at 2026-02-26 22:54:55.
+imputed_matrix.shape = (1000, 30)
