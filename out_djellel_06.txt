@@ -8125,3 +8125,16 @@ imputed_matrix.shape = (300, 31)
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in subtract
   V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
 imputed_matrix.shape = (300, 34)
+imputed_matrix.shape = (300, 31)
+Error during benchmark for HKMFT, with CricketX, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+DeepMVI is tested with mcar on DistalPhalanxOutlineAgeGroup, started at 2026-02-26 05:46:50.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (113, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.1%: 
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.2%: 
