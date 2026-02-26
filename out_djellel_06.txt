@@ -8632,3 +8632,6 @@ done!
 
 
 HKMFT is tested with aligned_series on DistalPhalanxOutlineCorrect, started at 2026-02-26 06:07:10.
+imputed_matrix.shape = (80, 378)
+imputed_matrix.shape = (80, 222)
+	caching stored for recovery and missing matrix: distalphalanxoutlinecorrect_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
