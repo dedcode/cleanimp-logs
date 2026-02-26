@@ -9725,3 +9725,24 @@ imputed_matrix.shape = (136, 14)
 imputed_matrix.shape = (136, 9)
 	caching stored for recovery and missing matrix: ecgfivedays_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (136, 14)
+imputed_matrix.shape = (136, 9)
+	caching stored for recovery and missing matrix: ecgfivedays_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (136, 14)
+imputed_matrix.shape = (136, 9)
+	caching stored for recovery and missing matrix: ecgfivedays_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on ECGFiveDays, started at 2026-02-26 06:36:42.
+Error during benchmark for DeepMVI, with ECGFiveDays, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ECGFiveDays, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ECGFiveDays, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ECGFiveDays, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ECGFiveDays, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with aligned_timestamps on ECGFiveDays, started at 2026-02-26 06:36:42.
+imputed_matrix.shape = (136, 14)
+imputed_matrix.shape = (136, 9)
+	caching stored for recovery and missing matrix: ecgfivedays_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
