@@ -8177,3 +8177,24 @@ imputed_matrix.shape = (80, 257)
 imputed_matrix.shape = (80, 30)
 	caching stored for recovery and missing matrix: distalphalanxoutlineagegroup_mcar_hkmft_60_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (80, 113)
+imputed_matrix.shape = (80, 257)
+imputed_matrix.shape = (80, 30)
+	caching stored for recovery and missing matrix: distalphalanxoutlineagegroup_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on DistalPhalanxOutlineAgeGroup, started at 2026-02-26 05:53:02.
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with aligned_series on DistalPhalanxOutlineAgeGroup, started at 2026-02-26 05:53:02.
+imputed_matrix.shape = (80, 113)
+imputed_matrix.shape = (80, 257)
+imputed_matrix.shape = (80, 30)
+	caching stored for recovery and missing matrix: distalphalanxoutlineagegroup_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (80, 113)
