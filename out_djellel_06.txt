@@ -9766,3 +9766,8 @@ DeepMVI is tested with mcar on EOGHorizontalSignal, started at 2026-02-26 06:37:
 	caching stored for recovery and missing matrix: eoghorizontalsignal_mcar_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: eoghorizontalsignal_mcar_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: eoghorizontalsignal_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: eoghorizontalsignal_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with mcar on EOGHorizontalSignal, started at 2026-02-26 10:18:14.
