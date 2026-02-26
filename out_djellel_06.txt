@@ -8669,3 +8669,214 @@ imputed_matrix.shape = (80, 222)
 imputed_matrix.shape = (80, 378)
 imputed_matrix.shape = (80, 222)
 	caching stored for recovery and missing matrix: distalphalanxoutlinecorrect_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (80, 378)
+imputed_matrix.shape = (80, 222)
+	caching stored for recovery and missing matrix: distalphalanxoutlinecorrect_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
