@@ -8085,3 +8085,4 @@ imputed_matrix.shape = (300, 27)
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:122: RuntimeWarning: invalid value encountered in subtract
   U_i -= (lr * param.lambda_s *
 imputed_matrix.shape = (300, 34)
+imputed_matrix.shape = (300, 28)
