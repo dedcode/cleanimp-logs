@@ -10096,3 +10096,4 @@ imputed_matrix.shape = (1000, 31)
   (2.0 * param.lambda_s * new_U_i_V_t * self._U[i, :])))
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: invalid value encountered in add
   V_t += (lr * param.lambda_s *
+imputed_matrix.shape = (1000, 30)
