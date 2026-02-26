@@ -576,3 +576,4 @@ done!
 CSDI is tested with aligned_series on Earthquakes, started at 2026-02-26 09:37:06.
 	caching stored for recovery and missing matrix: earthquakes_aligned_series_csdi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: earthquakes_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: earthquakes_aligned_series_csdi_40_20_contbyclass_imputationbyclass
