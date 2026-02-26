@@ -9172,3 +9172,47 @@ DeepMVI is tested with mcar on DistalPhalanxTW, started at 2026-02-26 06:17:24.
 
 Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.1%: 
 Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.2%: 
+Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with mcar on DistalPhalanxTW, started at 2026-02-26 06:19:56.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (213, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+imputed_matrix.shape = (80, 213)
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (82, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+imputed_matrix.shape = (80, 82)
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (30, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+imputed_matrix.shape = (80, 30)
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (28, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+imputed_matrix.shape = (80, 28)
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (18, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+imputed_matrix.shape = (80, 18)
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (29, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+imputed_matrix.shape = (80, 29)
+	caching stored for recovery and missing matrix: distalphalanxtw_mcar_hkmft_10_20_contbyclass_imputationbyclass
