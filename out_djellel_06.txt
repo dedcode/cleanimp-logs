@@ -8612,3 +8612,23 @@ imputed_matrix.shape = (80, 222)
 imputed_matrix.shape = (80, 378)
 imputed_matrix.shape = (80, 222)
 	caching stored for recovery and missing matrix: distalphalanxoutlinecorrect_mcar_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (80, 378)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+imputed_matrix.shape = (80, 222)
+Error during benchmark for HKMFT, with DistalPhalanxOutlineCorrect, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+DeepMVI is tested with aligned_series on DistalPhalanxOutlineCorrect, started at 2026-02-26 06:07:10.
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with aligned_series on DistalPhalanxOutlineCorrect, started at 2026-02-26 06:07:10.
