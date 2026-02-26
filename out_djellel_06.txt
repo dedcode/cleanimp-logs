@@ -8604,3 +8604,6 @@ imputed_matrix.shape = (80, 378)
 imputed_matrix.shape = (80, 222)
 	caching stored for recovery and missing matrix: distalphalanxoutlinecorrect_mcar_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (80, 378)
+imputed_matrix.shape = (80, 222)
+	caching stored for recovery and missing matrix: distalphalanxoutlinecorrect_mcar_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (80, 378)
