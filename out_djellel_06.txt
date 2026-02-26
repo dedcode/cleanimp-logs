@@ -9680,3 +9680,25 @@ done!
 DeepMVI is tested with mcar on ECGFiveDays, started at 2026-02-26 06:28:24.
 	caching stored for recovery and missing matrix: ecgfivedays_mcar_deepmvi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: ecgfivedays_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: ecgfivedays_mcar_deepmvi_40_20_contbyclass_imputationbyclass
+Error during benchmark for DeepMVI, with ECGFiveDays, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ECGFiveDays, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with mcar on ECGFiveDays, started at 2026-02-26 06:35:21.
+imputed_matrix.shape = (136, 14)
+imputed_matrix.shape = (136, 9)
+	caching stored for recovery and missing matrix: ecgfivedays_mcar_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (136, 14)
+imputed_matrix.shape = (136, 9)
+	caching stored for recovery and missing matrix: ecgfivedays_mcar_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (136, 14)
+imputed_matrix.shape = (136, 9)
+	caching stored for recovery and missing matrix: ecgfivedays_mcar_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (136, 14)
+imputed_matrix.shape = (136, 9)
+	caching stored for recovery and missing matrix: ecgfivedays_mcar_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (136, 14)
+imputed_matrix.shape = (136, 9)
+	caching stored for recovery and missing matrix: ecgfivedays_mcar_hkmft_80_20_contbyclass_imputationbyclass
