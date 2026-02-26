@@ -10206,3 +10206,9 @@ imputed_matrix.shape = (1000, 30)
   V_t += (lr * param.lambda_s *
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: invalid value encountered in add
   V_t += (lr * param.lambda_s *
+imputed_matrix.shape = (1000, 30)
+Error during benchmark for HKMFT, with EOGHorizontalSignal, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+DeepMVI is tested with aligned_series on EOGHorizontalSignal, started at 2026-02-26 20:14:25.
