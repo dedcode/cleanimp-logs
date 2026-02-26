@@ -8138,3 +8138,29 @@ DeepMVI is tested with mcar on DistalPhalanxOutlineAgeGroup, started at 2026-02-
 
 Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.1%: 
 Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.2%: 
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with mcar on DistalPhalanxOutlineAgeGroup, started at 2026-02-26 05:51:33.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (113, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+imputed_matrix.shape = (80, 113)
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (257, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+imputed_matrix.shape = (80, 257)
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (30, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+imputed_matrix.shape = (80, 30)
+	caching stored for recovery and missing matrix: distalphalanxoutlineagegroup_mcar_hkmft_10_20_contbyclass_imputationbyclass
