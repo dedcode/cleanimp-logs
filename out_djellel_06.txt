@@ -8582,3 +8582,22 @@ DeepMVI is tested with mcar on DistalPhalanxOutlineCorrect, started at 2026-02-2
 		(ACTION) block_size is set to : 4
 
 Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.1%: 
+	caching stored for recovery and missing matrix: distalphalanxoutlinecorrect_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with mcar on DistalPhalanxOutlineCorrect, started at 2026-02-26 06:04:59.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (378, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+imputed_matrix.shape = (80, 378)
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (222, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
