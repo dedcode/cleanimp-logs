@@ -9241,3 +9241,30 @@ imputed_matrix.shape = (80, 29)
   avg = a.mean(axis, **keepdims_kw)
 /storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
   ret = ret.dtype.type(ret / rcount)
+imputed_matrix.shape = (80, 213)
+imputed_matrix.shape = (80, 82)
+imputed_matrix.shape = (80, 30)
+imputed_matrix.shape = (80, 28)
+imputed_matrix.shape = (80, 18)
+imputed_matrix.shape = (80, 29)
+Error during benchmark for HKMFT, with DistalPhalanxTW, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+DeepMVI is tested with aligned_series on DistalPhalanxTW, started at 2026-02-26 06:21:26.
+Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with aligned_series on DistalPhalanxTW, started at 2026-02-26 06:21:26.
+imputed_matrix.shape = (80, 213)
+imputed_matrix.shape = (80, 82)
+imputed_matrix.shape = (80, 30)
+imputed_matrix.shape = (80, 28)
+imputed_matrix.shape = (80, 18)
+imputed_matrix.shape = (80, 29)
+	caching stored for recovery and missing matrix: distalphalanxtw_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
