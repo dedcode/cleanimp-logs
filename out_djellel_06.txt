@@ -9771,3 +9771,4 @@ done!
 
 
 HKMFT is tested with mcar on EOGHorizontalSignal, started at 2026-02-26 10:18:14.
+imputed_matrix.shape = (1000, 30)
