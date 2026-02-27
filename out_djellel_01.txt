@@ -586,3 +586,4 @@ CSDI is tested with aligned_timestamps on Earthquakes, started at 2026-02-27 00:
 	caching stored for recovery and missing matrix: earthquakes_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: earthquakes_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: earthquakes_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: earthquakes_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
