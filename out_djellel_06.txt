@@ -1001,8 +1001,6 @@ imputed_matrix.shape = (1000, 10)
 
 ... [-1976 lines truncated] ...
 
-imputed_matrix.shape = (80, 28)
-imputed_matrix.shape = (80, 18)
 imputed_matrix.shape = (80, 29)
 	caching stored for recovery and missing matrix: distalphalanxtw_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (80, 213)
@@ -2001,3 +1999,5 @@ imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
+imputed_matrix.shape = (1000, 30)
+	caching stored for recovery and missing matrix: eoghorizontalsignal_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
