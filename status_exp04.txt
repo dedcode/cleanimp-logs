@@ -1,7 +1,7 @@
 ALGO=PRISTI
 SERVER=bigdata.7
-PROGRESS=57
+PROGRESS=58
 TOTAL=222
-PCT=25
+PCT=26
 STATUS=running
-LAST=PRISTI is tested with aligned_timestamps on Earthquakes, started at 2026-02-28 06:17:11.
+LAST=PRISTI is tested with mcar on EthanolLevel, started at 2026-02-28 17:28:41.

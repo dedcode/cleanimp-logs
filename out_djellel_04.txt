@@ -587,3 +587,8 @@ PRISTI is tested with aligned_timestamps on Earthquakes, started at 2026-02-28 0
 	caching stored for recovery and missing matrix: earthquakes_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: earthquakes_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: earthquakes_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: earthquakes_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on EthanolLevel, started at 2026-02-28 17:28:41.
