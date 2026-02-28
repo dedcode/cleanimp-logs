@@ -1,12 +1,11 @@
-# CleanImp Experiment Logs
+# CleanImp Benchmark Logs
 
-Live logs from experiments running on NYU bigdata servers. Updated every 30 seconds.
+Live experiment logs pushed every 30 seconds.
 
-| Server | File | Algorithm | Status |
-|--------|------|-----------|--------|
-| bigdata.4 | [out_djellel_01.txt](out_djellel_01.txt) | CSDI | Running |
-| bigdata.5 | [out_djellel_02.txt](out_djellel_02.txt) | GPT4TS | Completed |
-| bigdata.6 | [out_djellel_03.txt](out_djellel_03.txt) | TimesNet | Completed |
-| bigdata.6 | [out_djellel_06.txt](out_djellel_06.txt) | DeepMVI, HKMFT | Running |
-| bigdata.7 | [out_djellel_04.txt](out_djellel_04.txt) | Script 04 | Running |
-| bigdata.8 | [out_djellel_05.txt](out_djellel_05.txt) | NuwaTS | Running |
+| Exp | Algorithm | Server | Progress | % | Status | Last Activity |
+|-----|-----------|--------|----------|---|--------|---------------|
+| 01 | CSDI | bigdata.4 | 58 / 222 | 26% | running | mcar on EthanolLevel |
+| 02 | GPT4TS | bigdata.5 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
+| 03 | TimesNet | bigdata.6 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
+
+_Last updated: 2026-02-28 05:42 UTC_
