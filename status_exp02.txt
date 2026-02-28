@@ -1,0 +1,7 @@
+ALGO=GPT4TS
+SERVER=bigdata.5
+PROGRESS=222
+TOTAL=222
+PCT=100
+STATUS=done
+LAST=GPT4TS is tested with aligned_timestamps on Yoga, started at 2026-02-24 21:36:15.

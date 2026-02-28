@@ -1,0 +1,7 @@
+ALGO=TimesNet
+SERVER=bigdata.6
+PROGRESS=222
+TOTAL=222
+PCT=100
+STATUS=done
+LAST=TimesNet is tested with aligned_timestamps on Yoga, started at 2026-02-20 16:30:04.
