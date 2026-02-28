@@ -578,3 +578,8 @@ PRISTI is tested with aligned_series on Earthquakes, started at 2026-02-27 19:08
 	caching stored for recovery and missing matrix: earthquakes_aligned_series_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: earthquakes_aligned_series_pristi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: earthquakes_aligned_series_pristi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: earthquakes_aligned_series_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_timestamps on Earthquakes, started at 2026-02-28 06:17:11.
