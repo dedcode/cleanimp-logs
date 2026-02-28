@@ -8,5 +8,6 @@ Live experiment logs pushed every 30 seconds.
 | 02 | GPT4TS | bigdata.5 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 03 | TimesNet | bigdata.6 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 04 | PRISTI | bigdata.7 | 57 / 222 | 25% | running | aligned_timestamps on Earthquakes |
+| 06 | DeepMVI+HKMFT | bigdata.6 | 100 / 444 | 22% | running | aligned_series on EOGHorizontalSignal |
 
 _Last updated: 2026-02-28 05:42 UTC_
