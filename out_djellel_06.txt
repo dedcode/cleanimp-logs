@@ -1001,7 +1001,6 @@ imputed_matrix.shape = (1000, 10)
 
 ... [-1976 lines truncated] ...
 
-imputed_matrix.shape = (80, 30)
 imputed_matrix.shape = (80, 28)
 imputed_matrix.shape = (80, 18)
 imputed_matrix.shape = (80, 29)
@@ -1998,6 +1997,7 @@ imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 31)
 imputed_matrix.shape = (1000, 31)
+imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
