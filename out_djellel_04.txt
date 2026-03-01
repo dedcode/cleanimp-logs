@@ -596,3 +596,8 @@ PRISTI is tested with mcar on EthanolLevel, started at 2026-02-28 17:28:41.
 	caching stored for recovery and missing matrix: ethanollevel_mcar_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: ethanollevel_mcar_pristi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: ethanollevel_mcar_pristi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: ethanollevel_mcar_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_series on EthanolLevel, started at 2026-03-01 16:27:23.
