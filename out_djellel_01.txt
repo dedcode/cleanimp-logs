@@ -605,3 +605,8 @@ CSDI is tested with aligned_series on EthanolLevel, started at 2026-02-28 14:17:
 	caching stored for recovery and missing matrix: ethanollevel_aligned_series_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: ethanollevel_aligned_series_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: ethanollevel_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: ethanollevel_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on EthanolLevel, started at 2026-03-01 13:31:28.
