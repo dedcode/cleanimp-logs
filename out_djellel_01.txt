@@ -695,3 +695,8 @@ CSDI is tested with aligned_timestamps on FacesUCR, started at 2026-03-02 18:23:
 	caching stored for recovery and missing matrix: facesucr_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: facesucr_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: facesucr_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: facesucr_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on Fish, started at 2026-03-02 18:58:00.
