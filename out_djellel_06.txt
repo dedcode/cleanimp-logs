@@ -1001,7 +1001,6 @@ imputed_matrix.shape = (1000, 10)
 
 ... [-1976 lines truncated] ...
 
-Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
 done!
 
 
@@ -2001,3 +2000,4 @@ imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
+imputed_matrix.shape = (1000, 31)
