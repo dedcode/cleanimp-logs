@@ -1001,7 +1001,6 @@ imputed_matrix.shape = (1000, 10)
 
 ... [-1976 lines truncated] ...
 
-imputed_matrix.shape = (80, 82)
 imputed_matrix.shape = (80, 30)
 imputed_matrix.shape = (80, 28)
 imputed_matrix.shape = (80, 18)
@@ -2001,3 +2000,4 @@ done!
 
 
 DeepMVI is tested with aligned_timestamps on EOGHorizontalSignal, started at 2026-03-02 09:40:02.
+	caching stored for recovery and missing matrix: eoghorizontalsignal_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
