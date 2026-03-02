@@ -1001,11 +1001,6 @@ imputed_matrix.shape = (1000, 10)
 
 ... [-1976 lines truncated] ...
 
-imputed_matrix.shape = (80, 29)
-	caching stored for recovery and missing matrix: distalphalanxtw_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
-done!
-
-
 DeepMVI is tested with aligned_timestamps on DistalPhalanxTW, started at 2026-02-26 06:26:08.
 Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.1%: 
 Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
@@ -2001,3 +1996,8 @@ DeepMVI is tested with aligned_timestamps on EOGHorizontalSignal, started at 202
 	caching stored for recovery and missing matrix: eoghorizontalsignal_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: eoghorizontalsignal_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: eoghorizontalsignal_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: eoghorizontalsignal_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on EOGHorizontalSignal, started at 2026-03-02 13:01:44.
