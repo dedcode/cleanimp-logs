@@ -1001,7 +1001,6 @@ imputed_matrix.shape = (1000, 10)
 
 ... [-1976 lines truncated] ...
 
-Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.1%: 
 Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
 Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
 Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
@@ -2000,4 +1999,5 @@ done!
 
 
 HKMFT is tested with aligned_timestamps on EOGHorizontalSignal, started at 2026-03-02 13:01:44.
+imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
