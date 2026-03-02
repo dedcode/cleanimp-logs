@@ -622,3 +622,4 @@ CSDI is tested with mcar on FaceAll, started at 2026-03-02 12:46:21.
 	caching stored for recovery and missing matrix: faceall_mcar_csdi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: faceall_mcar_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: faceall_mcar_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: faceall_mcar_csdi_60_20_contbyclass_imputationbyclass
