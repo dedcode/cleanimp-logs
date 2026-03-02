@@ -658,3 +658,4 @@ CSDI is tested with aligned_series on FaceFour, started at 2026-03-02 16:36:43.
 	caching stored for recovery and missing matrix: facefour_aligned_series_csdi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: facefour_aligned_series_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: facefour_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: facefour_aligned_series_csdi_60_20_contbyclass_imputationbyclass
