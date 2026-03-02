@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=63
+PROGRESS=64
 TOTAL=222
 PCT=28
 STATUS=running
-LAST=CSDI is tested with aligned_timestamps on FaceAll, started at 2026-03-02 15:06:55.
+LAST=CSDI is tested with mcar on FaceFour, started at 2026-03-02 16:16:58.
