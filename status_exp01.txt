@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=81
+PROGRESS=82
 TOTAL=222
 PCT=36
 STATUS=running
-LAST=CSDI is tested with aligned_timestamps on GunPoint, started at 2026-03-03 11:05:46.
+LAST=CSDI is tested with mcar on GunPointAgeSpan, started at 2026-03-03 11:13:53.
