@@ -1,7 +1,7 @@
 ALGO=PRISTI
 SERVER=bigdata.7
-PROGRESS=67
+PROGRESS=68
 TOTAL=222
 PCT=30
 STATUS=running
-LAST=PRISTI is tested with mcar on FacesUCR, started at 2026-03-03 21:19:24.
+LAST=PRISTI is tested with aligned_series on FacesUCR, started at 2026-03-03 22:17:01.
