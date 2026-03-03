@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=91
+PROGRESS=92
 TOTAL=222
-PCT=40
+PCT=41
 STATUS=running
-LAST=CSDI is tested with mcar on Ham, started at 2026-03-03 14:23:20.
+LAST=CSDI is tested with aligned_series on Ham, started at 2026-03-03 16:45:24.
