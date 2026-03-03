@@ -667,3 +667,4 @@ PRISTI is tested with aligned_timestamps on FaceFour, started at 2026-03-03 20:4
 	caching stored for recovery and missing matrix: facefour_aligned_timestamps_pristi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: facefour_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: facefour_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: facefour_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
