@@ -746,3 +746,4 @@ done!
 
 CSDI is tested with aligned_timestamps on FreezerRegularTrain, started at 2026-03-03 09:10:00.
 	caching stored for recovery and missing matrix: freezerregulartrain_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: freezerregulartrain_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
