@@ -731,3 +731,8 @@ CSDI is tested with mcar on FreezerRegularTrain, started at 2026-03-03 07:08:49.
 	caching stored for recovery and missing matrix: freezerregulartrain_mcar_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezerregulartrain_mcar_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezerregulartrain_mcar_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: freezerregulartrain_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on FreezerRegularTrain, started at 2026-03-03 08:09:24.
