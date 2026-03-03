@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=85
+PROGRESS=86
 TOTAL=222
 PCT=38
 STATUS=running
-LAST=CSDI is tested with mcar on GunPointMaleVersusFemale, started at 2026-03-03 12:16:56.
+LAST=CSDI is tested with aligned_series on GunPointMaleVersusFemale, started at 2026-03-03 12:38:05.
