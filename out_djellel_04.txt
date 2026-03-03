@@ -650,3 +650,8 @@ PRISTI is tested with mcar on FaceFour, started at 2026-03-03 19:32:56.
 	caching stored for recovery and missing matrix: facefour_mcar_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: facefour_mcar_pristi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: facefour_mcar_pristi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: facefour_mcar_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_series on FaceFour, started at 2026-03-03 20:08:46.
