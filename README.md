@@ -4,7 +4,7 @@ Live experiment logs pushed every 30 seconds.
 
 | Exp | Algorithm | Server | Progress | % | Status | Last Activity |
 |-----|-----------|--------|----------|---|--------|---------------|
-| 01 | CSDI | bigdata.4 | 93 / 222 | 41% | running | aligned_timestamps on Ham |
+| 01 | CSDI | bigdata.4 | 94 / 222 | 42% | running | mcar on Haptics |
 | 02 | GPT4TS | bigdata.5 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 03 | TimesNet | bigdata.6 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 04 | PRISTI | bigdata.7 | 67 / 222 | 30% | running | mcar on FacesUCR |
