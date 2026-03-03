@@ -676,3 +676,4 @@ PRISTI is tested with mcar on FacesUCR, started at 2026-03-03 21:19:24.
 	caching stored for recovery and missing matrix: facesucr_mcar_pristi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: facesucr_mcar_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: facesucr_mcar_pristi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: facesucr_mcar_pristi_60_20_contbyclass_imputationbyclass
