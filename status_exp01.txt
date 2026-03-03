@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=94
+PROGRESS=95
 TOTAL=222
 PCT=42
 STATUS=running
-LAST=CSDI is tested with mcar on Haptics, started at 2026-03-03 21:30:34.
+LAST=CSDI is tested with aligned_series on Haptics, started at 2026-03-04 02:26:23.

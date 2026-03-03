@@ -920,3 +920,8 @@ CSDI is tested with mcar on Haptics, started at 2026-03-03 21:30:34.
 	caching stored for recovery and missing matrix: haptics_mcar_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: haptics_mcar_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: haptics_mcar_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: haptics_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on Haptics, started at 2026-03-04 02:26:23.
