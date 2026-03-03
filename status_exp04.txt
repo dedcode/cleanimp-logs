@@ -1,7 +1,7 @@
 ALGO=PRISTI
 SERVER=bigdata.7
-PROGRESS=60
+PROGRESS=61
 TOTAL=222
 PCT=27
 STATUS=running
-LAST=PRISTI is tested with aligned_timestamps on EthanolLevel, started at 2026-03-02 15:20:01.
+LAST=PRISTI is tested with mcar on FaceAll, started at 2026-03-03 14:08:19.
