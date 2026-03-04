@@ -1,7 +1,7 @@
 ALGO=PRISTI
 SERVER=bigdata.7
-PROGRESS=70
+PROGRESS=71
 TOTAL=222
 PCT=31
 STATUS=running
-LAST=PRISTI is tested with mcar on Fish, started at 2026-03-04 00:11:44.
+LAST=PRISTI is tested with aligned_series on Fish, started at 2026-03-04 05:54:10.
