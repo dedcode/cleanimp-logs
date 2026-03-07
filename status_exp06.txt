@@ -1,7 +1,7 @@
 ALGO=DeepMVI+HKMFT
 SERVER=bigdata.6
-PROGRESS=144
+PROGRESS=151
 TOTAL=444
-PCT=32
+PCT=34
 STATUS=running
-LAST=HKMFT is tested with aligned_timestamps on Car, started at 2026-03-07 15:05:32.
+LAST=DeepMVI is tested with mcar on CinCECGTorso, started at 2026-03-07 15:06:02.
