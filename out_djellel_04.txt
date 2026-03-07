@@ -973,3 +973,42 @@ done!
 
 PRISTI is tested with aligned_timestamps on CinCECGTorso, started at 2026-03-07 13:50:31.
 	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on Colposcopy, started at 2026-03-07 13:50:39.
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_mcar_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_mcar_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_mcar_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_mcar_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_mcar_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_series on Colposcopy, started at 2026-03-07 13:50:45.
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_series_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_series_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_series_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_series_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_series_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_timestamps on Colposcopy, started at 2026-03-07 13:50:52.
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_timestamps_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on Computers, started at 2026-03-07 13:50:58.
+	the imputed matrix has been loaded from the cache (720, 250): computers_mcar_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_mcar_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_mcar_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_mcar_pristi_60_20_contbyclass_imputationbyclass
