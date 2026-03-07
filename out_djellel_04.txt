@@ -1471,3 +1471,8 @@ PRISTI is tested with mcar on GunPointAgeSpan, started at 2026-03-08 02:54:06.
 	caching stored for recovery and missing matrix: gunpointagespan_mcar_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: gunpointagespan_mcar_pristi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: gunpointagespan_mcar_pristi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: gunpointagespan_mcar_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_series on GunPointAgeSpan, started at 2026-03-08 03:21:32.
