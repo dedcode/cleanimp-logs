@@ -1055,3 +1055,58 @@ CSDI is tested with aligned_series on Beef, started at 2026-03-07 13:48:42.
 	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_series_csdi_20_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_series_csdi_40_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on Beef, started at 2026-03-07 13:48:49.
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on BirdChicken, started at 2026-03-07 13:48:55.
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on BirdChicken, started at 2026-03-07 13:48:59.
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on BirdChicken, started at 2026-03-07 13:49:05.
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on CBF, started at 2026-03-07 13:49:09.
+	the imputed matrix has been loaded from the cache (128, 30): cbf_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (128, 30): cbf_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (128, 30): cbf_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (128, 30): cbf_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (128, 30): cbf_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on CBF, started at 2026-03-07 13:49:16.
+	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_series_csdi_80_20_contbyclass_imputationbyclass
