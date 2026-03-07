@@ -1551,3 +1551,48 @@ CSDI is tested with aligned_timestamps on FaceFour, started at 2026-03-07 13:55:
 	the imputed matrix has been loaded from the cache (350, 24): facefour_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (350, 24): facefour_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (350, 24): facefour_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on FacesUCR, started at 2026-03-07 13:55:13.
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on FacesUCR, started at 2026-03-07 13:55:19.
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on FacesUCR, started at 2026-03-07 13:55:25.
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on Fish, started at 2026-03-07 13:55:32.
+	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on Fish, started at 2026-03-07 13:55:38.
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_csdi_80_20_contbyclass_imputationbyclass
