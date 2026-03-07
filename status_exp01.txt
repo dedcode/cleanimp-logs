@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=113
+PROGRESS=118
 TOTAL=222
-PCT=50
+PCT=53
 STATUS=running
-LAST=CSDI is tested with aligned_series on CBF, started at 2026-03-07 13:49:16.
+LAST=CSDI is tested with mcar on ChlorineConcentration, started at 2026-03-07 13:49:50.
