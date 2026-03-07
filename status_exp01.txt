@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=172
+PROGRESS=177
 TOTAL=222
-PCT=77
+PCT=79
 STATUS=running
-LAST=CSDI is tested with mcar on FreezerSmallTrain, started at 2026-03-07 13:56:16.
+LAST=CSDI is tested with aligned_timestamps on GunPoint, started at 2026-03-07 13:56:47.

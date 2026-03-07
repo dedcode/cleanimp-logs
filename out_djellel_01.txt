@@ -1637,3 +1637,48 @@ done!
 
 CSDI is tested with mcar on FreezerSmallTrain, started at 2026-03-07 13:56:16.
 	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on FreezerSmallTrain, started at 2026-03-07 13:56:22.
+	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on FreezerSmallTrain, started at 2026-03-07 13:56:28.
+	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on GunPoint, started at 2026-03-07 13:56:34.
+	the imputed matrix has been loaded from the cache (150, 50): gunpoint_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 50): gunpoint_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 50): gunpoint_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 50): gunpoint_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 50): gunpoint_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on GunPoint, started at 2026-03-07 13:56:41.
+	the imputed matrix has been loaded from the cache (150, 50): gunpoint_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 50): gunpoint_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 50): gunpoint_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 50): gunpoint_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 50): gunpoint_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on GunPoint, started at 2026-03-07 13:56:47.
+	the imputed matrix has been loaded from the cache (150, 50): gunpoint_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
