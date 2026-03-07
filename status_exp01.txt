@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=186
+PROGRESS=191
 TOTAL=222
-PCT=83
+PCT=86
 STATUS=running
-LAST=CSDI is tested with aligned_timestamps on GunPointOldVersusYoung, started at 2026-03-07 13:57:46.
+LAST=CSDI is tested with aligned_series on Haptics, started at 2026-03-07 13:58:23.

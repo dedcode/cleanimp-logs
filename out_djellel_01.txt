@@ -1765,3 +1765,46 @@ CSDI is tested with aligned_timestamps on GunPointOldVersusYoung, started at 202
 	the imputed matrix has been loaded from the cache (150, 136): gunpointoldversusyoung_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (150, 136): gunpointoldversusyoung_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (150, 136): gunpointoldversusyoung_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 136): gunpointoldversusyoung_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 136): gunpointoldversusyoung_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on Ham, started at 2026-03-07 13:57:57.
+	the imputed matrix has been loaded from the cache (431, 109): ham_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (431, 109): ham_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (431, 109): ham_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (431, 109): ham_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (431, 109): ham_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on Ham, started at 2026-03-07 13:58:03.
+	the imputed matrix has been loaded from the cache (431, 109): ham_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (431, 109): ham_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (431, 109): ham_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (431, 109): ham_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (431, 109): ham_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on Ham, started at 2026-03-07 13:58:10.
+	the imputed matrix has been loaded from the cache (431, 109): ham_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (431, 109): ham_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (431, 109): ham_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (431, 109): ham_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (431, 109): ham_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on Haptics, started at 2026-03-07 13:58:16.
+	the imputed matrix has been loaded from the cache (1000, 155): haptics_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 155): haptics_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 155): haptics_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 155): haptics_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 155): haptics_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on Haptics, started at 2026-03-07 13:58:23.
+	the imputed matrix has been loaded from the cache (1000, 155): haptics_aligned_series_csdi_10_20_contbyclass_imputationbyclass
