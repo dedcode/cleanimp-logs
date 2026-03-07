@@ -1,7 +1,7 @@
 ALGO=PRISTI
 SERVER=bigdata.7
-PROGRESS=150
+PROGRESS=151
 TOTAL=222
-PCT=67
+PCT=68
 STATUS=running
-LAST=PRISTI is tested with mcar on GunPoint, started at 2026-03-08 02:16:59.
+LAST=PRISTI is tested with aligned_series on GunPoint, started at 2026-03-08 02:29:22.
