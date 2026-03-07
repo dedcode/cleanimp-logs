@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=182
+PROGRESS=186
 TOTAL=222
-PCT=81
+PCT=83
 STATUS=running
-LAST=CSDI is tested with aligned_series on GunPointMaleVersusFemale, started at 2026-03-07 13:57:20.
+LAST=CSDI is tested with aligned_timestamps on GunPointOldVersusYoung, started at 2026-03-07 13:57:46.
