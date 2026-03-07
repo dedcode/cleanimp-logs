@@ -1001,34 +1001,6 @@ imputed_matrix.shape = (1000, 10)
 
 ... [-1976 lines truncated] ...
 
-Error during benchmark for DeepMVI, with Colposcopy, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
-done!
-
-
-HKMFT is tested with aligned_series on Colposcopy, started at 2026-03-07 15:30:23.
-	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
-done!
-
-
-DeepMVI is tested with aligned_timestamps on Colposcopy, started at 2026-03-07 15:30:30.
-Error during benchmark for DeepMVI, with Colposcopy, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
-Error during benchmark for DeepMVI, with Colposcopy, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
-Error during benchmark for DeepMVI, with Colposcopy, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
-Error during benchmark for DeepMVI, with Colposcopy, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
-Error during benchmark for DeepMVI, with Colposcopy, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
-done!
-
-
-HKMFT is tested with aligned_timestamps on Colposcopy, started at 2026-03-07 15:30:30.
-	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
 done!
 
 
@@ -2001,3 +1973,31 @@ done!
 
 HKMFT is tested with mcar on DistalPhalanxOutlineCorrect, started at 2026-03-07 17:06:41.
 	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (80, 378)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+imputed_matrix.shape = (80, 222)
+Error during benchmark for HKMFT, with DistalPhalanxOutlineCorrect, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+DeepMVI is tested with aligned_series on DistalPhalanxOutlineCorrect, started at 2026-03-07 17:07:07.
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+HKMFT is tested with aligned_series on DistalPhalanxOutlineCorrect, started at 2026-03-07 17:07:07.
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
