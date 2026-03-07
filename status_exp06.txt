@@ -1,7 +1,7 @@
 ALGO=DeepMVI+HKMFT
 SERVER=bigdata.6
-PROGRESS=175
+PROGRESS=182
 TOTAL=444
-PCT=39
+PCT=40
 STATUS=running
-LAST=DeepMVI is tested with mcar on DistalPhalanxOutlineAgeGroup, started at 2026-03-07 17:01:31.
+LAST=HKMFT is tested with mcar on DistalPhalanxOutlineCorrect, started at 2026-03-07 17:06:41.
