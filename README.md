@@ -7,7 +7,7 @@ Live experiment logs pushed every 30 seconds.
 | 01 | CSDI | bigdata.4 | 141 / 222 | 63% | running | aligned_timestamps on DistalPhalanxTW |
 | 02 | GPT4TS | bigdata.5 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 03 | TimesNet | bigdata.6 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
-| 04 | PRISTI | bigdata.7 | 111 / 222 | 50% | running | mcar on DistalPhalanxOutlineCorrect |
+| 04 | PRISTI | bigdata.7 | 116 / 222 | 52% | running | aligned_timestamps on DistalPhalanxTW |
 | 05 | NuwaTS | colab.lxd | 64 / 222 | 28% | running | aligned_timestamps on Computers |
 | 06 | DeepMVI+HKMFT | bigdata.6 | 104 / 444 | 23% | running | mcar on ACSF1 |
 
