@@ -1252,3 +1252,41 @@ done!
 
 PRISTI is tested with mcar on EthanolLevel, started at 2026-03-07 13:54:13.
 	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_series on EthanolLevel, started at 2026-03-07 13:54:22.
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_timestamps on EthanolLevel, started at 2026-03-07 13:54:30.
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on FaceAll, started at 2026-03-07 13:54:42.
+	the imputed matrix has been loaded from the cache (131, 560): faceall_mcar_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 560): faceall_mcar_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 560): faceall_mcar_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 560): faceall_mcar_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 560): faceall_mcar_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_series on FaceAll, started at 2026-03-07 13:54:48.
+	the imputed matrix has been loaded from the cache (131, 560): faceall_aligned_series_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 560): faceall_aligned_series_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 560): faceall_aligned_series_pristi_40_20_contbyclass_imputationbyclass
