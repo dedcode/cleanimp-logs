@@ -1049,3 +1049,46 @@ PRISTI is tested with aligned_series on CricketX, started at 2026-03-07 13:51:29
 	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_pristi_40_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_pristi_60_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_timestamps on CricketX, started at 2026-03-07 13:51:36.
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on DistalPhalanxOutlineAgeGroup, started at 2026-03-07 13:51:43.
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_mcar_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_mcar_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_mcar_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_mcar_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_mcar_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_series on DistalPhalanxOutlineAgeGroup, started at 2026-03-07 13:51:50.
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_series_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_series_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_series_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_series_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_series_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_timestamps on DistalPhalanxOutlineAgeGroup, started at 2026-03-07 13:51:56.
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_timestamps_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on DistalPhalanxOutlineCorrect, started at 2026-03-07 13:52:03.
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_pristi_40_20_contbyclass_imputationbyclass

@@ -1,7 +1,7 @@
 ALGO=PRISTI
 SERVER=bigdata.7
-PROGRESS=107
+PROGRESS=111
 TOTAL=222
-PCT=48
+PCT=50
 STATUS=running
-LAST=PRISTI is tested with aligned_timestamps on CricketX, started at 2026-03-07 13:51:36.
+LAST=PRISTI is tested with mcar on DistalPhalanxOutlineCorrect, started at 2026-03-07 13:52:03.
