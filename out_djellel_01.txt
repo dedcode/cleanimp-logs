@@ -1829,3 +1829,8 @@ CSDI is tested with mcar on Herring, started at 2026-03-07 17:57:44.
 	caching stored for recovery and missing matrix: herring_mcar_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: herring_mcar_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: herring_mcar_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: herring_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on Herring, started at 2026-03-07 19:34:09.
