@@ -1398,3 +1398,4 @@ PRISTI is tested with aligned_series on FreezerRegularTrain, started at 2026-03-
 	caching stored for recovery and missing matrix: freezerregulartrain_aligned_series_pristi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezerregulartrain_aligned_series_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezerregulartrain_aligned_series_pristi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: freezerregulartrain_aligned_series_pristi_60_20_contbyclass_imputationbyclass
