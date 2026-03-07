@@ -1001,49 +1001,6 @@ imputed_matrix.shape = (1000, 10)
 
 ... [-1976 lines truncated] ...
 
-  V_t += (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: invalid value encountered in matmul
-  new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:105: RuntimeWarning: overflow encountered in matmul
-  err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:107: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t = self._U[i, :] @ self._V[:, t]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: overflow encountered in multiply
-  U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:126: RuntimeWarning: overflow encountered in multiply
-  U_i -= (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: invalid value encountered in add
-  U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:122: RuntimeWarning: overflow encountered in multiply
-  U_i -= (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: overflow encountered in multiply
-  V_t += (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: invalid value encountered in add
-  V_t += (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in subtract
-  V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
-imputed_matrix.shape = (577, 11)
-Error during benchmark for HKMFT, with Car, and 0.8%: autodetected range of [nan, nan] is not finite
-done!
-
-
-DeepMVI is tested with aligned_series on Car, started at 2026-03-07 15:05:11.
-	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
-done!
-
-
-HKMFT is tested with aligned_series on Car, started at 2026-03-07 15:05:19.
-	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
 done!
 
 
@@ -2001,3 +1958,46 @@ DeepMVI is tested with mcar on CricketX, started at 2026-03-07 16:52:57.
 	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_deepmvi_40_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_deepmvi_60_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with mcar on CricketX, started at 2026-03-07 16:53:03.
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on CricketX, started at 2026-03-07 16:53:10.
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_series on CricketX, started at 2026-03-07 16:53:17.
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on CricketX, started at 2026-03-07 16:53:24.
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on CricketX, started at 2026-03-07 16:53:31.
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
