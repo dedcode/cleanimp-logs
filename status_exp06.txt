@@ -1,7 +1,7 @@
 ALGO=DeepMVI+HKMFT
 SERVER=bigdata.6
-PROGRESS=157
+PROGRESS=160
 TOTAL=444
-PCT=35
+PCT=36
 STATUS=running
-LAST=DeepMVI is tested with mcar on Colposcopy, started at 2026-03-07 15:23:52.
+LAST=HKMFT is tested with aligned_series on Colposcopy, started at 2026-03-07 15:30:23.
