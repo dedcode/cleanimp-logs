@@ -1,7 +1,7 @@
 ALGO=DeepMVI+HKMFT
 SERVER=bigdata.6
-PROGRESS=199
+PROGRESS=200
 TOTAL=444
-PCT=44
+PCT=45
 STATUS=running
-LAST=DeepMVI is tested with mcar on EOGHorizontalSignal, started at 2026-03-07 17:10:47.
+LAST=HKMFT is tested with mcar on EOGHorizontalSignal, started at 2026-03-07 17:10:55.
