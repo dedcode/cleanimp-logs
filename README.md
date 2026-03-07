@@ -7,7 +7,7 @@ Live experiment logs pushed every 30 seconds.
 | 01 | CSDI | bigdata.4 | 195 / 222 | 87% | running | aligned_timestamps on Herring |
 | 02 | GPT4TS | bigdata.5 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 03 | TimesNet | bigdata.6 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
-| 04 | PRISTI | bigdata.7 | 143 / 222 | 64% | running | aligned_timestamps on Fish |
+| 04 | PRISTI | bigdata.7 | 144 / 222 | 64% | running | mcar on FreezerRegularTrain |
 | 05 | NuwaTS | colab.lxd | 64 / 222 | 28% | running | aligned_timestamps on Computers |
 | 06 | DeepMVI+HKMFT | bigdata.6 | 204 / 444 | 45% | running | aligned_timestamps on EOGHorizontalSignal |
 

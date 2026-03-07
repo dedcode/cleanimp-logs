@@ -1381,3 +1381,8 @@ PRISTI is tested with aligned_timestamps on Fish, started at 2026-03-07 16:09:41
 	caching stored for recovery and missing matrix: fish_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: fish_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: fish_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: fish_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on FreezerRegularTrain, started at 2026-03-07 21:42:39.
