@@ -1,7 +1,7 @@
 ALGO=DeepMVI+HKMFT
 SERVER=bigdata.6
-PROGRESS=114
+PROGRESS=118
 TOTAL=444
-PCT=25
+PCT=26
 STATUS=running
-LAST=HKMFT is tested with aligned_timestamps on Adiac, started at 2026-03-07 14:56:06.
+LAST=HKMFT is tested with aligned_series on ArrowHead, started at 2026-03-07 14:56:33.
