@@ -1315,3 +1315,46 @@ CSDI is tested with mcar on DistalPhalanxOutlineCorrect, started at 2026-03-07 1
 	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_csdi_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_csdi_20_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on DistalPhalanxOutlineCorrect, started at 2026-03-07 13:52:04.
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on DistalPhalanxOutlineCorrect, started at 2026-03-07 13:52:11.
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on DistalPhalanxTW, started at 2026-03-07 13:52:18.
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on DistalPhalanxTW, started at 2026-03-07 13:52:25.
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on DistalPhalanxTW, started at 2026-03-07 13:52:32.
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
