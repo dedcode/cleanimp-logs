@@ -1,7 +1,7 @@
 ALGO=DeepMVI+HKMFT
 SERVER=bigdata.6
-PROGRESS=164
+PROGRESS=165
 TOTAL=444
-PCT=36
+PCT=37
 STATUS=running
-LAST=HKMFT is tested with mcar on Computers, started at 2026-03-07 15:30:44.
+LAST=DeepMVI is tested with aligned_series on Computers, started at 2026-03-07 16:52:27.
