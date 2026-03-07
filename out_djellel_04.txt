@@ -1174,3 +1174,40 @@ PRISTI is tested with mcar on EOGHorizontalSignal, started at 2026-03-07 13:53:0
 	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_pristi_20_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_pristi_40_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_series on EOGHorizontalSignal, started at 2026-03-07 13:53:12.
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_series_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_series_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_series_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_series_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_series_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_timestamps on EOGHorizontalSignal, started at 2026-03-07 13:53:20.
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_timestamps_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on EOGVerticalSignal, started at 2026-03-07 13:53:28.
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_mcar_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_mcar_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_mcar_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_mcar_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_mcar_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_series on EOGVerticalSignal, started at 2026-03-07 13:53:36.
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_aligned_series_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_aligned_series_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_aligned_series_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_aligned_series_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_aligned_series_pristi_80_20_contbyclass_imputationbyclass
