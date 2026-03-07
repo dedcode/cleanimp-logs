@@ -1415,3 +1415,4 @@ done!
 PRISTI is tested with mcar on FreezerSmallTrain, started at 2026-03-08 01:19:54.
 	caching stored for recovery and missing matrix: freezersmalltrain_mcar_pristi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezersmalltrain_mcar_pristi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: freezersmalltrain_mcar_pristi_40_20_contbyclass_imputationbyclass
