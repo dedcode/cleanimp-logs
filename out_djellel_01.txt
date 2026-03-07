@@ -1277,3 +1277,41 @@ done!
 
 CSDI is tested with aligned_timestamps on CricketX, started at 2026-03-07 13:51:28.
 	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on DistalPhalanxOutlineAgeGroup, started at 2026-03-07 13:51:35.
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on DistalPhalanxOutlineAgeGroup, started at 2026-03-07 13:51:42.
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on DistalPhalanxOutlineAgeGroup, started at 2026-03-07 13:51:49.
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on DistalPhalanxOutlineCorrect, started at 2026-03-07 13:51:58.
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_csdi_40_20_contbyclass_imputationbyclass

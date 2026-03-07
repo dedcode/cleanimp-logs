@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=132
+PROGRESS=136
 TOTAL=222
-PCT=59
+PCT=61
 STATUS=running
-LAST=CSDI is tested with aligned_timestamps on CricketX, started at 2026-03-07 13:51:28.
+LAST=CSDI is tested with mcar on DistalPhalanxOutlineCorrect, started at 2026-03-07 13:51:58.
