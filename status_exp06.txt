@@ -1,7 +1,7 @@
 ALGO=DeepMVI+HKMFT
 SERVER=bigdata.6
-PROGRESS=155
+PROGRESS=157
 TOTAL=444
-PCT=34
+PCT=35
 STATUS=running
-LAST=DeepMVI is tested with aligned_timestamps on CinCECGTorso, started at 2026-03-07 15:23:39.
+LAST=DeepMVI is tested with mcar on Colposcopy, started at 2026-03-07 15:23:52.
