@@ -11,4 +11,4 @@ Live experiment logs pushed every 30 seconds.
 | 05 | NuwaTS | colab.lxd | 64 / 222 | 28% | running | aligned_timestamps on Computers |
 | 06 | DeepMVI+HKMFT | bigdata.6 | 128 / 444 | 28% | running | mcar on BirdChicken |
 
-_Last updated: 2026-03-07 10:57 UTC_
+_Last updated: 2026-03-07 10:58 UTC_
