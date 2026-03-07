@@ -1236,3 +1236,44 @@ CSDI is tested with mcar on Computers, started at 2026-03-07 13:50:51.
 	the imputed matrix has been loaded from the cache (720, 250): computers_mcar_csdi_40_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (720, 250): computers_mcar_csdi_60_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (720, 250): computers_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on Computers, started at 2026-03-07 13:50:58.
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on Computers, started at 2026-03-07 13:51:07.
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on CricketX, started at 2026-03-07 13:51:15.
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on CricketX, started at 2026-03-07 13:51:21.
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on CricketX, started at 2026-03-07 13:51:28.
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
