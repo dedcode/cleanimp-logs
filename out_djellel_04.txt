@@ -1335,3 +1335,39 @@ PRISTI is tested with mcar on FacesUCR, started at 2026-03-07 13:55:21.
 	the imputed matrix has been loaded from the cache (131, 200): facesucr_mcar_pristi_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (131, 200): facesucr_mcar_pristi_20_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (131, 200): facesucr_mcar_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_mcar_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_mcar_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_series on FacesUCR, started at 2026-03-07 13:55:27.
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_series_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_series_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_series_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_series_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_series_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_timestamps on FacesUCR, started at 2026-03-07 13:55:34.
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_timestamps_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 200): facesucr_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on Fish, started at 2026-03-07 13:55:40.
+	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_series on Fish, started at 2026-03-07 13:55:47.
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_pristi_40_20_contbyclass_imputationbyclass
