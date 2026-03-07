@@ -1153,3 +1153,46 @@ CSDI is tested with mcar on ChlorineConcentration, started at 2026-03-07 13:49:5
 	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_mcar_csdi_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_mcar_csdi_20_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on ChlorineConcentration, started at 2026-03-07 13:49:57.
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on ChlorineConcentration, started at 2026-03-07 13:50:04.
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on CinCECGTorso, started at 2026-03-07 13:50:11.
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on CinCECGTorso, started at 2026-03-07 13:50:17.
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on CinCECGTorso, started at 2026-03-07 13:50:25.
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
