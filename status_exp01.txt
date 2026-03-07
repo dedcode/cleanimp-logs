@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=194
+PROGRESS=195
 TOTAL=222
 PCT=87
 STATUS=running
-LAST=CSDI is tested with aligned_series on Herring, started at 2026-03-07 19:34:09.
+LAST=CSDI is tested with aligned_timestamps on Herring, started at 2026-03-07 21:10:16.
