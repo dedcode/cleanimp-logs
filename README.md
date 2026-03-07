@@ -7,8 +7,8 @@ Live experiment logs pushed every 30 seconds.
 | 01 | CSDI | bigdata.4 | 118 / 222 | 53% | running | mcar on ChlorineConcentration |
 | 02 | GPT4TS | bigdata.5 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 03 | TimesNet | bigdata.6 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
-| 04 | PRISTI | bigdata.7 | 88 / 222 | 39% | running | aligned_series on CBF |
+| 04 | PRISTI | bigdata.7 | 93 / 222 | 41% | running | mcar on ChlorineConcentration |
 | 05 | NuwaTS | colab.lxd | 64 / 222 | 28% | running | aligned_timestamps on Computers |
 | 06 | DeepMVI+HKMFT | bigdata.6 | 104 / 444 | 23% | running | mcar on ACSF1 |
 
-_Last updated: 2026-03-07 09:49 UTC_
+_Last updated: 2026-03-07 09:50 UTC_

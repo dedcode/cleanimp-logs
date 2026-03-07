@@ -1,7 +1,7 @@
 ALGO=PRISTI
 SERVER=bigdata.7
-PROGRESS=88
+PROGRESS=93
 TOTAL=222
-PCT=39
+PCT=41
 STATUS=running
-LAST=PRISTI is tested with aligned_series on CBF, started at 2026-03-07 13:49:23.
+LAST=PRISTI is tested with mcar on ChlorineConcentration, started at 2026-03-07 13:49:57.

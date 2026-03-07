@@ -887,3 +887,45 @@ PRISTI is tested with aligned_series on CBF, started at 2026-03-07 13:49:23.
 	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_series_pristi_40_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_series_pristi_60_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_series_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_timestamps on CBF, started at 2026-03-07 13:49:29.
+	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_timestamps_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on Car, started at 2026-03-07 13:49:37.
+	the imputed matrix has been loaded from the cache (577, 60): car_mcar_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_mcar_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_mcar_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_mcar_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_mcar_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_series on Car, started at 2026-03-07 13:49:43.
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_timestamps on Car, started at 2026-03-07 13:49:50.
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_timestamps_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on ChlorineConcentration, started at 2026-03-07 13:49:57.
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_mcar_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_mcar_pristi_20_20_contbyclass_imputationbyclass
