@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=141
+PROGRESS=146
 TOTAL=222
-PCT=63
+PCT=65
 STATUS=running
-LAST=CSDI is tested with aligned_timestamps on DistalPhalanxTW, started at 2026-03-07 13:52:32.
+LAST=CSDI is tested with aligned_series on EOGHorizontalSignal, started at 2026-03-07 13:53:05.

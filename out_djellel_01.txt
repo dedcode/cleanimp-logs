@@ -1358,3 +1358,43 @@ done!
 
 CSDI is tested with aligned_timestamps on DistalPhalanxTW, started at 2026-03-07 13:52:32.
 	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on ECGFiveDays, started at 2026-03-07 13:52:38.
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on ECGFiveDays, started at 2026-03-07 13:52:44.
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on ECGFiveDays, started at 2026-03-07 13:52:49.
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on EOGHorizontalSignal, started at 2026-03-07 13:52:57.
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_csdi_80_20_contbyclass_imputationbyclass
