@@ -1,7 +1,7 @@
 ALGO=PRISTI
 SERVER=bigdata.7
-PROGRESS=144
+PROGRESS=145
 TOTAL=222
-PCT=64
+PCT=65
 STATUS=running
-LAST=PRISTI is tested with mcar on FreezerRegularTrain, started at 2026-03-07 21:42:39.
+LAST=PRISTI is tested with aligned_series on FreezerRegularTrain, started at 2026-03-07 22:55:53.
