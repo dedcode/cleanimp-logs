@@ -1130,3 +1130,47 @@ PRISTI is tested with aligned_series on DistalPhalanxTW, started at 2026-03-07 1
 	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_series_pristi_40_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_series_pristi_60_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_series_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_timestamps on DistalPhalanxTW, started at 2026-03-07 13:52:39.
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_timestamps_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on ECGFiveDays, started at 2026-03-07 13:52:46.
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_mcar_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_mcar_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_mcar_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_mcar_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_mcar_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_series on ECGFiveDays, started at 2026-03-07 13:52:51.
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_series_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_series_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_series_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_series_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_series_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with aligned_timestamps on ECGFiveDays, started at 2026-03-07 13:52:57.
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on EOGHorizontalSignal, started at 2026-03-07 13:53:02.
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_pristi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_pristi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_pristi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_pristi_60_20_contbyclass_imputationbyclass
