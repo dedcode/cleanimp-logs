@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=191
+PROGRESS=192
 TOTAL=222
 PCT=86
 STATUS=running
-LAST=CSDI is tested with aligned_series on Haptics, started at 2026-03-07 13:58:23.
+LAST=CSDI is tested with aligned_timestamps on Haptics, started at 2026-03-07 13:58:30.
