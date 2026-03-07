@@ -1476,3 +1476,38 @@ done!
 CSDI is tested with mcar on EthanolLevel, started at 2026-03-07 13:54:05.
 	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_csdi_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on EthanolLevel, started at 2026-03-07 13:54:14.
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on EthanolLevel, started at 2026-03-07 13:54:22.
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on FaceAll, started at 2026-03-07 13:54:33.
+	the imputed matrix has been loaded from the cache (131, 560): faceall_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 560): faceall_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 560): faceall_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 560): faceall_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (131, 560): faceall_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on FaceAll, started at 2026-03-07 13:54:40.
+	the imputed matrix has been loaded from the cache (131, 560): faceall_aligned_series_csdi_10_20_contbyclass_imputationbyclass

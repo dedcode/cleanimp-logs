@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=154
+PROGRESS=158
 TOTAL=222
-PCT=69
+PCT=71
 STATUS=running
-LAST=CSDI is tested with mcar on EthanolLevel, started at 2026-03-07 13:54:05.
+LAST=CSDI is tested with aligned_series on FaceAll, started at 2026-03-07 13:54:40.
