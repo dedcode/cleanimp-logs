@@ -1682,3 +1682,43 @@ done!
 
 CSDI is tested with aligned_timestamps on GunPoint, started at 2026-03-07 13:56:47.
 	the imputed matrix has been loaded from the cache (150, 50): gunpoint_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 50): gunpoint_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 50): gunpoint_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 50): gunpoint_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 50): gunpoint_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on GunPointAgeSpan, started at 2026-03-07 13:56:54.
+	the imputed matrix has been loaded from the cache (150, 135): gunpointagespan_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointagespan_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointagespan_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointagespan_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointagespan_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on GunPointAgeSpan, started at 2026-03-07 13:57:00.
+	the imputed matrix has been loaded from the cache (150, 135): gunpointagespan_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointagespan_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointagespan_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointagespan_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointagespan_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on GunPointAgeSpan, started at 2026-03-07 13:57:07.
+	the imputed matrix has been loaded from the cache (150, 135): gunpointagespan_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointagespan_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointagespan_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointagespan_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointagespan_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on GunPointMaleVersusFemale, started at 2026-03-07 13:57:13.
+	the imputed matrix has been loaded from the cache (150, 135): gunpointmaleversusfemale_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointmaleversusfemale_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointmaleversusfemale_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointmaleversusfemale_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (150, 135): gunpointmaleversusfemale_mcar_csdi_80_20_contbyclass_imputationbyclass
