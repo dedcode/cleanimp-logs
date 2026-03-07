@@ -11,4 +11,4 @@ Live experiment logs pushed every 30 seconds.
 | 05 | NuwaTS | colab.lxd | 64 / 222 | 28% | running | aligned_timestamps on Computers |
 | 06 | DeepMVI+HKMFT | bigdata.6 | 200 / 444 | 45% | running | mcar on EOGHorizontalSignal |
 
-_Last updated: 2026-03-07 14:16 UTC_
+_Last updated: 2026-03-07 14:17 UTC_
