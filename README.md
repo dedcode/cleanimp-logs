@@ -4,7 +4,7 @@ Live experiment logs pushed every 30 seconds.
 
 | Exp | Algorithm | Server | Progress | % | Status | Last Activity |
 |-----|-----------|--------|----------|---|--------|---------------|
-| 01 | CSDI | bigdata.4 | 206 / 222 | 92% | running | aligned_series on LargeKitchenAppliances |
+| 01 | CSDI | bigdata.4 | 207 / 222 | 93% | running | aligned_timestamps on LargeKitchenAppliances |
 | 02 | GPT4TS | bigdata.5 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 03 | TimesNet | bigdata.6 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 04 | PRISTI | bigdata.7 | 166 / 222 | 74% | running | aligned_series on Haptics |
