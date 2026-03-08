@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=205
+PROGRESS=206
 TOTAL=222
 PCT=92
 STATUS=running
-LAST=CSDI is tested with mcar on LargeKitchenAppliances, started at 2026-03-08 16:30:34.
+LAST=CSDI is tested with aligned_series on LargeKitchenAppliances, started at 2026-03-08 20:10:28.
