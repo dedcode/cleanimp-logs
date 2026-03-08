@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=203
+PROGRESS=204
 TOTAL=222
 PCT=91
 STATUS=running
-LAST=CSDI is tested with aligned_series on InsectWingbeatSound, started at 2026-03-08 15:12:52.
+LAST=CSDI is tested with aligned_timestamps on InsectWingbeatSound, started at 2026-03-08 15:51:38.
