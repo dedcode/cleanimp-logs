@@ -1883,3 +1883,8 @@ CSDI is tested with mcar on InsectEPGRegularTrain, started at 2026-03-08 08:18:2
 	caching stored for recovery and missing matrix: insectepgregulartrain_mcar_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: insectepgregulartrain_mcar_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: insectepgregulartrain_mcar_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: insectepgregulartrain_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on InsectEPGRegularTrain, started at 2026-03-08 10:23:27.
