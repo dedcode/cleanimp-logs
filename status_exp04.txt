@@ -1,7 +1,7 @@
 ALGO=PRISTI
 SERVER=bigdata.7
-PROGRESS=165
+PROGRESS=166
 TOTAL=222
 PCT=74
 STATUS=running
-LAST=PRISTI is tested with mcar on Haptics, started at 2026-03-08 16:06:03.
+LAST=PRISTI is tested with aligned_series on Haptics, started at 2026-03-08 22:58:36.
