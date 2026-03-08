@@ -1001,16 +1001,6 @@ imputed_matrix.shape = (1000, 10)
 
 ... [-1976 lines truncated] ...
 
-	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (80, 400): distalphalanxoutlineagegroup_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
-done!
-
-
-DeepMVI is tested with aligned_timestamps on DistalPhalanxOutlineAgeGroup, started at 2026-03-07 17:06:32.
-Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.1%: 
 Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
 Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
 Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
@@ -1971,6 +1961,16 @@ imputed_matrix.shape = (1000, 30)
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:137: RuntimeWarning: overflow encountered in multiply
   V_t += (lr * param.lambda_s *
 imputed_matrix.shape = (1000, 30)
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: overflow encountered in matmul
+  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: invalid value encountered in matmul
+  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in multiply
+  V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:132: RuntimeWarning: overflow encountered in multiply
+  (2.0 * param.lambda_s * new_U_i_V_t * self._U[i, :])))
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:137: RuntimeWarning: overflow encountered in multiply
+  V_t += (lr * param.lambda_s *
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: overflow encountered in matmul
   new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: invalid value encountered in matmul
