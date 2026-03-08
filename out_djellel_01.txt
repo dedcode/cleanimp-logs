@@ -1928,3 +1928,8 @@ CSDI is tested with aligned_timestamps on InsectWingbeatSound, started at 2026-0
 	caching stored for recovery and missing matrix: insectwingbeatsound_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: insectwingbeatsound_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: insectwingbeatsound_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: insectwingbeatsound_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on LargeKitchenAppliances, started at 2026-03-08 16:30:34.
