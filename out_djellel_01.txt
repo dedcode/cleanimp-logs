@@ -1954,3 +1954,4 @@ CSDI is tested with aligned_timestamps on LargeKitchenAppliances, started at 202
 	caching stored for recovery and missing matrix: largekitchenappliances_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: largekitchenappliances_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: largekitchenappliances_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: largekitchenappliances_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
