@@ -1,7 +1,7 @@
 ALGO=DeepMVI+HKMFT
 SERVER=bigdata.6
-PROGRESS=204
+PROGRESS=205
 TOTAL=444
-PCT=45
+PCT=46
 STATUS=running
-LAST=HKMFT is tested with aligned_timestamps on EOGHorizontalSignal, started at 2026-03-07 18:58:15.
+LAST=DeepMVI is tested with mcar on EOGVerticalSignal, started at 2026-03-09 02:09:05.
