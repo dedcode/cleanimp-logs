@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=201
+PROGRESS=202
 TOTAL=222
 PCT=90
 STATUS=running
-LAST=CSDI is tested with aligned_timestamps on InsectEPGRegularTrain, started at 2026-03-08 12:28:16.
+LAST=CSDI is tested with mcar on InsectWingbeatSound, started at 2026-03-08 14:33:48.
