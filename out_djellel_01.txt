@@ -1934,3 +1934,4 @@ done!
 
 CSDI is tested with mcar on LargeKitchenAppliances, started at 2026-03-08 16:30:34.
 	caching stored for recovery and missing matrix: largekitchenappliances_mcar_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: largekitchenappliances_mcar_csdi_20_20_contbyclass_imputationbyclass
