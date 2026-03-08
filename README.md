@@ -4,7 +4,7 @@ Live experiment logs pushed every 30 seconds.
 
 | Exp | Algorithm | Server | Progress | % | Status | Last Activity |
 |-----|-----------|--------|----------|---|--------|---------------|
-| 01 | CSDI | bigdata.4 | 202 / 222 | 90% | running | mcar on InsectWingbeatSound |
+| 01 | CSDI | bigdata.4 | 203 / 222 | 91% | running | aligned_series on InsectWingbeatSound |
 | 02 | GPT4TS | bigdata.5 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 03 | TimesNet | bigdata.6 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 04 | PRISTI | bigdata.7 | 164 / 222 | 73% | running | aligned_timestamps on Ham |
