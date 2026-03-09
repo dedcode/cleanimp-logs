@@ -1001,7 +1001,6 @@ imputed_matrix.shape = (1000, 10)
 
 ... [-1976 lines truncated] ...
 
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:137: RuntimeWarning: overflow encountered in multiply
   V_t += (lr * param.lambda_s *
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:122: RuntimeWarning: overflow encountered in multiply
   U_i -= (lr * param.lambda_s *
@@ -2001,3 +2000,4 @@ done!
 
 DeepMVI is tested with aligned_series on EOGVerticalSignal, started at 2026-03-09 15:48:25.
 	caching stored for recovery and missing matrix: eogverticalsignal_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: eogverticalsignal_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
