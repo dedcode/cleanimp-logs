@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=219
+PROGRESS=220
 TOTAL=222
-PCT=98
+PCT=99
 STATUS=running
-LAST=CSDI is tested with aligned_timestamps on MedicalImages, started at 2026-03-09 18:39:20.
+LAST=CSDI is tested with mcar on MoteStrain, started at 2026-03-09 19:19:46.
