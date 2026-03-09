@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=214
+PROGRESS=215
 TOTAL=222
 PCT=96
 STATUS=running
-LAST=CSDI is tested with mcar on Meat, started at 2026-03-09 13:34:42.
+LAST=CSDI is tested with aligned_series on Meat, started at 2026-03-09 14:49:48.
