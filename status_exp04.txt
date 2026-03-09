@@ -1,7 +1,7 @@
 ALGO=PRISTI
 SERVER=bigdata.7
-PROGRESS=171
+PROGRESS=172
 TOTAL=222
 PCT=77
 STATUS=running
-LAST=PRISTI is tested with mcar on InlineSkate, started at 2026-03-09 19:03:21.
+LAST=PRISTI is tested with aligned_series on InlineSkate, started at 2026-03-09 23:58:58.
