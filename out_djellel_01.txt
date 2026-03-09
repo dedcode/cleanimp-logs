@@ -1001,7 +1001,6 @@ CSDI is tested with aligned_series on Adiac, started at 2026-03-07 13:48:02.
 
 ... [-1976 lines truncated] ...
 
-CSDI is tested with aligned_series on Car, started at 2026-03-07 13:49:36.
 	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_csdi_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_csdi_20_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_csdi_40_20_contbyclass_imputationbyclass
@@ -2001,3 +2000,4 @@ CSDI is tested with mcar on MoteStrain, started at 2026-03-09 19:19:46.
 	caching stored for recovery and missing matrix: motestrain_mcar_csdi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: motestrain_mcar_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: motestrain_mcar_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: motestrain_mcar_csdi_60_20_contbyclass_imputationbyclass
