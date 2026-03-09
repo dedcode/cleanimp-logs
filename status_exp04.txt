@@ -1,7 +1,7 @@
 ALGO=PRISTI
 SERVER=bigdata.7
-PROGRESS=169
+PROGRESS=170
 TOTAL=222
 PCT=76
 STATUS=running
-LAST=PRISTI is tested with aligned_series on Herring, started at 2026-03-09 14:41:26.
+LAST=PRISTI is tested with aligned_timestamps on Herring, started at 2026-03-09 16:51:58.
