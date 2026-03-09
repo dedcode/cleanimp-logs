@@ -1001,7 +1001,6 @@ CSDI is tested with aligned_series on Adiac, started at 2026-03-07 13:48:02.
 
 ... [-1976 lines truncated] ...
 
-	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
 done!
 
 
@@ -2001,3 +2000,4 @@ CSDI is tested with mcar on MedicalImages, started at 2026-03-09 17:18:37.
 	One series has 99 values, with the offset, 94 values are available to contamination. Thus, the number of data to remove is 9 (int(94 * 0.1)), but block size is 10 -> (10 must be < 9)
 		(ACTION) block_size is set to : 4
 
+	caching stored for recovery and missing matrix: medicalimages_mcar_csdi_10_20_contbyclass_imputationbyclass
