@@ -1964,3 +1964,8 @@ CSDI is tested with mcar on Lightning2, started at 2026-03-09 03:30:24.
 	caching stored for recovery and missing matrix: lightning2_mcar_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: lightning2_mcar_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: lightning2_mcar_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: lightning2_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on Lightning2, started at 2026-03-09 05:55:02.
