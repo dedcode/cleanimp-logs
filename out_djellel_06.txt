@@ -1001,7 +1001,6 @@ imputed_matrix.shape = (1000, 10)
 
 ... [-1976 lines truncated] ...
 
-  new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
 imputed_matrix.shape = (1000, 30)
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: overflow encountered in matmul
   new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
@@ -1997,6 +1996,7 @@ imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 	caching stored for recovery and missing matrix: eogverticalsignal_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
