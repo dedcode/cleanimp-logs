@@ -1982,3 +1982,8 @@ CSDI is tested with aligned_timestamps on Lightning2, started at 2026-03-09 08:1
 	caching stored for recovery and missing matrix: lightning2_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: lightning2_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: lightning2_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: lightning2_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on Lightning7, started at 2026-03-09 10:44:02.
