@@ -1001,7 +1001,6 @@ CSDI is tested with aligned_series on Adiac, started at 2026-03-07 13:48:02.
 
 ... [-1976 lines truncated] ...
 
-	the imputed matrix has been loaded from the cache (176, 390): adiac_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (176, 390): adiac_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (176, 390): adiac_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (176, 390): adiac_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
@@ -2001,3 +2000,4 @@ done!
 CSDI is tested with aligned_timestamps on Lightning7, started at 2026-03-09 12:38:01.
 	caching stored for recovery and missing matrix: lightning7_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: lightning7_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: lightning7_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
