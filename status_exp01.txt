@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=218
+PROGRESS=219
 TOTAL=222
 PCT=98
 STATUS=running
-LAST=CSDI is tested with aligned_series on MedicalImages, started at 2026-03-09 17:58:52.
+LAST=CSDI is tested with aligned_timestamps on MedicalImages, started at 2026-03-09 18:39:20.
