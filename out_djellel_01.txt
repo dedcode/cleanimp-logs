@@ -1001,7 +1001,6 @@ CSDI is tested with aligned_series on Adiac, started at 2026-03-07 13:48:02.
 
 ... [-1976 lines truncated] ...
 
-
 CSDI is tested with aligned_timestamps on CBF, started at 2026-03-07 13:49:23.
 	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
@@ -2001,3 +2000,4 @@ CSDI is tested with aligned_timestamps on MedicalImages, started at 2026-03-09 1
 	caching stored for recovery and missing matrix: medicalimages_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: medicalimages_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: medicalimages_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: medicalimages_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
