@@ -4,4 +4,4 @@ PROGRESS=208
 TOTAL=444
 PCT=46
 STATUS=running
-LAST=HKMFT is tested with aligned_series on EOGVerticalSignal, started at 2026-03-09 18:23:16.
+LAST=HKMFT is tested with mcar on EOGVerticalSignal, started at 2026-03-09 05:54:15.
