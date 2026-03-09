@@ -1001,11 +1001,6 @@ imputed_matrix.shape = (1000, 10)
 
 ... [-1976 lines truncated] ...
 
-  V_t += (lr * param.lambda_s *
-imputed_matrix.shape = (1000, 30)
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: invalid value encountered in matmul
   new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in multiply
   V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
@@ -2001,3 +1996,8 @@ DeepMVI is tested with mcar on EOGVerticalSignal, started at 2026-03-09 02:09:05
 	caching stored for recovery and missing matrix: eogverticalsignal_mcar_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: eogverticalsignal_mcar_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: eogverticalsignal_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: eogverticalsignal_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with mcar on EOGVerticalSignal, started at 2026-03-09 05:54:15.

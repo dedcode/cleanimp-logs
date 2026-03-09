@@ -9,6 +9,6 @@ Live experiment logs pushed every 30 seconds.
 | 03 | TimesNet | bigdata.6 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 04 | PRISTI | bigdata.7 | 167 / 222 | 75% | running | aligned_timestamps on Haptics |
 | 05 | NuwaTS | colab.lxd | 66 / 222 | 29% | running | aligned_series on CricketX |
-| 06 | DeepMVI+HKMFT | bigdata.6 | 205 / 444 | 46% | running | mcar on EOGVerticalSignal |
+| 06 | DeepMVI+HKMFT | bigdata.6 | 206 / 444 | 46% | running | mcar on EOGVerticalSignal |
 
 _Last updated: 2026-03-09 01:54 UTC_
