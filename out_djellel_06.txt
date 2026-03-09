@@ -1001,7 +1001,6 @@ imputed_matrix.shape = (1000, 10)
 
 ... [-1976 lines truncated] ...
 
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: invalid value encountered in matmul
   new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: invalid value encountered in matmul
   new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
@@ -1999,5 +1998,6 @@ done!
 
 
 HKMFT is tested with aligned_series on EOGVerticalSignal, started at 2026-03-09 18:23:16.
+imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
