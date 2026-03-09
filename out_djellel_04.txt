@@ -1624,3 +1624,8 @@ PRISTI is tested with aligned_timestamps on Herring, started at 2026-03-09 16:51
 	caching stored for recovery and missing matrix: herring_aligned_timestamps_pristi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: herring_aligned_timestamps_pristi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: herring_aligned_timestamps_pristi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: herring_aligned_timestamps_pristi_80_20_contbyclass_imputationbyclass
+done!
+
+
+PRISTI is tested with mcar on InlineSkate, started at 2026-03-09 19:03:21.
