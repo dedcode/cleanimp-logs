@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=213
+PROGRESS=214
 TOTAL=222
-PCT=95
+PCT=96
 STATUS=running
-LAST=CSDI is tested with aligned_timestamps on Lightning7, started at 2026-03-09 12:38:01.
+LAST=CSDI is tested with mcar on Meat, started at 2026-03-09 13:34:42.
