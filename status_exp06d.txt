@@ -1,7 +1,7 @@
 ALGO=DeepMVI
 SERVER=colab.nb
-PROGRESS=54
+PROGRESS=55
 TOTAL=222
 PCT=24
 STATUS=running
-LAST=DeepMVI is tested with aligned_timestamps on EOGVerticalSignal, started at 2026-03-10 16:07:11.
+LAST=DeepMVI is tested with mcar on Earthquakes, started at 2026-03-10 21:24:17.
