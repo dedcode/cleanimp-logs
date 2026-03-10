@@ -4,4 +4,4 @@ PROGRESS=49
 TOTAL=222
 PCT=22
 STATUS=running
-LAST=NuwaTS is tested with aligned_timestamps on DistalPhalanxTW, started at 2026-03-10 14:32:15.
+LAST=NuwaTS is tested with mcar on EOGHorizontalSignal, started at 2026-03-10 14:32:58.
