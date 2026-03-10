@@ -1002,7 +1002,6 @@ CSDI is tested with aligned_series on Adiac, started at 2026-03-07 13:48:02.
 ... [-1976 lines truncated] ...
 
 
-
 CSDI is tested with aligned_timestamps on Colposcopy, started at 2026-03-07 13:50:45.
 	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
@@ -2001,3 +2000,4 @@ CSDI is tested with mcar on PhalangesOutlinesCorrect, started at 2026-03-10 10:4
 	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
 		(ACTION) block_size is set to : 4
 
+	caching stored for recovery and missing matrix: phalangesoutlinescorrect_mcar_csdi_10_20_contbyclass_imputationbyclass
