@@ -1001,7 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
@@ -2001,3 +2000,4 @@ imputed_matrix.shape = (1000, 30)
   V_t += (lr * param.lambda_s *
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: invalid value encountered in add
   V_t += (lr * param.lambda_s *
+imputed_matrix.shape = (1000, 30)
