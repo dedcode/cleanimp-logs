@@ -1,7 +1,7 @@
 ALGO=HKMFT
 SERVER=bigdata.6
-PROGRESS=51
+PROGRESS=52
 TOTAL=222
-PCT=22
+PCT=23
 STATUS=running
-LAST=HKMFT is tested with aligned_timestamps on EOGHorizontalSignal, started at 2026-03-11 00:08:32.
+LAST=HKMFT is tested with mcar on EOGVerticalSignal, started at 2026-03-11 00:08:40.

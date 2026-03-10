@@ -1001,20 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:122: RuntimeWarning: overflow encountered in multiply
-  U_i -= (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:126: RuntimeWarning: overflow encountered in multiply
-  U_i -= (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:126: RuntimeWarning: invalid value encountered in subtract
-  U_i -= (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: overflow encountered in multiply
-  V_t += (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: invalid value encountered in add
-  V_t += (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:105: RuntimeWarning: overflow encountered in matmul
-  err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:107: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t = self._U[i, :] @ self._V[:, t]
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: invalid value encountered in add
   U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: overflow encountered in multiply
@@ -2001,3 +1987,17 @@ HKMFT is tested with aligned_timestamps on EOGHorizontalSignal, started at 2026-
 	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
 (EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
 	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+done!
+
+
+HKMFT is tested with mcar on EOGVerticalSignal, started at 2026-03-11 00:08:40.
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_mcar_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_mcar_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_mcar_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_mcar_hkmft_60_20_contbyclass_imputationbyclass
