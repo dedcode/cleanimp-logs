@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=106
+PROGRESS=107
 TOTAL=222
-PCT=47
+PCT=48
 STATUS=running
-LAST=NuwaTS is tested with mcar on InsectWingbeatSound, started at 2026-03-10 21:54:11.
+LAST=NuwaTS is tested with aligned_series on InsectWingbeatSound, started at 2026-03-10 22:05:40.
