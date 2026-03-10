@@ -250,3 +250,53 @@ HKMFT is tested with aligned_series on ACSF1, started at 2026-03-10 20:24:56.
 	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on ACSF1, started at 2026-03-10 20:25:03.
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+done!
+
+
+HKMFT is tested with mcar on Adiac, started at 2026-03-10 20:25:11.
+	the imputed matrix has been loaded from the cache (176, 390): adiac_mcar_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (176, 390): adiac_mcar_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (176, 390): adiac_mcar_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (176, 390): adiac_mcar_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (176, 390): adiac_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_series on Adiac, started at 2026-03-10 20:25:18.
+	the imputed matrix has been loaded from the cache (176, 390): adiac_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (176, 390): adiac_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/recovery/manager.py:783: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, axes = plt.subplots(n_rows, n_cols, figsize=(x_size, y_size), squeeze=False)
+	the imputed matrix has been loaded from the cache (176, 390): adiac_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (176, 390): adiac_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (176, 390): adiac_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on Adiac, started at 2026-03-10 20:25:25.
+	the imputed matrix has been loaded from the cache (176, 390): adiac_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (176, 390): adiac_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (176, 390): adiac_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (176, 390): adiac_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (176, 390): adiac_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with mcar on ArrowHead, started at 2026-03-10 20:25:32.
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_mcar_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_mcar_hkmft_20_20_contbyclass_imputationbyclass
