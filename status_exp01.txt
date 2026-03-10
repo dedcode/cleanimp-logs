@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=130
+PROGRESS=131
 TOTAL=222
-PCT=58
+PCT=59
 STATUS=running
-LAST=CSDI is tested with mcar on OliveOil, started at 2026-03-10 07:26:43.
+LAST=CSDI is tested with aligned_series on OliveOil, started at 2026-03-10 08:32:31.
