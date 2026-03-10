@@ -635,3 +635,54 @@ imputed_matrix.shape = (1000, 10)
   new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: invalid value encountered in matmul
   new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
+imputed_matrix.shape = (1000, 13)
+Error during benchmark for HKMFT, with CinCECGTorso, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+HKMFT is tested with aligned_series on CinCECGTorso, started at 2026-03-10 20:49:58.
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on CinCECGTorso, started at 2026-03-10 20:50:04.
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+done!
+
+
+HKMFT is tested with mcar on Colposcopy, started at 2026-03-10 20:50:10.
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_mcar_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_mcar_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_mcar_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_mcar_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_series on Colposcopy, started at 2026-03-10 20:50:17.
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on Colposcopy, started at 2026-03-10 20:50:23.
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (180, 99): colposcopy_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass

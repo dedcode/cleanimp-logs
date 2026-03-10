@@ -1,7 +1,7 @@
 ALGO=HKMFT
 SERVER=bigdata.6
-PROGRESS=25
+PROGRESS=30
 TOTAL=222
-PCT=11
+PCT=13
 STATUS=running
-LAST=HKMFT is tested with mcar on CinCECGTorso, started at 2026-03-10 20:32:44.
+LAST=HKMFT is tested with aligned_timestamps on Colposcopy, started at 2026-03-10 20:50:23.
