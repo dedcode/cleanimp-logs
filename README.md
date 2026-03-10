@@ -10,4 +10,4 @@ Live experiment logs pushed every 30 seconds.
 | 04 | PRISTI | bigdata.7 | 101 / 222 | 45% | running | aligned_series on InlineSkate |
 | 05 | NuwaTS | colab.lxd | 54 / 222 | 24% | running | aligned_timestamps on EOGVerticalSignal |
 
-_Last updated: 2026-03-10 15:45 UTC_
+_Last updated: 2026-03-10 15:46 UTC_
