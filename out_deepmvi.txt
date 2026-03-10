@@ -304,3 +304,33 @@ done!
 
 DeepMVI is tested with aligned_series on Computers, started at 2026-03-10 15:49:27.
 	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on Computers, started at 2026-03-10 15:49:36.
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with mcar on CricketX, started at 2026-03-10 15:49:45.
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on CricketX, started at 2026-03-10 15:49:54.
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
