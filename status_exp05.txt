@@ -4,4 +4,4 @@ PROGRESS=49
 TOTAL=222
 PCT=22
 STATUS=running
-LAST=NuwaTS is tested with aligned_timestamps on Adiac, started at 2026-03-10 14:26:26.
+LAST=NuwaTS is tested with aligned_timestamps on Beef, started at 2026-03-10 14:27:13.
