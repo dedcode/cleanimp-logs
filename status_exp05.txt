@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=108
+PROGRESS=110
 TOTAL=222
-PCT=48
+PCT=49
 STATUS=running
-LAST=NuwaTS is tested with aligned_timestamps on InsectWingbeatSound, started at 2026-03-10 22:18:20.
+LAST=NuwaTS is tested with aligned_series on LargeKitchenAppliances, started at 2026-03-10 22:30:08.
