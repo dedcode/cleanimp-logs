@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=115
+PROGRESS=116
 TOTAL=222
-PCT=51
+PCT=52
 STATUS=running
-LAST=NuwaTS is tested with mcar on Lightning7, started at 2026-03-10 23:04:05.
+LAST=NuwaTS is tested with aligned_series on Lightning7, started at 2026-03-10 23:11:01.
