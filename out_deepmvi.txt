@@ -355,3 +355,67 @@ DeepMVI is tested with mcar on DistalPhalanxOutlineAgeGroup, started at 2026-03-
 
 Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.1%: 
 Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.2%: 
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_series on DistalPhalanxOutlineAgeGroup, started at 2026-03-10 15:59:30.
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_timestamps on DistalPhalanxOutlineAgeGroup, started at 2026-03-10 15:59:30.
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.1%: 
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with mcar on DistalPhalanxOutlineCorrect, started at 2026-03-10 15:59:30.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (378, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.1%: 
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_series on DistalPhalanxOutlineCorrect, started at 2026-03-10 15:59:32.
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_timestamps on DistalPhalanxOutlineCorrect, started at 2026-03-10 15:59:32.
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.1%: 
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineCorrect, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with mcar on DistalPhalanxTW, started at 2026-03-10 15:59:32.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (213, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.1%: 
+Error during benchmark for DeepMVI, with DistalPhalanxTW, and 0.2%: 

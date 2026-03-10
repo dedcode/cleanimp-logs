@@ -1,7 +1,7 @@
 ALGO=DeepMVI
 SERVER=colab.nb
-PROGRESS=37
+PROGRESS=43
 TOTAL=222
-PCT=16
+PCT=19
 STATUS=running
-LAST=DeepMVI is tested with mcar on DistalPhalanxOutlineAgeGroup, started at 2026-03-10 15:50:12.
+LAST=DeepMVI is tested with mcar on DistalPhalanxTW, started at 2026-03-10 15:59:32.
