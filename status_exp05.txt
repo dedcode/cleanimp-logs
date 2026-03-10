@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=64
+PROGRESS=65
 TOTAL=222
-PCT=28
+PCT=29
 STATUS=running
-LAST=NuwaTS is tested with mcar on FaceFour, started at 2026-03-10 16:59:12.
+LAST=NuwaTS is tested with aligned_series on FaceFour, started at 2026-03-10 17:02:38.
