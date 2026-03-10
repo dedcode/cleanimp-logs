@@ -473,3 +473,12 @@ HKMFT is tested with aligned_timestamps on CBF, started at 2026-03-10 20:27:39.
 	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with mcar on Car, started at 2026-03-10 20:27:46.
+	the imputed matrix has been loaded from the cache (577, 60): car_mcar_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_mcar_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_mcar_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_mcar_hkmft_60_20_contbyclass_imputationbyclass
