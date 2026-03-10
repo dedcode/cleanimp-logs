@@ -1,7 +1,7 @@
 ALGO=HKMFT
 SERVER=bigdata.6
-PROGRESS=13
+PROGRESS=19
 TOTAL=222
-PCT=5
+PCT=8
 STATUS=running
-LAST=HKMFT is tested with mcar on BirdChicken, started at 2026-03-10 20:26:09.
+LAST=HKMFT is tested with mcar on Car, started at 2026-03-10 20:27:46.

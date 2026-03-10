@@ -10,6 +10,6 @@ Live experiment logs pushed every 30 seconds.
 | 04 | PRISTI | bigdata.7 | 101 / 222 | 45% | running | aligned_series on InlineSkate |
 | 05 | NuwaTS | colab.lxd | 57 / 222 | 25% | running | aligned_timestamps on Earthquakes |
 | 06d | DeepMVI | colab.nb | 54 / 222 | 24% | running | aligned_timestamps on EOGVerticalSignal |
-| 06h | HKMFT | bigdata.6 | 13 / 222 | 5% | running | mcar on BirdChicken |
+| 06h | HKMFT | bigdata.6 | 19 / 222 | 8% | running | mcar on Car |
 
 _Last updated: 2026-03-10 16:27 UTC_
