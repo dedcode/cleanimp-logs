@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=92
+PROGRESS=93
 TOTAL=222
 PCT=41
 STATUS=running
-LAST=NuwaTS is tested with aligned_series on Ham, started at 2026-03-10 18:54:07.
+LAST=NuwaTS is tested with aligned_timestamps on Ham, started at 2026-03-10 19:05:24.
