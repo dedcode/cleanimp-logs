@@ -269,3 +269,38 @@ done!
 DeepMVI is tested with mcar on Colposcopy, started at 2026-03-10 15:35:17.
 Error during benchmark for DeepMVI, with Colposcopy, and 0.1%: 
 Error during benchmark for DeepMVI, with Colposcopy, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_series on Colposcopy, started at 2026-03-10 15:49:16.
+Error during benchmark for DeepMVI, with Colposcopy, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_timestamps on Colposcopy, started at 2026-03-10 15:49:17.
+Error during benchmark for DeepMVI, with Colposcopy, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Colposcopy, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with mcar on Computers, started at 2026-03-10 15:49:17.
+	the imputed matrix has been loaded from the cache (720, 250): computers_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_mcar_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on Computers, started at 2026-03-10 15:49:27.
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass

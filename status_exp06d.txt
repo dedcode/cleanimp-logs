@@ -1,7 +1,7 @@
 ALGO=DeepMVI
 SERVER=colab.nb
-PROGRESS=28
+PROGRESS=32
 TOTAL=222
-PCT=12
+PCT=14
 STATUS=running
-LAST=DeepMVI is tested with mcar on Colposcopy, started at 2026-03-10 15:35:17.
+LAST=DeepMVI is tested with aligned_series on Computers, started at 2026-03-10 15:49:27.
