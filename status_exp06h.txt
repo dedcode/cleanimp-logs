@@ -1,7 +1,7 @@
 ALGO=HKMFT
 SERVER=bigdata.6
-PROGRESS=46
+PROGRESS=49
 TOTAL=222
-PCT=20
+PCT=22
 STATUS=running
-LAST=HKMFT is tested with mcar on ECGFiveDays, started at 2026-03-10 22:21:45.
+LAST=HKMFT is tested with mcar on EOGHorizontalSignal, started at 2026-03-10 22:22:01.

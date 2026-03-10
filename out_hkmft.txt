@@ -1633,3 +1633,34 @@ done!
 
 
 HKMFT is tested with mcar on ECGFiveDays, started at 2026-03-10 22:21:45.
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_mcar_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_mcar_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_mcar_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_mcar_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_series on ECGFiveDays, started at 2026-03-10 22:21:51.
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on ECGFiveDays, started at 2026-03-10 22:21:56.
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with mcar on EOGHorizontalSignal, started at 2026-03-10 22:22:01.
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_hkmft_60_20_contbyclass_imputationbyclass
