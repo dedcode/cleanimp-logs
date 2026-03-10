@@ -565,3 +565,14 @@ done!
 HKMFT is tested with aligned_timestamps on ChlorineConcentration, started at 2026-03-10 20:32:37.
 	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with mcar on CinCECGTorso, started at 2026-03-10 20:32:44.
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_mcar_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_mcar_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_mcar_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_mcar_hkmft_60_20_contbyclass_imputationbyclass
