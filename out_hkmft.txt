@@ -595,3 +595,4 @@ imputed_matrix.shape = (1000, 5)
   new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: invalid value encountered in matmul
   new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
+imputed_matrix.shape = (1000, 12)
