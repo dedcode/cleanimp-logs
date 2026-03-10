@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=44
+PROGRESS=45
 TOTAL=222
-PCT=19
+PCT=20
 STATUS=running
-LAST=NuwaTS is tested with aligned_series on DistalPhalanxTW, started at 2026-03-10 12:40:58.
+LAST=NuwaTS is tested with aligned_timestamps on DistalPhalanxTW, started at 2026-03-10 13:19:04.
