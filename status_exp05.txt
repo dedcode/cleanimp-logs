@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=118
+PROGRESS=119
 TOTAL=222
 PCT=53
 STATUS=running
-LAST=NuwaTS is tested with mcar on Meat, started at 2026-03-10 23:24:18.
+LAST=NuwaTS is tested with aligned_series on Meat, started at 2026-03-10 23:32:39.
