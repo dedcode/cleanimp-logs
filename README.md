@@ -8,7 +8,7 @@ Live experiment logs pushed every 30 seconds.
 | 02 | GPT4TS | bigdata.5 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 03 | TimesNet | bigdata.6 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 04 | PRISTI | bigdata.7 | 101 / 222 | 45% | running | aligned_series on InlineSkate |
-| 05 | NuwaTS | colab.lxd | 54 / 222 | 24% | running | aligned_timestamps on EOGVerticalSignal |
+| 05 | NuwaTS | colab.lxd | 55 / 222 | 24% | running | mcar on Earthquakes |
 | 06 | DeepMVI | colab.nb | 43 / 222 | 19% | running | mcar on DistalPhalanxTW |
 | 06 | HKMFT | bigdata.6 | 1 / 222 | 0% | running | mcar on ACSF1 |
 
