@@ -517,3 +517,51 @@ imputed_matrix.shape = (577, 16)
   V_t += (lr * param.lambda_s *
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in subtract
   V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
+imputed_matrix.shape = (577, 11)
+Error during benchmark for HKMFT, with Car, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+HKMFT is tested with aligned_series on Car, started at 2026-03-10 20:32:09.
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on Car, started at 2026-03-10 20:32:16.
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+done!
+
+
+HKMFT is tested with mcar on ChlorineConcentration, started at 2026-03-10 20:32:24.
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_mcar_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_mcar_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_mcar_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_mcar_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_series on ChlorineConcentration, started at 2026-03-10 20:32:30.
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on ChlorineConcentration, started at 2026-03-10 20:32:37.
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass

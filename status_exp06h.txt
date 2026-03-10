@@ -1,7 +1,7 @@
 ALGO=HKMFT
 SERVER=bigdata.6
-PROGRESS=19
+PROGRESS=24
 TOTAL=222
-PCT=8
+PCT=10
 STATUS=running
-LAST=HKMFT is tested with mcar on Car, started at 2026-03-10 20:27:46.
+LAST=HKMFT is tested with aligned_timestamps on ChlorineConcentration, started at 2026-03-10 20:32:37.
