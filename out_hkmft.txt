@@ -1333,3 +1333,47 @@ imputed_matrix.shape = (720, 125)
   U_i -= (lr * param.lambda_s *
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: invalid value encountered in add
   U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
+imputed_matrix.shape = (720, 125)
+Error during benchmark for HKMFT, with Computers, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+HKMFT is tested with aligned_series on Computers, started at 2026-03-10 22:11:47.
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on Computers, started at 2026-03-10 22:11:54.
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+	the imputed matrix has been loaded from the cache (720, 250): computers_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+done!
+
+
+HKMFT is tested with mcar on CricketX, started at 2026-03-10 22:12:02.
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_series on CricketX, started at 2026-03-10 22:12:08.
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_hkmft_80_20_contbyclass_imputationbyclass

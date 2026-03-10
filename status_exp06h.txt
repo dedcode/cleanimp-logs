@@ -1,7 +1,7 @@
 ALGO=HKMFT
 SERVER=bigdata.6
-PROGRESS=31
+PROGRESS=36
 TOTAL=222
-PCT=13
+PCT=16
 STATUS=running
-LAST=HKMFT is tested with mcar on Computers, started at 2026-03-10 20:50:30.
+LAST=HKMFT is tested with aligned_timestamps on CricketX, started at 2026-03-10 22:12:15.
