@@ -4,4 +4,4 @@ PROGRESS=49
 TOTAL=222
 PCT=22
 STATUS=running
-LAST=NuwaTS is tested with aligned_series on CBF, started at 2026-03-10 14:27:46.
+LAST=NuwaTS is tested with mcar on ChlorineConcentration, started at 2026-03-10 14:28:27.
