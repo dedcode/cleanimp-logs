@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=73
+PROGRESS=74
 TOTAL=222
-PCT=32
+PCT=33
 STATUS=running
-LAST=NuwaTS is tested with mcar on FreezerRegularTrain, started at 2026-03-10 17:57:33.
+LAST=NuwaTS is tested with aligned_series on FreezerRegularTrain, started at 2026-03-10 18:02:29.
