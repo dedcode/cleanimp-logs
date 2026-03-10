@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=85
+PROGRESS=86
 TOTAL=222
 PCT=38
 STATUS=running
-LAST=NuwaTS is tested with mcar on GunPointMaleVersusFemale, started at 2026-03-10 18:33:32.
+LAST=NuwaTS is tested with aligned_series on GunPointMaleVersusFemale, started at 2026-03-10 18:34:58.
