@@ -1,7 +1,7 @@
 ALGO=DeepMVI
 SERVER=colab.nb
-PROGRESS=57
+PROGRESS=58
 TOTAL=222
-PCT=25
+PCT=26
 STATUS=running
-LAST=DeepMVI is tested with aligned_timestamps on Earthquakes, started at 2026-03-10 22:24:13.
+LAST=DeepMVI is tested with mcar on EthanolLevel, started at 2026-03-10 22:58:59.
