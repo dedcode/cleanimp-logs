@@ -1,0 +1,7 @@
+ALGO=DeepMVI
+SERVER=colab.nb
+PROGRESS=28
+TOTAL=222
+PCT=12
+STATUS=running
+LAST=DeepMVI is tested with mcar on Colposcopy, started at 2026-03-10 15:35:17.

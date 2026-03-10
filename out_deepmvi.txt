@@ -1,0 +1,271 @@
+names =['ACSF1', 'Adiac', 'ArrowHead', 'Beef', 'BirdChicken', 'CBF', 'Car', 'ChlorineConcentration', 'CinCECGTorso', 'Colposcopy', 'Computers', 'CricketX', 'DistalPhalanxOutlineAgeGroup', 'DistalPhalanxOutlineCorrect', 'DistalPhalanxTW', 'ECGFiveDays', 'EOGHorizontalSignal', 'EOGVerticalSignal', 'Earthquakes', 'EthanolLevel', 'FaceAll', 'FaceFour', 'FacesUCR', 'Fish', 'FreezerRegularTrain', 'FreezerSmallTrain', 'GunPoint', 'GunPointAgeSpan', 'GunPointMaleVersusFemale', 'GunPointOldVersusYoung', 'Ham', 'Haptics', 'Herring', 'InlineSkate', 'InsectEPGRegularTrain', 'InsectWingbeatSound', 'LargeKitchenAppliances', 'Lightning2', 'Lightning7', 'Meat', 'MedicalImages', 'MoteStrain', 'OSULeaf', 'OliveOil', 'PhalangesOutlinesCorrect', 'Plane', 'PowerCons', 'ProximalPhalanxOutlineAgeGroup', 'ProximalPhalanxOutlineCorrect', 'RefrigerationDevices', 'Rock', 'ScreenType', 'SemgHandGenderCh2', 'SemgHandMovementCh2', 'SemgHandSubjectCh2', 'ShapeletSim', 'ShapesAll', 'SharePriceIncrease', 'SmallKitchenAppliances', 'SonyAIBORobotSurface1', 'Strawberry', 'SwedishLeaf', 'SyntheticControl', 'ToeSegmentation1', 'ToeSegmentation2', 'Trace', 'TwoLeadECG', 'TwoPatterns', 'UMD', 'Wafer', 'Wine', 'Worms', 'WormsTwoClass', 'Yoga']
+
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['ACSF1', 'Adiac', 'ArrowHead', 'Beef', 'BirdChicken', 'CBF', 'Car', 'ChlorineConcentration', 'CinCECGTorso', 'Colposcopy', 'Computers', 'CricketX', 'DistalPhalanxOutlineAgeGroup', 'DistalPhalanxOutlineCorrect', 'DistalPhalanxTW', 'ECGFiveDays', 'EOGHorizontalSignal', 'EOGVerticalSignal', 'Earthquakes', 'EthanolLevel', 'FaceAll', 'FaceFour', 'FacesUCR', 'Fish', 'FreezerRegularTrain', 'FreezerSmallTrain', 'GunPoint', 'GunPointAgeSpan', 'GunPointMaleVersusFemale', 'GunPointOldVersusYoung', 'Ham', 'Haptics', 'Herring', 'InlineSkate', 'InsectEPGRegularTrain', 'InsectWingbeatSound', 'LargeKitchenAppliances', 'Lightning2', 'Lightning7', 'Meat', 'MedicalImages', 'MoteStrain', 'OSULeaf', 'OliveOil', 'PhalangesOutlinesCorrect', 'Plane', 'PowerCons', 'ProximalPhalanxOutlineAgeGroup', 'ProximalPhalanxOutlineCorrect', 'RefrigerationDevices', 'Rock', 'ScreenType', 'SemgHandGenderCh2', 'SemgHandMovementCh2', 'SemgHandSubjectCh2', 'ShapeletSim', 'ShapesAll', 'SharePriceIncrease', 'SmallKitchenAppliances', 'SonyAIBORobotSurface1', 'Strawberry', 'SwedishLeaf', 'SyntheticControl', 'ToeSegmentation1', 'ToeSegmentation2', 'Trace', 'TwoLeadECG', 'TwoPatterns', 'UMD', 'Wafer', 'Wine', 'Worms', 'WormsTwoClass', 'Yoga']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on ACSF1, started at 2026-03-10 15:16:48.
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_mcar_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on ACSF1, started at 2026-03-10 15:16:58.
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on ACSF1, started at 2026-03-10 15:17:07.
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 100): acsf1_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with mcar on Adiac, started at 2026-03-10 15:17:17.
+Error during benchmark for DeepMVI, with Adiac, and 0.1%: 
+Error during benchmark for DeepMVI, with Adiac, and 0.2%: 
+Error during benchmark for DeepMVI, with Adiac, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_series on Adiac, started at 2026-03-10 15:30:46.
+Error during benchmark for DeepMVI, with Adiac, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_timestamps on Adiac, started at 2026-03-10 15:30:46.
+Error during benchmark for DeepMVI, with Adiac, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with Adiac, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with mcar on ArrowHead, started at 2026-03-10 15:30:46.
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_mcar_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on ArrowHead, started at 2026-03-10 15:30:54.
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
+/storage/experiments/cleanimp/imputegap/recovery/manager.py:783: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, axes = plt.subplots(n_rows, n_cols, figsize=(x_size, y_size), squeeze=False)
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on ArrowHead, started at 2026-03-10 15:31:03.
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
+Error during benchmark for DeepMVI, with ArrowHead, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ArrowHead, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with mcar on Beef, started at 2026-03-10 15:31:07.
+	the imputed matrix has been loaded from the cache (470, 30): beef_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_mcar_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on Beef, started at 2026-03-10 15:31:15.
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on Beef, started at 2026-03-10 15:31:22.
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with mcar on BirdChicken, started at 2026-03-10 15:31:30.
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_mcar_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on BirdChicken, started at 2026-03-10 15:31:36.
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on BirdChicken, started at 2026-03-10 15:31:42.
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 20): birdchicken_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with mcar on CBF, started at 2026-03-10 15:31:47.
+Error during benchmark for DeepMVI, with CBF, and 0.1%: 
+Error during benchmark for DeepMVI, with CBF, and 0.2%: 
+Error during benchmark for DeepMVI, with CBF, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with CBF, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with CBF, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_series on CBF, started at 2026-03-10 15:34:21.
+Error during benchmark for DeepMVI, with CBF, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with CBF, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with CBF, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with CBF, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with CBF, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_timestamps on CBF, started at 2026-03-10 15:34:21.
+	the imputed matrix has been loaded from the cache (128, 30): cbf_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
+Error during benchmark for DeepMVI, with CBF, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with CBF, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with CBF, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with CBF, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with mcar on Car, started at 2026-03-10 15:34:23.
+	the imputed matrix has been loaded from the cache (577, 60): car_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_mcar_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on Car, started at 2026-03-10 15:34:32.
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on Car, started at 2026-03-10 15:34:40.
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (577, 60): car_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with mcar on ChlorineConcentration, started at 2026-03-10 15:34:48.
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (166, 467): chlorineconcentration_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_series on ChlorineConcentration, started at 2026-03-10 15:34:53.
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_timestamps on ChlorineConcentration, started at 2026-03-10 15:34:53.
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with ChlorineConcentration, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with mcar on CinCECGTorso, started at 2026-03-10 15:34:54.
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_mcar_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on CinCECGTorso, started at 2026-03-10 15:35:01.
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on CinCECGTorso, started at 2026-03-10 15:35:09.
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with mcar on Colposcopy, started at 2026-03-10 15:35:17.
+Error during benchmark for DeepMVI, with Colposcopy, and 0.1%: 
+Error during benchmark for DeepMVI, with Colposcopy, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
