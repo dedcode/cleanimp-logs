@@ -1,7 +1,7 @@
 ALGO=DeepMVI
 SERVER=colab.nb
-PROGRESS=35
+PROGRESS=37
 TOTAL=222
-PCT=15
+PCT=16
 STATUS=running
-LAST=DeepMVI is tested with aligned_series on CricketX, started at 2026-03-10 15:49:54.
+LAST=DeepMVI is tested with mcar on DistalPhalanxOutlineAgeGroup, started at 2026-03-10 15:50:12.

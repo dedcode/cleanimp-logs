@@ -334,3 +334,24 @@ DeepMVI is tested with aligned_series on CricketX, started at 2026-03-10 15:49:5
 	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on CricketX, started at 2026-03-10 15:50:02.
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (300, 390): cricketx_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with mcar on DistalPhalanxOutlineAgeGroup, started at 2026-03-10 15:50:12.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (113, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.1%: 
+Error during benchmark for DeepMVI, with DistalPhalanxOutlineAgeGroup, and 0.2%: 
