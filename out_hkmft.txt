@@ -300,3 +300,49 @@ done!
 HKMFT is tested with mcar on ArrowHead, started at 2026-03-10 20:25:32.
 	the imputed matrix has been loaded from the cache (251, 36): arrowhead_mcar_hkmft_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (251, 36): arrowhead_mcar_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_mcar_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_mcar_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_series on ArrowHead, started at 2026-03-10 20:25:38.
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on ArrowHead, started at 2026-03-10 20:25:45.
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (251, 36): arrowhead_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with mcar on Beef, started at 2026-03-10 20:25:51.
+	the imputed matrix has been loaded from the cache (470, 30): beef_mcar_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_mcar_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_mcar_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_mcar_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_series on Beef, started at 2026-03-10 20:25:57.
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on Beef, started at 2026-03-10 20:26:03.
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (470, 30): beef_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
