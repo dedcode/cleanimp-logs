@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=46
+PROGRESS=47
 TOTAL=222
-PCT=20
+PCT=21
 STATUS=running
-LAST=NuwaTS is tested with mcar on ECGFiveDays, started at 2026-03-10 13:41:57.
+LAST=NuwaTS is tested with aligned_series on ECGFiveDays, started at 2026-03-10 13:48:22.
