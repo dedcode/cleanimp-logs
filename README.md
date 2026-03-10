@@ -8,8 +8,8 @@ Live experiment logs pushed every 30 seconds.
 | 02 | GPT4TS | bigdata.5 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 03 | TimesNet | bigdata.6 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 04 | PRISTI | bigdata.7 | 101 / 222 | 45% | running | aligned_series on InlineSkate |
-| 05 | NuwaTS | colab.lxd | 76 / 222 | 34% | running | mcar on FreezerSmallTrain |
-| 06d | DeepMVI | colab.nb | 54 / 222 | 24% | running | aligned_timestamps on EOGVerticalSignal |
-| 06h | HKMFT | bigdata.6 | 36 / 222 | 16% | running | aligned_timestamps on CricketX |
+| 05 | NuwaTS | colab.lxd | 77 / 222 | 34% | running | aligned_series on FreezerSmallTrain |
+| 06 | DeepMVI | colab.nb | 54 / 222 | 24% | running | aligned_timestamps on EOGVerticalSignal |
+| 06 | HKMFT | bigdata.6 | 36 / 222 | 16% | running | aligned_timestamps on CricketX |
 
 _Last updated: 2026-03-10 18:19 UTC_
