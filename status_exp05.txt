@@ -4,4 +4,4 @@ PROGRESS=49
 TOTAL=222
 PCT=22
 STATUS=running
-LAST=NuwaTS is tested with mcar on EOGHorizontalSignal, started at 2026-03-10 13:59:58.
+LAST=NuwaTS is tested with aligned_series on ACSF1, started at 2026-03-10 14:25:50.
