@@ -1,7 +1,7 @@
 ALGO=HKMFT
 SERVER=bigdata.6
-PROGRESS=12
+PROGRESS=13
 TOTAL=222
 PCT=5
 STATUS=running
-LAST=HKMFT is tested with aligned_timestamps on Beef, started at 2026-03-10 20:26:03.
+LAST=HKMFT is tested with mcar on BirdChicken, started at 2026-03-10 20:26:09.
