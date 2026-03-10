@@ -476,3 +476,30 @@ DeepMVI is tested with mcar on EOGHorizontalSignal, started at 2026-03-10 16:06:
 	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_deepmvi_40_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_deepmvi_60_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on EOGHorizontalSignal, started at 2026-03-10 16:06:26.
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on EOGHorizontalSignal, started at 2026-03-10 16:06:38.
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with mcar on EOGVerticalSignal, started at 2026-03-10 16:06:49.
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_mcar_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_mcar_deepmvi_80_20_contbyclass_imputationbyclass

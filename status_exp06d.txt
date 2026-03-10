@@ -1,7 +1,7 @@
 ALGO=DeepMVI
 SERVER=colab.nb
-PROGRESS=50
+PROGRESS=53
 TOTAL=222
-PCT=22
+PCT=23
 STATUS=running
-LAST=DeepMVI is tested with aligned_series on EOGHorizontalSignal, started at 2026-03-10 16:06:26.
+LAST=DeepMVI is tested with aligned_series on EOGVerticalSignal, started at 2026-03-10 16:07:00.
