@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.4
-PROGRESS=129
+PROGRESS=130
 TOTAL=222
 PCT=58
 STATUS=running
-LAST=CSDI is tested with aligned_timestamps on OSULeaf, started at 2026-03-10 03:26:59.
+LAST=CSDI is tested with mcar on OliveOil, started at 2026-03-10 07:26:43.
