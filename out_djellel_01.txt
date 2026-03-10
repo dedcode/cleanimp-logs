@@ -1001,7 +1001,6 @@ CSDI is tested with aligned_series on Adiac, started at 2026-03-07 13:48:02.
 
 ... [-1976 lines truncated] ...
 
-CSDI is tested with aligned_series on CinCECGTorso, started at 2026-03-07 13:50:17.
 	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_csdi_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_csdi_20_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (1000, 40): cincecgtorso_aligned_series_csdi_40_20_contbyclass_imputationbyclass
@@ -2001,3 +2000,4 @@ CSDI is tested with mcar on OliveOil, started at 2026-03-10 07:26:43.
 	caching stored for recovery and missing matrix: oliveoil_mcar_csdi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: oliveoil_mcar_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: oliveoil_mcar_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: oliveoil_mcar_csdi_60_20_contbyclass_imputationbyclass
