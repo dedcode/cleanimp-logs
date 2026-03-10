@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=90
+PROGRESS=91
 TOTAL=222
 PCT=40
 STATUS=running
-LAST=NuwaTS is tested with aligned_timestamps on GunPointOldVersusYoung, started at 2026-03-10 18:43:29.
+LAST=NuwaTS is tested with mcar on Ham, started at 2026-03-10 18:45:10.
