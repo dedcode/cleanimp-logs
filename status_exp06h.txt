@@ -1,7 +1,7 @@
 ALGO=HKMFT
 SERVER=bigdata.6
-PROGRESS=43
+PROGRESS=46
 TOTAL=222
-PCT=19
+PCT=20
 STATUS=running
-LAST=HKMFT is tested with mcar on DistalPhalanxTW, started at 2026-03-10 22:21:12.
+LAST=HKMFT is tested with mcar on ECGFiveDays, started at 2026-03-10 22:21:45.
