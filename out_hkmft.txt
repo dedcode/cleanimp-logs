@@ -1561,3 +1561,37 @@ done!
 HKMFT is tested with mcar on DistalPhalanxOutlineCorrect, started at 2026-03-10 22:20:33.
 	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_hkmft_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_mcar_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (80, 378)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+imputed_matrix.shape = (80, 222)
+Error during benchmark for HKMFT, with DistalPhalanxOutlineCorrect, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+HKMFT is tested with aligned_series on DistalPhalanxOutlineCorrect, started at 2026-03-10 22:20:58.
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on DistalPhalanxOutlineCorrect, started at 2026-03-10 22:21:05.
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (80, 600): distalphalanxoutlinecorrect_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+done!
+
+
+HKMFT is tested with mcar on DistalPhalanxTW, started at 2026-03-10 22:21:12.
+	the imputed matrix has been loaded from the cache (80, 400): distalphalanxtw_mcar_hkmft_10_20_contbyclass_imputationbyclass
