@@ -3,5 +3,5 @@ SERVER=colab.lxd
 PROGRESS=222
 TOTAL=222
 PCT=100
-STATUS=running
+STATUS=done
 LAST=NuwaTS is tested with aligned_timestamps on Yoga, started at 2026-03-11 16:20:15.
