@@ -1001,8 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-  TwoLeadECG    0.1       0.4368992617    
-  TwoLeadECG    0.2       1.0355289688    
   TwoLeadECG    0.4       0.7307036241    
   TwoLeadECG    0.6       1.1902391989    
   TwoLeadECG    0.8       1.6292848685    
@@ -1609,6 +1607,7 @@ imputed_matrix.shape = (131, 11)
 imputed_matrix.shape = (131, 15)
 imputed_matrix.shape = (131, 27)
 imputed_matrix.shape = (131, 13)
+imputed_matrix.shape = (131, 22)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1719,6 +1718,7 @@ imputed_matrix.shape = (301, 14)
 imputed_matrix.shape = (301, 14)
 imputed_matrix.shape = (301, 14)
 	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (301, 14)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
