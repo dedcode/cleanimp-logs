@@ -1002,7 +1002,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 ... [-1976 lines truncated] ...
 
 imputed_matrix.shape = (150, 12)
-imputed_matrix.shape = (150, 12)
 	caching stored for recovery and missing matrix: umd_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
 done!
 
@@ -1506,6 +1505,7 @@ imputed_matrix.shape = (131, 11)
 imputed_matrix.shape = (131, 15)
 imputed_matrix.shape = (131, 27)
 imputed_matrix.shape = (131, 13)
+imputed_matrix.shape = (131, 22)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
