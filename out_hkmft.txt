@@ -1001,9 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-imputed_matrix.shape = (150, 12)
-	caching stored for recovery and missing matrix: umd_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
-done!
 
 
 HKMFT is tested with aligned_timestamps on UMD, started at 2026-03-11 22:34:22.
@@ -1708,6 +1705,7 @@ imputed_matrix.shape = (301, 14)
 imputed_matrix.shape = (301, 14)
 imputed_matrix.shape = (301, 14)
 	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (301, 14)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -2001,3 +1999,5 @@ imputed_matrix.shape = (150, 65)
 imputed_matrix.shape = (150, 71)
 	caching stored for recovery and missing matrix: gunpointoldversusyoung_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (150, 65)
+imputed_matrix.shape = (150, 71)
+	caching stored for recovery and missing matrix: gunpointoldversusyoung_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
