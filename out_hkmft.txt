@@ -1001,12 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['Worms']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
 	contamination by class: True
 	imputation by class: True
 	normalizer: z-score
@@ -1307,6 +1301,12 @@ imputed_matrix.shape = (131, 6)
 imputed_matrix.shape = (131, 4)
 imputed_matrix.shape = (131, 12)
 imputed_matrix.shape = (131, 14)
+imputed_matrix.shape = (131, 13)
+imputed_matrix.shape = (131, 12)
+	caching stored for recovery and missing matrix: facesucr_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (131, 11)
+imputed_matrix.shape = (131, 15)
+imputed_matrix.shape = (131, 27)
 imputed_matrix.shape = (131, 13)
 
 The benchmark has been called:
