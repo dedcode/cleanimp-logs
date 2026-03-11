@@ -12,4 +12,4 @@ Live experiment logs pushed every 30 seconds.
 | 06 | DeepMVI | colab.nb | 67 / 222 | 30% | running | mcar on FacesUCR |
 | 06 | HKMFT | bigdata.6 | 53 / 222 | 23% | running | aligned_series on EOGVerticalSignal |
 
-_Last updated: 2026-03-11 11:08 UTC_
+_Last updated: 2026-03-11 11:09 UTC_
