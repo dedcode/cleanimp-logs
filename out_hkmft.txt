@@ -1001,172 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on Worms, started at 2026-03-11 22:26:40.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['WormsTwoClass']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on WormsTwoClass, started at 2026-03-11 22:26:41.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['Yoga']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on Yoga, started at 2026-03-11 22:26:41.
-imputed_matrix.shape = (426, 137)
-imputed_matrix.shape = (426, 163)
-	caching stored for recovery and missing matrix: yoga_mcar_hkmft_10_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (426, 137)
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['FacesUCR']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on FacesUCR, started at 2026-03-11 22:26:38.
-imputed_matrix.shape = (131, 11)
-imputed_matrix.shape = (131, 15)
-imputed_matrix.shape = (131, 27)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 22)
-imputed_matrix.shape = (131, 33)
-imputed_matrix.shape = (131, 10)
-imputed_matrix.shape = (131, 8)
-imputed_matrix.shape = (131, 6)
-imputed_matrix.shape = (131, 4)
-imputed_matrix.shape = (131, 12)
-imputed_matrix.shape = (131, 14)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 12)
-	caching stored for recovery and missing matrix: facesucr_mcar_hkmft_10_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (131, 11)
-imputed_matrix.shape = (131, 15)
-imputed_matrix.shape = (131, 27)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 22)
-imputed_matrix.shape = (131, 33)
-imputed_matrix.shape = (131, 10)
-imputed_matrix.shape = (131, 8)
-imputed_matrix.shape = (131, 6)
-imputed_matrix.shape = (131, 4)
-imputed_matrix.shape = (131, 12)
-imputed_matrix.shape = (131, 14)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 12)
-	caching stored for recovery and missing matrix: facesucr_mcar_hkmft_20_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (131, 11)
-imputed_matrix.shape = (131, 15)
-imputed_matrix.shape = (131, 27)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 22)
-imputed_matrix.shape = (131, 33)
-imputed_matrix.shape = (131, 10)
-imputed_matrix.shape = (131, 8)
-imputed_matrix.shape = (131, 6)
-imputed_matrix.shape = (131, 4)
-imputed_matrix.shape = (131, 12)
-imputed_matrix.shape = (131, 14)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 12)
-	caching stored for recovery and missing matrix: facesucr_mcar_hkmft_40_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (131, 11)
-imputed_matrix.shape = (131, 15)
-imputed_matrix.shape = (131, 27)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 22)
-imputed_matrix.shape = (131, 33)
-imputed_matrix.shape = (131, 10)
-imputed_matrix.shape = (131, 8)
-imputed_matrix.shape = (131, 6)
-imputed_matrix.shape = (131, 4)
-imputed_matrix.shape = (131, 12)
-imputed_matrix.shape = (131, 14)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 12)
-	caching stored for recovery and missing matrix: facesucr_mcar_hkmft_60_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (131, 11)
-imputed_matrix.shape = (131, 15)
-imputed_matrix.shape = (131, 27)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 22)
-imputed_matrix.shape = (131, 33)
-imputed_matrix.shape = (131, 10)
-imputed_matrix.shape = (131, 8)
-imputed_matrix.shape = (131, 6)
-imputed_matrix.shape = (131, 4)
-imputed_matrix.shape = (131, 12)
-imputed_matrix.shape = (131, 14)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 12)
-	caching stored for recovery and missing matrix: facesucr_mcar_hkmft_80_20_contbyclass_imputationbyclass
-done!
-
-
-HKMFT is tested with aligned_series on FacesUCR, started at 2026-03-11 22:33:52.
-imputed_matrix.shape = (131, 11)
-imputed_matrix.shape = (131, 15)
-imputed_matrix.shape = (131, 27)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 22)
-imputed_matrix.shape = (131, 33)
-imputed_matrix.shape = (131, 10)
-imputed_matrix.shape = (131, 8)
-imputed_matrix.shape = (131, 6)
-imputed_matrix.shape = (131, 4)
-imputed_matrix.shape = (131, 12)
 imputed_matrix.shape = (131, 14)
 imputed_matrix.shape = (131, 13)
 imputed_matrix.shape = (131, 12)
@@ -1306,6 +1140,170 @@ imputed_matrix.shape = (131, 8)
 imputed_matrix.shape = (131, 6)
 imputed_matrix.shape = (131, 4)
 imputed_matrix.shape = (131, 12)
+imputed_matrix.shape = (131, 14)
+imputed_matrix.shape = (131, 13)
+imputed_matrix.shape = (131, 12)
+	caching stored for recovery and missing matrix: facesucr_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+
+> logs: benchmark - Execution Time: 2495.9513 seconds,  (00:41:35.951 hh:mm:ss)
+
+
+FacesUCR: {mcar, RMSE, none}
+
+ Rate         HKMFT        
+
+  0.1      1.1209507282    
+  0.2      0.9850026647    
+  0.4      1.1151877072    
+  0.6      1.0659483150    
+  0.8      1.7215516282    
+
+
+
+FacesUCR: {mcar, RUNTIME[ms], none}
+
+ Rate         HKMFT        
+
+  0.1    90815.7057762146  
+  0.2    68984.3933582306  
+  0.4    80920.5853939056  
+  0.6   100421.6523170471  
+  0.8    73074.5778083801  
+
+
+
+FacesUCR: {aligned_series, RMSE, none}
+
+ Rate         HKMFT        
+
+  0.1      0.6569251703    
+  0.2      0.6572550718    
+  0.4      0.6421336958    
+  0.6      0.6431656472    
+  0.8      0.6368309825    
+
+
+
+FacesUCR: {aligned_series, RUNTIME[ms], none}
+
+ Rate         HKMFT        
+
+  0.1    85840.9790992737  
+  0.2   142935.3339672089  
+  0.4   259842.9772853851  
+  0.6   382390.1696205139  
+  0.8   479875.7767677307  
+
+
+
+FacesUCR: {aligned_timestamps, RMSE, none}
+
+ Rate         HKMFT        
+
+  0.1      0.6408458475    
+  0.2      0.6609545800    
+  0.4      0.7604542691    
+  0.6      1.1136187765    
+  0.8      2.0715202204    
+
+
+
+FacesUCR: {aligned_timestamps, RUNTIME[ms], none}
+
+ Rate         HKMFT        
+
+  0.1    72153.1813144684  
+  0.2   132430.0441741943  
+  0.4   192112.4150753021  
+  0.6   189329.2100429535  
+  0.8    80256.4744949341  
+
+
+
+The plots have been generated...
+
+
+{aligned_series, RMSE, none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+   FacesUCR     0.1       0.6569251703    
+   FacesUCR     0.2       0.6572550718    
+   FacesUCR     0.4       0.6421336958    
+   FacesUCR     0.6       0.6431656472    
+   FacesUCR     0.8       0.6368309825    
+------------------------------------------
+
+
+{aligned_series, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+   FacesUCR     0.1     85840.9790992737  
+   FacesUCR     0.2    142935.3339672089  
+   FacesUCR     0.4    259842.9772853851  
+   FacesUCR     0.6    382390.1696205139  
+   FacesUCR     0.8    479875.7767677307  
+------------------------------------------
+
+
+{aligned_timestamps, RMSE, none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+   FacesUCR     0.1       0.6408458475    
+   FacesUCR     0.2       0.6609545800    
+   FacesUCR     0.4       0.7604542691    
+   FacesUCR     0.6       1.1136187765    
+   FacesUCR     0.8       2.0715202204    
+------------------------------------------
+
+
+{aligned_timestamps, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+   FacesUCR     0.1     72153.1813144684  
+   FacesUCR     0.2    132430.0441741943  
+   FacesUCR     0.4    192112.4150753021  
+   FacesUCR     0.6    189329.2100429535  
+   FacesUCR     0.8     80256.4744949341  
+------------------------------------------
+
+
+{mcar, RMSE, none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+   FacesUCR     0.1       1.1209507282    
+   FacesUCR     0.2       0.9850026647    
+   FacesUCR     0.4       1.1151877072    
+   FacesUCR     0.6       1.0659483150    
+   FacesUCR     0.8       1.7215516282    
+------------------------------------------
+
+
+{mcar, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+   FacesUCR     0.1     90815.7057762146  
+   FacesUCR     0.2     68984.3933582306  
+   FacesUCR     0.4     80920.5853939056  
+   FacesUCR     0.6    100421.6523170471  
+   FacesUCR     0.8     73074.5778083801  
+------------------------------------------
+
+--- Summary (mean ± std) per algorithm ---
+
+HKMFT = RMSE=0.966156±0.432665, DOWNSTREAM_ACC=nan±nan, RUNTIME=162092±123817
+
+
+The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_hkmft_d4_26_03_11_22_26_28 
+
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1467,6 +1465,8 @@ imputed_matrix.shape = (301, 75)
 imputed_matrix.shape = (301, 75)
 	caching stored for recovery and missing matrix: freezerregulartrain_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (301, 75)
+imputed_matrix.shape = (301, 75)
+	caching stored for recovery and missing matrix: freezerregulartrain_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
