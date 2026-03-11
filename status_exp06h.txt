@@ -1,7 +1,7 @@
 ALGO=HKMFT
 SERVER=bigdata.6
-PROGRESS=60
+PROGRESS=62
 TOTAL=222
 PCT=27
 STATUS=running
-LAST=HKMFT is tested with mcar on Trace, started at 2026-03-11 22:02:10.
+LAST=HKMFT is tested with aligned_series on Trace, started at 2026-03-11 22:07:36.
