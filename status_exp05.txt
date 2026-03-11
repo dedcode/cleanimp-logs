@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=130
+PROGRESS=131
 TOTAL=222
-PCT=58
+PCT=59
 STATUS=running
-LAST=NuwaTS is tested with mcar on OliveOil, started at 2026-03-11 00:35:41.
+LAST=NuwaTS is tested with aligned_series on OliveOil, started at 2026-03-11 00:43:54.
