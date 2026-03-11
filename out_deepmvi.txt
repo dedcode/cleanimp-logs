@@ -572,3 +572,4 @@ done!
 DeepMVI is tested with aligned_timestamps on EthanolLevel, started at 2026-03-11 04:03:16.
 	caching stored for recovery and missing matrix: ethanollevel_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: ethanollevel_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: ethanollevel_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
