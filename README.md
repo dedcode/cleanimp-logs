@@ -12,4 +12,4 @@ Live experiment logs pushed every 30 seconds.
 | 06d | DeepMVI | colab.nb | 76 / 222 | 34% | running | mcar on ToeSegmentation1 |
 | 06h | HKMFT | bigdata.6 | 53 / 222 | 23% | running | aligned_series on EOGVerticalSignal |
 
-_Last updated: 2026-03-11 17:48 UTC_
+_Last updated: 2026-03-11 17:49 UTC_
