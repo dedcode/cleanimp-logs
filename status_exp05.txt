@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=211
+PROGRESS=212
 TOTAL=222
 PCT=95
 STATUS=running
-LAST=NuwaTS is tested with mcar on Wine, started at 2026-03-11 12:42:46.
+LAST=NuwaTS is tested with aligned_series on Wine, started at 2026-03-11 12:45:11.
