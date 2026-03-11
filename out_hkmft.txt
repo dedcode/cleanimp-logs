@@ -1001,8 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-  err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:107: RuntimeWarning: invalid value encountered in matmul
   new_U_i_V_t = self._U[i, :] @ self._V[:, t]
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: invalid value encountered in matmul
   new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
@@ -1127,6 +1125,8 @@ imputed_matrix.shape = (463, 25)
 imputed_matrix.shape = (463, 25)
 imputed_matrix.shape = (463, 22)
 imputed_matrix.shape = (463, 26)
+imputed_matrix.shape = (463, 28)
+	caching stored for recovery and missing matrix: fish_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
