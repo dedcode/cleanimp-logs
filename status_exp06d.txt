@@ -1,7 +1,7 @@
 ALGO=DeepMVI
 SERVER=colab.nb
-PROGRESS=60
+PROGRESS=61
 TOTAL=222
 PCT=27
 STATUS=running
-LAST=DeepMVI is tested with aligned_timestamps on EthanolLevel, started at 2026-03-11 04:03:16.
+LAST=DeepMVI is tested with mcar on FaceAll, started at 2026-03-11 07:29:06.
