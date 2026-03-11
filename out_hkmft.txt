@@ -1001,14 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: invalid value encountered in matmul
-  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in multiply
-  V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:132: RuntimeWarning: overflow encountered in multiply
-  (2.0 * param.lambda_s * new_U_i_V_t * self._U[i, :])))
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:137: RuntimeWarning: overflow encountered in multiply
-  V_t += (lr * param.lambda_s *
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:105: RuntimeWarning: overflow encountered in matmul
   err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:105: RuntimeWarning: invalid value encountered in matmul
@@ -1698,6 +1690,7 @@ imputed_matrix.shape = (150, 64)
 imputed_matrix.shape = (150, 71)
 imputed_matrix.shape = (150, 64)
 	caching stored for recovery and missing matrix: gunpointmaleversusfemale_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (150, 71)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1879,6 +1872,10 @@ imputed_matrix.shape = (80, 72)
 	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (80, 139)
 imputed_matrix.shape = (80, 189)
+imputed_matrix.shape = (80, 72)
+	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (80, 139)
+imputed_matrix.shape = (80, 189)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1930,6 +1927,8 @@ imputed_matrix.shape = (500, 10)
 imputed_matrix.shape = (500, 10)
 	caching stored for recovery and missing matrix: shapeletsim_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (500, 10)
+imputed_matrix.shape = (500, 10)
+	caching stored for recovery and missing matrix: shapeletsim_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -2001,3 +2000,4 @@ imputed_matrix.shape = (275, 21)
 imputed_matrix.shape = (275, 31)
 imputed_matrix.shape = (275, 22)
 	caching stored for recovery and missing matrix: trace_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (275, 26)
