@@ -1001,23 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: invalid value encountered in matmul
-  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: invalid value encountered in matmul
-  new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:105: RuntimeWarning: overflow encountered in matmul
-  err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:107: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t = self._U[i, :] @ self._V[:, t]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in multiply
-  V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:132: RuntimeWarning: overflow encountered in multiply
-  (2.0 * param.lambda_s * new_U_i_V_t * self._U[i, :])))
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: invalid value encountered in add
   V_t += (lr * param.lambda_s *
 imputed_matrix.shape = (1000, 30)
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:122: RuntimeWarning: overflow encountered in multiply
@@ -1885,6 +1868,22 @@ imputed_matrix.shape = (80, 189)
 imputed_matrix.shape = (80, 72)
 	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_mcar_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (80, 139)
+imputed_matrix.shape = (80, 189)
+imputed_matrix.shape = (80, 72)
+	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_mcar_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (80, 139)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+imputed_matrix.shape = (80, 189)
+imputed_matrix.shape = (80, 72)
+Error during benchmark for HKMFT, with ProximalPhalanxOutlineAgeGroup, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+HKMFT is tested with aligned_series on ProximalPhalanxOutlineAgeGroup, started at 2026-03-11 22:16:54.
+imputed_matrix.shape = (80, 139)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -2001,3 +2000,4 @@ imputed_matrix.shape = (275, 21)
 imputed_matrix.shape = (275, 31)
 imputed_matrix.shape = (275, 22)
 	caching stored for recovery and missing matrix: trace_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (275, 26)
