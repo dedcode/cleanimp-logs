@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=184
+PROGRESS=185
 TOTAL=222
-PCT=82
+PCT=83
 STATUS=running
-LAST=NuwaTS is tested with mcar on SwedishLeaf, started at 2026-03-11 11:11:14.
+LAST=NuwaTS is tested with aligned_series on SwedishLeaf, started at 2026-03-11 11:19:55.
