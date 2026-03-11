@@ -1002,7 +1002,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 ... [-1976 lines truncated] ...
 
 
-
 HKMFT is tested with mcar on Fish, started at 2026-03-11 22:26:37.
 imputed_matrix.shape = (463, 28)
 imputed_matrix.shape = (463, 21)
@@ -1143,6 +1142,7 @@ imputed_matrix.shape = (463, 25)
   U_i -= (lr * param.lambda_s *
 /storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:134: RuntimeWarning: invalid value encountered in reduce
   ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+imputed_matrix.shape = (463, 25)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
