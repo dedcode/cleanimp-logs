@@ -1001,10 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-imputed_matrix.shape = (234, 27)
-	caching stored for recovery and missing matrix: wine_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
-done!
-
 
 HKMFT is tested with aligned_timestamps on Wine, started at 2026-03-11 22:57:43.
 imputed_matrix.shape = (234, 30)
@@ -1311,6 +1307,9 @@ imputed_matrix.shape = (131, 12)
 	caching stored for recovery and missing matrix: facesucr_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (131, 11)
 imputed_matrix.shape = (131, 15)
+imputed_matrix.shape = (131, 27)
+imputed_matrix.shape = (131, 13)
+imputed_matrix.shape = (131, 22)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1349,6 +1348,7 @@ imputed_matrix.shape = (463, 22)
 imputed_matrix.shape = (463, 26)
 imputed_matrix.shape = (463, 28)
 	caching stored for recovery and missing matrix: fish_mcar_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (463, 28)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
