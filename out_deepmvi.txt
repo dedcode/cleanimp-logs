@@ -807,6 +807,85 @@ Earthquakes: {aligned_timestamps, RUNTIME[ms], none}
 The plots have been generated...
 
 
+{aligned_series, RMSE, none}
+-------------------------------------------
+    Dataset      Rate        DeepMVI       
+-------------------------------------------
+  Earthquakes    0.1       1.1075315780    
+  Earthquakes    0.2       1.0913949223    
+  Earthquakes    0.4       1.1260351371    
+  Earthquakes    0.6       1.1231280227    
+  Earthquakes    0.8       1.1082790384    
+-------------------------------------------
+
+
+{aligned_series, RUNTIME[ms], none}
+-------------------------------------------
+    Dataset      Rate        DeepMVI       
+-------------------------------------------
+  Earthquakes    0.1      230.7791709900   
+  Earthquakes    0.2      225.1672744751   
+  Earthquakes    0.4      229.8886775970   
+  Earthquakes    0.6      221.6727733612   
+  Earthquakes    0.8      238.9924526215   
+-------------------------------------------
+
+
+{aligned_timestamps, RMSE, none}
+-------------------------------------------
+    Dataset      Rate        DeepMVI       
+-------------------------------------------
+  Earthquakes    0.1       1.0939333973    
+  Earthquakes    0.2       1.0913949223    
+  Earthquakes    0.4       1.0589529969    
+  Earthquakes    0.6       1.0602360826    
+  Earthquakes    0.8       1.0569710605    
+-------------------------------------------
+
+
+{aligned_timestamps, RUNTIME[ms], none}
+-------------------------------------------
+    Dataset      Rate        DeepMVI       
+-------------------------------------------
+  Earthquakes    0.1     5074.0690231323   
+  Earthquakes    0.2      425.2383708954   
+  Earthquakes    0.4      438.3211135864   
+  Earthquakes    0.6     2314.2828941345   
+  Earthquakes    0.8     1452.5158405304   
+-------------------------------------------
+
+
+{mcar, RMSE, none}
+-------------------------------------------
+    Dataset      Rate        DeepMVI       
+-------------------------------------------
+  Earthquakes    0.1       1.1470933597    
+  Earthquakes    0.2       1.1008324880    
+  Earthquakes    0.4       1.0999878978    
+  Earthquakes    0.6       1.0923629635    
+  Earthquakes    0.8       1.0865933330    
+-------------------------------------------
+
+
+{mcar, RUNTIME[ms], none}
+-------------------------------------------
+    Dataset      Rate        DeepMVI       
+-------------------------------------------
+  Earthquakes    0.1      297.4910736084   
+  Earthquakes    0.2      269.9270248413   
+  Earthquakes    0.4      228.9133071899   
+  Earthquakes    0.6      247.6367950439   
+  Earthquakes    0.8      224.6189117432   
+-------------------------------------------
+
+--- Summary (mean ± std) per algorithm ---
+
+DeepMVI = RMSE=1.09632±0.0252039, DOWNSTREAM_ACC=nan±nan, RUNTIME=807.968±1319.67
+
+
+The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_deepmvi_d0_26_03_11_18_17_34 
+
+
 The benchmark has been called:
 	classifiers: ['arsenal']
 	algorithms: ['DeepMVI']
@@ -919,85 +998,6 @@ EthanolLevel: {aligned_timestamps, RMSE, none}
 
 
 EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
-
- Rate        DeepMVI       
-
-  0.1    1077.7077674866   
-  0.2     820.1732635498   
-  0.4     794.2895889282   
-  0.6     778.3911228180   
-  0.8     793.6966419220   
-
-
-
-The plots have been generated...
-
-
-{aligned_series, RMSE, none}
---------------------------------------------
-    Dataset       Rate        DeepMVI       
---------------------------------------------
-  EthanolLevel    0.1       0.0505767321    
-  EthanolLevel    0.2       0.0275858912    
-  EthanolLevel    0.4       0.0557197581    
-  EthanolLevel    0.6       0.1059516182    
-  EthanolLevel    0.8       0.1592275632    
---------------------------------------------
-
-
-{aligned_series, RUNTIME[ms], none}
---------------------------------------------
-    Dataset       Rate        DeepMVI       
---------------------------------------------
-  EthanolLevel    0.1      726.9642353058   
-  EthanolLevel    0.2      708.8327407837   
-  EthanolLevel    0.4      833.7230682373   
-  EthanolLevel    0.6      996.0911273956   
-  EthanolLevel    0.8     1369.3089485168   
---------------------------------------------
-
-
-{aligned_timestamps, RMSE, none}
---------------------------------------------
-    Dataset       Rate        DeepMVI       
---------------------------------------------
-  EthanolLevel    0.1       0.0400189429    
-  EthanolLevel    0.2       0.0275858912    
-  EthanolLevel    0.4       0.1768799600    
-  EthanolLevel    0.6       1.2700210399    
-  EthanolLevel    0.8       1.1500107376    
---------------------------------------------
-
-
-{aligned_timestamps, RUNTIME[ms], none}
---------------------------------------------
-    Dataset       Rate        DeepMVI       
---------------------------------------------
-  EthanolLevel    0.1     1077.7077674866   
-  EthanolLevel    0.2      820.1732635498   
-  EthanolLevel    0.4      794.2895889282   
-  EthanolLevel    0.6      778.3911228180   
-  EthanolLevel    0.8      793.6966419220   
---------------------------------------------
-
-
-{mcar, RMSE, none}
---------------------------------------------
-    Dataset       Rate        DeepMVI       
---------------------------------------------
-  EthanolLevel    0.1       0.1886530338    
-  EthanolLevel    0.2       0.2092855779    
-  EthanolLevel    0.4       0.2965707340    
-  EthanolLevel    0.6       0.2113216341    
-  EthanolLevel    0.8       0.4453658892    
---------------------------------------------
-
-
-{mcar, RUNTIME[ms], none}
---------------------------------------------
-    Dataset       Rate        DeepMVI       
---------------------------------------------
-  EthanolLevel    0.1      885.1568698883   
 
 ... [-1978 lines truncated] ...
 
