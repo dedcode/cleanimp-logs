@@ -1001,11 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:132: RuntimeWarning: overflow encountered in multiply
-  (2.0 * param.lambda_s * new_U_i_V_t * self._U[i, :])))
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:137: RuntimeWarning: overflow encountered in multiply
-  V_t += (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:105: RuntimeWarning: overflow encountered in matmul
   err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:105: RuntimeWarning: invalid value encountered in matmul
   err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
@@ -1762,6 +1757,7 @@ HKMFT is tested with mcar on EOGVerticalSignal, started at 2026-03-11 22:02:10.
   new_U_i_V_t = self._U[i, :] @ self._V[:, t]
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: invalid value encountered in add
   V_t += (lr * param.lambda_s *
+imputed_matrix.shape = (1000, 30)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1822,6 +1818,9 @@ done!
 
 
 HKMFT is tested with aligned_timestamps on GunPointAgeSpan, started at 2026-03-11 22:10:20.
+imputed_matrix.shape = (150, 68)
+imputed_matrix.shape = (150, 67)
+	caching stored for recovery and missing matrix: gunpointagespan_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -2001,3 +2000,4 @@ imputed_matrix.shape = (275, 22)
 	caching stored for recovery and missing matrix: trace_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (275, 26)
 imputed_matrix.shape = (275, 21)
+imputed_matrix.shape = (275, 31)
