@@ -1,7 +1,7 @@
 ALGO=DeepMVI
 SERVER=colab.nb
-PROGRESS=67
+PROGRESS=70
 TOTAL=222
-PCT=30
+PCT=31
 STATUS=running
-LAST=DeepMVI is tested with mcar on FacesUCR, started at 2026-03-11 11:08:40.
+LAST=DeepMVI is tested with mcar on Fish, started at 2026-03-11 11:11:35.
