@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=168
+PROGRESS=169
 TOTAL=222
-PCT=75
+PCT=76
 STATUS=running
-LAST=NuwaTS is tested with aligned_timestamps on ShapeletSim, started at 2026-03-11 04:22:30.
+LAST=NuwaTS is tested with mcar on ShapesAll, started at 2026-03-11 04:27:05.
