@@ -1001,85 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-imputed_matrix.shape = (131, 8)
-imputed_matrix.shape = (131, 6)
-imputed_matrix.shape = (131, 4)
-imputed_matrix.shape = (131, 12)
-imputed_matrix.shape = (131, 14)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 12)
-	caching stored for recovery and missing matrix: facesucr_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (131, 11)
-imputed_matrix.shape = (131, 15)
-imputed_matrix.shape = (131, 27)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 22)
-imputed_matrix.shape = (131, 33)
-imputed_matrix.shape = (131, 10)
-imputed_matrix.shape = (131, 8)
-imputed_matrix.shape = (131, 6)
-imputed_matrix.shape = (131, 4)
-imputed_matrix.shape = (131, 12)
-imputed_matrix.shape = (131, 14)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 12)
-	caching stored for recovery and missing matrix: facesucr_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
-done!
-
-
-
-> logs: benchmark - Execution Time: 2495.9513 seconds,  (00:41:35.951 hh:mm:ss)
-
-
-FacesUCR: {mcar, RMSE, none}
-
- Rate         HKMFT        
-
-  0.1      1.1209507282    
-  0.2      0.9850026647    
-  0.4      1.1151877072    
-  0.6      1.0659483150    
-  0.8      1.7215516282    
-
-
-
-FacesUCR: {mcar, RUNTIME[ms], none}
-
- Rate         HKMFT        
-
-  0.1    90815.7057762146  
-  0.2    68984.3933582306  
-  0.4    80920.5853939056  
-  0.6   100421.6523170471  
-  0.8    73074.5778083801  
-
-
-
-FacesUCR: {aligned_series, RMSE, none}
-
- Rate         HKMFT        
-
-  0.1      0.6569251703    
-  0.2      0.6572550718    
-  0.4      0.6421336958    
-  0.6      0.6431656472    
-  0.8      0.6368309825    
-
-
-
-FacesUCR: {aligned_series, RUNTIME[ms], none}
-
- Rate         HKMFT        
-
-  0.1    85840.9790992737  
-  0.2   142935.3339672089  
-  0.4   259842.9772853851  
-  0.6   382390.1696205139  
-  0.8   479875.7767677307  
-
-
-
-FacesUCR: {aligned_timestamps, RMSE, none}
 
  Rate         HKMFT        
 
@@ -1536,6 +1457,85 @@ FreezerSmallTrain: {aligned_timestamps, RUNTIME[ms], none}
 
 
 The plots have been generated...
+
+
+{aligned_series, RMSE, none}
+-------------------------------------------------
+       Dataset         Rate         HKMFT        
+-------------------------------------------------
+  FreezerSmallTrain    0.1       1.5063599434    
+  FreezerSmallTrain    0.2       1.5621490804    
+  FreezerSmallTrain    0.4       1.4687551473    
+  FreezerSmallTrain    0.6       1.4850379232    
+  FreezerSmallTrain    0.8       1.4858782754    
+-------------------------------------------------
+
+
+{aligned_series, RUNTIME[ms], none}
+-------------------------------------------------
+       Dataset         Rate         HKMFT        
+-------------------------------------------------
+  FreezerSmallTrain    0.1    105236.6690635681  
+  FreezerSmallTrain    0.2    150851.7012596130  
+  FreezerSmallTrain    0.4    298083.0543041229  
+  FreezerSmallTrain    0.6    415016.2122249603  
+  FreezerSmallTrain    0.8    555929.4154644012  
+-------------------------------------------------
+
+
+{aligned_timestamps, RMSE, none}
+-------------------------------------------------
+       Dataset         Rate         HKMFT        
+-------------------------------------------------
+  FreezerSmallTrain    0.1       1.8133787598    
+  FreezerSmallTrain    0.2       1.5494557785    
+  FreezerSmallTrain    0.4       1.1846301379    
+  FreezerSmallTrain    0.6       1.0071441409    
+  FreezerSmallTrain    0.8           nan         
+-------------------------------------------------
+
+
+{aligned_timestamps, RUNTIME[ms], none}
+-------------------------------------------------
+       Dataset         Rate         HKMFT        
+-------------------------------------------------
+  FreezerSmallTrain    0.1     59844.7310924530  
+  FreezerSmallTrain    0.2    136112.8251552582  
+  FreezerSmallTrain    0.4    250092.9391384125  
+  FreezerSmallTrain    0.6    269110.0637912750  
+  FreezerSmallTrain    0.8           nan         
+-------------------------------------------------
+
+
+{mcar, RMSE, none}
+-------------------------------------------------
+       Dataset         Rate         HKMFT        
+-------------------------------------------------
+  FreezerSmallTrain    0.1       0.6568533104    
+  FreezerSmallTrain    0.2       0.8847460051    
+  FreezerSmallTrain    0.4       1.0151293103    
+  FreezerSmallTrain    0.6       1.1949141111    
+  FreezerSmallTrain    0.8       1.3159240775    
+-------------------------------------------------
+
+
+{mcar, RUNTIME[ms], none}
+-------------------------------------------------
+       Dataset         Rate         HKMFT        
+-------------------------------------------------
+  FreezerSmallTrain    0.1     50769.8090076447  
+  FreezerSmallTrain    0.2     48072.2396373749  
+  FreezerSmallTrain    0.4     45208.2858085632  
+  FreezerSmallTrain    0.6     80655.3680896759  
+  FreezerSmallTrain    0.8     72466.7804241180  
+-------------------------------------------------
+
+--- Summary (mean ± std) per algorithm ---
+
+HKMFT = RMSE=1.29503±0.317637, DOWNSTREAM_ACC=nan±nan, RUNTIME=181246±156854
+
+
+The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_hkmft_d7_26_03_11_22_26_27 
 
 
 The benchmark has been called:
