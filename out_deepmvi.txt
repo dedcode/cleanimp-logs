@@ -684,7 +684,7 @@ DeepMVI is tested with aligned_timestamps on Fish, started at 2026-03-11 16:20:1
 The benchmark has been called:
 	classifiers: ['arsenal']
 	algorithms: ['DeepMVI']
-	datasets: ['FreezerRegularTrain', 'FreezerSmallTrain', 'GunPoint', 'GunPointAgeSpan', 'GunPointMaleVersusFemale', 'GunPointOldVersusYoung', 'Ham', 'Haptics', 'Herring', 'InlineSkate', 'InsectEPGRegularTrain', 'InsectWingbeatSound', 'LargeKitchenAppliances']
+	datasets: ['Earthquakes']
 	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
 	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
 	contamination by class: True
@@ -701,12 +701,116 @@ The benchmark has been called:
 	number max values: 1000
 
 
-DeepMVI is tested with mcar on FreezerRegularTrain, started at 2026-03-11 17:41:59.
+DeepMVI is tested with mcar on Earthquakes, started at 2026-03-11 18:17:47.
+	the imputed matrix has been loaded from the cache (512, 322): earthquakes_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 322): earthquakes_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 322): earthquakes_mcar_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 322): earthquakes_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 322): earthquakes_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on Earthquakes, started at 2026-03-11 18:17:57.
+	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on Earthquakes, started at 2026-03-11 18:18:16.
+	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+
+> logs: benchmark - Execution Time: 106.9257 seconds,  (00:01:46.926 hh:mm:ss)
+
+
+Earthquakes: {mcar, RMSE, none}
+
+ Rate        DeepMVI       
+
+  0.1      1.1470933597    
+  0.2      1.1008324880    
+  0.4      1.0999878978    
+  0.6      1.0923629635    
+  0.8      1.0865933330    
+
+
+
+Earthquakes: {mcar, RUNTIME[ms], none}
+
+ Rate        DeepMVI       
+
+  0.1     297.4910736084   
+  0.2     269.9270248413   
+  0.4     228.9133071899   
+  0.6     247.6367950439   
+  0.8     224.6189117432   
+
+
+
+Earthquakes: {aligned_series, RMSE, none}
+
+ Rate        DeepMVI       
+
+  0.1      1.1075315780    
+  0.2      1.0913949223    
+  0.4      1.1260351371    
+  0.6      1.1231280227    
+  0.8      1.1082790384    
+
+
+
+Earthquakes: {aligned_series, RUNTIME[ms], none}
+
+ Rate        DeepMVI       
+
+  0.1     230.7791709900   
+  0.2     225.1672744751   
+  0.4     229.8886775970   
+  0.6     221.6727733612   
+  0.8     238.9924526215   
+
+
+
+Earthquakes: {aligned_timestamps, RMSE, none}
+
+ Rate        DeepMVI       
+
+  0.1      1.0939333973    
+  0.2      1.0913949223    
+  0.4      1.0589529969    
+  0.6      1.0602360826    
+  0.8      1.0569710605    
+
+
+
+Earthquakes: {aligned_timestamps, RUNTIME[ms], none}
+
+ Rate        DeepMVI       
+
+  0.1    5074.0690231323   
+  0.2     425.2383708954   
+  0.4     438.3211135864   
+  0.6    2314.2828941345   
+  0.8    1452.5158405304   
+
+
+
+The plots have been generated...
+
 
 The benchmark has been called:
 	classifiers: ['arsenal']
 	algorithms: ['DeepMVI']
-	datasets: ['Lightning2', 'Lightning7', 'Meat', 'MedicalImages', 'MoteStrain', 'OSULeaf', 'OliveOil', 'PhalangesOutlinesCorrect', 'Plane', 'PowerCons', 'ProximalPhalanxOutlineAgeGroup', 'ProximalPhalanxOutlineCorrect']
+	datasets: ['EthanolLevel']
 	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
 	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
 	contamination by class: True
@@ -723,12 +827,265 @@ The benchmark has been called:
 	number max values: 1000
 
 
-DeepMVI is tested with mcar on Lightning2, started at 2026-03-11 17:41:59.
+DeepMVI is tested with mcar on EthanolLevel, started at 2026-03-11 18:17:47.
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on EthanolLevel, started at 2026-03-11 18:18:00.
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on EthanolLevel, started at 2026-03-11 18:18:17.
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+
+> logs: benchmark - Execution Time: 57.4402 seconds,  (00:00:57.440 hh:mm:ss)
+
+
+EthanolLevel: {mcar, RMSE, none}
+
+ Rate        DeepMVI       
+
+  0.1      0.1886530338    
+  0.2      0.2092855779    
+  0.4      0.2965707340    
+  0.6      0.2113216341    
+  0.8      0.4453658892    
+
+
+
+EthanolLevel: {mcar, RUNTIME[ms], none}
+
+ Rate        DeepMVI       
+
+  0.1     885.1568698883   
+  0.2     937.7892017365   
+  0.4     795.5682277679   
+  0.6     731.4529418945   
+  0.8     714.6670818329   
+
+
+
+EthanolLevel: {aligned_series, RMSE, none}
+
+ Rate        DeepMVI       
+
+  0.1      0.0505767321    
+  0.2      0.0275858912    
+  0.4      0.0557197581    
+  0.6      0.1059516182    
+  0.8      0.1592275632    
+
+
+
+EthanolLevel: {aligned_series, RUNTIME[ms], none}
+
+ Rate        DeepMVI       
+
+  0.1     726.9642353058   
+  0.2     708.8327407837   
+  0.4     833.7230682373   
+  0.6     996.0911273956   
+  0.8    1369.3089485168   
+
+
+
+EthanolLevel: {aligned_timestamps, RMSE, none}
+
+ Rate        DeepMVI       
+
+  0.1      0.0400189429    
+  0.2      0.0275858912    
+  0.4      0.1768799600    
+  0.6      1.2700210399    
+  0.8      1.1500107376    
+
+
+
+EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
+
+ Rate        DeepMVI       
+
+  0.1    1077.7077674866   
+  0.2     820.1732635498   
+  0.4     794.2895889282   
+  0.6     778.3911228180   
+  0.8     793.6966419220   
+
+
+
+The plots have been generated...
+
+
+{aligned_series, RMSE, none}
+--------------------------------------------
+    Dataset       Rate        DeepMVI       
+--------------------------------------------
+  EthanolLevel    0.1       0.0505767321    
+  EthanolLevel    0.2       0.0275858912    
+  EthanolLevel    0.4       0.0557197581    
+  EthanolLevel    0.6       0.1059516182    
+  EthanolLevel    0.8       0.1592275632    
+--------------------------------------------
+
+
+{aligned_series, RUNTIME[ms], none}
+--------------------------------------------
+    Dataset       Rate        DeepMVI       
+--------------------------------------------
+  EthanolLevel    0.1      726.9642353058   
+  EthanolLevel    0.2      708.8327407837   
+  EthanolLevel    0.4      833.7230682373   
+  EthanolLevel    0.6      996.0911273956   
+  EthanolLevel    0.8     1369.3089485168   
+--------------------------------------------
+
+
+{aligned_timestamps, RMSE, none}
+--------------------------------------------
+    Dataset       Rate        DeepMVI       
+--------------------------------------------
+  EthanolLevel    0.1       0.0400189429    
+  EthanolLevel    0.2       0.0275858912    
+  EthanolLevel    0.4       0.1768799600    
+  EthanolLevel    0.6       1.2700210399    
+  EthanolLevel    0.8       1.1500107376    
+--------------------------------------------
+
+
+{aligned_timestamps, RUNTIME[ms], none}
+--------------------------------------------
+    Dataset       Rate        DeepMVI       
+--------------------------------------------
+  EthanolLevel    0.1     1077.7077674866   
+  EthanolLevel    0.2      820.1732635498   
+  EthanolLevel    0.4      794.2895889282   
+  EthanolLevel    0.6      778.3911228180   
+  EthanolLevel    0.8      793.6966419220   
+--------------------------------------------
+
+
+{mcar, RMSE, none}
+--------------------------------------------
+    Dataset       Rate        DeepMVI       
+--------------------------------------------
+  EthanolLevel    0.1       0.1886530338    
+  EthanolLevel    0.2       0.2092855779    
+  EthanolLevel    0.4       0.2965707340    
+  EthanolLevel    0.6       0.2113216341    
+  EthanolLevel    0.8       0.4453658892    
+--------------------------------------------
+
+
+{mcar, RUNTIME[ms], none}
+--------------------------------------------
+    Dataset       Rate        DeepMVI       
+--------------------------------------------
+  EthanolLevel    0.1      885.1568698883   
+
+... [-1978 lines truncated] ...
+
+
+
+{aligned_series, RMSE, none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+   FaceFour     0.1       0.9860168126    
+   FaceFour     0.2       1.1409199032    
+   FaceFour     0.4       1.2920062555    
+   FaceFour     0.6       1.0995764922    
+   FaceFour     0.8       1.1099997306    
+------------------------------------------
+
+
+{aligned_series, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+   FaceFour     0.1      14.9741172791    
+   FaceFour     0.2      14.0814781189    
+   FaceFour     0.4      15.1422023773    
+   FaceFour     0.6      14.6360397339    
+   FaceFour     0.8      14.2240524292    
+------------------------------------------
+
+
+{aligned_timestamps, RMSE, none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+   FaceFour     0.1       1.0924678640    
+   FaceFour     0.2       1.1409199032    
+   FaceFour     0.4       0.6748109653    
+   FaceFour     0.6       0.5749387011    
+   FaceFour     0.8       0.9136461719    
+------------------------------------------
+
+
+{aligned_timestamps, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+   FaceFour     0.1      13.7779712677    
+   FaceFour     0.2      16.0508155823    
+   FaceFour     0.4      17.5249576569    
+   FaceFour     0.6      20.1301574707    
+   FaceFour     0.8      18.3830261230    
+------------------------------------------
+
+
+{mcar, RMSE, none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+   FaceFour     0.1       0.8554156029    
+   FaceFour     0.2       0.8141797597    
+   FaceFour     0.4       0.7463398189    
+   FaceFour     0.6       0.8375517843    
+   FaceFour     0.8       0.7074906374    
+------------------------------------------
+
+
+{mcar, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+   FaceFour     0.1      16.0410404205    
+   FaceFour     0.2      16.8683528900    
+   FaceFour     0.4      17.4148082733    
+   FaceFour     0.6      15.2096748352    
+   FaceFour     0.8      15.2618885040    
+------------------------------------------
+
+--- Summary (mean ± std) per algorithm ---
+
+DeepMVI = RMSE=0.932419±0.209224, DOWNSTREAM_ACC=nan±nan, RUNTIME=15.9814±1.781
+
+
+The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_deepmvi_d3_26_03_11_18_17_35 
+
 
 The benchmark has been called:
 	classifiers: ['arsenal']
 	algorithms: ['DeepMVI']
-	datasets: ['RefrigerationDevices', 'Rock', 'ScreenType', 'SemgHandGenderCh2', 'SemgHandMovementCh2', 'SemgHandSubjectCh2', 'ShapeletSim', 'ShapesAll', 'SharePriceIncrease', 'SmallKitchenAppliances', 'SonyAIBORobotSurface1', 'Strawberry', 'SwedishLeaf']
+	datasets: ['ProximalPhalanxOutlineCorrect']
 	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
 	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
 	contamination by class: True
@@ -745,12 +1102,50 @@ The benchmark has been called:
 	number max values: 1000
 
 
-DeepMVI is tested with mcar on RefrigerationDevices, started at 2026-03-11 17:41:59.
+DeepMVI is tested with mcar on ProximalPhalanxOutlineCorrect, started at 2026-03-11 18:17:46.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (406, 80).
+	One series has 80 values, with the offset, 76 values are available to contamination. Thus, the number of data to remove is 8 (int(76 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+Error during benchmark for DeepMVI, with ProximalPhalanxOutlineCorrect, and 0.1%: 
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1706, in eval_classifier
+    imputer_tr, _, miss = utils.prepare_series_by_class(labels=y_train, raw_data=ts.data.copy(), imputer=algorithm, params=None, pattern=pattern, rate_dataset=fixed_rate, rate_series=x, offset=0.05, verbose=verbose)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/tools/utils.py", line 1737, in prepare_series_by_class
+    alg.impute()
+  File "/storage/experiments/cleanimp/imputegap/recovery/imputation.py", line 2066, in impute
+    self.recov_data = deep_mvi(incomp_data=self.incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, logs=self.logs, verbose=self.verbose)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/algorithms/deep_mvi.py", line 47, in deep_mvi
+    recov_data = deep_mvi_recovery(input=incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, verbose=verbose)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/recovDeepMVI.py", line 26, in deep_mvi_recovery
+    matrix_imputed = transformer_recovery(input, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, seed=seed, verbose=verbose, deep_verbose=False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/transformer.py", line 201, in transformer_recovery
+    model = OurModel(sizes=[train_feats.shape[1]], kernel_size=kernel_size, block_size=block_size, nhead=2, time_len=train_feats.shape[0], use_embed=use_embed, use_context=use_context, use_local=use_local).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/model.py", line 106, in __init__
+    assert self.kernel_size % self.block_size == 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/script_deepmvi_d30.py", line 7, in <module>
+    bench.eval_classifier(classifiers=["arsenal"],
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1805, in eval_classifier
+    imputer_tr.metrics = {
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'imputer_tr' where it is not associated with a value
 
 The benchmark has been called:
 	classifiers: ['arsenal']
 	algorithms: ['DeepMVI']
-	datasets: ['ToeSegmentation1', 'ToeSegmentation2', 'Trace', 'TwoLeadECG', 'TwoPatterns', 'UMD', 'Wafer', 'Wine', 'Worms', 'WormsTwoClass', 'Yoga']
+	datasets: ['RefrigerationDevices']
 	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
 	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
 	contamination by class: True
@@ -767,4 +1162,842 @@ The benchmark has been called:
 	number max values: 1000
 
 
-DeepMVI is tested with mcar on ToeSegmentation1, started at 2026-03-11 17:43:36.
+DeepMVI is tested with mcar on RefrigerationDevices, started at 2026-03-11 18:17:47.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['Rock']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on Rock, started at 2026-03-11 18:17:47.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['ScreenType']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on ScreenType, started at 2026-03-11 18:17:47.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['SemgHandGenderCh2']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on SemgHandGenderCh2, started at 2026-03-11 18:17:49.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['SemgHandMovementCh2']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on SemgHandMovementCh2, started at 2026-03-11 18:17:49.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['SemgHandSubjectCh2']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on SemgHandSubjectCh2, started at 2026-03-11 18:17:49.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['ShapeletSim']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on ShapeletSim, started at 2026-03-11 18:17:49.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['ShapesAll']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on ShapesAll, started at 2026-03-11 18:17:49.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['SharePriceIncrease']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on SharePriceIncrease, started at 2026-03-11 18:17:48.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (663, 60).
+	One series has 60 values, with the offset, 57 values are available to contamination. Thus, the number of data to remove is 6 (int(57 * 0.1)), but block size is 10 -> (10 must be < 6)
+		(ACTION) block_size is set to : 3
+
+Error during benchmark for DeepMVI, with SharePriceIncrease, and 0.1%: 
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1706, in eval_classifier
+    imputer_tr, _, miss = utils.prepare_series_by_class(labels=y_train, raw_data=ts.data.copy(), imputer=algorithm, params=None, pattern=pattern, rate_dataset=fixed_rate, rate_series=x, offset=0.05, verbose=verbose)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/tools/utils.py", line 1737, in prepare_series_by_class
+    alg.impute()
+  File "/storage/experiments/cleanimp/imputegap/recovery/imputation.py", line 2066, in impute
+    self.recov_data = deep_mvi(incomp_data=self.incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, logs=self.logs, verbose=self.verbose)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/algorithms/deep_mvi.py", line 47, in deep_mvi
+    recov_data = deep_mvi_recovery(input=incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, verbose=verbose)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/recovDeepMVI.py", line 26, in deep_mvi_recovery
+    matrix_imputed = transformer_recovery(input, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, seed=seed, verbose=verbose, deep_verbose=False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/transformer.py", line 201, in transformer_recovery
+    model = OurModel(sizes=[train_feats.shape[1]], kernel_size=kernel_size, block_size=block_size, nhead=2, time_len=train_feats.shape[0], use_embed=use_embed, use_context=use_context, use_local=use_local).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/model.py", line 106, in __init__
+    assert self.kernel_size % self.block_size == 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/script_deepmvi_d39.py", line 7, in <module>
+    bench.eval_classifier(classifiers=["arsenal"],
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1805, in eval_classifier
+    imputer_tr.metrics = {
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'imputer_tr' where it is not associated with a value
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['FacesUCR']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on FacesUCR, started at 2026-03-11 18:17:47.
+Error during benchmark for DeepMVI, with FacesUCR, and 0.1%: 
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1706, in eval_classifier
+    imputer_tr, _, miss = utils.prepare_series_by_class(labels=y_train, raw_data=ts.data.copy(), imputer=algorithm, params=None, pattern=pattern, rate_dataset=fixed_rate, rate_series=x, offset=0.05, verbose=verbose)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/tools/utils.py", line 1737, in prepare_series_by_class
+    alg.impute()
+  File "/storage/experiments/cleanimp/imputegap/recovery/imputation.py", line 2066, in impute
+    self.recov_data = deep_mvi(incomp_data=self.incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, logs=self.logs, verbose=self.verbose)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/algorithms/deep_mvi.py", line 47, in deep_mvi
+    recov_data = deep_mvi_recovery(input=incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, verbose=verbose)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/recovDeepMVI.py", line 26, in deep_mvi_recovery
+    matrix_imputed = transformer_recovery(input, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, seed=seed, verbose=verbose, deep_verbose=False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/transformer.py", line 201, in transformer_recovery
+    model = OurModel(sizes=[train_feats.shape[1]], kernel_size=kernel_size, block_size=block_size, nhead=2, time_len=train_feats.shape[0], use_embed=use_embed, use_context=use_context, use_local=use_local).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/model.py", line 106, in __init__
+    assert self.kernel_size % self.block_size == 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/script_deepmvi_d4.py", line 7, in <module>
+    bench.eval_classifier(classifiers=["arsenal"],
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1805, in eval_classifier
+    imputer_tr.metrics = {
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'imputer_tr' where it is not associated with a value
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['SmallKitchenAppliances']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on SmallKitchenAppliances, started at 2026-03-11 18:17:48.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['SonyAIBORobotSurface1']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on SonyAIBORobotSurface1, started at 2026-03-11 18:17:48.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (14, 70).
+	One series has 70 values, with the offset, 66 values are available to contamination. Thus, the number of data to remove is 7 (int(66 * 0.1)), but block size is 10 -> (10 must be < 7)
+		(ACTION) block_size is set to : 3
+
+Error during benchmark for DeepMVI, with SonyAIBORobotSurface1, and 0.1%: 
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1706, in eval_classifier
+    imputer_tr, _, miss = utils.prepare_series_by_class(labels=y_train, raw_data=ts.data.copy(), imputer=algorithm, params=None, pattern=pattern, rate_dataset=fixed_rate, rate_series=x, offset=0.05, verbose=verbose)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/tools/utils.py", line 1737, in prepare_series_by_class
+    alg.impute()
+  File "/storage/experiments/cleanimp/imputegap/recovery/imputation.py", line 2066, in impute
+    self.recov_data = deep_mvi(incomp_data=self.incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, logs=self.logs, verbose=self.verbose)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/algorithms/deep_mvi.py", line 47, in deep_mvi
+    recov_data = deep_mvi_recovery(input=incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, verbose=verbose)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/recovDeepMVI.py", line 26, in deep_mvi_recovery
+    matrix_imputed = transformer_recovery(input, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, seed=seed, verbose=verbose, deep_verbose=False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/transformer.py", line 201, in transformer_recovery
+    model = OurModel(sizes=[train_feats.shape[1]], kernel_size=kernel_size, block_size=block_size, nhead=2, time_len=train_feats.shape[0], use_embed=use_embed, use_context=use_context, use_local=use_local).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/model.py", line 106, in __init__
+    assert self.kernel_size % self.block_size == 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/script_deepmvi_d41.py", line 7, in <module>
+    bench.eval_classifier(classifiers=["arsenal"],
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1805, in eval_classifier
+    imputer_tr.metrics = {
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'imputer_tr' where it is not associated with a value
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['Strawberry']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on Strawberry, started at 2026-03-11 18:17:48.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['SwedishLeaf']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on SwedishLeaf, started at 2026-03-11 18:17:49.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['ToeSegmentation1']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on ToeSegmentation1, started at 2026-03-11 18:17:48.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['ToeSegmentation2']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on ToeSegmentation2, started at 2026-03-11 18:17:48.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['Trace']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on Trace, started at 2026-03-11 18:17:48.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['TwoLeadECG']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on TwoLeadECG, started at 2026-03-11 18:17:48.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (11, 82).
+	One series has 82 values, with the offset, 77 values are available to contamination. Thus, the number of data to remove is 8 (int(77 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+Error during benchmark for DeepMVI, with TwoLeadECG, and 0.1%: 
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1706, in eval_classifier
+    imputer_tr, _, miss = utils.prepare_series_by_class(labels=y_train, raw_data=ts.data.copy(), imputer=algorithm, params=None, pattern=pattern, rate_dataset=fixed_rate, rate_series=x, offset=0.05, verbose=verbose)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/tools/utils.py", line 1737, in prepare_series_by_class
+    alg.impute()
+  File "/storage/experiments/cleanimp/imputegap/recovery/imputation.py", line 2066, in impute
+    self.recov_data = deep_mvi(incomp_data=self.incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, logs=self.logs, verbose=self.verbose)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/algorithms/deep_mvi.py", line 47, in deep_mvi
+    recov_data = deep_mvi_recovery(input=incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, verbose=verbose)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/recovDeepMVI.py", line 26, in deep_mvi_recovery
+    matrix_imputed = transformer_recovery(input, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, seed=seed, verbose=verbose, deep_verbose=False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/transformer.py", line 201, in transformer_recovery
+    model = OurModel(sizes=[train_feats.shape[1]], kernel_size=kernel_size, block_size=block_size, nhead=2, time_len=train_feats.shape[0], use_embed=use_embed, use_context=use_context, use_local=use_local).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/model.py", line 106, in __init__
+    assert self.kernel_size % self.block_size == 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/script_deepmvi_d47.py", line 7, in <module>
+    bench.eval_classifier(classifiers=["arsenal"],
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1805, in eval_classifier
+    imputer_tr.metrics = {
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'imputer_tr' where it is not associated with a value
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['TwoPatterns']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on TwoPatterns, started at 2026-03-11 18:17:49.
+Error during benchmark for DeepMVI, with TwoPatterns, and 0.1%: 
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1706, in eval_classifier
+    imputer_tr, _, miss = utils.prepare_series_by_class(labels=y_train, raw_data=ts.data.copy(), imputer=algorithm, params=None, pattern=pattern, rate_dataset=fixed_rate, rate_series=x, offset=0.05, verbose=verbose)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/tools/utils.py", line 1737, in prepare_series_by_class
+    alg.impute()
+  File "/storage/experiments/cleanimp/imputegap/recovery/imputation.py", line 2066, in impute
+    self.recov_data = deep_mvi(incomp_data=self.incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, logs=self.logs, verbose=self.verbose)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/algorithms/deep_mvi.py", line 47, in deep_mvi
+    recov_data = deep_mvi_recovery(input=incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, verbose=verbose)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/recovDeepMVI.py", line 26, in deep_mvi_recovery
+    matrix_imputed = transformer_recovery(input, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, seed=seed, verbose=verbose, deep_verbose=False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/transformer.py", line 201, in transformer_recovery
+    model = OurModel(sizes=[train_feats.shape[1]], kernel_size=kernel_size, block_size=block_size, nhead=2, time_len=train_feats.shape[0], use_embed=use_embed, use_context=use_context, use_local=use_local).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/model.py", line 106, in __init__
+    assert self.kernel_size % self.block_size == 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/script_deepmvi_d48.py", line 7, in <module>
+    bench.eval_classifier(classifiers=["arsenal"],
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1805, in eval_classifier
+    imputer_tr.metrics = {
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'imputer_tr' where it is not associated with a value
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['UMD']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on UMD, started at 2026-03-11 18:17:48.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['Fish']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on Fish, started at 2026-03-11 18:17:47.
+	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on Fish, started at 2026-03-11 18:17:56.
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on Fish, started at 2026-03-11 18:18:04.
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['Wafer']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on Wafer, started at 2026-03-11 18:17:49.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['Wine']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on Wine, started at 2026-03-11 18:17:48.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['Worms']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on Worms, started at 2026-03-11 18:17:48.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['WormsTwoClass']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on WormsTwoClass, started at 2026-03-11 18:17:49.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['Yoga']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on Yoga, started at 2026-03-11 18:17:49.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['FreezerRegularTrain']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on FreezerRegularTrain, started at 2026-03-11 18:17:47.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['FreezerSmallTrain']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on FreezerSmallTrain, started at 2026-03-11 18:17:47.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['GunPoint']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on GunPoint, started at 2026-03-11 18:17:46.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['GunPointAgeSpan']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on GunPointAgeSpan, started at 2026-03-11 18:17:47.
