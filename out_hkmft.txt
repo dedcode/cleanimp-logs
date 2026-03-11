@@ -1001,7 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:105: RuntimeWarning: overflow encountered in matmul
   err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:107: RuntimeWarning: overflow encountered in matmul
   new_U_i_V_t = self._U[i, :] @ self._V[:, t]
@@ -1998,6 +1997,7 @@ done!
 HKMFT is tested with aligned_series on EOGVerticalSignal, started at 2026-03-11 01:55:03.
 	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (1000, 362): eogverticalsignal_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
