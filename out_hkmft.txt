@@ -1002,14 +1002,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 ... [-1976 lines truncated] ...
 
 
-  0.1      0.8843597037    
-  0.2      0.9120021989    
-  0.4      0.7850619659    
-  0.6      0.9124479667    
-  0.8      0.9402826809    
-
-
-
 UMD: {aligned_series, RUNTIME[ms], none}
 
  Rate         HKMFT        
@@ -1221,6 +1213,7 @@ done!
 
 
 HKMFT is tested with aligned_timestamps on Wine, started at 2026-03-11 22:57:43.
+imputed_matrix.shape = (234, 30)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1486,6 +1479,9 @@ imputed_matrix.shape = (131, 13)
 imputed_matrix.shape = (131, 12)
 	caching stored for recovery and missing matrix: facesucr_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (131, 11)
+imputed_matrix.shape = (131, 15)
+imputed_matrix.shape = (131, 27)
+imputed_matrix.shape = (131, 13)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1702,6 +1698,8 @@ done!
 
 HKMFT is tested with aligned_timestamps on FreezerSmallTrain, started at 2026-03-11 22:57:35.
 imputed_matrix.shape = (301, 14)
+imputed_matrix.shape = (301, 14)
+	caching stored for recovery and missing matrix: freezersmalltrain_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -2001,3 +1999,5 @@ imputed_matrix.shape = (150, 65)
 imputed_matrix.shape = (150, 71)
 	caching stored for recovery and missing matrix: gunpointoldversusyoung_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (150, 65)
+imputed_matrix.shape = (150, 71)
+	caching stored for recovery and missing matrix: gunpointoldversusyoung_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
