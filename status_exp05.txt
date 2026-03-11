@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=180
+PROGRESS=184
 TOTAL=222
-PCT=81
+PCT=82
 STATUS=running
-LAST=NuwaTS is tested with aligned_timestamps on SonyAIBORobotSurface1, started at 2026-03-11 11:10:12.
+LAST=NuwaTS is tested with mcar on SwedishLeaf, started at 2026-03-11 11:11:14.
