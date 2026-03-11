@@ -3,5 +3,5 @@ SERVER=colab.nb
 PROGRESS=76
 TOTAL=222
 PCT=34
-STATUS=running
+STATUS=stopped
 LAST=DeepMVI is tested with mcar on ToeSegmentation1, started at 2026-03-11 17:43:36.
