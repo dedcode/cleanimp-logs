@@ -1,0 +1,460 @@
+PRISTI is tested with aligned_series on ACSF1, started at 2026-02-20 03:48:55.
+PRISTI is tested with aligned_series on ACSF1, started at 2026-03-07 13:47:47.
+PRISTI is tested with aligned_series on Adiac, started at 2026-02-20 17:47:05.
+PRISTI is tested with aligned_series on Adiac, started at 2026-03-07 13:48:10.
+PRISTI is tested with aligned_series on ArrowHead, started at 2026-02-20 23:41:16.
+PRISTI is tested with aligned_series on ArrowHead, started at 2026-03-07 13:48:30.
+PRISTI is tested with aligned_series on Beef, started at 2026-02-21 01:38:57.
+PRISTI is tested with aligned_series on Beef, started at 2026-03-07 13:48:50.
+PRISTI is tested with aligned_series on BirdChicken, started at 2026-02-21 05:03:17.
+PRISTI is tested with aligned_series on BirdChicken, started at 2026-03-07 13:49:06.
+PRISTI is tested with aligned_series on Car, started at 2026-02-21 10:01:15.
+PRISTI is tested with aligned_series on Car, started at 2026-03-07 13:49:43.
+PRISTI is tested with aligned_series on CBF, started at 2026-02-21 07:00:44.
+PRISTI is tested with aligned_series on CBF, started at 2026-03-07 13:49:23.
+PRISTI is tested with aligned_series on ChlorineConcentration, started at 2026-02-21 17:23:26.
+PRISTI is tested with aligned_series on ChlorineConcentration, started at 2026-03-07 13:50:04.
+PRISTI is tested with aligned_series on CinCECGTorso, started at 2026-02-21 23:15:01.
+PRISTI is tested with aligned_series on CinCECGTorso, started at 2026-03-07 13:50:24.
+PRISTI is tested with aligned_series on Colposcopy, started at 2026-02-22 04:05:10.
+PRISTI is tested with aligned_series on Colposcopy, started at 2026-03-07 13:50:45.
+PRISTI is tested with aligned_series on Computers, started at 2026-02-22 07:50:35.
+PRISTI is tested with aligned_series on Computers, started at 2026-03-07 13:51:06.
+PRISTI is tested with aligned_series on CricketX, started at 2026-02-22 17:35:17.
+PRISTI is tested with aligned_series on CricketX, started at 2026-03-07 13:51:29.
+PRISTI is tested with aligned_series on DistalPhalanxOutlineAgeGroup, started at 2026-02-23 03:44:43.
+PRISTI is tested with aligned_series on DistalPhalanxOutlineAgeGroup, started at 2026-03-07 13:51:50.
+PRISTI is tested with aligned_series on DistalPhalanxOutlineCorrect, started at 2026-02-23 05:16:32.
+PRISTI is tested with aligned_series on DistalPhalanxOutlineCorrect, started at 2026-03-07 13:52:12.
+PRISTI is tested with aligned_series on DistalPhalanxTW, started at 2026-02-23 07:03:21.
+PRISTI is tested with aligned_series on DistalPhalanxTW, started at 2026-03-07 13:52:32.
+PRISTI is tested with aligned_series on Earthquakes, started at 2026-02-27 19:08:38.
+PRISTI is tested with aligned_series on Earthquakes, started at 2026-03-07 13:53:59.
+PRISTI is tested with aligned_series on ECGFiveDays, started at 2026-02-23 08:14:54.
+PRISTI is tested with aligned_series on ECGFiveDays, started at 2026-03-07 13:52:51.
+PRISTI is tested with aligned_series on EOGHorizontalSignal, started at 2026-02-24 00:16:07.
+PRISTI is tested with aligned_series on EOGHorizontalSignal, started at 2026-03-07 13:53:12.
+PRISTI is tested with aligned_series on EOGVerticalSignal, started at 2026-02-26 00:01:21.
+PRISTI is tested with aligned_series on EOGVerticalSignal, started at 2026-03-07 13:53:36.
+PRISTI is tested with aligned_series on EthanolLevel, started at 2026-03-01 16:27:23.
+PRISTI is tested with aligned_series on EthanolLevel, started at 2026-03-07 13:54:22.
+PRISTI is tested with aligned_series on FaceAll, started at 2026-03-03 15:56:07.
+PRISTI is tested with aligned_series on FaceAll, started at 2026-03-07 13:54:48.
+PRISTI is tested with aligned_series on FaceFour, started at 2026-03-03 20:08:46.
+PRISTI is tested with aligned_series on FaceFour, started at 2026-03-07 13:55:08.
+PRISTI is tested with aligned_series on FacesUCR, started at 2026-03-03 22:17:01.
+PRISTI is tested with aligned_series on FacesUCR, started at 2026-03-07 13:55:27.
+PRISTI is tested with aligned_series on Fish, started at 2026-03-04 05:54:10.
+PRISTI is tested with aligned_series on Fish, started at 2026-03-07 13:55:47.
+PRISTI is tested with aligned_series on FreezerRegularTrain, started at 2026-03-07 22:55:53.
+PRISTI is tested with aligned_series on FreezerSmallTrain, started at 2026-03-08 01:39:12.
+PRISTI is tested with aligned_series on GunPoint, started at 2026-03-08 02:29:22.
+PRISTI is tested with aligned_series on GunPointAgeSpan, started at 2026-03-08 03:21:32.
+PRISTI is tested with aligned_series on GunPointMaleVersusFemale, started at 2026-03-08 04:42:06.
+PRISTI is tested with aligned_series on GunPointOldVersusYoung, started at 2026-03-08 06:05:44.
+PRISTI is tested with aligned_series on Ham, started at 2026-03-08 10:04:17.
+PRISTI is tested with aligned_series on Haptics, started at 2026-03-08 22:58:36.
+PRISTI is tested with aligned_series on Herring, started at 2026-03-09 14:41:26.
+PRISTI is tested with aligned_series on InlineSkate, started at 2026-03-09 23:58:58.
+PRISTI is tested with aligned_timestamps on ACSF1, started at 2026-02-20 09:26:31.
+PRISTI is tested with aligned_timestamps on ACSF1, started at 2026-03-07 13:47:55.
+PRISTI is tested with aligned_timestamps on Adiac, started at 2026-02-20 20:33:55.
+PRISTI is tested with aligned_timestamps on Adiac, started at 2026-03-07 13:48:17.
+PRISTI is tested with aligned_timestamps on ArrowHead, started at 2026-02-21 00:04:02.
+PRISTI is tested with aligned_timestamps on ArrowHead, started at 2026-03-07 13:48:37.
+PRISTI is tested with aligned_timestamps on Beef, started at 2026-02-21 02:53:05.
+PRISTI is tested with aligned_timestamps on Beef, started at 2026-03-07 13:48:56.
+PRISTI is tested with aligned_timestamps on BirdChicken, started at 2026-02-21 05:57:38.
+PRISTI is tested with aligned_timestamps on BirdChicken, started at 2026-03-07 13:49:12.
+PRISTI is tested with aligned_timestamps on Car, started at 2026-02-21 12:47:55.
+PRISTI is tested with aligned_timestamps on Car, started at 2026-03-07 13:49:50.
+PRISTI is tested with aligned_timestamps on CBF, started at 2026-02-21 07:09:30.
+PRISTI is tested with aligned_timestamps on CBF, started at 2026-03-07 13:49:29.
+PRISTI is tested with aligned_timestamps on ChlorineConcentration, started at 2026-02-21 19:15:16.
+PRISTI is tested with aligned_timestamps on ChlorineConcentration, started at 2026-03-07 13:50:11.
+PRISTI is tested with aligned_timestamps on CinCECGTorso, started at 2026-02-22 01:22:22.
+PRISTI is tested with aligned_timestamps on CinCECGTorso, started at 2026-03-07 13:50:31.
+PRISTI is tested with aligned_timestamps on Colposcopy, started at 2026-02-22 04:44:44.
+PRISTI is tested with aligned_timestamps on Colposcopy, started at 2026-03-07 13:50:52.
+PRISTI is tested with aligned_timestamps on Computers, started at 2026-02-22 10:18:55.
+PRISTI is tested with aligned_timestamps on Computers, started at 2026-03-07 13:51:13.
+PRISTI is tested with aligned_timestamps on CricketX, started at 2026-02-22 22:28:08.
+PRISTI is tested with aligned_timestamps on CricketX, started at 2026-03-07 13:51:36.
+PRISTI is tested with aligned_timestamps on DistalPhalanxOutlineAgeGroup, started at 2026-02-23 04:11:49.
+PRISTI is tested with aligned_timestamps on DistalPhalanxOutlineAgeGroup, started at 2026-03-07 13:51:56.
+PRISTI is tested with aligned_timestamps on DistalPhalanxOutlineCorrect, started at 2026-02-23 05:54:39.
+PRISTI is tested with aligned_timestamps on DistalPhalanxOutlineCorrect, started at 2026-03-07 13:52:19.
+PRISTI is tested with aligned_timestamps on DistalPhalanxTW, started at 2026-02-23 07:35:04.
+PRISTI is tested with aligned_timestamps on DistalPhalanxTW, started at 2026-03-07 13:52:39.
+PRISTI is tested with aligned_timestamps on Earthquakes, started at 2026-02-28 06:17:11.
+PRISTI is tested with aligned_timestamps on Earthquakes, started at 2026-03-07 13:54:06.
+PRISTI is tested with aligned_timestamps on ECGFiveDays, started at 2026-02-23 08:22:21.
+PRISTI is tested with aligned_timestamps on ECGFiveDays, started at 2026-03-07 13:52:57.
+PRISTI is tested with aligned_timestamps on EOGHorizontalSignal, started at 2026-02-24 16:07:36.
+PRISTI is tested with aligned_timestamps on EOGHorizontalSignal, started at 2026-03-07 13:53:20.
+PRISTI is tested with aligned_timestamps on EOGVerticalSignal, started at 2026-02-26 15:50:01.
+PRISTI is tested with aligned_timestamps on EOGVerticalSignal, started at 2026-03-07 13:53:44.
+PRISTI is tested with aligned_timestamps on EthanolLevel, started at 2026-03-02 15:20:01.
+PRISTI is tested with aligned_timestamps on EthanolLevel, started at 2026-03-07 13:54:30.
+PRISTI is tested with aligned_timestamps on FaceAll, started at 2026-03-03 17:44:48.
+PRISTI is tested with aligned_timestamps on FaceAll, started at 2026-03-07 13:54:55.
+PRISTI is tested with aligned_timestamps on FaceFour, started at 2026-03-03 20:44:19.
+PRISTI is tested with aligned_timestamps on FaceFour, started at 2026-03-07 13:55:14.
+PRISTI is tested with aligned_timestamps on FacesUCR, started at 2026-03-03 23:14:29.
+PRISTI is tested with aligned_timestamps on FacesUCR, started at 2026-03-07 13:55:34.
+PRISTI is tested with aligned_timestamps on Fish, started at 2026-03-07 16:09:41.
+PRISTI is tested with aligned_timestamps on FreezerRegularTrain, started at 2026-03-08 00:07:29.
+PRISTI is tested with aligned_timestamps on FreezerSmallTrain, started at 2026-03-08 01:58:06.
+PRISTI is tested with aligned_timestamps on GunPoint, started at 2026-03-08 02:41:44.
+PRISTI is tested with aligned_timestamps on GunPointAgeSpan, started at 2026-03-08 03:47:54.
+PRISTI is tested with aligned_timestamps on GunPointMaleVersusFemale, started at 2026-03-08 05:10:17.
+PRISTI is tested with aligned_timestamps on GunPointOldVersusYoung, started at 2026-03-08 06:33:52.
+PRISTI is tested with aligned_timestamps on Ham, started at 2026-03-08 13:06:02.
+PRISTI is tested with aligned_timestamps on Haptics, started at 2026-03-09 05:44:41.
+PRISTI is tested with aligned_timestamps on Herring, started at 2026-03-09 16:51:58.
+PRISTI is tested with mcar on ACSF1, started at 2026-02-19 22:11:28.
+PRISTI is tested with mcar on ACSF1, started at 2026-03-07 13:47:40.
+PRISTI is tested with mcar on Adiac, started at 2026-02-20 15:01:12.
+PRISTI is tested with mcar on Adiac, started at 2026-03-07 13:48:03.
+PRISTI is tested with mcar on ArrowHead, started at 2026-02-20 23:18:16.
+PRISTI is tested with mcar on ArrowHead, started at 2026-03-07 13:48:24.
+PRISTI is tested with mcar on Beef, started at 2026-02-21 00:26:34.
+PRISTI is tested with mcar on Beef, started at 2026-03-07 13:48:44.
+PRISTI is tested with mcar on BirdChicken, started at 2026-02-21 04:08:34.
+PRISTI is tested with mcar on BirdChicken, started at 2026-03-07 13:49:02.
+PRISTI is tested with mcar on Car, started at 2026-02-21 07:18:23.
+PRISTI is tested with mcar on Car, started at 2026-03-07 13:49:37.
+PRISTI is tested with mcar on CBF, started at 2026-02-21 06:51:59.
+PRISTI is tested with mcar on CBF, started at 2026-03-07 13:49:17.
+PRISTI is tested with mcar on ChlorineConcentration, started at 2026-02-21 15:30:40.
+PRISTI is tested with mcar on ChlorineConcentration, started at 2026-03-07 13:49:57.
+PRISTI is tested with mcar on CinCECGTorso, started at 2026-02-21 21:06:26.
+PRISTI is tested with mcar on CinCECGTorso, started at 2026-03-07 13:50:18.
+PRISTI is tested with mcar on Colposcopy, started at 2026-02-22 03:25:20.
+PRISTI is tested with mcar on Colposcopy, started at 2026-03-07 13:50:39.
+PRISTI is tested with mcar on Computers, started at 2026-02-22 05:24:14.
+PRISTI is tested with mcar on Computers, started at 2026-03-07 13:50:58.
+PRISTI is tested with mcar on CricketX, started at 2026-02-22 12:44:37.
+PRISTI is tested with mcar on CricketX, started at 2026-03-07 13:51:22.
+PRISTI is tested with mcar on DistalPhalanxOutlineAgeGroup, started at 2026-02-23 03:17:49.
+PRISTI is tested with mcar on DistalPhalanxOutlineAgeGroup, started at 2026-03-07 13:51:43.
+PRISTI is tested with mcar on DistalPhalanxOutlineCorrect, started at 2026-02-23 04:39:10.
+PRISTI is tested with mcar on DistalPhalanxOutlineCorrect, started at 2026-03-07 13:52:03.
+PRISTI is tested with mcar on DistalPhalanxTW, started at 2026-02-23 06:31:46.
+PRISTI is tested with mcar on DistalPhalanxTW, started at 2026-03-07 13:52:26.
+PRISTI is tested with mcar on Earthquakes, started at 2026-02-27 07:48:18.
+PRISTI is tested with mcar on Earthquakes, started at 2026-03-07 13:53:52.
+PRISTI is tested with mcar on ECGFiveDays, started at 2026-02-23 08:07:28.
+PRISTI is tested with mcar on ECGFiveDays, started at 2026-03-07 13:52:46.
+PRISTI is tested with mcar on EOGHorizontalSignal, started at 2026-02-23 08:29:51.
+PRISTI is tested with mcar on EOGHorizontalSignal, started at 2026-03-07 13:53:02.
+PRISTI is tested with mcar on EOGVerticalSignal, started at 2026-02-25 08:06:57.
+PRISTI is tested with mcar on EOGVerticalSignal, started at 2026-03-07 13:53:28.
+PRISTI is tested with mcar on EthanolLevel, started at 2026-02-28 17:28:41.
+PRISTI is tested with mcar on EthanolLevel, started at 2026-03-07 13:54:13.
+PRISTI is tested with mcar on FaceAll, started at 2026-03-03 14:08:19.
+PRISTI is tested with mcar on FaceAll, started at 2026-03-07 13:54:42.
+PRISTI is tested with mcar on FaceFour, started at 2026-03-03 19:32:56.
+PRISTI is tested with mcar on FaceFour, started at 2026-03-07 13:55:02.
+PRISTI is tested with mcar on FacesUCR, started at 2026-03-03 21:19:24.
+PRISTI is tested with mcar on FacesUCR, started at 2026-03-07 13:55:21.
+PRISTI is tested with mcar on Fish, started at 2026-03-04 00:11:44.
+PRISTI is tested with mcar on Fish, started at 2026-03-07 13:55:40.
+PRISTI is tested with mcar on FreezerRegularTrain, started at 2026-03-07 21:42:39.
+PRISTI is tested with mcar on FreezerSmallTrain, started at 2026-03-08 01:19:54.
+PRISTI is tested with mcar on GunPoint, started at 2026-03-08 02:16:59.
+PRISTI is tested with mcar on GunPointAgeSpan, started at 2026-03-08 02:54:06.
+PRISTI is tested with mcar on GunPointMaleVersusFemale, started at 2026-03-08 04:14:51.
+PRISTI is tested with mcar on GunPointOldVersusYoung, started at 2026-03-08 05:37:42.
+PRISTI is tested with mcar on Ham, started at 2026-03-08 07:01:20.
+PRISTI is tested with mcar on Haptics, started at 2026-03-08 16:06:03.
+PRISTI is tested with mcar on Herring, started at 2026-03-09 12:29:53.
+PRISTI is tested with mcar on InlineSkate, started at 2026-03-09 19:03:21.
+PRISTI is tested with aligned_series on InsectEPGRegularTrain, started at 2026-03-09 22:43:42.
+PRISTI is tested with aligned_series on InsectWingbeatSound, started at 2026-03-10 05:50:33.
+PRISTI is tested with aligned_series on LargeKitchenAppliances, started at 2026-03-10 11:47:55.
+PRISTI is tested with aligned_series on Lightning2, started at 2026-03-10 22:25:41.
+PRISTI is tested with aligned_series on Lightning7, started at 2026-03-11 06:29:27.
+PRISTI is tested with aligned_series on Meat, started at 2026-03-11 11:19:14.
+PRISTI is tested with aligned_series on MedicalImages, started at 2026-03-11 15:27:55.
+PRISTI is tested with aligned_timestamps on InsectEPGRegularTrain, started at 2026-03-10 01:42:26.
+PRISTI is tested with aligned_timestamps on InsectWingbeatSound, started at 2026-03-10 06:59:57.
+PRISTI is tested with aligned_timestamps on LargeKitchenAppliances, started at 2026-03-10 15:27:00.
+PRISTI is tested with aligned_timestamps on Lightning2, started at 2026-03-11 01:43:26.
+PRISTI is tested with aligned_timestamps on Lightning7, started at 2026-03-11 08:01:52.
+PRISTI is tested with aligned_timestamps on Meat, started at 2026-03-11 13:00:28.
+PRISTI is tested with mcar on InsectEPGRegularTrain, started at 2026-03-09 19:43:33.
+PRISTI is tested with mcar on InsectWingbeatSound, started at 2026-03-10 04:40:55.
+PRISTI is tested with mcar on LargeKitchenAppliances, started at 2026-03-10 08:09:23.
+PRISTI is tested with mcar on Lightning2, started at 2026-03-10 19:06:04.
+PRISTI is tested with mcar on Lightning7, started at 2026-03-11 04:56:59.
+PRISTI is tested with mcar on Meat, started at 2026-03-11 09:35:59.
+PRISTI is tested with mcar on MedicalImages, started at 2026-03-11 14:41:07.
+PRISTI is tested with aligned_series on OliveOil, started at 2026-03-10 21:37:42.
+PRISTI is tested with aligned_series on OSULeaf, started at 2026-03-10 09:09:17.
+PRISTI is tested with aligned_series on PhalangesOutlinesCorrect, started at 2026-03-11 03:10:49.
+PRISTI is tested with aligned_series on Plane, started at 2026-03-11 07:40:03.
+PRISTI is tested with aligned_series on PowerCons, started at 2026-03-11 08:30:13.
+PRISTI is tested with aligned_series on ProximalPhalanxOutlineAgeGroup, started at 2026-03-11 09:18:13.
+PRISTI is tested with aligned_series on ProximalPhalanxOutlineCorrect, started at 2026-03-11 10:48:53.
+PRISTI is tested with aligned_series on RefrigerationDevices, started at 2026-03-11 15:48:02.
+PRISTI is tested with aligned_timestamps on OliveOil, started at 2026-03-10 23:22:08.
+PRISTI is tested with aligned_timestamps on OSULeaf, started at 2026-03-10 14:32:01.
+PRISTI is tested with aligned_timestamps on PhalangesOutlinesCorrect, started at 2026-03-11 05:15:43.
+PRISTI is tested with aligned_timestamps on Plane, started at 2026-03-11 07:59:40.
+PRISTI is tested with aligned_timestamps on PowerCons, started at 2026-03-11 08:41:06.
+PRISTI is tested with aligned_timestamps on ProximalPhalanxOutlineAgeGroup, started at 2026-03-11 09:44:20.
+PRISTI is tested with aligned_timestamps on ProximalPhalanxOutlineCorrect, started at 2026-03-11 11:27:35.
+PRISTI is tested with aligned_timestamps on RefrigerationDevices, started at 2026-03-11 19:25:41.
+PRISTI is tested with mcar on OliveOil, started at 2026-03-10 19:52:51.
+PRISTI is tested with mcar on OSULeaf, started at 2026-03-10 03:43:29.
+PRISTI is tested with mcar on PhalangesOutlinesCorrect, started at 2026-03-11 01:06:13.
+PRISTI is tested with mcar on Plane, started at 2026-03-11 07:20:27.
+PRISTI is tested with mcar on PowerCons, started at 2026-03-11 08:19:18.
+PRISTI is tested with mcar on ProximalPhalanxOutlineAgeGroup, started at 2026-03-11 08:51:57.
+PRISTI is tested with mcar on ProximalPhalanxOutlineCorrect, started at 2026-03-11 10:10:25.
+PRISTI is tested with mcar on RefrigerationDevices, started at 2026-03-11 12:06:33.
+PRISTI is tested with aligned_series on Rock, started at 2026-03-10 05:07:32.
+PRISTI is tested with aligned_series on ScreenType, started at 2026-03-10 11:34:28.
+PRISTI is tested with aligned_series on SemgHandGenderCh2, started at 2026-03-11 08:16:15.
+PRISTI is tested with aligned_timestamps on Rock, started at 2026-03-10 06:30:52.
+PRISTI is tested with aligned_timestamps on ScreenType, started at 2026-03-10 15:10:58.
+PRISTI is tested with aligned_timestamps on SemgHandGenderCh2, started at 2026-03-11 21:39:47.
+PRISTI is tested with mcar on Rock, started at 2026-03-10 03:43:33.
+PRISTI is tested with mcar on ScreenType, started at 2026-03-10 07:53:49.
+PRISTI is tested with mcar on SemgHandGenderCh2, started at 2026-03-10 18:49:32.
+PRISTI is tested with aligned_series on SmallKitchenAppliances, started at 2026-03-10 07:26:37.
+PRISTI is tested with aligned_series on SonyAIBORobotSurface1, started at 2026-03-10 14:47:48.
+PRISTI is tested with aligned_series on Strawberry, started at 2026-03-10 20:25:49.
+PRISTI is tested with aligned_series on SwedishLeaf, started at 2026-03-11 08:51:56.
+PRISTI is tested with aligned_series on SyntheticControl, started at 2026-03-11 12:00:49.
+PRISTI is tested with aligned_series on ToeSegmentation1, started at 2026-03-11 13:03:11.
+PRISTI is tested with aligned_series on ToeSegmentation2, started at 2026-03-11 14:36:39.
+PRISTI is tested with aligned_series on Trace, started at 2026-03-11 17:02:47.
+PRISTI is tested with aligned_timestamps on SmallKitchenAppliances, started at 2026-03-10 11:07:21.
+PRISTI is tested with aligned_timestamps on SonyAIBORobotSurface1, started at 2026-03-10 14:51:32.
+PRISTI is tested with aligned_timestamps on Strawberry, started at 2026-03-11 01:56:54.
+PRISTI is tested with aligned_timestamps on SwedishLeaf, started at 2026-03-11 10:17:45.
+PRISTI is tested with aligned_timestamps on SyntheticControl, started at 2026-03-11 12:18:22.
+PRISTI is tested with aligned_timestamps on ToeSegmentation1, started at 2026-03-11 13:30:04.
+PRISTI is tested with aligned_timestamps on ToeSegmentation2, started at 2026-03-11 15:15:38.
+PRISTI is tested with aligned_timestamps on Trace, started at 2026-03-11 18:10:54.
+PRISTI is tested with mcar on SmallKitchenAppliances, started at 2026-03-10 03:43:38.
+PRISTI is tested with mcar on SonyAIBORobotSurface1, started at 2026-03-10 14:44:05.
+PRISTI is tested with mcar on Strawberry, started at 2026-03-10 14:55:15.
+PRISTI is tested with mcar on SwedishLeaf, started at 2026-03-11 07:26:16.
+PRISTI is tested with mcar on SyntheticControl, started at 2026-03-11 11:43:12.
+PRISTI is tested with mcar on ToeSegmentation1, started at 2026-03-11 12:35:53.
+PRISTI is tested with mcar on ToeSegmentation2, started at 2026-03-11 13:57:35.
+PRISTI is tested with mcar on Trace, started at 2026-03-11 15:54:17.
+PRISTI is tested with aligned_series on TwoLeadECG, started at 2026-03-10 03:46:06.
+PRISTI is tested with aligned_series on TwoPatterns, started at 2026-03-10 06:19:52.
+PRISTI is tested with aligned_series on UMD, started at 2026-03-10 11:26:54.
+PRISTI is tested with aligned_series on Wafer, started at 2026-03-10 16:04:21.
+PRISTI is tested with aligned_series on Wine, started at 2026-03-11 00:59:41.
+PRISTI is tested with aligned_series on Worms, started at 2026-03-11 14:39:24.
+PRISTI is tested with aligned_timestamps on TwoLeadECG, started at 2026-03-10 03:48:50.
+PRISTI is tested with aligned_timestamps on TwoPatterns, started at 2026-03-10 08:47:36.
+PRISTI is tested with aligned_timestamps on UMD, started at 2026-03-10 11:39:00.
+PRISTI is tested with aligned_timestamps on Wafer, started at 2026-03-10 20:19:18.
+PRISTI is tested with aligned_timestamps on Wine, started at 2026-03-11 01:25:06.
+PRISTI is tested with mcar on TwoLeadECG, started at 2026-03-10 03:43:52.
+PRISTI is tested with mcar on TwoPatterns, started at 2026-03-10 03:51:35.
+PRISTI is tested with mcar on UMD, started at 2026-03-10 11:15:11.
+PRISTI is tested with mcar on Wafer, started at 2026-03-10 11:50:51.
+PRISTI is tested with mcar on Wine, started at 2026-03-11 00:33:11.
+PRISTI is tested with mcar on Worms, started at 2026-03-11 01:51:17.
+PRISTI is tested with mcar on MoteStrain, started at 2026-03-12 00:05:07.
+PRISTI is tested with mcar on SemgHandMovementCh2, started at 2026-03-12 00:05:08.
+PRISTI is tested with mcar on SemgHandSubjectCh2, started at 2026-03-12 00:05:08.
+PRISTI is tested with mcar on ShapeletSim, started at 2026-03-12 00:05:07.
+PRISTI is tested with mcar on ShapesAll, started at 2026-03-12 00:05:07.
+PRISTI is tested with mcar on SharePriceIncrease, started at 2026-03-12 00:05:07.
+PRISTI is tested with mcar on WormsTwoClass, started at 2026-03-12 00:05:07.
+PRISTI is tested with mcar on Yoga, started at 2026-03-12 00:05:08.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['PRISTI']
+	datasets: ['MoteStrain']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+PRISTI is tested with mcar on MoteStrain, started at 2026-03-12 00:05:07.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (10, 84).
+	One series has 84 values, with the offset, 79 values are available to contamination. Thus, the number of data to remove is 8 (int(79 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['PRISTI']
+	datasets: ['SemgHandMovementCh2']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+PRISTI is tested with mcar on SemgHandMovementCh2, started at 2026-03-12 00:05:08.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['PRISTI']
+	datasets: ['SemgHandSubjectCh2']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+PRISTI is tested with mcar on SemgHandSubjectCh2, started at 2026-03-12 00:05:08.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['PRISTI']
+	datasets: ['ShapeletSim']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+PRISTI is tested with mcar on ShapeletSim, started at 2026-03-12 00:05:07.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['PRISTI']
+	datasets: ['ShapesAll']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+PRISTI is tested with mcar on ShapesAll, started at 2026-03-12 00:05:07.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['PRISTI']
+	datasets: ['SharePriceIncrease']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+PRISTI is tested with mcar on SharePriceIncrease, started at 2026-03-12 00:05:07.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (663, 60).
+	One series has 60 values, with the offset, 57 values are available to contamination. Thus, the number of data to remove is 6 (int(57 * 0.1)), but block size is 10 -> (10 must be < 6)
+		(ACTION) block_size is set to : 3
+
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['PRISTI']
+	datasets: ['WormsTwoClass']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+PRISTI is tested with mcar on WormsTwoClass, started at 2026-03-12 00:05:07.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['PRISTI']
+	datasets: ['Yoga']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+PRISTI is tested with mcar on Yoga, started at 2026-03-12 00:05:08.
