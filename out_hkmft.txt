@@ -1003,33 +1003,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-	caching stored for recovery and missing matrix: syntheticcontrol_mcar_hkmft_80_20_contbyclass_imputationbyclass
-done!
-
-
-HKMFT is tested with aligned_series on SyntheticControl, started at 2026-03-11 22:29:17.
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-	caching stored for recovery and missing matrix: syntheticcontrol_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-	caching stored for recovery and missing matrix: syntheticcontrol_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
 	caching stored for recovery and missing matrix: syntheticcontrol_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
@@ -1041,6 +1014,14 @@ imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
+imputed_matrix.shape = (60, 50)
+imputed_matrix.shape = (60, 50)
+imputed_matrix.shape = (60, 50)
+	caching stored for recovery and missing matrix: syntheticcontrol_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on SyntheticControl, started at 2026-03-11 22:36:11.
 imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
 
@@ -1088,6 +1069,8 @@ imputed_matrix.shape = (277, 20)
 imputed_matrix.shape = (277, 20)
 	caching stored for recovery and missing matrix: toesegmentation1_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (277, 20)
+imputed_matrix.shape = (277, 20)
+	caching stored for recovery and missing matrix: toesegmentation1_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1142,6 +1125,8 @@ HKMFT is tested with aligned_series on FaceFour, started at 2026-03-11 22:33:37.
 imputed_matrix.shape = (350, 8)
 imputed_matrix.shape = (350, 8)
 imputed_matrix.shape = (350, 5)
+imputed_matrix.shape = (350, 3)
+	caching stored for recovery and missing matrix: facefour_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1177,6 +1162,12 @@ imputed_matrix.shape = (343, 18)
 imputed_matrix.shape = (343, 18)
 	caching stored for recovery and missing matrix: toesegmentation2_mcar_hkmft_60_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (343, 18)
+imputed_matrix.shape = (343, 18)
+	caching stored for recovery and missing matrix: toesegmentation2_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_series on ToeSegmentation2, started at 2026-03-11 22:36:05.
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1477,6 +1468,7 @@ imputed_matrix.shape = (128, 271)
 	caching stored for recovery and missing matrix: twopatterns_mcar_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (128, 237)
 imputed_matrix.shape = (128, 250)
+imputed_matrix.shape = (128, 242)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1556,6 +1548,7 @@ imputed_matrix.shape = (150, 12)
 imputed_matrix.shape = (150, 12)
 	caching stored for recovery and missing matrix: umd_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (150, 12)
+imputed_matrix.shape = (150, 12)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1625,6 +1618,7 @@ HKMFT is tested with aligned_series on Wine, started at 2026-03-11 22:33:09.
 imputed_matrix.shape = (234, 30)
 imputed_matrix.shape = (234, 27)
 	caching stored for recovery and missing matrix: wine_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (234, 30)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1809,6 +1803,8 @@ imputed_matrix.shape = (131, 12)
 	caching stored for recovery and missing matrix: facesucr_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (131, 11)
 imputed_matrix.shape = (131, 15)
+imputed_matrix.shape = (131, 27)
+imputed_matrix.shape = (131, 13)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1860,6 +1856,8 @@ imputed_matrix.shape = (301, 75)
 imputed_matrix.shape = (301, 75)
 	caching stored for recovery and missing matrix: freezerregulartrain_mcar_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (301, 75)
+imputed_matrix.shape = (301, 75)
+	caching stored for recovery and missing matrix: freezerregulartrain_mcar_hkmft_20_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1905,6 +1903,8 @@ imputed_matrix.shape = (301, 14)
 imputed_matrix.shape = (301, 14)
 	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (301, 14)
+imputed_matrix.shape = (301, 14)
+	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
