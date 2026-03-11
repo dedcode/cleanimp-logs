@@ -1001,231 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-imputed_matrix.shape = (512, 10)
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['SharePriceIncrease']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on SharePriceIncrease, started at 2026-03-11 22:26:40.
-
-	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (663, 60).
-	One series has 60 values, with the offset, 57 values are available to contamination. Thus, the number of data to remove is 6 (int(57 * 0.1)), but block size is 10 -> (10 must be < 6)
-		(ACTION) block_size is set to : 3
-
-imputed_matrix.shape = (60, 663)
-
-	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (302, 60).
-	One series has 60 values, with the offset, 57 values are available to contamination. Thus, the number of data to remove is 6 (int(57 * 0.1)), but block size is 10 -> (10 must be < 6)
-		(ACTION) block_size is set to : 3
-
-imputed_matrix.shape = (60, 302)
-	caching stored for recovery and missing matrix: sharepriceincrease_mcar_hkmft_10_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (60, 663)
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['SmallKitchenAppliances']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on SmallKitchenAppliances, started at 2026-03-11 22:26:41.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['SonyAIBORobotSurface1']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on SonyAIBORobotSurface1, started at 2026-03-11 22:26:40.
-
-	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (14, 70).
-	One series has 70 values, with the offset, 66 values are available to contamination. Thus, the number of data to remove is 7 (int(66 * 0.1)), but block size is 10 -> (10 must be < 7)
-		(ACTION) block_size is set to : 3
-
-imputed_matrix.shape = (70, 14)
-
-	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (6, 70).
-	One series has 70 values, with the offset, 66 values are available to contamination. Thus, the number of data to remove is 7 (int(66 * 0.1)), but block size is 10 -> (10 must be < 7)
-		(ACTION) block_size is set to : 3
-
-imputed_matrix.shape = (70, 6)
-	caching stored for recovery and missing matrix: sonyaiborobotsurface1_mcar_hkmft_10_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (70, 14)
-imputed_matrix.shape = (70, 6)
-	caching stored for recovery and missing matrix: sonyaiborobotsurface1_mcar_hkmft_20_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (70, 14)
-imputed_matrix.shape = (70, 6)
-	caching stored for recovery and missing matrix: sonyaiborobotsurface1_mcar_hkmft_40_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (70, 14)
-imputed_matrix.shape = (70, 6)
-	caching stored for recovery and missing matrix: sonyaiborobotsurface1_mcar_hkmft_60_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (70, 14)
-imputed_matrix.shape = (70, 6)
-	caching stored for recovery and missing matrix: sonyaiborobotsurface1_mcar_hkmft_80_20_contbyclass_imputationbyclass
-done!
-
-
-HKMFT is tested with aligned_series on SonyAIBORobotSurface1, started at 2026-03-11 22:27:07.
-imputed_matrix.shape = (70, 14)
-imputed_matrix.shape = (70, 6)
-	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (70, 14)
-imputed_matrix.shape = (70, 6)
-	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (70, 14)
-imputed_matrix.shape = (70, 6)
-	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (70, 14)
-imputed_matrix.shape = (70, 6)
-	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (70, 14)
-imputed_matrix.shape = (70, 6)
-	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
-done!
-
-
-HKMFT is tested with aligned_timestamps on SonyAIBORobotSurface1, started at 2026-03-11 22:28:09.
-imputed_matrix.shape = (70, 14)
-imputed_matrix.shape = (70, 6)
-	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (70, 14)
-imputed_matrix.shape = (70, 6)
-	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (70, 14)
-imputed_matrix.shape = (70, 6)
-	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (70, 14)
-imputed_matrix.shape = (70, 6)
-	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (70, 14)
-imputed_matrix.shape = (70, 6)
-	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
-done!
-
-
-
-> logs: benchmark - Execution Time: 141.4748 seconds,  (00:02:21.475 hh:mm:ss)
-
-
-SonyAIBORobotSurface1: {mcar, RMSE, none}
-
- Rate         HKMFT        
-
-  0.1      1.1122236590    
-  0.2      1.1668810975    
-  0.4      1.2169812179    
-  0.6      1.4066759964    
-  0.8      1.3546659229    
-
-
-
-SonyAIBORobotSurface1: {mcar, RUNTIME[ms], none}
-
- Rate         HKMFT        
-
-  0.1    2932.7542781830   
-  0.2    3909.8145961761   
-  0.4    3407.3204994202   
-  0.6    2167.6793098450   
-  0.8    1514.8258209229   
-
-
-
-SonyAIBORobotSurface1: {aligned_series, RMSE, none}
-
- Rate         HKMFT        
-
-  0.1      1.3983257311    
-  0.2      1.4080739036    
-  0.4      1.3795414408    
-  0.6      1.3795315994    
-  0.8      1.2966792834    
-
-
-
-SonyAIBORobotSurface1: {aligned_series, RUNTIME[ms], none}
-
- Rate         HKMFT        
-
-  0.1    2049.7698783875   
-  0.2    4187.9951953888   
-  0.4    8835.5736732483   
-  0.6    12193.7525272369  
-  0.8    17093.6515331268  
-
-
-
-SonyAIBORobotSurface1: {aligned_timestamps, RMSE, none}
-
- Rate         HKMFT        
-
-  0.1      1.0373568398    
-  0.2      1.3994573177    
-  0.4      1.1473475322    
-  0.6      1.2180895594    
-  0.8      2.2784501127    
-
-
-
-SonyAIBORobotSurface1: {aligned_timestamps, RUNTIME[ms], none}
-
- Rate         HKMFT        
-
-  0.1    2614.7181987762   
-  0.2    4814.0225410461   
-  0.4    6069.6561336517   
-  0.6    5726.3705730438   
-  0.8    2064.9719238281   
-
-
-
-The plots have been generated...
-
 
 {aligned_series, RMSE, none}
 -----------------------------------------------------
@@ -1360,6 +1135,9 @@ imputed_matrix.shape = (128, 33)
 imputed_matrix.shape = (128, 30)
 imputed_matrix.shape = (128, 36)
 imputed_matrix.shape = (128, 38)
+imputed_matrix.shape = (128, 26)
+imputed_matrix.shape = (128, 28)
+imputed_matrix.shape = (128, 29)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1445,6 +1223,20 @@ imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
+imputed_matrix.shape = (60, 50)
+	caching stored for recovery and missing matrix: syntheticcontrol_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_series on SyntheticControl, started at 2026-03-11 22:29:17.
+imputed_matrix.shape = (60, 50)
+imputed_matrix.shape = (60, 50)
+imputed_matrix.shape = (60, 50)
+imputed_matrix.shape = (60, 50)
+imputed_matrix.shape = (60, 50)
+imputed_matrix.shape = (60, 50)
+	caching stored for recovery and missing matrix: syntheticcontrol_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (60, 50)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1473,6 +1265,7 @@ imputed_matrix.shape = (277, 20)
 imputed_matrix.shape = (277, 20)
 imputed_matrix.shape = (277, 20)
 	caching stored for recovery and missing matrix: toesegmentation1_mcar_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (277, 20)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1505,6 +1298,7 @@ imputed_matrix.shape = (350, 8)
 imputed_matrix.shape = (350, 5)
 imputed_matrix.shape = (350, 3)
 	caching stored for recovery and missing matrix: facefour_mcar_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (350, 8)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1610,6 +1404,197 @@ imputed_matrix.shape = (82, 11)
 imputed_matrix.shape = (82, 12)
 	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (82, 11)
+imputed_matrix.shape = (82, 12)
+	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+imputed_matrix.shape = (82, 11)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+imputed_matrix.shape = (82, 12)
+(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
+	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
+	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+
+> logs: benchmark - Execution Time: 178.7669 seconds,  (00:02:58.767 hh:mm:ss)
+
+
+TwoLeadECG: {mcar, RMSE, none}
+
+ Rate         HKMFT        
+
+  0.1      0.4368992617    
+  0.2      1.0355289688    
+  0.4      0.7307036241    
+  0.6      1.1902391989    
+  0.8      1.6292848685    
+
+
+
+TwoLeadECG: {mcar, RUNTIME[ms], none}
+
+ Rate         HKMFT        
+
+  0.1    3509.0990066528   
+  0.2    4412.1482372284   
+  0.4    4935.1332187653   
+  0.6    3015.4795646667   
+  0.8    4191.0395622253   
+
+
+
+TwoLeadECG: {aligned_series, RMSE, none}
+
+ Rate         HKMFT        
+
+  0.1      0.5165250423    
+  0.2      0.4300023935    
+  0.4      0.4265709240    
+  0.6      0.4239908003    
+  0.8      0.4250675147    
+
+
+
+TwoLeadECG: {aligned_series, RUNTIME[ms], none}
+
+ Rate         HKMFT        
+
+  0.1    4502.8228759766   
+  0.2    8275.8452892303   
+  0.4    10436.0518455505  
+  0.6    14544.6276664734  
+  0.8    20678.3363819122  
+
+
+
+TwoLeadECG: {aligned_timestamps, RMSE, none}
+
+ Rate         HKMFT        
+
+  0.1      0.2899877544    
+  0.2      0.3982953470    
+  0.4      1.2351382604    
+  0.6      1.7792790791    
+  0.8          nan         
+
+
+
+TwoLeadECG: {aligned_timestamps, RUNTIME[ms], none}
+
+ Rate         HKMFT        
+
+  0.1    3644.7777748108   
+  0.2    7200.1218795776   
+  0.4    9414.1709804535   
+  0.6    9523.1726169586   
+  0.8    3673.0763912201   
+
+
+
+The plots have been generated...
+
+
+{aligned_series, RMSE, none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+  TwoLeadECG    0.1       0.5165250423    
+  TwoLeadECG    0.2       0.4300023935    
+  TwoLeadECG    0.4       0.4265709240    
+  TwoLeadECG    0.6       0.4239908003    
+  TwoLeadECG    0.8       0.4250675147    
+------------------------------------------
+
+
+{aligned_series, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+  TwoLeadECG    0.1     4502.8228759766   
+  TwoLeadECG    0.2     8275.8452892303   
+  TwoLeadECG    0.4     10436.0518455505  
+  TwoLeadECG    0.6     14544.6276664734  
+  TwoLeadECG    0.8     20678.3363819122  
+------------------------------------------
+
+
+{aligned_timestamps, RMSE, none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+  TwoLeadECG    0.1       0.2899877544    
+  TwoLeadECG    0.2       0.3982953470    
+  TwoLeadECG    0.4       1.2351382604    
+  TwoLeadECG    0.6       1.7792790791    
+  TwoLeadECG    0.8           nan         
+------------------------------------------
+
+
+{aligned_timestamps, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+  TwoLeadECG    0.1     3644.7777748108   
+  TwoLeadECG    0.2     7200.1218795776   
+  TwoLeadECG    0.4     9414.1709804535   
+  TwoLeadECG    0.6     9523.1726169586   
+  TwoLeadECG    0.8     3673.0763912201   
+------------------------------------------
+
+
+{mcar, RMSE, none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+  TwoLeadECG    0.1       0.4368992617    
+  TwoLeadECG    0.2       1.0355289688    
+  TwoLeadECG    0.4       0.7307036241    
+  TwoLeadECG    0.6       1.1902391989    
+  TwoLeadECG    0.8       1.6292848685    
+------------------------------------------
+
+
+{mcar, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+  TwoLeadECG    0.1     3509.0990066528   
+  TwoLeadECG    0.2     4412.1482372284   
+  TwoLeadECG    0.4     4935.1332187653   
+  TwoLeadECG    0.6     3015.4795646667   
+  TwoLeadECG    0.8     4191.0395622253   
+------------------------------------------
+
+--- Summary (mean ± std) per algorithm ---
+
+HKMFT = RMSE=0.781965±0.498925, DOWNSTREAM_ACC=nan±nan, RUNTIME=7463.73±4942.07
+
+
+The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_hkmft_d41_26_03_11_22_26_29 
+
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1633,6 +1618,7 @@ The benchmark has been called:
 
 HKMFT is tested with mcar on TwoPatterns, started at 2026-03-11 22:26:41.
 imputed_matrix.shape = (128, 237)
+imputed_matrix.shape = (128, 250)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1684,6 +1670,9 @@ imputed_matrix.shape = (150, 12)
 imputed_matrix.shape = (150, 12)
 	caching stored for recovery and missing matrix: umd_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (150, 12)
+imputed_matrix.shape = (150, 12)
+imputed_matrix.shape = (150, 12)
+	caching stored for recovery and missing matrix: umd_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1734,6 +1723,7 @@ imputed_matrix.shape = (234, 27)
 imputed_matrix.shape = (234, 30)
 imputed_matrix.shape = (234, 27)
 	caching stored for recovery and missing matrix: wine_mcar_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (234, 30)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1848,6 +1838,13 @@ imputed_matrix.shape = (131, 8)
 imputed_matrix.shape = (131, 6)
 imputed_matrix.shape = (131, 4)
 imputed_matrix.shape = (131, 12)
+imputed_matrix.shape = (131, 14)
+imputed_matrix.shape = (131, 13)
+imputed_matrix.shape = (131, 12)
+	caching stored for recovery and missing matrix: facesucr_mcar_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (131, 11)
+imputed_matrix.shape = (131, 15)
+imputed_matrix.shape = (131, 27)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1966,6 +1963,8 @@ done!
 
 HKMFT is tested with aligned_series on GunPoint, started at 2026-03-11 22:28:57.
 imputed_matrix.shape = (150, 26)
+imputed_matrix.shape = (150, 24)
+	caching stored for recovery and missing matrix: gunpoint_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -2001,3 +2000,4 @@ done!
 
 
 HKMFT is tested with aligned_series on GunPointOldVersusYoung, started at 2026-03-11 22:29:06.
+imputed_matrix.shape = (150, 65)
