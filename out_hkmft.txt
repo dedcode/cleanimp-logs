@@ -1001,18 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-done!
-
-
-HKMFT is tested with aligned_timestamps on ECGFiveDays, started at 2026-03-10 22:21:56.
-	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (136, 23): ecgfivedays_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
-done!
-
-
 HKMFT is tested with mcar on EOGHorizontalSignal, started at 2026-03-10 22:22:01.
 	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_hkmft_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (1000, 362): eoghorizontalsignal_mcar_hkmft_20_20_contbyclass_imputationbyclass
@@ -1898,6 +1886,10 @@ imputed_matrix.shape = (150, 67)
 imputed_matrix.shape = (150, 68)
 imputed_matrix.shape = (150, 67)
 	caching stored for recovery and missing matrix: gunpointagespan_mcar_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (150, 68)
+imputed_matrix.shape = (150, 67)
+	caching stored for recovery and missing matrix: gunpointagespan_mcar_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (150, 68)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1949,6 +1941,11 @@ imputed_matrix.shape = (144, 90)
 imputed_matrix.shape = (144, 90)
 	caching stored for recovery and missing matrix: powercons_mcar_hkmft_20_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (144, 90)
+imputed_matrix.shape = (144, 90)
+	caching stored for recovery and missing matrix: powercons_mcar_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (144, 90)
+imputed_matrix.shape = (144, 90)
+	caching stored for recovery and missing matrix: powercons_mcar_hkmft_60_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1974,6 +1971,7 @@ HKMFT is tested with mcar on ShapeletSim, started at 2026-03-11 22:02:10.
 imputed_matrix.shape = (500, 10)
 imputed_matrix.shape = (500, 10)
 	caching stored for recovery and missing matrix: shapeletsim_mcar_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (500, 10)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -2001,3 +1999,5 @@ imputed_matrix.shape = (275, 21)
 imputed_matrix.shape = (275, 31)
 imputed_matrix.shape = (275, 22)
 	caching stored for recovery and missing matrix: trace_mcar_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (275, 26)
+imputed_matrix.shape = (275, 21)
