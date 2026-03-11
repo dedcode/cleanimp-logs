@@ -1001,176 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-imputed_matrix.shape = (82, 12)
-	caching stored for recovery and missing matrix: twoleadecg_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (82, 11)
-imputed_matrix.shape = (82, 12)
-	caching stored for recovery and missing matrix: twoleadecg_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
-done!
-
-
-HKMFT is tested with aligned_timestamps on TwoLeadECG, started at 2026-03-11 22:28:34.
-imputed_matrix.shape = (82, 11)
-imputed_matrix.shape = (82, 12)
-	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (82, 11)
-imputed_matrix.shape = (82, 12)
-	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (82, 11)
-imputed_matrix.shape = (82, 12)
-	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (82, 11)
-imputed_matrix.shape = (82, 12)
-	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
-  avg = a.mean(axis, **keepdims_kw)
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
-  ret = ret.dtype.type(ret / rcount)
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
-  avg = a.mean(axis, **keepdims_kw)
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
-  ret = ret.dtype.type(ret / rcount)
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
-  avg = a.mean(axis, **keepdims_kw)
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
-  ret = ret.dtype.type(ret / rcount)
-imputed_matrix.shape = (82, 11)
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
-  avg = a.mean(axis, **keepdims_kw)
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
-  ret = ret.dtype.type(ret / rcount)
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
-  avg = a.mean(axis, **keepdims_kw)
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
-  ret = ret.dtype.type(ret / rcount)
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
-  avg = a.mean(axis, **keepdims_kw)
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
-  ret = ret.dtype.type(ret / rcount)
-imputed_matrix.shape = (82, 12)
-(EVAL) hkmf_t ended with errors, the imputed time series contains NaN values.
-	Please, check your configuration, the algorithm might not work with the percentage of contamination or the pattern chosen.
-	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
-done!
-
-
-
-> logs: benchmark - Execution Time: 178.7669 seconds,  (00:02:58.767 hh:mm:ss)
-
-
-TwoLeadECG: {mcar, RMSE, none}
-
- Rate         HKMFT        
-
-  0.1      0.4368992617    
-  0.2      1.0355289688    
-  0.4      0.7307036241    
-  0.6      1.1902391989    
-  0.8      1.6292848685    
-
-
-
-TwoLeadECG: {mcar, RUNTIME[ms], none}
-
- Rate         HKMFT        
-
-  0.1    3509.0990066528   
-  0.2    4412.1482372284   
-  0.4    4935.1332187653   
-  0.6    3015.4795646667   
-  0.8    4191.0395622253   
-
-
-
-TwoLeadECG: {aligned_series, RMSE, none}
-
- Rate         HKMFT        
-
-  0.1      0.5165250423    
-  0.2      0.4300023935    
-  0.4      0.4265709240    
-  0.6      0.4239908003    
-  0.8      0.4250675147    
-
-
-
-TwoLeadECG: {aligned_series, RUNTIME[ms], none}
-
- Rate         HKMFT        
-
-  0.1    4502.8228759766   
-  0.2    8275.8452892303   
-  0.4    10436.0518455505  
-  0.6    14544.6276664734  
-  0.8    20678.3363819122  
-
-
-
-TwoLeadECG: {aligned_timestamps, RMSE, none}
-
- Rate         HKMFT        
-
-  0.1      0.2899877544    
-  0.2      0.3982953470    
-  0.4      1.2351382604    
-  0.6      1.7792790791    
-  0.8          nan         
-
-
-
-TwoLeadECG: {aligned_timestamps, RUNTIME[ms], none}
-
- Rate         HKMFT        
-
-  0.1    3644.7777748108   
-  0.2    7200.1218795776   
-  0.4    9414.1709804535   
-  0.6    9523.1726169586   
-  0.8    3673.0763912201   
-
-
-
-The plots have been generated...
-
-
-{aligned_series, RMSE, none}
-------------------------------------------
-   Dataset      Rate         HKMFT        
-------------------------------------------
-  TwoLeadECG    0.1       0.5165250423    
-  TwoLeadECG    0.2       0.4300023935    
-  TwoLeadECG    0.4       0.4265709240    
-  TwoLeadECG    0.6       0.4239908003    
-  TwoLeadECG    0.8       0.4250675147    
-------------------------------------------
-
-
-{aligned_series, RUNTIME[ms], none}
-------------------------------------------
-   Dataset      Rate         HKMFT        
-------------------------------------------
-  TwoLeadECG    0.1     4502.8228759766   
-  TwoLeadECG    0.2     8275.8452892303   
-  TwoLeadECG    0.4     10436.0518455505  
-  TwoLeadECG    0.6     14544.6276664734  
-  TwoLeadECG    0.8     20678.3363819122  
-------------------------------------------
-
-
-{aligned_timestamps, RMSE, none}
-------------------------------------------
-   Dataset      Rate         HKMFT        
-------------------------------------------
-  TwoLeadECG    0.1       0.2899877544    
-  TwoLeadECG    0.2       0.3982953470    
-  TwoLeadECG    0.4       1.2351382604    
-  TwoLeadECG    0.6       1.7792790791    
-  TwoLeadECG    0.8           nan         
-------------------------------------------
-
-
-{aligned_timestamps, RUNTIME[ms], none}
-------------------------------------------
    Dataset      Rate         HKMFT        
 ------------------------------------------
   TwoLeadECG    0.1     3644.7777748108   
@@ -1521,6 +1351,8 @@ imputed_matrix.shape = (152, 903)
 imputed_matrix.shape = (152, 97)
 	caching stored for recovery and missing matrix: wafer_mcar_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (152, 903)
+imputed_matrix.shape = (152, 97)
+	caching stored for recovery and missing matrix: wafer_mcar_hkmft_20_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1569,6 +1401,8 @@ imputed_matrix.shape = (234, 30)
 imputed_matrix.shape = (234, 27)
 	caching stored for recovery and missing matrix: wine_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (234, 30)
+imputed_matrix.shape = (234, 27)
+	caching stored for recovery and missing matrix: wine_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1777,6 +1611,8 @@ imputed_matrix.shape = (131, 10)
 imputed_matrix.shape = (131, 8)
 imputed_matrix.shape = (131, 6)
 imputed_matrix.shape = (131, 4)
+imputed_matrix.shape = (131, 12)
+imputed_matrix.shape = (131, 14)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1883,6 +1719,8 @@ imputed_matrix.shape = (301, 14)
 imputed_matrix.shape = (301, 14)
 	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (301, 14)
+imputed_matrix.shape = (301, 14)
+	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1956,6 +1794,168 @@ imputed_matrix.shape = (150, 26)
 imputed_matrix.shape = (150, 24)
 	caching stored for recovery and missing matrix: gunpoint_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (150, 26)
+imputed_matrix.shape = (150, 24)
+	caching stored for recovery and missing matrix: gunpoint_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+
+> logs: benchmark - Execution Time: 899.7994 seconds,  (00:14:59.799 hh:mm:ss)
+
+
+GunPoint: {mcar, RMSE, none}
+
+ Rate         HKMFT        
+
+  0.1      0.4951224247    
+  0.2      0.6133853076    
+  0.4      0.8051517500    
+  0.6      0.9538861378    
+  0.8      2.1455036692    
+
+
+
+GunPoint: {mcar, RUNTIME[ms], none}
+
+ Rate         HKMFT        
+
+  0.1    26777.6453495026  
+  0.2    27605.6222915649  
+  0.4    26778.4237861633  
+  0.6    22694.2393779755  
+  0.8    16358.2437038422  
+
+
+
+GunPoint: {aligned_series, RMSE, none}
+
+ Rate         HKMFT        
+
+  0.1      0.9133183490    
+  0.2      1.0281208715    
+  0.4      1.0092458180    
+  0.6      1.0488274010    
+  0.8      1.0448177319    
+
+
+
+GunPoint: {aligned_series, RUNTIME[ms], none}
+
+ Rate         HKMFT        
+
+  0.1    23914.6687984467  
+  0.2    47332.1869373322  
+  0.4    94201.2035846710  
+  0.6   129779.4196605682  
+  0.8   175649.5585441589  
+
+
+
+GunPoint: {aligned_timestamps, RMSE, none}
+
+ Rate         HKMFT        
+
+  0.1      0.8631410277    
+  0.2      1.0417445146    
+  0.4      1.0130950602    
+  0.6      1.4067023904    
+  0.8      1.8585307175    
+
+
+
+GunPoint: {aligned_timestamps, RUNTIME[ms], none}
+
+ Rate         HKMFT        
+
+  0.1    25408.5400104523  
+  0.2    45316.2646293640  
+  0.4    70945.0621604919  
+  0.6    71859.5814704895  
+  0.8    28317.3639774323  
+
+
+
+The plots have been generated...
+
+
+{aligned_series, RMSE, none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+   GunPoint     0.1       0.9133183490    
+   GunPoint     0.2       1.0281208715    
+   GunPoint     0.4       1.0092458180    
+   GunPoint     0.6       1.0488274010    
+   GunPoint     0.8       1.0448177319    
+------------------------------------------
+
+
+{aligned_series, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+   GunPoint     0.1     23914.6687984467  
+   GunPoint     0.2     47332.1869373322  
+   GunPoint     0.4     94201.2035846710  
+   GunPoint     0.6    129779.4196605682  
+   GunPoint     0.8    175649.5585441589  
+------------------------------------------
+
+
+{aligned_timestamps, RMSE, none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+   GunPoint     0.1       0.8631410277    
+   GunPoint     0.2       1.0417445146    
+   GunPoint     0.4       1.0130950602    
+   GunPoint     0.6       1.4067023904    
+   GunPoint     0.8       1.8585307175    
+------------------------------------------
+
+
+{aligned_timestamps, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+   GunPoint     0.1     25408.5400104523  
+   GunPoint     0.2     45316.2646293640  
+   GunPoint     0.4     70945.0621604919  
+   GunPoint     0.6     71859.5814704895  
+   GunPoint     0.8     28317.3639774323  
+------------------------------------------
+
+
+{mcar, RMSE, none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+   GunPoint     0.1       0.4951224247    
+   GunPoint     0.2       0.6133853076    
+   GunPoint     0.4       0.8051517500    
+   GunPoint     0.6       0.9538861378    
+   GunPoint     0.8       2.1455036692    
+------------------------------------------
+
+
+{mcar, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate         HKMFT        
+------------------------------------------
+   GunPoint     0.1     26777.6453495026  
+   GunPoint     0.2     27605.6222915649  
+   GunPoint     0.4     26778.4237861633  
+   GunPoint     0.6     22694.2393779755  
+   GunPoint     0.8     16358.2437038422  
+------------------------------------------
+
+--- Summary (mean ± std) per algorithm ---
+
+HKMFT = RMSE=1.08271±0.430112, DOWNSTREAM_ACC=nan±nan, RUNTIME=55529.2±46141.1
+
+
+The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_hkmft_d8_26_03_11_22_26_27 
+
 
 The benchmark has been called:
 	classifiers: ['arsenal']
