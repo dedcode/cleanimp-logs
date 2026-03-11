@@ -1001,11 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-
-UMD: {aligned_series, RUNTIME[ms], none}
-
- Rate         HKMFT        
-
   0.1    25728.7585735321  
   0.2    36587.6812934875  
   0.4    58995.1391220093  
@@ -1214,6 +1209,8 @@ done!
 
 HKMFT is tested with aligned_timestamps on Wine, started at 2026-03-11 22:57:43.
 imputed_matrix.shape = (234, 30)
+imputed_matrix.shape = (234, 27)
+	caching stored for recovery and missing matrix: wine_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1482,6 +1479,8 @@ imputed_matrix.shape = (131, 11)
 imputed_matrix.shape = (131, 15)
 imputed_matrix.shape = (131, 27)
 imputed_matrix.shape = (131, 13)
+imputed_matrix.shape = (131, 22)
+imputed_matrix.shape = (131, 33)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -2001,3 +2000,4 @@ imputed_matrix.shape = (150, 71)
 imputed_matrix.shape = (150, 65)
 imputed_matrix.shape = (150, 71)
 	caching stored for recovery and missing matrix: gunpointoldversusyoung_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (150, 65)
