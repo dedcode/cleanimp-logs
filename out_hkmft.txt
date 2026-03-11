@@ -1001,11 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:132: RuntimeWarning: overflow encountered in multiply
-  (2.0 * param.lambda_s * new_U_i_V_t * self._U[i, :])))
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:105: RuntimeWarning: overflow encountered in matmul
-  err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:107: RuntimeWarning: overflow encountered in matmul
   new_U_i_V_t = self._U[i, :] @ self._V[:, t]
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: invalid value encountered in add
   V_t += (lr * param.lambda_s *
@@ -1830,6 +1825,7 @@ imputed_matrix.shape = (150, 67)
 imputed_matrix.shape = (150, 68)
 imputed_matrix.shape = (150, 67)
 	caching stored for recovery and missing matrix: gunpointagespan_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (150, 68)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1903,6 +1899,8 @@ imputed_matrix.shape = (144, 90)
 imputed_matrix.shape = (144, 90)
 	caching stored for recovery and missing matrix: powercons_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (144, 90)
+imputed_matrix.shape = (144, 90)
+	caching stored for recovery and missing matrix: powercons_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -2001,3 +1999,5 @@ HKMFT is tested with aligned_series on Trace, started at 2026-03-11 22:07:36.
 imputed_matrix.shape = (275, 26)
 imputed_matrix.shape = (275, 21)
 imputed_matrix.shape = (275, 31)
+imputed_matrix.shape = (275, 22)
+	caching stored for recovery and missing matrix: trace_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
