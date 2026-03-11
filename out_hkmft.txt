@@ -1001,38 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-  0.1    72153.1813144684  
-  0.2   132430.0441741943  
-  0.4   192112.4150753021  
-  0.6   189329.2100429535  
-  0.8    80256.4744949341  
-
-
-
-The plots have been generated...
-
-
-{aligned_series, RMSE, none}
-------------------------------------------
-   Dataset      Rate         HKMFT        
-------------------------------------------
-   FacesUCR     0.1       0.6569251703    
-   FacesUCR     0.2       0.6572550718    
-   FacesUCR     0.4       0.6421336958    
-   FacesUCR     0.6       0.6431656472    
-   FacesUCR     0.8       0.6368309825    
-------------------------------------------
-
-
-{aligned_series, RUNTIME[ms], none}
-------------------------------------------
-   Dataset      Rate         HKMFT        
-------------------------------------------
-   FacesUCR     0.1     85840.9790992737  
-   FacesUCR     0.2    142935.3339672089  
-   FacesUCR     0.4    259842.9772853851  
-   FacesUCR     0.6    382390.1696205139  
-   FacesUCR     0.8    479875.7767677307  
 ------------------------------------------
 
 
@@ -1144,6 +1112,38 @@ imputed_matrix.shape = (463, 22)
 imputed_matrix.shape = (463, 26)
 imputed_matrix.shape = (463, 28)
 	caching stored for recovery and missing matrix: fish_mcar_hkmft_60_20_contbyclass_imputationbyclass
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: overflow encountered in matmul
+  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: invalid value encountered in matmul
+  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in multiply
+  V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:132: RuntimeWarning: overflow encountered in multiply
+  (2.0 * param.lambda_s * new_U_i_V_t * self._U[i, :])))
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:137: RuntimeWarning: overflow encountered in multiply
+  V_t += (lr * param.lambda_s *
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: overflow encountered in matmul
+  new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: invalid value encountered in matmul
+  new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:122: RuntimeWarning: overflow encountered in multiply
+  U_i -= (lr * param.lambda_s *
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:126: RuntimeWarning: overflow encountered in multiply
+  U_i -= (lr * param.lambda_s *
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:126: RuntimeWarning: invalid value encountered in subtract
+  U_i -= (lr * param.lambda_s *
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: overflow encountered in multiply
+  V_t += (lr * param.lambda_s *
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: invalid value encountered in add
+  V_t += (lr * param.lambda_s *
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:105: RuntimeWarning: overflow encountered in matmul
+  err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:107: RuntimeWarning: overflow encountered in matmul
+  new_U_i_V_t = self._U[i, :] @ self._V[:, t]
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: invalid value encountered in add
+  U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
+/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: overflow encountered in multiply
+  U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
 
 The benchmark has been called:
 	classifiers: ['arsenal']
