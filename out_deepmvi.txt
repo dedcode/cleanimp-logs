@@ -672,3 +672,4 @@ DeepMVI is tested with aligned_series on Fish, started at 2026-03-11 13:43:48.
 	caching stored for recovery and missing matrix: fish_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: fish_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: fish_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: fish_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
