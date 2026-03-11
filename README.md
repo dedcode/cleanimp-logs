@@ -9,7 +9,7 @@ Live experiment logs pushed every 30 seconds.
 | 03 | TimesNet | bigdata.6 | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 04 | PRISTI | bigdata.7 | 101 / 222 | 45% | running | aligned_series on InlineSkate |
 | 05 | NuwaTS | colab.lxd | 160 / 222 | 72% | running | mcar on SemgHandMovementCh2 |
-| 06 | DeepMVI | colab.nb | 59 / 222 | 26% | running | aligned_series on EthanolLevel |
-| 06 | HKMFT | bigdata.6 | 53 / 222 | 23% | running | aligned_series on EOGVerticalSignal |
+| 06d | DeepMVI | colab.nb | 59 / 222 | 26% | running | aligned_series on EthanolLevel |
+| 06h | HKMFT | bigdata.6 | 53 / 222 | 23% | running | aligned_series on EOGVerticalSignal |
 
 _Last updated: 2026-03-11 02:43 UTC_
