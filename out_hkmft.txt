@@ -1001,7 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-  new_U_i_V_t = self._U[i, :] @ self._V[:, t]
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:126: RuntimeWarning: overflow encountered in multiply
   U_i -= (lr * param.lambda_s *
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in subtract
@@ -1270,6 +1269,7 @@ done!
 
 
 HKMFT is tested with aligned_timestamps on FreezerRegularTrain, started at 2026-03-12 00:25:41.
+imputed_matrix.shape = (301, 75)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
