@@ -1,0 +1,571 @@
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['Strawberry', 'SwedishLeaf', 'SyntheticControl', 'ToeSegmentation1', 'ToeSegmentation2', 'Trace', 'TwoLeadECG', 'TwoPatterns', 'UMD', 'Wafer', 'Wine', 'Worms', 'WormsTwoClass', 'Yoga']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+CSDI is tested with mcar on Strawberry, started at 2026-03-10 13:49:59.
+	caching stored for recovery and missing matrix: strawberry_mcar_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: strawberry_mcar_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: strawberry_mcar_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: strawberry_mcar_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: strawberry_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on Strawberry, started at 2026-03-10 22:15:55.
+	caching stored for recovery and missing matrix: strawberry_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: strawberry_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: strawberry_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: strawberry_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: strawberry_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on Strawberry, started at 2026-03-11 06:38:48.
+	caching stored for recovery and missing matrix: strawberry_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: strawberry_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: strawberry_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: strawberry_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: strawberry_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on SwedishLeaf, started at 2026-03-11 15:01:25.
+	caching stored for recovery and missing matrix: swedishleaf_mcar_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: swedishleaf_mcar_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: swedishleaf_mcar_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: swedishleaf_mcar_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: swedishleaf_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on SwedishLeaf, started at 2026-03-11 15:58:35.
+	caching stored for recovery and missing matrix: swedishleaf_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+/storage/experiments/cleanimp/imputegap/recovery/manager.py:783: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, axes = plt.subplots(n_rows, n_cols, figsize=(x_size, y_size), squeeze=False)
+	caching stored for recovery and missing matrix: swedishleaf_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: swedishleaf_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: swedishleaf_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: swedishleaf_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on SwedishLeaf, started at 2026-03-11 16:55:14.
+	caching stored for recovery and missing matrix: swedishleaf_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: swedishleaf_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: swedishleaf_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: swedishleaf_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: swedishleaf_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on SyntheticControl, started at 2026-03-11 17:52:24.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (50, 60).
+	One series has 60 values, with the offset, 57 values are available to contamination. Thus, the number of data to remove is 6 (int(57 * 0.1)), but block size is 10 -> (10 must be < 6)
+		(ACTION) block_size is set to : 3
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (50, 60).
+	One series has 60 values, with the offset, 57 values are available to contamination. Thus, the number of data to remove is 6 (int(57 * 0.1)), but block size is 10 -> (10 must be < 6)
+		(ACTION) block_size is set to : 3
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (50, 60).
+	One series has 60 values, with the offset, 57 values are available to contamination. Thus, the number of data to remove is 6 (int(57 * 0.1)), but block size is 10 -> (10 must be < 6)
+		(ACTION) block_size is set to : 3
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (50, 60).
+	One series has 60 values, with the offset, 57 values are available to contamination. Thus, the number of data to remove is 6 (int(57 * 0.1)), but block size is 10 -> (10 must be < 6)
+		(ACTION) block_size is set to : 3
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (50, 60).
+	One series has 60 values, with the offset, 57 values are available to contamination. Thus, the number of data to remove is 6 (int(57 * 0.1)), but block size is 10 -> (10 must be < 6)
+		(ACTION) block_size is set to : 3
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (50, 60).
+	One series has 60 values, with the offset, 57 values are available to contamination. Thus, the number of data to remove is 6 (int(57 * 0.1)), but block size is 10 -> (10 must be < 6)
+		(ACTION) block_size is set to : 3
+
+	caching stored for recovery and missing matrix: syntheticcontrol_mcar_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: syntheticcontrol_mcar_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: syntheticcontrol_mcar_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: syntheticcontrol_mcar_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: syntheticcontrol_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on SyntheticControl, started at 2026-03-11 18:03:10.
+	caching stored for recovery and missing matrix: syntheticcontrol_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: syntheticcontrol_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: syntheticcontrol_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: syntheticcontrol_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: syntheticcontrol_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on SyntheticControl, started at 2026-03-11 18:13:55.
+	caching stored for recovery and missing matrix: syntheticcontrol_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: syntheticcontrol_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: syntheticcontrol_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: syntheticcontrol_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: syntheticcontrol_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on ToeSegmentation1, started at 2026-03-11 18:24:37.
+	caching stored for recovery and missing matrix: toesegmentation1_mcar_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_mcar_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_mcar_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_mcar_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on ToeSegmentation1, started at 2026-03-11 18:42:45.
+	caching stored for recovery and missing matrix: toesegmentation1_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on ToeSegmentation1, started at 2026-03-11 19:00:43.
+	caching stored for recovery and missing matrix: toesegmentation1_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation1_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on ToeSegmentation2, started at 2026-03-11 19:18:45.
+	caching stored for recovery and missing matrix: toesegmentation2_mcar_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation2_mcar_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation2_mcar_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation2_mcar_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation2_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on ToeSegmentation2, started at 2026-03-11 19:44:03.
+	caching stored for recovery and missing matrix: toesegmentation2_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation2_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation2_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation2_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation2_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on ToeSegmentation2, started at 2026-03-11 20:09:01.
+	caching stored for recovery and missing matrix: toesegmentation2_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation2_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation2_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation2_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: toesegmentation2_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on Trace, started at 2026-03-11 20:34:18.
+	caching stored for recovery and missing matrix: trace_mcar_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: trace_mcar_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: trace_mcar_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: trace_mcar_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: trace_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on Trace, started at 2026-03-11 21:18:32.
+	caching stored for recovery and missing matrix: trace_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: trace_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: trace_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: trace_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: trace_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on Trace, started at 2026-03-11 22:03:06.
+	caching stored for recovery and missing matrix: trace_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: trace_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: trace_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: trace_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: trace_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on TwoLeadECG, started at 2026-03-11 22:47:24.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (11, 82).
+	One series has 82 values, with the offset, 77 values are available to contamination. Thus, the number of data to remove is 8 (int(77 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (12, 82).
+	One series has 82 values, with the offset, 77 values are available to contamination. Thus, the number of data to remove is 8 (int(77 * 0.1)), but block size is 10 -> (10 must be < 8)
+		(ACTION) block_size is set to : 4
+
+	caching stored for recovery and missing matrix: twoleadecg_mcar_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: twoleadecg_mcar_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: twoleadecg_mcar_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: twoleadecg_mcar_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: twoleadecg_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on TwoLeadECG, started at 2026-03-11 22:48:53.
+	caching stored for recovery and missing matrix: twoleadecg_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: twoleadecg_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: twoleadecg_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: twoleadecg_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: twoleadecg_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on TwoLeadECG, started at 2026-03-11 22:50:22.
+	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with mcar on TwoPatterns, started at 2026-03-11 22:51:53.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['SemgHandMovementCh2']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+CSDI is tested with mcar on SemgHandMovementCh2, started at 2026-03-11 23:14:58.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['Wine']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+CSDI is tested with mcar on Wine, started at 2026-03-11 23:14:58.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['Worms']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+CSDI is tested with mcar on Worms, started at 2026-03-11 23:14:58.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['WormsTwoClass']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+CSDI is tested with mcar on WormsTwoClass, started at 2026-03-11 23:14:58.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['Yoga']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+CSDI is tested with mcar on Yoga, started at 2026-03-11 23:14:58.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['SemgHandSubjectCh2']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+CSDI is tested with mcar on SemgHandSubjectCh2, started at 2026-03-11 23:14:58.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['ShapeletSim']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+CSDI is tested with mcar on ShapeletSim, started at 2026-03-11 23:14:58.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['ShapesAll']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+CSDI is tested with mcar on ShapesAll, started at 2026-03-11 23:14:58.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['SharePriceIncrease']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+CSDI is tested with mcar on SharePriceIncrease, started at 2026-03-11 23:14:58.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (663, 60).
+	One series has 60 values, with the offset, 57 values are available to contamination. Thus, the number of data to remove is 6 (int(57 * 0.1)), but block size is 10 -> (10 must be < 6)
+		(ACTION) block_size is set to : 3
+
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['SmallKitchenAppliances']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+CSDI is tested with mcar on SmallKitchenAppliances, started at 2026-03-11 23:14:58.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['SonyAIBORobotSurface1']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+CSDI is tested with mcar on SonyAIBORobotSurface1, started at 2026-03-11 23:14:58.
+
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (14, 70).
+	One series has 70 values, with the offset, 66 values are available to contamination. Thus, the number of data to remove is 7 (int(66 * 0.1)), but block size is 10 -> (10 must be < 7)
+		(ACTION) block_size is set to : 3
+
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['TwoPatterns']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+CSDI is tested with mcar on TwoPatterns, started at 2026-03-11 23:14:58.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['UMD']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+CSDI is tested with mcar on UMD, started at 2026-03-11 23:14:58.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['Wafer']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+CSDI is tested with mcar on Wafer, started at 2026-03-11 23:14:59.
