@@ -1001,15 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
 	runs: 1
 	number max series: 10000
 	number max values: 1000
@@ -1308,6 +1299,13 @@ imputed_matrix.shape = (131, 11)
 imputed_matrix.shape = (131, 15)
 imputed_matrix.shape = (131, 27)
 imputed_matrix.shape = (131, 13)
+imputed_matrix.shape = (131, 22)
+imputed_matrix.shape = (131, 33)
+imputed_matrix.shape = (131, 10)
+imputed_matrix.shape = (131, 8)
+imputed_matrix.shape = (131, 6)
+imputed_matrix.shape = (131, 4)
+imputed_matrix.shape = (131, 12)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1347,6 +1345,7 @@ imputed_matrix.shape = (463, 26)
 imputed_matrix.shape = (463, 28)
 	caching stored for recovery and missing matrix: fish_mcar_hkmft_20_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (463, 28)
+imputed_matrix.shape = (463, 21)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1537,6 +1536,7 @@ imputed_matrix.shape = (301, 14)
 imputed_matrix.shape = (301, 14)
 imputed_matrix.shape = (301, 14)
 	caching stored for recovery and missing matrix: freezersmalltrain_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (301, 14)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
