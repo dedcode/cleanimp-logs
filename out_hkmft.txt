@@ -1001,8 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-
-
 {mcar, RMSE, none}
 ------------------------------------------
    Dataset      Rate         HKMFT        
@@ -1611,6 +1609,7 @@ imputed_matrix.shape = (131, 12)
 	caching stored for recovery and missing matrix: facesucr_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (131, 11)
 imputed_matrix.shape = (131, 15)
+imputed_matrix.shape = (131, 27)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1638,6 +1637,7 @@ imputed_matrix.shape = (463, 21)
 imputed_matrix.shape = (463, 25)
 imputed_matrix.shape = (463, 25)
 imputed_matrix.shape = (463, 22)
+imputed_matrix.shape = (463, 26)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
