@@ -1,7 +1,7 @@
 ALGO=DeepMVI
 SERVER=colab.nb
-PROGRESS=71
+PROGRESS=72
 TOTAL=222
-PCT=31
+PCT=32
 STATUS=running
-LAST=DeepMVI is tested with aligned_series on Fish, started at 2026-03-11 13:43:48.
+LAST=DeepMVI is tested with aligned_timestamps on Fish, started at 2026-03-11 16:20:18.
