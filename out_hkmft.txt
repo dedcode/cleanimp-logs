@@ -1001,24 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-
-imputed_matrix.shape = (60, 50)
-
-	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (50, 60).
-	One series has 60 values, with the offset, 57 values are available to contamination. Thus, the number of data to remove is 6 (int(57 * 0.1)), but block size is 10 -> (10 must be < 6)
-		(ACTION) block_size is set to : 3
-
-imputed_matrix.shape = (60, 50)
-	caching stored for recovery and missing matrix: syntheticcontrol_mcar_hkmft_10_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
-	caching stored for recovery and missing matrix: syntheticcontrol_mcar_hkmft_20_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (60, 50)
-imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
@@ -1070,6 +1052,7 @@ imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
 	caching stored for recovery and missing matrix: syntheticcontrol_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
 
@@ -1169,6 +1152,7 @@ done!
 
 HKMFT is tested with aligned_series on FaceFour, started at 2026-03-11 22:33:37.
 imputed_matrix.shape = (350, 8)
+imputed_matrix.shape = (350, 8)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1201,6 +1185,8 @@ imputed_matrix.shape = (343, 18)
 imputed_matrix.shape = (343, 18)
 	caching stored for recovery and missing matrix: toesegmentation2_mcar_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (343, 18)
+imputed_matrix.shape = (343, 18)
+	caching stored for recovery and missing matrix: toesegmentation2_mcar_hkmft_60_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1500,6 +1486,7 @@ imputed_matrix.shape = (128, 242)
 imputed_matrix.shape = (128, 271)
 	caching stored for recovery and missing matrix: twopatterns_mcar_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (128, 237)
+imputed_matrix.shape = (128, 250)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1570,6 +1557,11 @@ done!
 
 
 HKMFT is tested with aligned_timestamps on UMD, started at 2026-03-11 22:34:22.
+imputed_matrix.shape = (150, 12)
+imputed_matrix.shape = (150, 12)
+imputed_matrix.shape = (150, 12)
+	caching stored for recovery and missing matrix: umd_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (150, 12)
 imputed_matrix.shape = (150, 12)
 
 The benchmark has been called:
@@ -1812,6 +1804,13 @@ imputed_matrix.shape = (131, 15)
 imputed_matrix.shape = (131, 27)
 imputed_matrix.shape = (131, 13)
 imputed_matrix.shape = (131, 22)
+imputed_matrix.shape = (131, 33)
+imputed_matrix.shape = (131, 10)
+imputed_matrix.shape = (131, 8)
+imputed_matrix.shape = (131, 6)
+imputed_matrix.shape = (131, 4)
+imputed_matrix.shape = (131, 12)
+imputed_matrix.shape = (131, 14)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1906,6 +1905,7 @@ HKMFT is tested with aligned_series on FreezerSmallTrain, started at 2026-03-11 
 imputed_matrix.shape = (301, 14)
 imputed_matrix.shape = (301, 14)
 	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (301, 14)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
