@@ -756,6 +756,11 @@ CSDI is tested with mcar on SonyAIBORobotSurface1, started at 2026-03-11 23:14:5
 		(ACTION) block_size is set to : 3
 
 
+	(CORRECTION) The block size 10 is not be appropriate for this dataset shape (6, 70).
+	One series has 70 values, with the offset, 66 values are available to contamination. Thus, the number of data to remove is 7 (int(66 * 0.1)), but block size is 10 -> (10 must be < 7)
+		(ACTION) block_size is set to : 3
+
+
 The benchmark has been called:
 	classifiers: ['arsenal']
 	algorithms: ['CSDI']
