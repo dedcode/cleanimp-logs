@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=123
+PROGRESS=124
 TOTAL=222
 PCT=55
 STATUS=running
-LAST=NuwaTS is tested with aligned_timestamps on MedicalImages, started at 2026-03-10 23:57:13.
+LAST=NuwaTS is tested with mcar on MoteStrain, started at 2026-03-11 00:00:19.
