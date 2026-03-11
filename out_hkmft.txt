@@ -1001,11 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-  new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: overflow encountered in multiply
   U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in multiply
@@ -1837,6 +1832,8 @@ imputed_matrix.shape = (150, 68)
 imputed_matrix.shape = (150, 67)
 	caching stored for recovery and missing matrix: gunpointagespan_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (150, 68)
+imputed_matrix.shape = (150, 67)
+	caching stored for recovery and missing matrix: gunpointagespan_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1909,6 +1906,7 @@ imputed_matrix.shape = (144, 90)
 imputed_matrix.shape = (144, 90)
 imputed_matrix.shape = (144, 90)
 	caching stored for recovery and missing matrix: powercons_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (144, 90)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1950,6 +1948,7 @@ done!
 
 
 HKMFT is tested with aligned_series on ShapeletSim, started at 2026-03-11 22:07:30.
+imputed_matrix.shape = (500, 10)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -2001,3 +2000,4 @@ done!
 
 
 HKMFT is tested with aligned_series on Trace, started at 2026-03-11 22:07:36.
+imputed_matrix.shape = (275, 26)
