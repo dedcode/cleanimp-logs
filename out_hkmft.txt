@@ -1002,15 +1002,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 ... [-1976 lines truncated] ...
 
 imputed_matrix.shape = (82, 12)
-	caching stored for recovery and missing matrix: twoleadecg_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (82, 11)
-imputed_matrix.shape = (82, 12)
-	caching stored for recovery and missing matrix: twoleadecg_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (82, 11)
-imputed_matrix.shape = (82, 12)
-	caching stored for recovery and missing matrix: twoleadecg_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (82, 11)
-imputed_matrix.shape = (82, 12)
 	caching stored for recovery and missing matrix: twoleadecg_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (82, 11)
 imputed_matrix.shape = (82, 12)
@@ -1253,6 +1244,7 @@ imputed_matrix.shape = (128, 242)
 imputed_matrix.shape = (128, 271)
 	caching stored for recovery and missing matrix: twopatterns_mcar_hkmft_20_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (128, 237)
+imputed_matrix.shape = (128, 250)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1782,6 +1774,9 @@ imputed_matrix.shape = (131, 13)
 imputed_matrix.shape = (131, 22)
 imputed_matrix.shape = (131, 33)
 imputed_matrix.shape = (131, 10)
+imputed_matrix.shape = (131, 8)
+imputed_matrix.shape = (131, 6)
+imputed_matrix.shape = (131, 4)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1838,6 +1833,8 @@ imputed_matrix.shape = (301, 75)
 imputed_matrix.shape = (301, 75)
 	caching stored for recovery and missing matrix: freezerregulartrain_mcar_hkmft_20_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (301, 75)
+imputed_matrix.shape = (301, 75)
+	caching stored for recovery and missing matrix: freezerregulartrain_mcar_hkmft_40_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1955,6 +1952,9 @@ imputed_matrix.shape = (150, 24)
 imputed_matrix.shape = (150, 26)
 imputed_matrix.shape = (150, 24)
 	caching stored for recovery and missing matrix: gunpoint_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (150, 26)
+imputed_matrix.shape = (150, 24)
+	caching stored for recovery and missing matrix: gunpoint_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (150, 26)
 
 The benchmark has been called:
