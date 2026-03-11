@@ -1001,165 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-  U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: overflow encountered in multiply
-  U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:105: RuntimeWarning: overflow encountered in matmul
-  err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:107: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t = self._U[i, :] @ self._V[:, t]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:122: RuntimeWarning: invalid value encountered in subtract
-  U_i -= (lr * param.lambda_s *
-imputed_matrix.shape = (463, 26)
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: invalid value encountered in matmul
-  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in multiply
-  V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:132: RuntimeWarning: overflow encountered in multiply
-  (2.0 * param.lambda_s * new_U_i_V_t * self._U[i, :])))
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:137: RuntimeWarning: overflow encountered in multiply
-  V_t += (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: invalid value encountered in matmul
-  new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:122: RuntimeWarning: overflow encountered in multiply
-  U_i -= (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:126: RuntimeWarning: overflow encountered in multiply
-  U_i -= (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:126: RuntimeWarning: invalid value encountered in subtract
-  U_i -= (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: overflow encountered in multiply
-  V_t += (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: invalid value encountered in add
-  V_t += (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:105: RuntimeWarning: overflow encountered in matmul
-  err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:107: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t = self._U[i, :] @ self._V[:, t]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: invalid value encountered in add
-  U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: overflow encountered in multiply
-  U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
-imputed_matrix.shape = (463, 28)
-Error during benchmark for HKMFT, with Fish, and 0.8%: autodetected range of [nan, nan] is not finite
-done!
-
-
-HKMFT is tested with aligned_series on Fish, started at 2026-03-11 23:55:16.
-imputed_matrix.shape = (463, 28)
-imputed_matrix.shape = (463, 21)
-imputed_matrix.shape = (463, 25)
-imputed_matrix.shape = (463, 25)
-imputed_matrix.shape = (463, 22)
-imputed_matrix.shape = (463, 26)
-imputed_matrix.shape = (463, 28)
-	caching stored for recovery and missing matrix: fish_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (463, 28)
-imputed_matrix.shape = (463, 21)
-imputed_matrix.shape = (463, 25)
-imputed_matrix.shape = (463, 25)
-imputed_matrix.shape = (463, 22)
-imputed_matrix.shape = (463, 26)
-imputed_matrix.shape = (463, 28)
-	caching stored for recovery and missing matrix: fish_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (463, 28)
-imputed_matrix.shape = (463, 21)
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['FreezerRegularTrain']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on FreezerRegularTrain, started at 2026-03-11 22:26:38.
-imputed_matrix.shape = (301, 75)
-imputed_matrix.shape = (301, 75)
-	caching stored for recovery and missing matrix: freezerregulartrain_mcar_hkmft_10_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (301, 75)
-imputed_matrix.shape = (301, 75)
-	caching stored for recovery and missing matrix: freezerregulartrain_mcar_hkmft_20_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (301, 75)
-imputed_matrix.shape = (301, 75)
-	caching stored for recovery and missing matrix: freezerregulartrain_mcar_hkmft_40_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (301, 75)
-imputed_matrix.shape = (301, 75)
-	caching stored for recovery and missing matrix: freezerregulartrain_mcar_hkmft_60_20_contbyclass_imputationbyclass
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:126: RuntimeWarning: overflow encountered in multiply
-  U_i -= (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:158: RuntimeWarning: invalid value encountered in matmul
-  new_A_hat = (self._U @ self._V) + self._E
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hankel_methods.py:76: RuntimeWarning: invalid value encountered in scalar add
-  rs[i, c] += A[i * p + j, k]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:105: RuntimeWarning: invalid value encountered in matmul
-  err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:107: RuntimeWarning: invalid value encountered in matmul
-  new_U_i_V_t = self._U[i, :] @ self._V[:, t]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: invalid value encountered in matmul
-  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: invalid value encountered in matmul
-  new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:122: RuntimeWarning: overflow encountered in multiply
-  U_i -= (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: overflow encountered in multiply
-  V_t += (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: overflow encountered in multiply
-  U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:122: RuntimeWarning: invalid value encountered in subtract
-  U_i -= (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in multiply
-  V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:132: RuntimeWarning: overflow encountered in multiply
-  (2.0 * param.lambda_s * new_U_i_V_t * self._U[i, :])))
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: invalid value encountered in add
-  V_t += (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:105: RuntimeWarning: overflow encountered in matmul
-  err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:107: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t = self._U[i, :] @ self._V[:, t]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: invalid value encountered in add
-  U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
-imputed_matrix.shape = (301, 75)
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:126: RuntimeWarning: overflow encountered in multiply
-  U_i -= (lr * param.lambda_s *
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: invalid value encountered in matmul
-  new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:158: RuntimeWarning: invalid value encountered in matmul
-  new_A_hat = (self._U @ self._V) + self._E
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hankel_methods.py:76: RuntimeWarning: overflow encountered in scalar add
-  rs[i, c] += A[i * p + j, k]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hankel_methods.py:76: RuntimeWarning: invalid value encountered in scalar add
-  rs[i, c] += A[i * p + j, k]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: invalid value encountered in matmul
-  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in multiply
-  V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:132: RuntimeWarning: overflow encountered in multiply
   (2.0 * param.lambda_s * new_U_i_V_t * self._U[i, :])))
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:137: RuntimeWarning: overflow encountered in multiply
@@ -1270,6 +1111,165 @@ imputed_matrix.shape = (301, 75)
   U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:122: RuntimeWarning: overflow encountered in multiply
   U_i -= (lr * param.lambda_s *
+imputed_matrix.shape = (301, 75)
+Error during benchmark for HKMFT, with FreezerRegularTrain, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+
+> logs: benchmark - Execution Time: 10018.5731 seconds,  (02:46:58.573 hh:mm:ss)
+
+
+FreezerRegularTrain: {mcar, RMSE, arsenal}
+
+ Rate         HKMFT        
+
+  0.1      0.6725260659    
+  0.2      0.6616800171    
+  0.4      0.7275337122    
+  0.6      0.8595913864    
+  0.8          nan         
+
+
+
+FreezerRegularTrain: {mcar, RUNTIME[ms], arsenal}
+
+ Rate         HKMFT        
+
+  0.1   278763.7701034546  
+  0.2   269080.9848308563  
+  0.4   310696.8584060669  
+  0.6   345025.9172916412  
+  0.8          nan         
+
+
+
+FreezerRegularTrain: {aligned_series, RMSE, arsenal}
+
+ Rate         HKMFT        
+
+  0.1      1.5093999138    
+  0.2      1.4731190599    
+  0.4      1.4645288791    
+  0.6      1.4286957226    
+  0.8      1.4210616860    
+
+
+
+FreezerRegularTrain: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate         HKMFT        
+
+  0.1   356298.1250286102  
+  0.2   669310.6331825256  
+  0.4   1149023.7653255463 
+  0.6   1598390.0423049927 
+  0.8   1897326.8706798553 
+
+
+
+FreezerRegularTrain: {aligned_timestamps, RMSE, arsenal}
+
+ Rate         HKMFT        
+
+  0.1      1.7455968000    
+  0.2      1.4674373358    
+  0.4      1.1339999540    
+  0.6      0.9955773696    
+  0.8          nan         
+
+
+
+FreezerRegularTrain: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate         HKMFT        
+
+  0.1   194571.6044902802  
+  0.2   449874.0084171295  
+  0.4   888823.5237598419  
+  0.6   961213.4232521057  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+{aligned_series, RMSE, none}
+---------------------------------------------------
+        Dataset          Rate         HKMFT        
+---------------------------------------------------
+  FreezerRegularTrain    0.1       1.5093999138    
+  FreezerRegularTrain    0.2       1.4731190599    
+  FreezerRegularTrain    0.4       1.4645288791    
+  FreezerRegularTrain    0.6       1.4286957226    
+  FreezerRegularTrain    0.8       1.4210616860    
+---------------------------------------------------
+
+
+{aligned_series, RUNTIME[ms], none}
+---------------------------------------------------
+        Dataset          Rate         HKMFT        
+---------------------------------------------------
+  FreezerRegularTrain    0.1    356298.1250286102  
+  FreezerRegularTrain    0.2    669310.6331825256  
+  FreezerRegularTrain    0.4    1149023.7653255463 
+  FreezerRegularTrain    0.6    1598390.0423049927 
+  FreezerRegularTrain    0.8    1897326.8706798553 
+---------------------------------------------------
+
+
+{aligned_timestamps, RMSE, none}
+---------------------------------------------------
+        Dataset          Rate         HKMFT        
+---------------------------------------------------
+  FreezerRegularTrain    0.1       1.7455968000    
+  FreezerRegularTrain    0.2       1.4674373358    
+  FreezerRegularTrain    0.4       1.1339999540    
+  FreezerRegularTrain    0.6       0.9955773696    
+  FreezerRegularTrain    0.8           nan         
+---------------------------------------------------
+
+
+{aligned_timestamps, RUNTIME[ms], none}
+---------------------------------------------------
+        Dataset          Rate         HKMFT        
+---------------------------------------------------
+  FreezerRegularTrain    0.1    194571.6044902802  
+  FreezerRegularTrain    0.2    449874.0084171295  
+  FreezerRegularTrain    0.4    888823.5237598419  
+  FreezerRegularTrain    0.6    961213.4232521057  
+  FreezerRegularTrain    0.8           nan         
+---------------------------------------------------
+
+
+{mcar, RMSE, none}
+---------------------------------------------------
+        Dataset          Rate         HKMFT        
+---------------------------------------------------
+  FreezerRegularTrain    0.1       0.6725260659    
+  FreezerRegularTrain    0.2       0.6616800171    
+  FreezerRegularTrain    0.4       0.7275337122    
+  FreezerRegularTrain    0.6       0.8595913864    
+  FreezerRegularTrain    0.8           nan         
+---------------------------------------------------
+
+
+{mcar, RUNTIME[ms], none}
+---------------------------------------------------
+        Dataset          Rate         HKMFT        
+---------------------------------------------------
+  FreezerRegularTrain    0.1    278763.7701034546  
+  FreezerRegularTrain    0.2    269080.9848308563  
+  FreezerRegularTrain    0.4    310696.8584060669  
+  FreezerRegularTrain    0.6    345025.9172916412  
+  FreezerRegularTrain    0.8           nan         
+---------------------------------------------------
+
+--- Summary (mean ± std) per algorithm ---
+
+HKMFT = RMSE=1.19698±0.372359, DOWNSTREAM_ACC=nan±nan, RUNTIME=720646±549124
+
 
 The benchmark has been called:
 	classifiers: ['arsenal']
