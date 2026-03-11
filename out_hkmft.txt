@@ -1001,11 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-
-
-HKMFT is tested with aligned_timestamps on UMD, started at 2026-03-11 22:34:22.
-imputed_matrix.shape = (150, 12)
-imputed_matrix.shape = (150, 12)
 imputed_matrix.shape = (150, 12)
 	caching stored for recovery and missing matrix: umd_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (150, 12)
@@ -1268,6 +1263,7 @@ imputed_matrix.shape = (234, 27)
 imputed_matrix.shape = (234, 30)
 imputed_matrix.shape = (234, 27)
 	caching stored for recovery and missing matrix: wine_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (234, 30)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1503,6 +1499,8 @@ imputed_matrix.shape = (131, 15)
 imputed_matrix.shape = (131, 27)
 imputed_matrix.shape = (131, 13)
 imputed_matrix.shape = (131, 22)
+imputed_matrix.shape = (131, 33)
+imputed_matrix.shape = (131, 10)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1535,6 +1533,7 @@ imputed_matrix.shape = (463, 28)
 	caching stored for recovery and missing matrix: fish_mcar_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (463, 28)
 imputed_matrix.shape = (463, 21)
+imputed_matrix.shape = (463, 25)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1652,6 +1651,7 @@ done!
 
 
 HKMFT is tested with aligned_series on FreezerRegularTrain, started at 2026-03-11 22:50:55.
+imputed_matrix.shape = (301, 75)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
