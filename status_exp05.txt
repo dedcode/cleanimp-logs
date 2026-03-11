@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=148
+PROGRESS=151
 TOTAL=222
-PCT=66
+PCT=68
 STATUS=running
-LAST=NuwaTS is tested with mcar on RefrigerationDevices, started at 2026-03-11 01:29:17.
+LAST=NuwaTS is tested with mcar on Rock, started at 2026-03-11 01:29:38.
