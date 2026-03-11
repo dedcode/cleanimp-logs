@@ -1001,10 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-  V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:132: RuntimeWarning: overflow encountered in multiply
-  (2.0 * param.lambda_s * new_U_i_V_t * self._U[i, :])))
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:105: RuntimeWarning: overflow encountered in matmul
   err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:107: RuntimeWarning: overflow encountered in matmul
   new_U_i_V_t = self._U[i, :] @ self._V[:, t]
@@ -1723,6 +1719,8 @@ imputed_matrix.shape = (150, 71)
 imputed_matrix.shape = (150, 64)
 	caching stored for recovery and missing matrix: gunpointmaleversusfemale_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (150, 71)
+imputed_matrix.shape = (150, 64)
+	caching stored for recovery and missing matrix: gunpointmaleversusfemale_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1883,6 +1881,7 @@ imputed_matrix.shape = (80, 189)
 imputed_matrix.shape = (80, 72)
 	caching stored for recovery and missing matrix: proximalphalanxoutlineagegroup_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (80, 139)
+imputed_matrix.shape = (80, 189)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1933,6 +1932,7 @@ imputed_matrix.shape = (500, 10)
 imputed_matrix.shape = (500, 10)
 imputed_matrix.shape = (500, 10)
 	caching stored for recovery and missing matrix: shapeletsim_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (500, 10)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
