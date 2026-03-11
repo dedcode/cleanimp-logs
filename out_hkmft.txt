@@ -1004,14 +1004,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 imputed_matrix.shape = (150, 12)
 imputed_matrix.shape = (150, 12)
 imputed_matrix.shape = (150, 12)
-	caching stored for recovery and missing matrix: umd_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (150, 12)
-imputed_matrix.shape = (150, 12)
-imputed_matrix.shape = (150, 12)
-	caching stored for recovery and missing matrix: umd_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (150, 12)
-imputed_matrix.shape = (150, 12)
-imputed_matrix.shape = (150, 12)
 	caching stored for recovery and missing matrix: umd_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
 done!
 
@@ -1514,6 +1506,7 @@ imputed_matrix.shape = (131, 12)
 imputed_matrix.shape = (131, 11)
 imputed_matrix.shape = (131, 15)
 imputed_matrix.shape = (131, 27)
+imputed_matrix.shape = (131, 13)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1545,6 +1538,7 @@ imputed_matrix.shape = (463, 26)
 imputed_matrix.shape = (463, 28)
 	caching stored for recovery and missing matrix: fish_mcar_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (463, 28)
+imputed_matrix.shape = (463, 21)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1656,6 +1650,12 @@ imputed_matrix.shape = (301, 75)
   new_U_i_V_t = self._U[i, :] @ self._V[:, t]
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: invalid value encountered in add
   U_i = self._U[i, :] + (lr * ((err_it * self._V[:, t]) -
+imputed_matrix.shape = (301, 75)
+Error during benchmark for HKMFT, with FreezerRegularTrain, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+HKMFT is tested with aligned_series on FreezerRegularTrain, started at 2026-03-11 22:50:55.
 
 The benchmark has been called:
 	classifiers: ['arsenal']
