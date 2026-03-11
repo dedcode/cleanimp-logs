@@ -1001,12 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-  err_it = self._Hpx[i, t] - ((self._U[i, :] @ self._V[:, t]) + self._E[i, t])
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:107: RuntimeWarning: overflow encountered in matmul
-  new_U_i_V_t = self._U[i, :] @ self._V[:, t]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:107: RuntimeWarning: invalid value encountered in matmul
-  new_U_i_V_t = self._U[i, :] @ self._V[:, t]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: overflow encountered in matmul
   new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: invalid value encountered in matmul
   new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
@@ -1859,6 +1853,8 @@ imputed_matrix.shape = (150, 68)
 imputed_matrix.shape = (150, 67)
 	caching stored for recovery and missing matrix: gunpointagespan_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (150, 68)
+imputed_matrix.shape = (150, 67)
+	caching stored for recovery and missing matrix: gunpointagespan_aligned_series_hkmft_40_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1928,6 +1924,7 @@ imputed_matrix.shape = (144, 90)
 imputed_matrix.shape = (144, 90)
 imputed_matrix.shape = (144, 90)
 	caching stored for recovery and missing matrix: powercons_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (144, 90)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -2001,3 +1998,6 @@ imputed_matrix.shape = (275, 22)
 	caching stored for recovery and missing matrix: trace_mcar_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (275, 26)
 imputed_matrix.shape = (275, 21)
+imputed_matrix.shape = (275, 31)
+imputed_matrix.shape = (275, 22)
+	caching stored for recovery and missing matrix: trace_mcar_hkmft_60_20_contbyclass_imputationbyclass
