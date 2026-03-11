@@ -1001,8 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-  TwoLeadECG    0.8       1.6292848685    
-------------------------------------------
 
 
 {mcar, RUNTIME[ms], none}
@@ -1608,6 +1606,7 @@ imputed_matrix.shape = (131, 15)
 imputed_matrix.shape = (131, 27)
 imputed_matrix.shape = (131, 13)
 imputed_matrix.shape = (131, 22)
+imputed_matrix.shape = (131, 33)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -2001,3 +2000,4 @@ imputed_matrix.shape = (150, 71)
 imputed_matrix.shape = (150, 65)
 imputed_matrix.shape = (150, 71)
 	caching stored for recovery and missing matrix: gunpointoldversusyoung_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (150, 65)
