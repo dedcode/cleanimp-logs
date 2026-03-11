@@ -1001,7 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-imputed_matrix.shape = (463, 25)
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:122: RuntimeWarning: overflow encountered in multiply
   U_i -= (lr * param.lambda_s *
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:134: RuntimeWarning: overflow encountered in multiply
@@ -1129,6 +1128,7 @@ imputed_matrix.shape = (463, 28)
 	caching stored for recovery and missing matrix: fish_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (463, 28)
 imputed_matrix.shape = (463, 21)
+imputed_matrix.shape = (463, 25)
 imputed_matrix.shape = (463, 25)
 
 The benchmark has been called:
