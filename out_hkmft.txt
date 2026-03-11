@@ -1001,11 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-done!
-
-
-HKMFT is tested with aligned_series on TwoLeadECG, started at 2026-03-11 22:27:18.
-imputed_matrix.shape = (82, 11)
 imputed_matrix.shape = (82, 12)
 	caching stored for recovery and missing matrix: twoleadecg_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (82, 11)
@@ -1533,6 +1528,7 @@ HKMFT is tested with mcar on Wafer, started at 2026-03-11 22:26:42.
 imputed_matrix.shape = (152, 903)
 imputed_matrix.shape = (152, 97)
 	caching stored for recovery and missing matrix: wafer_mcar_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (152, 903)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1784,6 +1780,8 @@ imputed_matrix.shape = (131, 15)
 imputed_matrix.shape = (131, 27)
 imputed_matrix.shape = (131, 13)
 imputed_matrix.shape = (131, 22)
+imputed_matrix.shape = (131, 33)
+imputed_matrix.shape = (131, 10)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1810,6 +1808,7 @@ imputed_matrix.shape = (463, 28)
 imputed_matrix.shape = (463, 21)
 imputed_matrix.shape = (463, 25)
 imputed_matrix.shape = (463, 25)
+imputed_matrix.shape = (463, 22)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1956,6 +1955,7 @@ imputed_matrix.shape = (150, 24)
 imputed_matrix.shape = (150, 26)
 imputed_matrix.shape = (150, 24)
 	caching stored for recovery and missing matrix: gunpoint_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (150, 26)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
