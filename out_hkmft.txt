@@ -1001,232 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-imputed_matrix.shape = (144, 16)
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['ProximalPhalanxOutlineCorrect']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on ProximalPhalanxOutlineCorrect, started at 2026-03-11 22:26:41.
-	the imputed matrix has been loaded from the cache (80, 600): proximalphalanxoutlinecorrect_mcar_hkmft_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (80, 600): proximalphalanxoutlinecorrect_mcar_hkmft_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (80, 600): proximalphalanxoutlinecorrect_mcar_hkmft_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (80, 600): proximalphalanxoutlinecorrect_mcar_hkmft_60_20_contbyclass_imputationbyclass
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
-  avg = a.mean(axis, **keepdims_kw)
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
-  ret = ret.dtype.type(ret / rcount)
-imputed_matrix.shape = (80, 406)
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:571: RuntimeWarning: Mean of empty slice.
-  avg = a.mean(axis, **keepdims_kw)
-/storage/experiments/cleanimp/imputegap_exp06/venv/lib/python3.12/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
-  ret = ret.dtype.type(ret / rcount)
-imputed_matrix.shape = (80, 194)
-Error during benchmark for HKMFT, with ProximalPhalanxOutlineCorrect, and 0.8%: autodetected range of [nan, nan] is not finite
-done!
-
-
-HKMFT is tested with aligned_series on ProximalPhalanxOutlineCorrect, started at 2026-03-11 22:28:01.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['RefrigerationDevices']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on RefrigerationDevices, started at 2026-03-11 22:26:40.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['Rock']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on Rock, started at 2026-03-11 22:26:40.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['ScreenType']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on ScreenType, started at 2026-03-11 22:26:40.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['SemgHandGenderCh2']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on SemgHandGenderCh2, started at 2026-03-11 22:26:41.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['FaceAll']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on FaceAll, started at 2026-03-11 22:26:37.
-imputed_matrix.shape = (131, 40)
-imputed_matrix.shape = (131, 40)
-imputed_matrix.shape = (131, 40)
-imputed_matrix.shape = (131, 40)
-imputed_matrix.shape = (131, 40)
-imputed_matrix.shape = (131, 40)
-imputed_matrix.shape = (131, 40)
-imputed_matrix.shape = (131, 40)
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['SemgHandMovementCh2']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on SemgHandMovementCh2, started at 2026-03-11 22:26:41.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['SemgHandSubjectCh2']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on SemgHandSubjectCh2, started at 2026-03-11 22:26:41.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['HKMFT']
-	datasets: ['ShapesAll']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-HKMFT is tested with mcar on ShapesAll, started at 2026-03-11 22:26:40.
 imputed_matrix.shape = (512, 10)
 
 The benchmark has been called:
@@ -1263,6 +1037,7 @@ imputed_matrix.shape = (60, 663)
 
 imputed_matrix.shape = (60, 302)
 	caching stored for recovery and missing matrix: sharepriceincrease_mcar_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (60, 663)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1365,6 +1140,171 @@ imputed_matrix.shape = (70, 14)
 imputed_matrix.shape = (70, 6)
 	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (70, 14)
+imputed_matrix.shape = (70, 6)
+	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (70, 14)
+imputed_matrix.shape = (70, 6)
+	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_timestamps_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+
+> logs: benchmark - Execution Time: 141.4748 seconds,  (00:02:21.475 hh:mm:ss)
+
+
+SonyAIBORobotSurface1: {mcar, RMSE, none}
+
+ Rate         HKMFT        
+
+  0.1      1.1122236590    
+  0.2      1.1668810975    
+  0.4      1.2169812179    
+  0.6      1.4066759964    
+  0.8      1.3546659229    
+
+
+
+SonyAIBORobotSurface1: {mcar, RUNTIME[ms], none}
+
+ Rate         HKMFT        
+
+  0.1    2932.7542781830   
+  0.2    3909.8145961761   
+  0.4    3407.3204994202   
+  0.6    2167.6793098450   
+  0.8    1514.8258209229   
+
+
+
+SonyAIBORobotSurface1: {aligned_series, RMSE, none}
+
+ Rate         HKMFT        
+
+  0.1      1.3983257311    
+  0.2      1.4080739036    
+  0.4      1.3795414408    
+  0.6      1.3795315994    
+  0.8      1.2966792834    
+
+
+
+SonyAIBORobotSurface1: {aligned_series, RUNTIME[ms], none}
+
+ Rate         HKMFT        
+
+  0.1    2049.7698783875   
+  0.2    4187.9951953888   
+  0.4    8835.5736732483   
+  0.6    12193.7525272369  
+  0.8    17093.6515331268  
+
+
+
+SonyAIBORobotSurface1: {aligned_timestamps, RMSE, none}
+
+ Rate         HKMFT        
+
+  0.1      1.0373568398    
+  0.2      1.3994573177    
+  0.4      1.1473475322    
+  0.6      1.2180895594    
+  0.8      2.2784501127    
+
+
+
+SonyAIBORobotSurface1: {aligned_timestamps, RUNTIME[ms], none}
+
+ Rate         HKMFT        
+
+  0.1    2614.7181987762   
+  0.2    4814.0225410461   
+  0.4    6069.6561336517   
+  0.6    5726.3705730438   
+  0.8    2064.9719238281   
+
+
+
+The plots have been generated...
+
+
+{aligned_series, RMSE, none}
+-----------------------------------------------------
+         Dataset           Rate         HKMFT        
+-----------------------------------------------------
+  SonyAIBORobotSurface1    0.1       1.3983257311    
+  SonyAIBORobotSurface1    0.2       1.4080739036    
+  SonyAIBORobotSurface1    0.4       1.3795414408    
+  SonyAIBORobotSurface1    0.6       1.3795315994    
+  SonyAIBORobotSurface1    0.8       1.2966792834    
+-----------------------------------------------------
+
+
+{aligned_series, RUNTIME[ms], none}
+-----------------------------------------------------
+         Dataset           Rate         HKMFT        
+-----------------------------------------------------
+  SonyAIBORobotSurface1    0.1     2049.7698783875   
+  SonyAIBORobotSurface1    0.2     4187.9951953888   
+  SonyAIBORobotSurface1    0.4     8835.5736732483   
+  SonyAIBORobotSurface1    0.6     12193.7525272369  
+  SonyAIBORobotSurface1    0.8     17093.6515331268  
+-----------------------------------------------------
+
+
+{aligned_timestamps, RMSE, none}
+-----------------------------------------------------
+         Dataset           Rate         HKMFT        
+-----------------------------------------------------
+  SonyAIBORobotSurface1    0.1       1.0373568398    
+  SonyAIBORobotSurface1    0.2       1.3994573177    
+  SonyAIBORobotSurface1    0.4       1.1473475322    
+  SonyAIBORobotSurface1    0.6       1.2180895594    
+  SonyAIBORobotSurface1    0.8       2.2784501127    
+-----------------------------------------------------
+
+
+{aligned_timestamps, RUNTIME[ms], none}
+-----------------------------------------------------
+         Dataset           Rate         HKMFT        
+-----------------------------------------------------
+  SonyAIBORobotSurface1    0.1     2614.7181987762   
+  SonyAIBORobotSurface1    0.2     4814.0225410461   
+  SonyAIBORobotSurface1    0.4     6069.6561336517   
+  SonyAIBORobotSurface1    0.6     5726.3705730438   
+  SonyAIBORobotSurface1    0.8     2064.9719238281   
+-----------------------------------------------------
+
+
+{mcar, RMSE, none}
+-----------------------------------------------------
+         Dataset           Rate         HKMFT        
+-----------------------------------------------------
+  SonyAIBORobotSurface1    0.1       1.1122236590    
+  SonyAIBORobotSurface1    0.2       1.1668810975    
+  SonyAIBORobotSurface1    0.4       1.2169812179    
+  SonyAIBORobotSurface1    0.6       1.4066759964    
+  SonyAIBORobotSurface1    0.8       1.3546659229    
+-----------------------------------------------------
+
+
+{mcar, RUNTIME[ms], none}
+-----------------------------------------------------
+         Dataset           Rate         HKMFT        
+-----------------------------------------------------
+  SonyAIBORobotSurface1    0.1     2932.7542781830   
+  SonyAIBORobotSurface1    0.2     3909.8145961761   
+  SonyAIBORobotSurface1    0.4     3407.3204994202   
+  SonyAIBORobotSurface1    0.6     2167.6793098450   
+  SonyAIBORobotSurface1    0.8     1514.8258209229   
+-----------------------------------------------------
+
+--- Summary (mean ± std) per algorithm ---
+
+HKMFT = RMSE=1.34669±0.285583, DOWNSTREAM_ACC=nan±nan, RUNTIME=5305.53±4349.54
+
+
+The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_hkmft_d35_26_03_11_22_26_29 
+
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1417,6 +1357,9 @@ imputed_matrix.shape = (128, 35)
 imputed_matrix.shape = (128, 42)
 imputed_matrix.shape = (128, 33)
 imputed_matrix.shape = (128, 33)
+imputed_matrix.shape = (128, 30)
+imputed_matrix.shape = (128, 36)
+imputed_matrix.shape = (128, 38)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1494,6 +1437,14 @@ imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
 imputed_matrix.shape = (60, 50)
+imputed_matrix.shape = (60, 50)
+imputed_matrix.shape = (60, 50)
+	caching stored for recovery and missing matrix: syntheticcontrol_mcar_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (60, 50)
+imputed_matrix.shape = (60, 50)
+imputed_matrix.shape = (60, 50)
+imputed_matrix.shape = (60, 50)
+imputed_matrix.shape = (60, 50)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1520,6 +1471,8 @@ imputed_matrix.shape = (277, 20)
 imputed_matrix.shape = (277, 20)
 	caching stored for recovery and missing matrix: toesegmentation1_mcar_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (277, 20)
+imputed_matrix.shape = (277, 20)
+	caching stored for recovery and missing matrix: toesegmentation1_mcar_hkmft_20_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1549,6 +1502,9 @@ imputed_matrix.shape = (350, 3)
 	caching stored for recovery and missing matrix: facefour_mcar_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (350, 8)
 imputed_matrix.shape = (350, 8)
+imputed_matrix.shape = (350, 5)
+imputed_matrix.shape = (350, 3)
+	caching stored for recovery and missing matrix: facefour_mcar_hkmft_20_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1572,6 +1528,8 @@ The benchmark has been called:
 
 HKMFT is tested with mcar on ToeSegmentation2, started at 2026-03-11 22:26:40.
 imputed_matrix.shape = (343, 18)
+imputed_matrix.shape = (343, 18)
+	caching stored for recovery and missing matrix: toesegmentation2_mcar_hkmft_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1643,6 +1601,15 @@ done!
 
 HKMFT is tested with aligned_timestamps on TwoLeadECG, started at 2026-03-11 22:28:34.
 imputed_matrix.shape = (82, 11)
+imputed_matrix.shape = (82, 12)
+	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (82, 11)
+imputed_matrix.shape = (82, 12)
+	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (82, 11)
+imputed_matrix.shape = (82, 12)
+	caching stored for recovery and missing matrix: twoleadecg_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (82, 11)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1712,6 +1679,11 @@ done!
 
 
 HKMFT is tested with aligned_series on UMD, started at 2026-03-11 22:28:30.
+imputed_matrix.shape = (150, 12)
+imputed_matrix.shape = (150, 12)
+imputed_matrix.shape = (150, 12)
+	caching stored for recovery and missing matrix: umd_aligned_series_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (150, 12)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1760,6 +1732,8 @@ imputed_matrix.shape = (234, 30)
 imputed_matrix.shape = (234, 27)
 	caching stored for recovery and missing matrix: wine_mcar_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (234, 30)
+imputed_matrix.shape = (234, 27)
+	caching stored for recovery and missing matrix: wine_mcar_hkmft_20_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1867,6 +1841,13 @@ imputed_matrix.shape = (131, 11)
 imputed_matrix.shape = (131, 15)
 imputed_matrix.shape = (131, 27)
 imputed_matrix.shape = (131, 13)
+imputed_matrix.shape = (131, 22)
+imputed_matrix.shape = (131, 33)
+imputed_matrix.shape = (131, 10)
+imputed_matrix.shape = (131, 8)
+imputed_matrix.shape = (131, 6)
+imputed_matrix.shape = (131, 4)
+imputed_matrix.shape = (131, 12)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1911,6 +1892,7 @@ The benchmark has been called:
 
 
 HKMFT is tested with mcar on FreezerRegularTrain, started at 2026-03-11 22:26:38.
+imputed_matrix.shape = (301, 75)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1939,6 +1921,9 @@ imputed_matrix.shape = (301, 14)
 imputed_matrix.shape = (301, 14)
 imputed_matrix.shape = (301, 14)
 	caching stored for recovery and missing matrix: freezersmalltrain_mcar_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (301, 14)
+imputed_matrix.shape = (301, 14)
+	caching stored for recovery and missing matrix: freezersmalltrain_mcar_hkmft_40_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1973,6 +1958,14 @@ imputed_matrix.shape = (150, 24)
 imputed_matrix.shape = (150, 26)
 imputed_matrix.shape = (150, 24)
 	caching stored for recovery and missing matrix: gunpoint_mcar_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (150, 26)
+imputed_matrix.shape = (150, 24)
+	caching stored for recovery and missing matrix: gunpoint_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_series on GunPoint, started at 2026-03-11 22:28:57.
+imputed_matrix.shape = (150, 26)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -2001,3 +1994,10 @@ HKMFT is tested with mcar on GunPointOldVersusYoung, started at 2026-03-11 22:26
 imputed_matrix.shape = (150, 65)
 imputed_matrix.shape = (150, 71)
 	caching stored for recovery and missing matrix: gunpointoldversusyoung_mcar_hkmft_60_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (150, 65)
+imputed_matrix.shape = (150, 71)
+	caching stored for recovery and missing matrix: gunpointoldversusyoung_mcar_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_series on GunPointOldVersusYoung, started at 2026-03-11 22:29:06.
