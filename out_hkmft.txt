@@ -1001,25 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-  0.8      1.6245052420    
-
-
-
-UMD: {mcar, RUNTIME[ms], none}
-
- Rate         HKMFT        
-
-  0.1    20150.9444713593  
-  0.2    17910.7429981232  
-  0.4    26029.1347503662  
-  0.6    18528.0473232269  
-  0.8    8624.0315437317   
-
-
-
-UMD: {aligned_series, RMSE, none}
-
- Rate         HKMFT        
 
   0.1      0.8843597037    
   0.2      0.9120021989    
@@ -1234,6 +1215,12 @@ imputed_matrix.shape = (234, 30)
 imputed_matrix.shape = (234, 27)
 	caching stored for recovery and missing matrix: wine_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (234, 30)
+imputed_matrix.shape = (234, 27)
+	caching stored for recovery and missing matrix: wine_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on Wine, started at 2026-03-11 22:57:43.
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1491,6 +1478,14 @@ imputed_matrix.shape = (131, 22)
 imputed_matrix.shape = (131, 33)
 imputed_matrix.shape = (131, 10)
 imputed_matrix.shape = (131, 8)
+imputed_matrix.shape = (131, 6)
+imputed_matrix.shape = (131, 4)
+imputed_matrix.shape = (131, 12)
+imputed_matrix.shape = (131, 14)
+imputed_matrix.shape = (131, 13)
+imputed_matrix.shape = (131, 12)
+	caching stored for recovery and missing matrix: facesucr_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (131, 11)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1702,6 +1697,11 @@ imputed_matrix.shape = (301, 14)
 imputed_matrix.shape = (301, 14)
 imputed_matrix.shape = (301, 14)
 	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
+done!
+
+
+HKMFT is tested with aligned_timestamps on FreezerSmallTrain, started at 2026-03-11 22:57:35.
+imputed_matrix.shape = (301, 14)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
