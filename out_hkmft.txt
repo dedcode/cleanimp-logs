@@ -1001,10 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-imputed_matrix.shape = (82, 12)
-	caching stored for recovery and missing matrix: twoleadecg_mcar_hkmft_10_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (82, 11)
-imputed_matrix.shape = (82, 12)
 	caching stored for recovery and missing matrix: twoleadecg_mcar_hkmft_20_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (82, 11)
 imputed_matrix.shape = (82, 12)
@@ -1792,6 +1788,7 @@ imputed_matrix.shape = (131, 13)
 imputed_matrix.shape = (131, 12)
 	caching stored for recovery and missing matrix: facesucr_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (131, 11)
+imputed_matrix.shape = (131, 15)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1846,6 +1843,7 @@ imputed_matrix.shape = (301, 75)
 imputed_matrix.shape = (301, 75)
 imputed_matrix.shape = (301, 75)
 	caching stored for recovery and missing matrix: freezerregulartrain_mcar_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (301, 75)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1957,6 +1955,8 @@ imputed_matrix.shape = (150, 26)
 imputed_matrix.shape = (150, 24)
 	caching stored for recovery and missing matrix: gunpoint_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (150, 26)
+imputed_matrix.shape = (150, 24)
+	caching stored for recovery and missing matrix: gunpoint_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
