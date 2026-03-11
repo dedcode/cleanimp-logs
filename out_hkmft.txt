@@ -1001,90 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-imputed_matrix.shape = (131, 27)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 22)
-imputed_matrix.shape = (131, 33)
-imputed_matrix.shape = (131, 10)
-imputed_matrix.shape = (131, 8)
-imputed_matrix.shape = (131, 6)
-imputed_matrix.shape = (131, 4)
-imputed_matrix.shape = (131, 12)
-imputed_matrix.shape = (131, 14)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 12)
-	caching stored for recovery and missing matrix: facesucr_aligned_series_hkmft_60_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (131, 11)
-imputed_matrix.shape = (131, 15)
-imputed_matrix.shape = (131, 27)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 22)
-imputed_matrix.shape = (131, 33)
-imputed_matrix.shape = (131, 10)
-imputed_matrix.shape = (131, 8)
-imputed_matrix.shape = (131, 6)
-imputed_matrix.shape = (131, 4)
-imputed_matrix.shape = (131, 12)
-imputed_matrix.shape = (131, 14)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 12)
-	caching stored for recovery and missing matrix: facesucr_aligned_series_hkmft_80_20_contbyclass_imputationbyclass
-done!
-
-
-HKMFT is tested with aligned_timestamps on FacesUCR, started at 2026-03-11 22:56:41.
-imputed_matrix.shape = (131, 11)
-imputed_matrix.shape = (131, 15)
-imputed_matrix.shape = (131, 27)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 22)
-imputed_matrix.shape = (131, 33)
-imputed_matrix.shape = (131, 10)
-imputed_matrix.shape = (131, 8)
-imputed_matrix.shape = (131, 6)
-imputed_matrix.shape = (131, 4)
-imputed_matrix.shape = (131, 12)
-imputed_matrix.shape = (131, 14)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 12)
-	caching stored for recovery and missing matrix: facesucr_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (131, 11)
-imputed_matrix.shape = (131, 15)
-imputed_matrix.shape = (131, 27)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 22)
-imputed_matrix.shape = (131, 33)
-imputed_matrix.shape = (131, 10)
-imputed_matrix.shape = (131, 8)
-imputed_matrix.shape = (131, 6)
-imputed_matrix.shape = (131, 4)
-imputed_matrix.shape = (131, 12)
-imputed_matrix.shape = (131, 14)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 12)
-	caching stored for recovery and missing matrix: facesucr_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (131, 11)
-imputed_matrix.shape = (131, 15)
-imputed_matrix.shape = (131, 27)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 22)
-imputed_matrix.shape = (131, 33)
-imputed_matrix.shape = (131, 10)
-imputed_matrix.shape = (131, 8)
-imputed_matrix.shape = (131, 6)
-imputed_matrix.shape = (131, 4)
-imputed_matrix.shape = (131, 12)
-imputed_matrix.shape = (131, 14)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 12)
-	caching stored for recovery and missing matrix: facesucr_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (131, 11)
-imputed_matrix.shape = (131, 15)
-imputed_matrix.shape = (131, 27)
-imputed_matrix.shape = (131, 13)
-imputed_matrix.shape = (131, 22)
-imputed_matrix.shape = (131, 33)
-imputed_matrix.shape = (131, 10)
 imputed_matrix.shape = (131, 8)
 imputed_matrix.shape = (131, 6)
 imputed_matrix.shape = (131, 4)
@@ -1308,6 +1224,7 @@ imputed_matrix.shape = (463, 28)
 	caching stored for recovery and missing matrix: fish_mcar_hkmft_20_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (463, 28)
 imputed_matrix.shape = (463, 21)
+imputed_matrix.shape = (463, 25)
 imputed_matrix.shape = (463, 25)
 
 The benchmark has been called:
@@ -1537,6 +1454,89 @@ imputed_matrix.shape = (301, 14)
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:113: RuntimeWarning: overflow encountered in matmul
   new_U_i_V_t_p1 = self._U[i, :] @ self._V[:, (t + 1) % data_l]
 imputed_matrix.shape = (301, 14)
+imputed_matrix.shape = (301, 14)
+Error during benchmark for HKMFT, with FreezerSmallTrain, and 0.8%: autodetected range of [nan, nan] is not finite
+done!
+
+
+
+> logs: benchmark - Execution Time: 2696.554 seconds,  (00:44:56.554 hh:mm:ss)
+
+
+FreezerSmallTrain: {mcar, RMSE, none}
+
+ Rate         HKMFT        
+
+  0.1      0.6568533104    
+  0.2      0.8847460051    
+  0.4      1.0151293103    
+  0.6      1.1949141111    
+  0.8      1.3159240775    
+
+
+
+FreezerSmallTrain: {mcar, RUNTIME[ms], none}
+
+ Rate         HKMFT        
+
+  0.1    50769.8090076447  
+  0.2    48072.2396373749  
+  0.4    45208.2858085632  
+  0.6    80655.3680896759  
+  0.8    72466.7804241180  
+
+
+
+FreezerSmallTrain: {aligned_series, RMSE, none}
+
+ Rate         HKMFT        
+
+  0.1      1.5063599434    
+  0.2      1.5621490804    
+  0.4      1.4687551473    
+  0.6      1.4850379232    
+  0.8      1.4858782754    
+
+
+
+FreezerSmallTrain: {aligned_series, RUNTIME[ms], none}
+
+ Rate         HKMFT        
+
+  0.1   105236.6690635681  
+  0.2   150851.7012596130  
+  0.4   298083.0543041229  
+  0.6   415016.2122249603  
+  0.8   555929.4154644012  
+
+
+
+FreezerSmallTrain: {aligned_timestamps, RMSE, none}
+
+ Rate         HKMFT        
+
+  0.1      1.8133787598    
+  0.2      1.5494557785    
+  0.4      1.1846301379    
+  0.6      1.0071441409    
+  0.8          nan         
+
+
+
+FreezerSmallTrain: {aligned_timestamps, RUNTIME[ms], none}
+
+ Rate         HKMFT        
+
+  0.1    59844.7310924530  
+  0.2   136112.8251552582  
+  0.4   250092.9391384125  
+  0.6   269110.0637912750  
+  0.8          nan         
+
+
+
+The plots have been generated...
+
 
 The benchmark has been called:
 	classifiers: ['arsenal']
