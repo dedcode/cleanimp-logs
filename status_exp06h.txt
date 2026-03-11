@@ -3,5 +3,5 @@ SERVER=bigdata.6
 PROGRESS=53
 TOTAL=222
 PCT=23
-STATUS=running
+STATUS=stopped
 LAST=HKMFT is tested with aligned_series on EOGVerticalSignal, started at 2026-03-11 01:55:03.
