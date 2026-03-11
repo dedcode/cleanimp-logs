@@ -1001,10 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:108: RuntimeWarning: invalid value encountered in matmul
-  new_U_i_V_t_s1 = self._U[i, :] @ self._V[:, t - 1]
-/storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:130: RuntimeWarning: overflow encountered in multiply
   V_t = self._V[:, t] + (lr * ((err_it * self._U[i, :]) -
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:132: RuntimeWarning: overflow encountered in multiply
   (2.0 * param.lambda_s * new_U_i_V_t * self._U[i, :])))
@@ -1808,6 +1804,8 @@ imputed_matrix.shape = (150, 68)
 imputed_matrix.shape = (150, 67)
 	caching stored for recovery and missing matrix: gunpointagespan_aligned_timestamps_hkmft_20_20_contbyclass_imputationbyclass
 imputed_matrix.shape = (150, 68)
+imputed_matrix.shape = (150, 67)
+	caching stored for recovery and missing matrix: gunpointagespan_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1893,6 +1891,7 @@ HKMFT is tested with aligned_timestamps on PowerCons, started at 2026-03-11 22:1
 imputed_matrix.shape = (144, 90)
 imputed_matrix.shape = (144, 90)
 	caching stored for recovery and missing matrix: powercons_aligned_timestamps_hkmft_10_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (144, 90)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -2001,3 +2000,4 @@ imputed_matrix.shape = (275, 21)
 imputed_matrix.shape = (275, 31)
 imputed_matrix.shape = (275, 22)
 	caching stored for recovery and missing matrix: trace_aligned_series_hkmft_20_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (275, 26)
