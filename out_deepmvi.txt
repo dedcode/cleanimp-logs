@@ -610,3 +610,8 @@ DeepMVI is tested with mcar on FaceFour, started at 2026-03-11 09:11:52.
 	caching stored for recovery and missing matrix: facefour_mcar_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: facefour_mcar_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: facefour_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: facefour_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on FaceFour, started at 2026-03-11 09:44:51.
