@@ -1,7 +1,7 @@
 ALGO=NuwaTS
 SERVER=colab.lxd
-PROGRESS=157
+PROGRESS=160
 TOTAL=222
-PCT=70
+PCT=72
 STATUS=running
-LAST=NuwaTS is tested with mcar on SemgHandGenderCh2, started at 2026-03-11 02:17:02.
+LAST=NuwaTS is tested with mcar on SemgHandMovementCh2, started at 2026-03-11 02:17:29.
