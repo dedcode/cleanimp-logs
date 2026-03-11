@@ -1001,7 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-  0.4      0.7604542691    
   0.6      1.1136187765    
   0.8      2.0715202204    
 
@@ -1146,6 +1145,7 @@ imputed_matrix.shape = (463, 22)
 imputed_matrix.shape = (463, 26)
 imputed_matrix.shape = (463, 28)
 	caching stored for recovery and missing matrix: fish_mcar_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (463, 28)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
