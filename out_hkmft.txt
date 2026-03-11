@@ -1001,7 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-  new_U_i_V_t = self._U[i, :] @ self._V[:, t]
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:126: RuntimeWarning: overflow encountered in multiply
   U_i -= (lr * param.lambda_s *
 /storage/experiments/cleanimp/imputegap_exp06/imputegap/wrapper/AlgoPython/HKMFT/hkmft.py:119: RuntimeWarning: invalid value encountered in add
@@ -2000,4 +1999,5 @@ imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
 imputed_matrix.shape = (1000, 30)
+imputed_matrix.shape = (1000, 31)
 imputed_matrix.shape = (1000, 31)
