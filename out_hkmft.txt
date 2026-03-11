@@ -1001,7 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-
  Rate         HKMFT        
 
   0.1      0.6408458475    
@@ -1147,6 +1146,7 @@ imputed_matrix.shape = (463, 28)
 imputed_matrix.shape = (463, 21)
 imputed_matrix.shape = (463, 25)
 imputed_matrix.shape = (463, 25)
+imputed_matrix.shape = (463, 22)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
