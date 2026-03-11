@@ -1001,8 +1001,6 @@ Error during benchmark for HKMFT, with Computers, and 0.6%: autodetected range o
 
 ... [-1976 lines truncated] ...
 
-	caching stored for recovery and missing matrix: umd_aligned_timestamps_hkmft_40_20_contbyclass_imputationbyclass
-imputed_matrix.shape = (150, 12)
 imputed_matrix.shape = (150, 12)
 imputed_matrix.shape = (150, 12)
 	caching stored for recovery and missing matrix: umd_aligned_timestamps_hkmft_60_20_contbyclass_imputationbyclass
@@ -1201,6 +1199,7 @@ imputed_matrix.shape = (152, 97)
 imputed_matrix.shape = (152, 903)
 imputed_matrix.shape = (152, 97)
 	caching stored for recovery and missing matrix: wafer_mcar_hkmft_40_20_contbyclass_imputationbyclass
+imputed_matrix.shape = (152, 903)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1497,6 +1496,7 @@ imputed_matrix.shape = (131, 6)
 imputed_matrix.shape = (131, 4)
 imputed_matrix.shape = (131, 12)
 imputed_matrix.shape = (131, 14)
+imputed_matrix.shape = (131, 13)
 
 The benchmark has been called:
 	classifiers: ['arsenal']
