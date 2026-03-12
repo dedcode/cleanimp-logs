@@ -765,6 +765,7 @@ CSDI is tested with mcar on SonyAIBORobotSurface1, started at 2026-03-11 23:14:5
 	One series has 70 values, with the offset, 66 values are available to contamination. Thus, the number of data to remove is 7 (int(66 * 0.1)), but block size is 10 -> (10 must be < 7)
 		(ACTION) block_size is set to : 3
 
+	caching stored for recovery and missing matrix: sonyaiborobotsurface1_mcar_csdi_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
