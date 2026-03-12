@@ -1,7 +1,7 @@
 ALGO=HKMFT
 SERVER=bigdata.6
-PROGRESS=204
+PROGRESS=205
 TOTAL=222
-PCT=91
+PCT=92
 STATUS=running
 LAST=HKMFT is tested with aligned_timestamps on GunPointOldVersusYoung, started at 2026-03-11 22:49:41.
