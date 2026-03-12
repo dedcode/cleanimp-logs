@@ -12,4 +12,4 @@ Live experiment logs pushed every 30 seconds.
 | 06d | DeepMVI | colab.nb | 121 / 222 | 54% | running | mcar on GunPointAgeSpan |
 | 06h | HKMFT | bigdata.6 | 204 / 222 | 91% | running | aligned_timestamps on GunPointOldVersusYoung |
 
-_Last updated: 2026-03-12 10:57 UTC_
+_Last updated: 2026-03-12 10:58 UTC_
