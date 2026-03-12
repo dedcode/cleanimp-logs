@@ -304,6 +304,7 @@ PRISTI is tested with mcar on MoteStrain, started at 2026-03-12 00:05:07.
 	One series has 84 values, with the offset, 79 values are available to contamination. Thus, the number of data to remove is 8 (int(79 * 0.1)), but block size is 10 -> (10 must be < 8)
 		(ACTION) block_size is set to : 4
 
+	caching stored for recovery and missing matrix: motestrain_mcar_pristi_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
