@@ -10,6 +10,6 @@ Live experiment logs pushed every 30 seconds.
 | 04 | PRISTI | bigdata.7 | 203 / 222 | 91% | running | mcar on Yoga |
 | 05 | NuwaTS | colab.lxd | 222 / 222 | 100% | done | aligned_timestamps on Yoga |
 | 06d | DeepMVI | colab.nb | 121 / 222 | 54% | running | mcar on GunPointAgeSpan |
-| 06h | HKMFT | bigdata.6 | 190 / 222 | 85% | running | aligned_timestamps on GunPointOldVersusYoung |
+| 06h | HKMFT | bigdata.6 | 191 / 222 | 86% | running | aligned_timestamps on GunPointOldVersusYoung |
 
-_Last updated: 2026-03-12 00:20 UTC_
+_Last updated: 2026-03-12 00:21 UTC_
