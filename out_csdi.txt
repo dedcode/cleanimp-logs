@@ -549,6 +549,7 @@ CSDI is tested with mcar on Wine, started at 2026-03-11 23:14:58.
 	caching stored for recovery and missing matrix: wine_mcar_csdi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: wine_mcar_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: wine_mcar_csdi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: wine_mcar_csdi_60_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
