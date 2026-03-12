@@ -1002,7 +1002,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 ... [-1978 lines truncated] ...
 
 
-
 {aligned_series, RMSE, none}
 ------------------------------------------
    Dataset      Rate        DeepMVI       
@@ -1295,6 +1294,7 @@ The benchmark has been called:
 
 
 DeepMVI is tested with mcar on ShapeletSim, started at 2026-03-11 18:17:49.
+	caching stored for recovery and missing matrix: shapeletsim_mcar_deepmvi_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
