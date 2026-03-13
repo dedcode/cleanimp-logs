@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-	to_cache: True
 	use_cache: True
 	run_downstream: False
 	runs: 1
@@ -1752,6 +1751,7 @@ done!
 DeepMVI is tested with aligned_series on FreezerSmallTrain, started at 2026-03-13 13:24:05.
 	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
