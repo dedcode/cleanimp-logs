@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1805, in eval_classifier
     imputer_tr.metrics = {
     ^^^^^^^^^^
 UnboundLocalError: cannot access local variable 'imputer_tr' where it is not associated with a value
@@ -1934,6 +1933,7 @@ The benchmark has been called:
 
 
 DeepMVI is tested with mcar on FreezerSmallTrain, started at 2026-03-13 12:38:36.
+	caching stored for recovery and missing matrix: freezersmalltrain_mcar_deepmvi_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
