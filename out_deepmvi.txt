@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-The benchmark has been called:
 	classifiers: ['arsenal']
 	algorithms: ['DeepMVI']
 	datasets: ['ShapesAll']
@@ -1752,6 +1751,7 @@ The benchmark has been called:
 DeepMVI is tested with mcar on FreezerSmallTrain, started at 2026-03-13 12:38:36.
 	caching stored for recovery and missing matrix: freezersmalltrain_mcar_deepmvi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezersmalltrain_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: freezersmalltrain_mcar_deepmvi_40_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
