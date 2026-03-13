@@ -1001,188 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-	datasets: ['RefrigerationDevices']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-DeepMVI is tested with mcar on RefrigerationDevices, started at 2026-03-11 18:17:47.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['DeepMVI']
-	datasets: ['Rock']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-DeepMVI is tested with mcar on Rock, started at 2026-03-11 18:17:47.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['DeepMVI']
-	datasets: ['ScreenType']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-DeepMVI is tested with mcar on ScreenType, started at 2026-03-11 18:17:47.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['DeepMVI']
-	datasets: ['SemgHandGenderCh2']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-DeepMVI is tested with mcar on SemgHandGenderCh2, started at 2026-03-11 18:17:49.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['DeepMVI']
-	datasets: ['SemgHandMovementCh2']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-DeepMVI is tested with mcar on SemgHandMovementCh2, started at 2026-03-11 18:17:49.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['DeepMVI']
-	datasets: ['SemgHandSubjectCh2']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-DeepMVI is tested with mcar on SemgHandSubjectCh2, started at 2026-03-11 18:17:49.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['DeepMVI']
-	datasets: ['ShapeletSim']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-DeepMVI is tested with mcar on ShapeletSim, started at 2026-03-11 18:17:49.
-	caching stored for recovery and missing matrix: shapeletsim_mcar_deepmvi_10_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: shapeletsim_mcar_deepmvi_20_20_contbyclass_imputationbyclass
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['DeepMVI']
-	datasets: ['ShapeletSim']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-DeepMVI is tested with mcar on ShapeletSim, started at 2026-03-13 12:38:35.
-	the imputed matrix has been loaded from the cache (500, 20): shapeletsim_mcar_deepmvi_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (500, 20): shapeletsim_mcar_deepmvi_20_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: shapeletsim_mcar_deepmvi_40_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: shapeletsim_mcar_deepmvi_60_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: shapeletsim_mcar_deepmvi_80_20_contbyclass_imputationbyclass
-done!
-
-
 DeepMVI is tested with aligned_series on ShapeletSim, started at 2026-03-13 12:57:37.
 
 The benchmark has been called:
@@ -1979,6 +1797,188 @@ The benchmark has been called:
 
 DeepMVI is tested with mcar on GunPoint, started at 2026-03-13 12:38:35.
 	caching stored for recovery and missing matrix: gunpoint_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: gunpoint_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+Error during benchmark for DeepMVI, with GunPoint, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPoint, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPoint, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_series on GunPoint, started at 2026-03-13 12:58:06.
+Error during benchmark for DeepMVI, with GunPoint, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPoint, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPoint, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPoint, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPoint, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_timestamps on GunPoint, started at 2026-03-13 12:58:06.
+Error during benchmark for DeepMVI, with GunPoint, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPoint, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPoint, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPoint, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPoint, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+
+> logs: benchmark - Execution Time: 1181.7423 seconds,  (00:19:41.742 hh:mm:ss)
+
+
+GunPoint: {mcar, RMSE, arsenal}
+
+ Rate        DeepMVI       
+
+  0.1      0.1081695392    
+  0.2      0.1889305054    
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+GunPoint: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        DeepMVI       
+
+  0.1   563630.4464340210  
+  0.2   603425.7605075836  
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+GunPoint: {aligned_series, RMSE, arsenal}
+
+ Rate        DeepMVI       
+
+  0.1          nan         
+  0.2          nan         
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+GunPoint: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        DeepMVI       
+
+  0.1          nan         
+  0.2          nan         
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+GunPoint: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        DeepMVI       
+
+  0.1          nan         
+  0.2          nan         
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+GunPoint: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        DeepMVI       
+
+  0.1          nan         
+  0.2          nan         
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+{aligned_series, RMSE, none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+   GunPoint     0.1           nan         
+   GunPoint     0.2           nan         
+   GunPoint     0.4           nan         
+   GunPoint     0.6           nan         
+   GunPoint     0.8           nan         
+------------------------------------------
+
+
+{aligned_series, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+   GunPoint     0.1           nan         
+   GunPoint     0.2           nan         
+   GunPoint     0.4           nan         
+   GunPoint     0.6           nan         
+   GunPoint     0.8           nan         
+------------------------------------------
+
+
+{aligned_timestamps, RMSE, none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+   GunPoint     0.1           nan         
+   GunPoint     0.2           nan         
+   GunPoint     0.4           nan         
+   GunPoint     0.6           nan         
+   GunPoint     0.8           nan         
+------------------------------------------
+
+
+{aligned_timestamps, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+   GunPoint     0.1           nan         
+   GunPoint     0.2           nan         
+   GunPoint     0.4           nan         
+   GunPoint     0.6           nan         
+   GunPoint     0.8           nan         
+------------------------------------------
+
+
+{mcar, RMSE, none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+   GunPoint     0.1       0.1081695392    
+   GunPoint     0.2       0.1889305054    
+   GunPoint     0.4           nan         
+   GunPoint     0.6           nan         
+   GunPoint     0.8           nan         
+------------------------------------------
+
+
+{mcar, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+   GunPoint     0.1    563630.4464340210  
+   GunPoint     0.2    603425.7605075836  
+   GunPoint     0.4           nan         
+   GunPoint     0.6           nan         
+   GunPoint     0.8           nan         
+------------------------------------------
+
+--- Summary (mean ± std) per algorithm ---
+
+DeepMVI = RMSE=0.14855±0.0571066, DOWNSTREAM_ACC=nan±nan, RUNTIME=583528±28139.5
+
+
+The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_deepmvi_d8_26_03_13_12_38_25 
+
 
 The benchmark has been called:
 	classifiers: ['arsenal']
