@@ -1001,11 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
 
 DeepMVI is tested with mcar on UMD, started at 2026-03-11 18:17:48.
 
@@ -1491,6 +1486,11 @@ DeepMVI is tested with aligned_series on FreezerRegularTrain, started at 2026-03
 	caching stored for recovery and missing matrix: freezerregulartrain_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezerregulartrain_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezerregulartrain_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: freezerregulartrain_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on FreezerRegularTrain, started at 2026-03-13 16:09:57.
 
 The benchmark has been called:
 	classifiers: ['arsenal']
