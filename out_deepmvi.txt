@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-Fish: {aligned_timestamps, RMSE, none}
 
  Rate        DeepMVI       
 
@@ -1150,6 +1149,7 @@ The benchmark has been called:
 
 
 DeepMVI is tested with mcar on Wafer, started at 2026-03-13 23:33:06.
+	caching stored for recovery and missing matrix: wafer_mcar_deepmvi_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
