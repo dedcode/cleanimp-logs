@@ -1001,88 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-	classifiers: ['arsenal']
-	algorithms: ['DeepMVI']
-	datasets: ['Fish']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-DeepMVI is tested with mcar on Fish, started at 2026-03-11 18:17:47.
-	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_deepmvi_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_deepmvi_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_deepmvi_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_deepmvi_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_deepmvi_80_20_contbyclass_imputationbyclass
-done!
-
-
-DeepMVI is tested with aligned_series on Fish, started at 2026-03-11 18:17:56.
-	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
-done!
-
-
-DeepMVI is tested with aligned_timestamps on Fish, started at 2026-03-11 18:18:04.
-	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['DeepMVI']
-	datasets: ['Fish']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-DeepMVI is tested with mcar on Fish, started at 2026-03-13 12:38:36.
-	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_deepmvi_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_deepmvi_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_deepmvi_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_deepmvi_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_mcar_deepmvi_80_20_contbyclass_imputationbyclass
-done!
-
-
-DeepMVI is tested with aligned_series on Fish, started at 2026-03-13 12:38:44.
-	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
-done!
-
-
-DeepMVI is tested with aligned_timestamps on Fish, started at 2026-03-13 12:38:53.
-	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: fish_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
@@ -1491,6 +1409,88 @@ DeepMVI is tested with aligned_timestamps on FreezerRegularTrain, started at 202
 	caching stored for recovery and missing matrix: freezerregulartrain_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezerregulartrain_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezerregulartrain_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: freezerregulartrain_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+
+> logs: benchmark - Execution Time: 10836.335 seconds,  (03:00:36.335 hh:mm:ss)
+
+
+FreezerRegularTrain: {mcar, RMSE, none}
+
+ Rate        DeepMVI       
+
+  0.1      0.3228212169    
+  0.2      0.5813381696    
+  0.4      0.4884152291    
+  0.6      0.6091632975    
+  0.8      0.9427295276    
+
+
+
+FreezerRegularTrain: {mcar, RUNTIME[ms], none}
+
+ Rate        DeepMVI       
+
+  0.1     59.4935417175    
+  0.2     56.9224357605    
+  0.4     58.5238933563    
+  0.6     75.2065181732    
+  0.8   1018973.0918407440 
+
+
+
+FreezerRegularTrain: {aligned_series, RMSE, none}
+
+ Rate        DeepMVI       
+
+  0.1      0.3600311792    
+  0.2      0.4476587172    
+  0.4      0.4938338680    
+  0.6      0.6376899694    
+  0.8      0.7401414841    
+
+
+
+FreezerRegularTrain: {aligned_series, RUNTIME[ms], none}
+
+ Rate        DeepMVI       
+
+  0.1   804295.3798770905  
+  0.2   686440.1576519012  
+  0.4   812346.5845584869  
+  0.6   991494.8635101318  
+  0.8   534689.3234252930  
+
+
+
+FreezerRegularTrain: {aligned_timestamps, RMSE, none}
+
+ Rate        DeepMVI       
+
+  0.1      0.3709788564    
+  0.2      0.4476587172    
+  0.4      0.3936337605    
+  0.6      0.6402839159    
+  0.8      1.3063689422    
+
+
+
+FreezerRegularTrain: {aligned_timestamps, RUNTIME[ms], none}
+
+ Rate        DeepMVI       
+
+  0.1   810820.4648494720  
+  0.2   917649.4805812836  
+  0.4   1450208.1887722015 
+  0.6   1334097.8593826294 
+  0.8   1438014.2061710358 
+
+
+
+The plots have been generated...
+
 
 The benchmark has been called:
 	classifiers: ['arsenal']
