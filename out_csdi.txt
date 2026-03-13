@@ -750,6 +750,20 @@ The benchmark has been called:
 	number max values: 1000
 
 
+CSDI is tested with mcar on Wine, started at 2026-03-13 14:56:41.
+	the imputed matrix has been loaded from the cache (234, 57): wine_mcar_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (234, 57): wine_mcar_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (234, 57): wine_mcar_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (234, 57): wine_mcar_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (234, 57): wine_mcar_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_series on Wine, started at 2026-03-13 14:56:54.
+	the imputed matrix has been loaded from the cache (234, 57): wine_aligned_series_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (234, 57): wine_aligned_series_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (234, 57): wine_aligned_series_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (234, 57): wine_aligned_series_csdi_60_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -816,6 +830,8 @@ The benchmark has been called:
 	number max values: 1000
 
 
+CSDI is tested with mcar on WormsTwoClass, started at 2026-03-13 14:56:41.
+	the imputed matrix has been loaded from the cache (900, 181): wormstwoclass_mcar_csdi_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -860,6 +876,8 @@ The benchmark has been called:
 	number max values: 1000
 
 
+CSDI is tested with mcar on Yoga, started at 2026-03-13 14:56:41.
+	the imputed matrix has been loaded from the cache (426, 300): yoga_mcar_csdi_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
