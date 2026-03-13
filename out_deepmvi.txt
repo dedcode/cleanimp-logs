@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-    imputer_tr.metrics = {
     ^^^^^^^^^^
 UnboundLocalError: cannot access local variable 'imputer_tr' where it is not associated with a value
 
@@ -1185,6 +1184,7 @@ DeepMVI is tested with mcar on ShapeletSim, started at 2026-03-13 12:38:35.
 	the imputed matrix has been loaded from the cache (500, 20): shapeletsim_mcar_deepmvi_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (500, 20): shapeletsim_mcar_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: shapeletsim_mcar_deepmvi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: shapeletsim_mcar_deepmvi_60_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
