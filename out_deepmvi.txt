@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-  File "/storage/experiments/cleanimp/imputegap/script_deepmvi_d30.py", line 7, in <module>
     bench.eval_classifier(classifiers=["arsenal"],
   File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1805, in eval_classifier
     imputer_tr.metrics = {
@@ -1187,6 +1186,7 @@ The benchmark has been called:
 DeepMVI is tested with mcar on ShapeletSim, started at 2026-03-13 12:38:35.
 	the imputed matrix has been loaded from the cache (500, 20): shapeletsim_mcar_deepmvi_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (500, 20): shapeletsim_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: shapeletsim_mcar_deepmvi_40_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
