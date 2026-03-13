@@ -1001,11 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/model.py", line 106, in __init__
-    assert self.kernel_size % self.block_size == 0
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError
-
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
@@ -1656,6 +1651,11 @@ DeepMVI is tested with mcar on FreezerRegularTrain, started at 2026-03-13 14:48:
 	the imputed matrix has been loaded from the cache (301, 150): freezerregulartrain_mcar_deepmvi_20_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (301, 150): freezerregulartrain_mcar_deepmvi_40_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (301, 150): freezerregulartrain_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: freezerregulartrain_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on FreezerRegularTrain, started at 2026-03-13 15:05:59.
 
 The benchmark has been called:
 	classifiers: ['arsenal']
