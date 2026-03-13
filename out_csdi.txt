@@ -560,6 +560,175 @@ CSDI is tested with aligned_series on Wine, started at 2026-03-12 18:20:50.
 	caching stored for recovery and missing matrix: wine_aligned_series_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: wine_aligned_series_csdi_60_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: wine_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on Wine, started at 2026-03-13 13:27:11.
+	the imputed matrix has been loaded from the cache (234, 57): wine_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (234, 57): wine_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (234, 57): wine_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (234, 57): wine_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (234, 57): wine_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+
+> logs: benchmark - Execution Time: 137569.0738 seconds,  (38:12:49.074 hh:mm:ss)
+
+
+Wine: {mcar, RMSE, none}
+
+ Rate          CSDI        
+
+  0.1      7.4553216629    
+  0.2      6.2976426075    
+  0.4      3.4477875065    
+  0.6     10.6112152929    
+  0.8      4.3298943181    
+
+
+
+Wine: {mcar, RUNTIME[ms], none}
+
+ Rate          CSDI        
+
+  0.1   13713019.1209316254 
+  0.2   13769433.2902431488 
+  0.4   13598824.0528106689 
+  0.6   13737904.6723842621 
+  0.8   13897797.8477478027 
+
+
+
+Wine: {aligned_series, RMSE, none}
+
+ Rate          CSDI        
+
+  0.1      1.9198786136    
+  0.2      3.1097576515    
+  0.4      1.9754320538    
+  0.6      0.9012370910    
+  0.8      0.8891613087    
+
+
+
+Wine: {aligned_series, RUNTIME[ms], none}
+
+ Rate          CSDI        
+
+  0.1   13810434.7572326660 
+  0.2   13635225.2955436707 
+  0.4   13860811.0163211823 
+  0.6   13707300.5445003510 
+  0.8   13730577.2914886475 
+
+
+
+Wine: {aligned_timestamps, RMSE, none}
+
+ Rate          CSDI        
+
+  0.1      0.1619422002    
+  0.2      2.8876466837    
+  0.4      3.1205905729    
+  0.6      4.6407552253    
+  0.8      8.7666879916    
+
+
+
+Wine: {aligned_timestamps, RUNTIME[ms], none}
+
+ Rate          CSDI        
+
+  0.1     39.5205020905    
+  0.2     108.8736057281   
+  0.4     27.7755260468    
+  0.6     21.2016105652    
+  0.8     39.1004085541    
+
+
+
+The plots have been generated...
+
+
+{aligned_series, RMSE, none}
+------------------------------------------
+   Dataset      Rate          CSDI        
+------------------------------------------
+     Wine       0.1       1.9198786136    
+     Wine       0.2       3.1097576515    
+     Wine       0.4       1.9754320538    
+     Wine       0.6       0.9012370910    
+     Wine       0.8       0.8891613087    
+------------------------------------------
+
+
+{aligned_series, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate          CSDI        
+------------------------------------------
+     Wine       0.1    13810434.7572326660 
+     Wine       0.2    13635225.2955436707 
+     Wine       0.4    13860811.0163211823 
+     Wine       0.6    13707300.5445003510 
+     Wine       0.8    13730577.2914886475 
+------------------------------------------
+
+
+{aligned_timestamps, RMSE, none}
+------------------------------------------
+   Dataset      Rate          CSDI        
+------------------------------------------
+     Wine       0.1       0.1619422002    
+     Wine       0.2       2.8876466837    
+     Wine       0.4       3.1205905729    
+     Wine       0.6       4.6407552253    
+     Wine       0.8       8.7666879916    
+------------------------------------------
+
+
+{aligned_timestamps, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate          CSDI        
+------------------------------------------
+     Wine       0.1      39.5205020905    
+     Wine       0.2      108.8736057281   
+     Wine       0.4      27.7755260468    
+     Wine       0.6      21.2016105652    
+     Wine       0.8      39.1004085541    
+------------------------------------------
+
+
+{mcar, RMSE, none}
+------------------------------------------
+   Dataset      Rate          CSDI        
+------------------------------------------
+     Wine       0.1       7.4553216629    
+     Wine       0.2       6.2976426075    
+     Wine       0.4       3.4477875065    
+     Wine       0.6      10.6112152929    
+     Wine       0.8       4.3298943181    
+------------------------------------------
+
+
+{mcar, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate          CSDI        
+------------------------------------------
+     Wine       0.1    13713019.1209316254 
+     Wine       0.2    13769433.2902431488 
+     Wine       0.4    13598824.0528106689 
+     Wine       0.6    13737904.6723842621 
+     Wine       0.8    13897797.8477478027 
+------------------------------------------
+
+--- Summary (mean ± std) per algorithm ---
+
+CSDI = RMSE=4.03433±3.04366, DOWNSTREAM_ACC=nan±nan, RUNTIME=9.1641e+06±6.70782e+06
+
+
+The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_01_csdi_d10_26_03_11_23_14_47 
+
 
 The benchmark has been called:
 	classifiers: ['arsenal']
