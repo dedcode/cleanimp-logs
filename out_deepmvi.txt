@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-
 DeepMVI is tested with mcar on UMD, started at 2026-03-11 18:17:48.
 
 The benchmark has been called:
@@ -1491,6 +1490,7 @@ done!
 
 
 DeepMVI is tested with aligned_timestamps on FreezerRegularTrain, started at 2026-03-13 16:09:57.
+	caching stored for recovery and missing matrix: freezerregulartrain_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
