@@ -1001,12 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-	algorithms: ['DeepMVI']
-	datasets: ['ShapesAll']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
 	normalizer: z-score
 	contamination_by_class: True
 	imputation_by_class: True
@@ -1704,6 +1698,7 @@ The benchmark has been called:
 DeepMVI is tested with mcar on FreezerRegularTrain, started at 2026-03-13 12:38:36.
 	caching stored for recovery and missing matrix: freezerregulartrain_mcar_deepmvi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezerregulartrain_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: freezerregulartrain_mcar_deepmvi_40_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
@@ -1752,6 +1747,11 @@ DeepMVI is tested with mcar on FreezerSmallTrain, started at 2026-03-13 12:38:36
 	caching stored for recovery and missing matrix: freezersmalltrain_mcar_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezersmalltrain_mcar_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezersmalltrain_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: freezersmalltrain_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on FreezerSmallTrain, started at 2026-03-13 13:24:05.
 
 The benchmark has been called:
 	classifiers: ['arsenal']
