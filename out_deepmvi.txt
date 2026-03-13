@@ -1001,11 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-    matrix_imputed = transformer_recovery(input, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, seed=seed, verbose=verbose, deep_verbose=False)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/transformer.py", line 201, in transformer_recovery
-    model = OurModel(sizes=[train_feats.shape[1]], kernel_size=kernel_size, block_size=block_size, nhead=2, time_len=train_feats.shape[0], use_embed=use_embed, use_context=use_context, use_local=use_local).to(device)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/model.py", line 106, in __init__
     assert self.kernel_size % self.block_size == 0
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1752,6 +1747,11 @@ DeepMVI is tested with aligned_series on FreezerSmallTrain, started at 2026-03-1
 	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (301, 28): freezersmalltrain_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: freezersmalltrain_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on FreezerSmallTrain, started at 2026-03-13 15:00:13.
 
 The benchmark has been called:
 	classifiers: ['arsenal']
