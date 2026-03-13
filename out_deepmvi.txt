@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "/storage/experiments/cleanimp/imputegap/script_deepmvi_d4.py", line 7, in <module>
@@ -1752,6 +1751,7 @@ done!
 
 
 DeepMVI is tested with aligned_timestamps on FreezerSmallTrain, started at 2026-03-13 15:00:13.
+	caching stored for recovery and missing matrix: freezersmalltrain_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
