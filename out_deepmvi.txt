@@ -1001,15 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/model.py", line 106, in __init__
-    assert self.kernel_size % self.block_size == 0
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
   File "/storage/experiments/cleanimp/imputegap/script_deepmvi_d30.py", line 7, in <module>
     bench.eval_classifier(classifiers=["arsenal"],
   File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1805, in eval_classifier
@@ -1737,6 +1728,15 @@ done!
 DeepMVI is tested with aligned_series on Fish, started at 2026-03-13 12:38:44.
 	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
 	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on Fish, started at 2026-03-13 12:38:53.
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (463, 175): fish_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
