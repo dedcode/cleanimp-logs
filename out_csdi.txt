@@ -733,6 +733,27 @@ The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_c
 The benchmark has been called:
 	classifiers: ['arsenal']
 	algorithms: ['CSDI']
+	datasets: ['Wine']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
 	datasets: ['Worms']
 	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
 	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
@@ -778,6 +799,27 @@ CSDI is tested with mcar on WormsTwoClass, started at 2026-03-11 23:14:58.
 The benchmark has been called:
 	classifiers: ['arsenal']
 	algorithms: ['CSDI']
+	datasets: ['WormsTwoClass']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
 	datasets: ['Yoga']
 	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
 	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
@@ -797,6 +839,27 @@ The benchmark has been called:
 
 CSDI is tested with mcar on Yoga, started at 2026-03-11 23:14:58.
 	caching stored for recovery and missing matrix: yoga_mcar_csdi_10_20_contbyclass_imputationbyclass
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['CSDI']
+	datasets: ['Yoga']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
 
 The benchmark has been called:
 	classifiers: ['arsenal']
