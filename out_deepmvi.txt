@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-{aligned_series, RMSE, none}
 ------------------------------------------
    Dataset      Rate        DeepMVI       
 ------------------------------------------
@@ -1238,6 +1237,7 @@ The benchmark has been called:
 
 
 DeepMVI is tested with mcar on Yoga, started at 2026-03-14 01:08:13.
+	caching stored for recovery and missing matrix: yoga_mcar_deepmvi_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
