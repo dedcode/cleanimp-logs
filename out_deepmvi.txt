@@ -1002,28 +1002,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 ... [-1978 lines truncated] ...
 
 
- Rate        DeepMVI       
-
-  0.1      0.0921558656    
-  0.2      0.1483538071    
-  0.4      0.3021722748    
-  0.6      0.3052075582    
-  0.8      1.0826830269    
-
-
-
-Fish: {aligned_timestamps, RUNTIME[ms], none}
-
- Rate        DeepMVI       
-
-  0.1     110.5277538300   
-  0.2     114.1645908356   
-  0.4     104.7396659851   
-  0.6   1786895.6601619720 
-  0.8   2029809.7445964813 
-
-
-
 The plots have been generated...
 
 
@@ -1194,6 +1172,28 @@ The benchmark has been called:
 
 
 DeepMVI is tested with mcar on Worms, started at 2026-03-11 18:17:48.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['Worms']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on Worms, started at 2026-03-14 00:05:07.
 
 The benchmark has been called:
 	classifiers: ['arsenal']
