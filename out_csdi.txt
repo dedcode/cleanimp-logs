@@ -1164,6 +1164,97 @@ CSDI is tested with aligned_series on SharePriceIncrease, started at 2026-03-13 
 	caching stored for recovery and missing matrix: sharepriceincrease_aligned_series_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: sharepriceincrease_aligned_series_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: sharepriceincrease_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: sharepriceincrease_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on SharePriceIncrease, started at 2026-03-14 18:43:26.
+	the imputed matrix has been loaded from the cache (60, 965): sharepriceincrease_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (60, 965): sharepriceincrease_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (60, 965): sharepriceincrease_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (60, 965): sharepriceincrease_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (60, 965): sharepriceincrease_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+
+> logs: benchmark - Execution Time: 242936.9966 seconds,  (67:28:56.997 hh:mm:ss)
+
+
+SharePriceIncrease: {mcar, RMSE, none}
+
+ Rate          CSDI        
+
+  0.1      3.0616750880    
+  0.2      3.4401981475    
+  0.4      2.3579422775    
+  0.6      3.3676164082    
+  0.8      3.4672846185    
+
+
+
+SharePriceIncrease: {mcar, RUNTIME[ms], none}
+
+ Rate          CSDI        
+
+  0.1   30581159.8122119904 
+  0.2   30951660.0105762482 
+  0.4   31151828.4940719604 
+  0.6   30968225.6693840027 
+  0.8   26804819.2110061646 
+
+
+
+SharePriceIncrease: {aligned_series, RMSE, none}
+
+ Rate          CSDI        
+
+  0.1      1.9696029657    
+  0.2      3.2891446604    
+  0.4      2.3612947604    
+  0.6      3.3102985448    
+  0.8      3.4235542763    
+
+
+
+SharePriceIncrease: {aligned_series, RUNTIME[ms], none}
+
+ Rate          CSDI        
+
+  0.1   19462979.2482852936 
+  0.2   19607907.1166515350 
+  0.4   19116627.6946067810 
+  0.6   16280171.8206405640 
+  0.8   17933097.2766876221 
+
+
+
+SharePriceIncrease: {aligned_timestamps, RMSE, none}
+
+ Rate          CSDI        
+
+  0.1      2.8208242050    
+  0.2      2.5320129849    
+  0.4      2.4606963615    
+  0.6      2.2369810429    
+  0.8      2.7061557026    
+
+
+
+SharePriceIncrease: {aligned_timestamps, RUNTIME[ms], none}
+
+ Rate          CSDI        
+
+  0.1     231.4748764038   
+  0.2     171.5130805969   
+  0.4     252.0959377289   
+  0.6     201.7972469330   
+  0.8     217.2029018402   
+
+
+
+The plots have been generated...
+
 
 The benchmark has been called:
 	classifiers: ['arsenal']
