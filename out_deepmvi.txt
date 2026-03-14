@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-------------------------------------------
 
 
 {aligned_timestamps, RUNTIME[ms], none}
@@ -1121,6 +1120,7 @@ done!
 
 
 DeepMVI is tested with aligned_series on Worms, started at 2026-03-14 03:06:54.
+	caching stored for recovery and missing matrix: worms_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
