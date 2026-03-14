@@ -1,7 +1,7 @@
 ALGO=PRISTI
 SERVER=bigdata.7
-PROGRESS=996
+PROGRESS=997
 TOTAL=1110
 PCT=89
 STATUS=running
-LAST=medicalimages aligned series
+LAST=medicalimages aligned timestamps
