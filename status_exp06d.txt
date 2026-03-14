@@ -1,7 +1,7 @@
 ALGO=DeepMVI
 SERVER=colab.nb
-PROGRESS=668
+PROGRESS=669
 TOTAL=1110
 PCT=60
 STATUS=running
-LAST=sonyaiborobotsurface1 mcar
+LAST=motestrain mcar
