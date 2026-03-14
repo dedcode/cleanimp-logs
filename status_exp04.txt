@@ -3,5 +3,5 @@ SERVER=bigdata.7
 PROGRESS=994
 TOTAL=1110
 PCT=89
-STATUS=stopped
+STATUS=running
 LAST=motestrain aligned series
