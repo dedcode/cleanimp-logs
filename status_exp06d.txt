@@ -3,5 +3,5 @@ SERVER=colab.nb
 PROGRESS=658
 TOTAL=1110
 PCT=59
-STATUS=stopped
+STATUS=running
 LAST=shapesall mcar
