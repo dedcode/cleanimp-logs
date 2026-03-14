@@ -1,7 +1,7 @@
 ALGO=PRISTI
 SERVER=bigdata.7
-PROGRESS=994
+PROGRESS=995
 TOTAL=1110
 PCT=89
 STATUS=running
-LAST=motestrain aligned series
+LAST=medicalimages aligned series
