@@ -3,5 +3,5 @@ SERVER=bigdata.8
 PROGRESS=1000
 TOTAL=1110
 PCT=90
-STATUS=stopped
+STATUS=running
 LAST=umd aligned series
