@@ -4,4 +4,4 @@ PROGRESS=992
 TOTAL=1110
 PCT=89
 STATUS=running
-LAST=refrigerationdevices mcar
+LAST=smallkitchenappliances aligned series
