@@ -4,7 +4,7 @@ Live experiment logs pushed every 30 seconds.
 
 | Exp | Algorithm | Server | Progress | % | Status | Last Activity |
 |-----|-----------|--------|----------|---|--------|---------------|
-| 01 | CSDI | bigdata.8 | 994 / 1110 | 89% | running | sonyaiborobotsurface1 aligned timestamps |
+| 01 | CSDI | bigdata.8 | 994 / 1110 | 89% | running | refrigerationdevices mcar |
 | 02 | GPT4TS | bigdata.5 | 222 / 222 | 100% | done | GPT4TS is tested with aligned_timestamps on Yoga, started at 2026-02-24 21:36:15. |
 | 03 | TimesNet | bigdata.6 | 222 / 222 | 100% | done | TimesNet is tested with aligned_timestamps on Yoga, started at 2026-02-20 16:30:04. |
 | 04 | PRISTI | bigdata.7 | 982 / 1110 | 88% | running | yoga aligned timestamps |
@@ -12,4 +12,4 @@ Live experiment logs pushed every 30 seconds.
 | 06d | DeepMVI | colab.nb | 191 / 222 | 86% | running | DeepMVI is tested with aligned_timestamps on GunPointAgeSpan, started at 2026-03-14 05:11:02. |
 | 06h | HKMFT | bigdata.6 | 1023 / 1110 | 92% | running | largekitchenappliances aligned series |
 
-_Last updated: 2026-03-14 17:18 UTC_
+_Last updated: 2026-03-14 17:19 UTC_
