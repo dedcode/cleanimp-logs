@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-------------------------------------------
     Wafer       0.1           nan         
     Wafer       0.2           nan         
     Wafer       0.4           nan         
@@ -1190,6 +1189,7 @@ DeepMVI is tested with aligned_series on WormsTwoClass, started at 2026-03-14 01
 	caching stored for recovery and missing matrix: wormstwoclass_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: wormstwoclass_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: wormstwoclass_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: wormstwoclass_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
