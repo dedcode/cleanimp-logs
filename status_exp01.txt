@@ -4,4 +4,4 @@ PROGRESS=980
 TOTAL=1110
 PCT=88
 STATUS=running
-LAST=worms mcar
+LAST=shapesall mcar
