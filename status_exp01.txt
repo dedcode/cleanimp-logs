@@ -4,4 +4,4 @@ PROGRESS=987
 TOTAL=1110
 PCT=88
 STATUS=running
-LAST=sonyaiborobotsurface1 aligned timestamps
+LAST=smallkitchenappliances aligned series
