@@ -1,7 +1,7 @@
 ALGO=PRISTI
 SERVER=bigdata.7
-PROGRESS=985
+PROGRESS=991
 TOTAL=1110
-PCT=88
+PCT=89
 STATUS=stopped
-LAST=yoga aligned timestamps
+LAST=motestrain aligned series
