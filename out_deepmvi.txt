@@ -1001,28 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-  0.2          nan         
-  0.4          nan         
-  0.6          nan         
-  0.8          nan         
-
-
-
-Wafer: {aligned_timestamps, RUNTIME[ms], arsenal}
-
- Rate        DeepMVI       
-
-  0.1          nan         
-  0.2          nan         
-  0.4          nan         
-  0.6          nan         
-  0.8          nan         
-
-
-
-The plots have been generated...
-
-
 {aligned_series, RMSE, none}
 ------------------------------------------
    Dataset      Rate        DeepMVI       
@@ -1238,6 +1216,28 @@ The benchmark has been called:
 
 
 DeepMVI is tested with mcar on Yoga, started at 2026-03-11 18:17:49.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['Yoga']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on Yoga, started at 2026-03-14 01:08:13.
 
 The benchmark has been called:
 	classifiers: ['arsenal']
