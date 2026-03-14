@@ -12,4 +12,4 @@ Live experiment logs pushed every 30 seconds.
 | 06d | DeepMVI | colab.nb | 191 / 222 | 86% | running | DeepMVI is tested with aligned_timestamps on GunPointAgeSpan, started at 2026-03-14 05:11:02. |
 | 06h | HKMFT | bigdata.6 | 1023 / 1110 | 92% | running | largekitchenappliances aligned series |
 
-_Last updated: 2026-03-14 17:19 UTC_
+_Last updated: 2026-03-14 17:20 UTC_
