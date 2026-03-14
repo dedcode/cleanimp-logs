@@ -3,5 +3,5 @@ SERVER=bigdata.8
 PROGRESS=996
 TOTAL=1110
 PCT=89
-STATUS=running
-LAST=sonyaiborobotsurface1 aligned timestamps
+STATUS=stopped
+LAST=yoga aligned timestamps
