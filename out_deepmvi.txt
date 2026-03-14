@@ -1001,28 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-	caching stored for recovery and missing matrix: wormstwoclass_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: wormstwoclass_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: wormstwoclass_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: wormstwoclass_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: wormstwoclass_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
-done!
-
-
-DeepMVI is tested with aligned_timestamps on WormsTwoClass, started at 2026-03-14 03:04:11.
-	caching stored for recovery and missing matrix: wormstwoclass_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: wormstwoclass_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: wormstwoclass_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: wormstwoclass_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: wormstwoclass_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
-done!
-
-
-
-> logs: benchmark - Execution Time: 15441.0886 seconds,  (04:17:21.089 hh:mm:ss)
-
-
-WormsTwoClass: {mcar, RMSE, none}
 
  Rate        DeepMVI       
 
@@ -2001,3 +1979,25 @@ The benchmark has been called:
 
 
 DeepMVI is tested with mcar on GunPointAgeSpan, started at 2026-03-11 18:17:47.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['GunPointAgeSpan']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on GunPointAgeSpan, started at 2026-03-14 04:37:27.
