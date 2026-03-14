@@ -1001,28 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-
-The plots have been generated...
-
-
-{aligned_series, RMSE, none}
-------------------------------------------
-   Dataset      Rate        DeepMVI       
-------------------------------------------
-     Fish       0.1       0.1476083056    
-     Fish       0.2       0.1483538071    
-     Fish       0.4       0.1637122938    
-     Fish       0.6       0.1915089469    
-     Fish       0.8       0.2339253700    
-------------------------------------------
-
-
-{aligned_series, RUNTIME[ms], none}
-------------------------------------------
-   Dataset      Rate        DeepMVI       
-------------------------------------------
-     Fish       0.1      104.7461032867   
-     Fish       0.2      105.5643558502   
      Fish       0.4      116.1899566650   
      Fish       0.6      102.5671958923   
      Fish       0.8      106.8909168243   
@@ -1216,6 +1194,28 @@ The benchmark has been called:
 
 
 DeepMVI is tested with mcar on WormsTwoClass, started at 2026-03-11 18:17:49.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['WormsTwoClass']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on WormsTwoClass, started at 2026-03-14 00:19:09.
 
 The benchmark has been called:
 	classifiers: ['arsenal']
