@@ -3,5 +3,5 @@ SERVER=bigdata.6
 PROGRESS=1023
 TOTAL=1110
 PCT=92
-STATUS=running
+STATUS=stopped
 LAST=largekitchenappliances aligned series
