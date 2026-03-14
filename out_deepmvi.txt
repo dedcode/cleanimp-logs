@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
- Rate        DeepMVI       
 
   0.1          nan         
   0.2          nan         
@@ -1216,6 +1215,7 @@ The benchmark has been called:
 
 DeepMVI is tested with mcar on WormsTwoClass, started at 2026-03-14 00:19:09.
 	caching stored for recovery and missing matrix: wormstwoclass_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: wormstwoclass_mcar_deepmvi_20_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
