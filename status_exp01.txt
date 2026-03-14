@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.8
-PROGRESS=1012
+PROGRESS=1014
 TOTAL=1110
 PCT=91
 STATUS=running
-LAST=twopatterns aligned series
+LAST=smallkitchenappliances aligned timestamps
