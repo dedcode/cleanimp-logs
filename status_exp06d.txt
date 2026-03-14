@@ -1,7 +1,7 @@
 ALGO=DeepMVI
 SERVER=colab.nb
-PROGRESS=680
+PROGRESS=681
 TOTAL=1110
 PCT=61
 STATUS=running
-LAST=gunpointmaleversusfemale mcar
+LAST=proximalphalanxoutlinecorrect mcar
