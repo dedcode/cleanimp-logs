@@ -1227,6 +1227,176 @@ CSDI is tested with aligned_series on SonyAIBORobotSurface1, started at 2026-03-
 	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_series_csdi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_series_csdi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_series_csdi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: sonyaiborobotsurface1_aligned_series_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+CSDI is tested with aligned_timestamps on SonyAIBORobotSurface1, started at 2026-03-14 07:49:29.
+	the imputed matrix has been loaded from the cache (70, 20): sonyaiborobotsurface1_aligned_timestamps_csdi_10_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (70, 20): sonyaiborobotsurface1_aligned_timestamps_csdi_20_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (70, 20): sonyaiborobotsurface1_aligned_timestamps_csdi_40_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (70, 20): sonyaiborobotsurface1_aligned_timestamps_csdi_60_20_contbyclass_imputationbyclass
+	the imputed matrix has been loaded from the cache (70, 20): sonyaiborobotsurface1_aligned_timestamps_csdi_80_20_contbyclass_imputationbyclass
+done!
+
+
+
+> logs: benchmark - Execution Time: 203700.6547 seconds,  (56:35:00.655 hh:mm:ss)
+
+
+SonyAIBORobotSurface1: {mcar, RMSE, none}
+
+ Rate          CSDI        
+
+  0.1      3.2760334695    
+  0.2      1.6332458447    
+  0.4      5.0868391632    
+  0.6      4.9779619832    
+  0.8      4.1817792029    
+
+
+
+SonyAIBORobotSurface1: {mcar, RUNTIME[ms], none}
+
+ Rate          CSDI        
+
+  0.1   23654479.3894290924 
+  0.2   23546874.6018409729 
+  0.4   23813000.7188320160 
+  0.6   23577130.2440166473 
+  0.8   23752441.7896270752 
+
+
+
+SonyAIBORobotSurface1: {aligned_series, RMSE, none}
+
+ Rate          CSDI        
+
+  0.1     16.9988536928    
+  0.2      7.6722733280    
+  0.4      7.0482328842    
+  0.6      2.9339637681    
+  0.8      2.0452800862    
+
+
+
+SonyAIBORobotSurface1: {aligned_series, RUNTIME[ms], none}
+
+ Rate          CSDI        
+
+  0.1   23599210.2110385895 
+  0.2   15701426.3539314270 
+  0.4   14861783.9508056641 
+  0.6   15457746.7007637024 
+  0.8   15660204.9887180328 
+
+
+
+SonyAIBORobotSurface1: {aligned_timestamps, RMSE, none}
+
+ Rate          CSDI        
+
+  0.1      8.3918900739    
+  0.2      5.6897229094    
+  0.4      7.5770240833    
+  0.6     13.2845505897    
+  0.8      4.4612881096    
+
+
+
+SonyAIBORobotSurface1: {aligned_timestamps, RUNTIME[ms], none}
+
+ Rate          CSDI        
+
+  0.1      6.7908763885    
+  0.2      3.5095214844    
+  0.4      3.0596256256    
+  0.6     21.8439102173    
+  0.8      2.9318332672    
+
+
+
+The plots have been generated...
+
+
+{aligned_series, RMSE, none}
+-----------------------------------------------------
+         Dataset           Rate          CSDI        
+-----------------------------------------------------
+  SonyAIBORobotSurface1    0.1      16.9988536928    
+  SonyAIBORobotSurface1    0.2       7.6722733280    
+  SonyAIBORobotSurface1    0.4       7.0482328842    
+  SonyAIBORobotSurface1    0.6       2.9339637681    
+  SonyAIBORobotSurface1    0.8       2.0452800862    
+-----------------------------------------------------
+
+
+{aligned_series, RUNTIME[ms], none}
+-----------------------------------------------------
+         Dataset           Rate          CSDI        
+-----------------------------------------------------
+  SonyAIBORobotSurface1    0.1    23599210.2110385895 
+  SonyAIBORobotSurface1    0.2    15701426.3539314270 
+  SonyAIBORobotSurface1    0.4    14861783.9508056641 
+  SonyAIBORobotSurface1    0.6    15457746.7007637024 
+  SonyAIBORobotSurface1    0.8    15660204.9887180328 
+-----------------------------------------------------
+
+
+{aligned_timestamps, RMSE, none}
+-----------------------------------------------------
+         Dataset           Rate          CSDI        
+-----------------------------------------------------
+  SonyAIBORobotSurface1    0.1       8.3918900739    
+  SonyAIBORobotSurface1    0.2       5.6897229094    
+  SonyAIBORobotSurface1    0.4       7.5770240833    
+  SonyAIBORobotSurface1    0.6      13.2845505897    
+  SonyAIBORobotSurface1    0.8       4.4612881096    
+-----------------------------------------------------
+
+
+{aligned_timestamps, RUNTIME[ms], none}
+-----------------------------------------------------
+         Dataset           Rate          CSDI        
+-----------------------------------------------------
+  SonyAIBORobotSurface1    0.1       6.7908763885    
+  SonyAIBORobotSurface1    0.2       3.5095214844    
+  SonyAIBORobotSurface1    0.4       3.0596256256    
+  SonyAIBORobotSurface1    0.6      21.8439102173    
+  SonyAIBORobotSurface1    0.8       2.9318332672    
+-----------------------------------------------------
+
+
+{mcar, RMSE, none}
+-----------------------------------------------------
+         Dataset           Rate          CSDI        
+-----------------------------------------------------
+  SonyAIBORobotSurface1    0.1       3.2760334695    
+  SonyAIBORobotSurface1    0.2       1.6332458447    
+  SonyAIBORobotSurface1    0.4       5.0868391632    
+  SonyAIBORobotSurface1    0.6       4.9779619832    
+  SonyAIBORobotSurface1    0.8       4.1817792029    
+-----------------------------------------------------
+
+
+{mcar, RUNTIME[ms], none}
+-----------------------------------------------------
+         Dataset           Rate          CSDI        
+-----------------------------------------------------
+  SonyAIBORobotSurface1    0.1    23654479.3894290924 
+  SonyAIBORobotSurface1    0.2    23546874.6018409729 
+  SonyAIBORobotSurface1    0.4    23813000.7188320160 
+  SonyAIBORobotSurface1    0.6    23577130.2440166473 
+  SonyAIBORobotSurface1    0.8    23752441.7896270752 
+-----------------------------------------------------
+
+--- Summary (mean ± std) per algorithm ---
+
+CSDI = RMSE=6.3506±4.17027, DOWNSTREAM_ACC=nan±nan, RUNTIME=1.3575e+07±1.05066e+07
+
+
+The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_01_csdi_d6_26_03_11_23_14_47 
+
 
 The benchmark has been called:
 	classifiers: ['arsenal']
