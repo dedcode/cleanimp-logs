@@ -4,4 +4,4 @@ PROGRESS=983
 TOTAL=1110
 PCT=88
 STATUS=running
-LAST=medicalimages aligned series
+LAST=acsf1 aligned timestamps
