@@ -1,7 +1,7 @@
 ALGO=HKMFT
 SERVER=bigdata.6
-PROGRESS=1023
+PROGRESS=1035
 TOTAL=1110
-PCT=92
-STATUS=stopped
+PCT=93
+STATUS=running
 LAST=largekitchenappliances aligned series
