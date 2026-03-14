@@ -4,4 +4,4 @@ PROGRESS=984
 TOTAL=1110
 PCT=88
 STATUS=running
-LAST=yoga mcar
+LAST=yoga aligned timestamps
