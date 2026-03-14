@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-{mcar, RMSE, none}
 ------------------------------------------
    Dataset      Rate        DeepMVI       
 ------------------------------------------
@@ -1175,6 +1174,7 @@ DeepMVI is tested with aligned_timestamps on WormsTwoClass, started at 2026-03-1
 	caching stored for recovery and missing matrix: wormstwoclass_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: wormstwoclass_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: wormstwoclass_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: wormstwoclass_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
