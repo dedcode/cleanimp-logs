@@ -1627,6 +1627,7 @@ done!
 
 
 CSDI is tested with aligned_series on UMD, started at 2026-03-14 12:06:27.
+	caching stored for recovery and missing matrix: umd_aligned_series_csdi_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
