@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-
   0.1      0.2773728388    
   0.2      0.3646673171    
   0.4      0.5428568357    
@@ -1215,6 +1214,7 @@ done!
 DeepMVI is tested with aligned_timestamps on Yoga, started at 2026-03-14 04:19:45.
 	caching stored for recovery and missing matrix: yoga_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: yoga_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: yoga_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
