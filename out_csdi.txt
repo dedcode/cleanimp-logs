@@ -1050,6 +1050,7 @@ The benchmark has been called:
 CSDI is tested with mcar on Yoga, started at 2026-03-13 14:56:41.
 	the imputed matrix has been loaded from the cache (426, 300): yoga_mcar_csdi_10_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: yoga_mcar_csdi_20_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: yoga_mcar_csdi_40_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
