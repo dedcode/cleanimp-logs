@@ -1001,11 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-    Wafer       0.2           nan         
-    Wafer       0.4           nan         
-    Wafer       0.6           nan         
-    Wafer       0.8           nan         
-------------------------------------------
 
 
 {mcar, RMSE, none}
@@ -1238,6 +1233,11 @@ DeepMVI is tested with aligned_series on Yoga, started at 2026-03-14 03:07:53.
 	caching stored for recovery and missing matrix: yoga_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: yoga_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: yoga_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: yoga_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_timestamps on Yoga, started at 2026-03-14 04:19:45.
 
 The benchmark has been called:
 	classifiers: ['arsenal']
