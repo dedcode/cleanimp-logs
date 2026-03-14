@@ -1,7 +1,7 @@
 ALGO=DeepMVI
 SERVER=colab.nb
-PROGRESS=181
+PROGRESS=183
 TOTAL=222
-PCT=81
+PCT=82
 STATUS=running
-LAST=DeepMVI is tested with mcar on GunPointAgeSpan, started at 2026-03-14 04:37:27.
+LAST=DeepMVI is tested with aligned_timestamps on GunPointAgeSpan, started at 2026-03-14 05:11:02.

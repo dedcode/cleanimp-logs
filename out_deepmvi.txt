@@ -1001,188 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-  0.1      0.2773728388    
-  0.2      0.3646673171    
-  0.4      0.5428568357    
-  0.6      0.9706056524    
-  0.8      1.1128559887    
-
-
-
-WormsTwoClass: {mcar, RUNTIME[ms], none}
-
- Rate        DeepMVI       
-
-  0.1   1236141.1576271057 
-  0.2   588315.6354427338  
-  0.4   613240.1869297028  
-  0.6   1718030.9541225433 
-  0.8   1459166.3937568665 
-
-
-
-WormsTwoClass: {aligned_series, RMSE, none}
-
- Rate        DeepMVI       
-
-  0.1      1.1527387603    
-  0.2      1.1704323662    
-  0.4      1.1041068256    
-  0.6      1.0483695027    
-  0.8      1.0394809182    
-
-
-
-WormsTwoClass: {aligned_series, RUNTIME[ms], none}
-
- Rate        DeepMVI       
-
-  0.1   1299483.1080436707 
-  0.2   682491.2252426147  
-  0.4   760983.3395481110  
-  0.6   990021.9891071320  
-  0.8   536866.5101528168  
-
-
-
-WormsTwoClass: {aligned_timestamps, RMSE, none}
-
- Rate        DeepMVI       
-
-  0.1      1.0369271216    
-  0.2      1.1704323662    
-  0.4      1.1552431286    
-  0.6      1.2403963498    
-  0.8      1.3152341041    
-
-
-
-WormsTwoClass: {aligned_timestamps, RUNTIME[ms], none}
-
- Rate        DeepMVI       
-
-  0.1   1272367.9215908051 
-  0.2   680058.4347248077  
-  0.4   1854753.6938190460 
-  0.6   984388.4828090668  
-  0.8   736279.3345451355  
-
-
-
-The plots have been generated...
-
-
-{aligned_series, RMSE, none}
----------------------------------------------
-     Dataset       Rate        DeepMVI       
----------------------------------------------
-  WormsTwoClass    0.1       1.1527387603    
-  WormsTwoClass    0.2       1.1704323662    
-  WormsTwoClass    0.4       1.1041068256    
-  WormsTwoClass    0.6       1.0483695027    
-  WormsTwoClass    0.8       1.0394809182    
----------------------------------------------
-
-
-{aligned_series, RUNTIME[ms], none}
----------------------------------------------
-     Dataset       Rate        DeepMVI       
----------------------------------------------
-  WormsTwoClass    0.1    1299483.1080436707 
-  WormsTwoClass    0.2    682491.2252426147  
-  WormsTwoClass    0.4    760983.3395481110  
-  WormsTwoClass    0.6    990021.9891071320  
-  WormsTwoClass    0.8    536866.5101528168  
----------------------------------------------
-
-
-{aligned_timestamps, RMSE, none}
----------------------------------------------
-     Dataset       Rate        DeepMVI       
----------------------------------------------
-  WormsTwoClass    0.1       1.0369271216    
-  WormsTwoClass    0.2       1.1704323662    
-  WormsTwoClass    0.4       1.1552431286    
-  WormsTwoClass    0.6       1.2403963498    
-  WormsTwoClass    0.8       1.3152341041    
----------------------------------------------
-
-
-{aligned_timestamps, RUNTIME[ms], none}
----------------------------------------------
-     Dataset       Rate        DeepMVI       
----------------------------------------------
-  WormsTwoClass    0.1    1272367.9215908051 
-  WormsTwoClass    0.2    680058.4347248077  
-  WormsTwoClass    0.4    1854753.6938190460 
-  WormsTwoClass    0.6    984388.4828090668  
-  WormsTwoClass    0.8    736279.3345451355  
----------------------------------------------
-
-
-{mcar, RMSE, none}
----------------------------------------------
-     Dataset       Rate        DeepMVI       
----------------------------------------------
-  WormsTwoClass    0.1       0.2773728388    
-  WormsTwoClass    0.2       0.3646673171    
-  WormsTwoClass    0.4       0.5428568357    
-  WormsTwoClass    0.6       0.9706056524    
-  WormsTwoClass    0.8       1.1128559887    
----------------------------------------------
-
-
-{mcar, RUNTIME[ms], none}
----------------------------------------------
-     Dataset       Rate        DeepMVI       
----------------------------------------------
-  WormsTwoClass    0.1    1236141.1576271057 
-  WormsTwoClass    0.2    588315.6354427338  
-  WormsTwoClass    0.4    613240.1869297028  
-  WormsTwoClass    0.6    1718030.9541225433 
-  WormsTwoClass    0.8    1459166.3937568665 
----------------------------------------------
-
---- Summary (mean ± std) per algorithm ---
-
-DeepMVI = RMSE=0.980115±0.318621, DOWNSTREAM_ACC=nan±nan, RUNTIME=1.02751e+06±425025
-
-
-The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_deepmvi_d53_26_03_14_00_19_07 
-
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['DeepMVI']
-	datasets: ['Yoga']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-DeepMVI is tested with mcar on Yoga, started at 2026-03-11 18:17:49.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['DeepMVI']
-	datasets: ['Yoga']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
 	imputation_by_class: True
 	fixed_rate: 0.2
 	to_cache: True
@@ -2001,3 +1819,185 @@ The benchmark has been called:
 
 DeepMVI is tested with mcar on GunPointAgeSpan, started at 2026-03-14 04:37:27.
 	caching stored for recovery and missing matrix: gunpointagespan_mcar_deepmvi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: gunpointagespan_mcar_deepmvi_20_20_contbyclass_imputationbyclass
+Error during benchmark for DeepMVI, with GunPointAgeSpan, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPointAgeSpan, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPointAgeSpan, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_series on GunPointAgeSpan, started at 2026-03-14 05:11:01.
+Error during benchmark for DeepMVI, with GunPointAgeSpan, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPointAgeSpan, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPointAgeSpan, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPointAgeSpan, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPointAgeSpan, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+DeepMVI is tested with aligned_timestamps on GunPointAgeSpan, started at 2026-03-14 05:11:02.
+Error during benchmark for DeepMVI, with GunPointAgeSpan, and 0.1%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPointAgeSpan, and 0.2%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPointAgeSpan, and 0.4%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPointAgeSpan, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Error during benchmark for DeepMVI, with GunPointAgeSpan, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+done!
+
+
+
+> logs: benchmark - Execution Time: 2017.036 seconds,  (00:33:37.036 hh:mm:ss)
+
+
+GunPointAgeSpan: {mcar, RMSE, arsenal}
+
+ Rate        DeepMVI       
+
+  0.1      0.4036747869    
+  0.2      0.5935186389    
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+GunPointAgeSpan: {mcar, RUNTIME[ms], arsenal}
+
+ Rate        DeepMVI       
+
+  0.1   529407.6516628265  
+  0.2   1481908.8485240936 
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+GunPointAgeSpan: {aligned_series, RMSE, arsenal}
+
+ Rate        DeepMVI       
+
+  0.1          nan         
+  0.2          nan         
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+GunPointAgeSpan: {aligned_series, RUNTIME[ms], arsenal}
+
+ Rate        DeepMVI       
+
+  0.1          nan         
+  0.2          nan         
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+GunPointAgeSpan: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        DeepMVI       
+
+  0.1          nan         
+  0.2          nan         
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+GunPointAgeSpan: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        DeepMVI       
+
+  0.1          nan         
+  0.2          nan         
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+{aligned_series, RMSE, none}
+-----------------------------------------------
+      Dataset        Rate        DeepMVI       
+-----------------------------------------------
+  GunPointAgeSpan    0.1           nan         
+  GunPointAgeSpan    0.2           nan         
+  GunPointAgeSpan    0.4           nan         
+  GunPointAgeSpan    0.6           nan         
+  GunPointAgeSpan    0.8           nan         
+-----------------------------------------------
+
+
+{aligned_series, RUNTIME[ms], none}
+-----------------------------------------------
+      Dataset        Rate        DeepMVI       
+-----------------------------------------------
+  GunPointAgeSpan    0.1           nan         
+  GunPointAgeSpan    0.2           nan         
+  GunPointAgeSpan    0.4           nan         
+  GunPointAgeSpan    0.6           nan         
+  GunPointAgeSpan    0.8           nan         
+-----------------------------------------------
+
+
+{aligned_timestamps, RMSE, none}
+-----------------------------------------------
+      Dataset        Rate        DeepMVI       
+-----------------------------------------------
+  GunPointAgeSpan    0.1           nan         
+  GunPointAgeSpan    0.2           nan         
+  GunPointAgeSpan    0.4           nan         
+  GunPointAgeSpan    0.6           nan         
+  GunPointAgeSpan    0.8           nan         
+-----------------------------------------------
+
+
+{aligned_timestamps, RUNTIME[ms], none}
+-----------------------------------------------
+      Dataset        Rate        DeepMVI       
+-----------------------------------------------
+  GunPointAgeSpan    0.1           nan         
+  GunPointAgeSpan    0.2           nan         
+  GunPointAgeSpan    0.4           nan         
+  GunPointAgeSpan    0.6           nan         
+  GunPointAgeSpan    0.8           nan         
+-----------------------------------------------
+
+
+{mcar, RMSE, none}
+-----------------------------------------------
+      Dataset        Rate        DeepMVI       
+-----------------------------------------------
+  GunPointAgeSpan    0.1       0.4036747869    
+  GunPointAgeSpan    0.2       0.5935186389    
+  GunPointAgeSpan    0.4           nan         
+  GunPointAgeSpan    0.6           nan         
+  GunPointAgeSpan    0.8           nan         
+-----------------------------------------------
+
+
+{mcar, RUNTIME[ms], none}
+-----------------------------------------------
+      Dataset        Rate        DeepMVI       
+-----------------------------------------------
+  GunPointAgeSpan    0.1    529407.6516628265  
+  GunPointAgeSpan    0.2    1481908.8485240936 
+  GunPointAgeSpan    0.4           nan         
+  GunPointAgeSpan    0.6           nan         
+  GunPointAgeSpan    0.8           nan         
+-----------------------------------------------
+
+--- Summary (mean ± std) per algorithm ---
+
+DeepMVI = RMSE=0.498597±0.13424, DOWNSTREAM_ACC=nan±nan, RUNTIME=1.00566e+06±673520
+
+
+The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_deepmvi_d9_26_03_14_04_37_25 
+
