@@ -7,7 +7,7 @@ Live experiment logs pushed every 30 seconds.
 | 01 | CSDI | bigdata.8 | 995 / 1110 | 89% | running | worms mcar |
 | 04 | PRISTI | bigdata.7 | 984 / 1110 | 88% | running | yoga mcar |
 | 05 | NuwaTS | colab.lxd | 222 / 222 | 100% | done | NuwaTS is tested with aligned_timestamps on Yoga, started at 2026-03-11 16:20:15. |
-| 06d | DeepMVI | colab.nb | 667 / 1110 | 60% | running | sharepriceincrease mcar |
+| 06d | DeepMVI | colab.nb | 668 / 1110 | 60% | running | sonyaiborobotsurface1 mcar |
 | 06h | HKMFT | bigdata.6 | 1023 / 1110 | 92% | running | largekitchenappliances aligned series |
 
-_Last updated: 2026-03-14 18:19 UTC_
+_Last updated: 2026-03-14 18:20 UTC_
