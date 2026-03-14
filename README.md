@@ -7,6 +7,6 @@ Live experiment logs pushed every 30 seconds.
 | 01 | CSDI | bigdata.8 | 1014 / 1110 | 91% | running | smallkitchenappliances aligned timestamps |
 | 04 | PRISTI | bigdata.7 | 1001 / 1110 | 90% | running | medicalimages aligned timestamps |
 | 06d | DeepMVI | colab.nb | 1098 / 1110 | 98% | running | oliveoil mcar |
-| 06h | HKMFT | bigdata.6 | 1054 / 1110 | 94% | running | largekitchenappliances aligned series |
+| 06h | HKMFT | bigdata.6 | 1055 / 1110 | 95% | running | largekitchenappliances aligned series |
 
 _Last updated: 2026-03-14 23:03 UTC_
