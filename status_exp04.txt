@@ -4,4 +4,4 @@ PROGRESS=985
 TOTAL=1110
 PCT=88
 STATUS=stopped
-LAST=medicalimages aligned series
+LAST=yoga aligned timestamps
