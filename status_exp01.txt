@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.8
-PROGRESS=995
+PROGRESS=996
 TOTAL=1110
 PCT=89
 STATUS=running
-LAST=shapesall mcar
+LAST=smallkitchenappliances aligned series
