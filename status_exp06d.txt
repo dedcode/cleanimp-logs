@@ -1,7 +1,7 @@
 ALGO=DeepMVI
 SERVER=colab.nb
-PROGRESS=678
+PROGRESS=680
 TOTAL=1110
 PCT=61
 STATUS=running
-LAST=syntheticcontrol mcar
+LAST=gunpointmaleversusfemale mcar
