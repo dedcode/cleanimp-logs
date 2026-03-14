@@ -684,9 +684,9 @@ DeepMVI is tested with aligned_timestamps on Fish, started at 2026-03-11 16:20:1
 The benchmark has been called:
 	classifiers: ['arsenal']
 	algorithms: ['DeepMVI']
-	datasets: ['Earthquakes']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	datasets: ['ArrowHead']
+	patterns: ['aligned_timestamps']
+	missing_percentages: [0.6]
 	contamination by class: True
 	imputation by class: True
 	normalizer: z-score
@@ -701,197 +701,49 @@ The benchmark has been called:
 	number max values: 1000
 
 
-DeepMVI is tested with mcar on Earthquakes, started at 2026-03-11 18:17:47.
-	the imputed matrix has been loaded from the cache (512, 322): earthquakes_mcar_deepmvi_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (512, 322): earthquakes_mcar_deepmvi_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (512, 322): earthquakes_mcar_deepmvi_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (512, 322): earthquakes_mcar_deepmvi_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (512, 322): earthquakes_mcar_deepmvi_80_20_contbyclass_imputationbyclass
-done!
+DeepMVI is tested with aligned_timestamps on ArrowHead, started at 2026-03-14 10:14:38.
+Error during benchmark for DeepMVI, with ArrowHead, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1701, in eval_classifier
+    imputer_tr, _, miss = utils.prepare_series_by_class(labels=y_train, raw_data=ts.data.copy(), imputer=algorithm, params=None, pattern="aligned", rate_dataset=fixed_rate, rate_series=x, offset=0.05, verbose=verbose)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/tools/utils.py", line 1737, in prepare_series_by_class
+    alg.impute()
+  File "/storage/experiments/cleanimp/imputegap/recovery/imputation.py", line 2066, in impute
+    self.recov_data = deep_mvi(incomp_data=self.incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, logs=self.logs, verbose=self.verbose)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/algorithms/deep_mvi.py", line 47, in deep_mvi
+    recov_data = deep_mvi_recovery(input=incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, verbose=verbose)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/recovDeepMVI.py", line 26, in deep_mvi_recovery
+    matrix_imputed = transformer_recovery(input, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, seed=seed, verbose=verbose, deep_verbose=False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/transformer.py", line 198, in transformer_recovery
+    val_loader = torch.utils.data.DataLoader(val_set, batch_size=batch_size, drop_last=False, shuffle=True, collate_fn=my_collate)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 394, in __init__
+    sampler = RandomSampler(dataset, generator=generator)  # type: ignore[arg-type]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap_env/lib/python3.12/site-packages/torch/utils/data/sampler.py", line 149, in __init__
+    raise ValueError(
+ValueError: num_samples should be a positive integer value, but got num_samples=0
 
+During handling of the above exception, another exception occurred:
 
-DeepMVI is tested with aligned_series on Earthquakes, started at 2026-03-11 18:17:57.
-	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
-done!
-
-
-DeepMVI is tested with aligned_timestamps on Earthquakes, started at 2026-03-11 18:18:16.
-	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (512, 322): earthquakes_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
-done!
-
-
-
-> logs: benchmark - Execution Time: 106.9257 seconds,  (00:01:46.926 hh:mm:ss)
-
-
-Earthquakes: {mcar, RMSE, none}
-
- Rate        DeepMVI       
-
-  0.1      1.1470933597    
-  0.2      1.1008324880    
-  0.4      1.0999878978    
-  0.6      1.0923629635    
-  0.8      1.0865933330    
-
-
-
-Earthquakes: {mcar, RUNTIME[ms], none}
-
- Rate        DeepMVI       
-
-  0.1     297.4910736084   
-  0.2     269.9270248413   
-  0.4     228.9133071899   
-  0.6     247.6367950439   
-  0.8     224.6189117432   
-
-
-
-Earthquakes: {aligned_series, RMSE, none}
-
- Rate        DeepMVI       
-
-  0.1      1.1075315780    
-  0.2      1.0913949223    
-  0.4      1.1260351371    
-  0.6      1.1231280227    
-  0.8      1.1082790384    
-
-
-
-Earthquakes: {aligned_series, RUNTIME[ms], none}
-
- Rate        DeepMVI       
-
-  0.1     230.7791709900   
-  0.2     225.1672744751   
-  0.4     229.8886775970   
-  0.6     221.6727733612   
-  0.8     238.9924526215   
-
-
-
-Earthquakes: {aligned_timestamps, RMSE, none}
-
- Rate        DeepMVI       
-
-  0.1      1.0939333973    
-  0.2      1.0913949223    
-  0.4      1.0589529969    
-  0.6      1.0602360826    
-  0.8      1.0569710605    
-
-
-
-Earthquakes: {aligned_timestamps, RUNTIME[ms], none}
-
- Rate        DeepMVI       
-
-  0.1    5074.0690231323   
-  0.2     425.2383708954   
-  0.4     438.3211135864   
-  0.6    2314.2828941345   
-  0.8    1452.5158405304   
-
-
-
-The plots have been generated...
-
-
-{aligned_series, RMSE, none}
--------------------------------------------
-    Dataset      Rate        DeepMVI       
--------------------------------------------
-  Earthquakes    0.1       1.1075315780    
-  Earthquakes    0.2       1.0913949223    
-  Earthquakes    0.4       1.1260351371    
-  Earthquakes    0.6       1.1231280227    
-  Earthquakes    0.8       1.1082790384    
--------------------------------------------
-
-
-{aligned_series, RUNTIME[ms], none}
--------------------------------------------
-    Dataset      Rate        DeepMVI       
--------------------------------------------
-  Earthquakes    0.1      230.7791709900   
-  Earthquakes    0.2      225.1672744751   
-  Earthquakes    0.4      229.8886775970   
-  Earthquakes    0.6      221.6727733612   
-  Earthquakes    0.8      238.9924526215   
--------------------------------------------
-
-
-{aligned_timestamps, RMSE, none}
--------------------------------------------
-    Dataset      Rate        DeepMVI       
--------------------------------------------
-  Earthquakes    0.1       1.0939333973    
-  Earthquakes    0.2       1.0913949223    
-  Earthquakes    0.4       1.0589529969    
-  Earthquakes    0.6       1.0602360826    
-  Earthquakes    0.8       1.0569710605    
--------------------------------------------
-
-
-{aligned_timestamps, RUNTIME[ms], none}
--------------------------------------------
-    Dataset      Rate        DeepMVI       
--------------------------------------------
-  Earthquakes    0.1     5074.0690231323   
-  Earthquakes    0.2      425.2383708954   
-  Earthquakes    0.4      438.3211135864   
-  Earthquakes    0.6     2314.2828941345   
-  Earthquakes    0.8     1452.5158405304   
--------------------------------------------
-
-
-{mcar, RMSE, none}
--------------------------------------------
-    Dataset      Rate        DeepMVI       
--------------------------------------------
-  Earthquakes    0.1       1.1470933597    
-  Earthquakes    0.2       1.1008324880    
-  Earthquakes    0.4       1.0999878978    
-  Earthquakes    0.6       1.0923629635    
-  Earthquakes    0.8       1.0865933330    
--------------------------------------------
-
-
-{mcar, RUNTIME[ms], none}
--------------------------------------------
-    Dataset      Rate        DeepMVI       
--------------------------------------------
-  Earthquakes    0.1      297.4910736084   
-  Earthquakes    0.2      269.9270248413   
-  Earthquakes    0.4      228.9133071899   
-  Earthquakes    0.6      247.6367950439   
-  Earthquakes    0.8      224.6189117432   
--------------------------------------------
-
---- Summary (mean ± std) per algorithm ---
-
-DeepMVI = RMSE=1.09632±0.0252039, DOWNSTREAM_ACC=nan±nan, RUNTIME=807.968±1319.67
-
-
-The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_deepmvi_d0_26_03_11_18_17_34 
-
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/script_deepmvi_at_arrowhead_06.py", line 3, in <module>
+    bench.eval_classifier(classifiers=["arsenal"],
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1805, in eval_classifier
+    imputer_tr.metrics = {
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'imputer_tr' where it is not associated with a value
 
 The benchmark has been called:
 	classifiers: ['arsenal']
 	algorithms: ['DeepMVI']
-	datasets: ['EthanolLevel']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	datasets: ['ArrowHead']
+	patterns: ['aligned_timestamps']
+	missing_percentages: [0.8]
 	contamination by class: True
 	imputation by class: True
 	normalizer: z-score
@@ -906,140 +758,49 @@ The benchmark has been called:
 	number max values: 1000
 
 
-DeepMVI is tested with mcar on EthanolLevel, started at 2026-03-11 18:17:47.
-	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_deepmvi_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_deepmvi_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_deepmvi_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_deepmvi_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_mcar_deepmvi_80_20_contbyclass_imputationbyclass
-done!
+DeepMVI is tested with aligned_timestamps on ArrowHead, started at 2026-03-14 10:14:38.
+Error during benchmark for DeepMVI, with ArrowHead, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1701, in eval_classifier
+    imputer_tr, _, miss = utils.prepare_series_by_class(labels=y_train, raw_data=ts.data.copy(), imputer=algorithm, params=None, pattern="aligned", rate_dataset=fixed_rate, rate_series=x, offset=0.05, verbose=verbose)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/tools/utils.py", line 1737, in prepare_series_by_class
+    alg.impute()
+  File "/storage/experiments/cleanimp/imputegap/recovery/imputation.py", line 2066, in impute
+    self.recov_data = deep_mvi(incomp_data=self.incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, logs=self.logs, verbose=self.verbose)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/algorithms/deep_mvi.py", line 47, in deep_mvi
+    recov_data = deep_mvi_recovery(input=incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, verbose=verbose)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/recovDeepMVI.py", line 26, in deep_mvi_recovery
+    matrix_imputed = transformer_recovery(input, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, seed=seed, verbose=verbose, deep_verbose=False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/transformer.py", line 198, in transformer_recovery
+    val_loader = torch.utils.data.DataLoader(val_set, batch_size=batch_size, drop_last=False, shuffle=True, collate_fn=my_collate)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 394, in __init__
+    sampler = RandomSampler(dataset, generator=generator)  # type: ignore[arg-type]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap_env/lib/python3.12/site-packages/torch/utils/data/sampler.py", line 149, in __init__
+    raise ValueError(
+ValueError: num_samples should be a positive integer value, but got num_samples=0
 
+During handling of the above exception, another exception occurred:
 
-DeepMVI is tested with aligned_series on EthanolLevel, started at 2026-03-11 18:18:00.
-	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
-done!
-
-
-DeepMVI is tested with aligned_timestamps on EthanolLevel, started at 2026-03-11 18:18:17.
-	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
-	the imputed matrix has been loaded from the cache (1000, 504): ethanollevel_aligned_timestamps_deepmvi_80_20_contbyclass_imputationbyclass
-done!
-
-
-
-> logs: benchmark - Execution Time: 57.4402 seconds,  (00:00:57.440 hh:mm:ss)
-
-
-EthanolLevel: {mcar, RMSE, none}
-
- Rate        DeepMVI       
-
-  0.1      0.1886530338    
-  0.2      0.2092855779    
-  0.4      0.2965707340    
-  0.6      0.2113216341    
-  0.8      0.4453658892    
-
-
-
-EthanolLevel: {mcar, RUNTIME[ms], none}
-
- Rate        DeepMVI       
-
-  0.1     885.1568698883   
-  0.2     937.7892017365   
-  0.4     795.5682277679   
-  0.6     731.4529418945   
-  0.8     714.6670818329   
-
-
-
-EthanolLevel: {aligned_series, RMSE, none}
-
- Rate        DeepMVI       
-
-  0.1      0.0505767321    
-  0.2      0.0275858912    
-  0.4      0.0557197581    
-  0.6      0.1059516182    
-  0.8      0.1592275632    
-
-
-
-EthanolLevel: {aligned_series, RUNTIME[ms], none}
-
- Rate        DeepMVI       
-
-  0.1     726.9642353058   
-  0.2     708.8327407837   
-  0.4     833.7230682373   
-  0.6     996.0911273956   
-  0.8    1369.3089485168   
-
-
-
-EthanolLevel: {aligned_timestamps, RMSE, none}
-
- Rate        DeepMVI       
-
-  0.1      0.0400189429    
-  0.2      0.0275858912    
-  0.4      0.1768799600    
-  0.6      1.2700210399    
-  0.8      1.1500107376    
-
-
-
-EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
-
-... [-1978 lines truncated] ...
-
-
-
-{mcar, RMSE, none}
-------------------------------------------
-   Dataset      Rate        DeepMVI       
-------------------------------------------
-     Yoga       0.1       0.3310064425    
-     Yoga       0.2       0.4045061173    
-     Yoga       0.4       0.6628988212    
-     Yoga       0.6       0.5150263857    
-     Yoga       0.8       0.8068554432    
-------------------------------------------
-
-
-{mcar, RUNTIME[ms], none}
-------------------------------------------
-   Dataset      Rate        DeepMVI       
-------------------------------------------
-     Yoga       0.1    721267.9531574249  
-     Yoga       0.2    1528563.9188289642 
-     Yoga       0.4    1253808.4998130798 
-     Yoga       0.6    2197784.4264507294 
-     Yoga       0.8    1470004.5301914215 
-------------------------------------------
-
---- Summary (mean ± std) per algorithm ---
-
-DeepMVI = RMSE=0.566732±0.197708, DOWNSTREAM_ACC=nan±nan, RUNTIME=1.07337e+06±413902
-
-
-The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_deepmvi_d54_26_03_14_01_08_11 
-
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/script_deepmvi_at_arrowhead_08.py", line 3, in <module>
+    bench.eval_classifier(classifiers=["arsenal"],
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1805, in eval_classifier
+    imputer_tr.metrics = {
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'imputer_tr' where it is not associated with a value
 
 The benchmark has been called:
 	classifiers: ['arsenal']
 	algorithms: ['DeepMVI']
-	datasets: ['FreezerRegularTrain']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	datasets: ['InsectWingbeatSound']
+	patterns: ['aligned_timestamps']
+	missing_percentages: [0.6]
 	contamination by class: True
 	imputation by class: True
 	normalizer: z-score
@@ -1054,14 +815,49 @@ The benchmark has been called:
 	number max values: 1000
 
 
-DeepMVI is tested with mcar on FreezerRegularTrain, started at 2026-03-11 18:17:47.
+DeepMVI is tested with aligned_timestamps on InsectWingbeatSound, started at 2026-03-14 10:14:39.
+Error during benchmark for DeepMVI, with InsectWingbeatSound, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1701, in eval_classifier
+    imputer_tr, _, miss = utils.prepare_series_by_class(labels=y_train, raw_data=ts.data.copy(), imputer=algorithm, params=None, pattern="aligned", rate_dataset=fixed_rate, rate_series=x, offset=0.05, verbose=verbose)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/tools/utils.py", line 1737, in prepare_series_by_class
+    alg.impute()
+  File "/storage/experiments/cleanimp/imputegap/recovery/imputation.py", line 2066, in impute
+    self.recov_data = deep_mvi(incomp_data=self.incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, logs=self.logs, verbose=self.verbose)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/algorithms/deep_mvi.py", line 47, in deep_mvi
+    recov_data = deep_mvi_recovery(input=incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, verbose=verbose)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/recovDeepMVI.py", line 26, in deep_mvi_recovery
+    matrix_imputed = transformer_recovery(input, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, seed=seed, verbose=verbose, deep_verbose=False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/transformer.py", line 198, in transformer_recovery
+    val_loader = torch.utils.data.DataLoader(val_set, batch_size=batch_size, drop_last=False, shuffle=True, collate_fn=my_collate)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 394, in __init__
+    sampler = RandomSampler(dataset, generator=generator)  # type: ignore[arg-type]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap_env/lib/python3.12/site-packages/torch/utils/data/sampler.py", line 149, in __init__
+    raise ValueError(
+ValueError: num_samples should be a positive integer value, but got num_samples=0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/script_deepmvi_at_insectwingbeatsound_06.py", line 3, in <module>
+    bench.eval_classifier(classifiers=["arsenal"],
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1805, in eval_classifier
+    imputer_tr.metrics = {
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'imputer_tr' where it is not associated with a value
 
 The benchmark has been called:
 	classifiers: ['arsenal']
 	algorithms: ['DeepMVI']
-	datasets: ['FreezerRegularTrain']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	datasets: ['InsectWingbeatSound']
+	patterns: ['aligned_timestamps']
+	missing_percentages: [0.8]
 	contamination by class: True
 	imputation by class: True
 	normalizer: z-score
@@ -1076,19 +872,135 @@ The benchmark has been called:
 	number max values: 1000
 
 
-DeepMVI is tested with mcar on FreezerRegularTrain, started at 2026-03-13 12:38:36.
-	caching stored for recovery and missing matrix: freezerregulartrain_mcar_deepmvi_10_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: freezerregulartrain_mcar_deepmvi_20_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: freezerregulartrain_mcar_deepmvi_40_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: freezerregulartrain_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+DeepMVI is tested with aligned_timestamps on InsectWingbeatSound, started at 2026-03-14 10:14:39.
+Error during benchmark for DeepMVI, with InsectWingbeatSound, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1701, in eval_classifier
+    imputer_tr, _, miss = utils.prepare_series_by_class(labels=y_train, raw_data=ts.data.copy(), imputer=algorithm, params=None, pattern="aligned", rate_dataset=fixed_rate, rate_series=x, offset=0.05, verbose=verbose)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/tools/utils.py", line 1737, in prepare_series_by_class
+    alg.impute()
+  File "/storage/experiments/cleanimp/imputegap/recovery/imputation.py", line 2066, in impute
+    self.recov_data = deep_mvi(incomp_data=self.incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, logs=self.logs, verbose=self.verbose)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/algorithms/deep_mvi.py", line 47, in deep_mvi
+    recov_data = deep_mvi_recovery(input=incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, verbose=verbose)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/recovDeepMVI.py", line 26, in deep_mvi_recovery
+    matrix_imputed = transformer_recovery(input, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, seed=seed, verbose=verbose, deep_verbose=False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/transformer.py", line 198, in transformer_recovery
+    val_loader = torch.utils.data.DataLoader(val_set, batch_size=batch_size, drop_last=False, shuffle=True, collate_fn=my_collate)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 394, in __init__
+    sampler = RandomSampler(dataset, generator=generator)  # type: ignore[arg-type]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap_env/lib/python3.12/site-packages/torch/utils/data/sampler.py", line 149, in __init__
+    raise ValueError(
+ValueError: num_samples should be a positive integer value, but got num_samples=0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/script_deepmvi_at_insectwingbeatsound_08.py", line 3, in <module>
+    bench.eval_classifier(classifiers=["arsenal"],
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1805, in eval_classifier
+    imputer_tr.metrics = {
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'imputer_tr' where it is not associated with a value
 
 The benchmark has been called:
 	classifiers: ['arsenal']
 	algorithms: ['DeepMVI']
-	datasets: ['FreezerRegularTrain']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	datasets: ['Strawberry']
+	patterns: ['aligned_timestamps']
+	missing_percentages: [0.6]
 	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with aligned_timestamps on Strawberry, started at 2026-03-14 10:14:38.
+Error during benchmark for DeepMVI, with Strawberry, and 0.6%: num_samples should be a positive integer value, but got num_samples=0
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1701, in eval_classifier
+    imputer_tr, _, miss = utils.prepare_series_by_class(labels=y_train, raw_data=ts.data.copy(), imputer=algorithm, params=None, pattern="aligned", rate_dataset=fixed_rate, rate_series=x, offset=0.05, verbose=verbose)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/tools/utils.py", line 1737, in prepare_series_by_class
+    alg.impute()
+  File "/storage/experiments/cleanimp/imputegap/recovery/imputation.py", line 2066, in impute
+    self.recov_data = deep_mvi(incomp_data=self.incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, logs=self.logs, verbose=self.verbose)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/algorithms/deep_mvi.py", line 47, in deep_mvi
+    recov_data = deep_mvi_recovery(input=incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, verbose=verbose)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/recovDeepMVI.py", line 26, in deep_mvi_recovery
+    matrix_imputed = transformer_recovery(input, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, seed=seed, verbose=verbose, deep_verbose=False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/wrapper/AlgoPython/DeepMVI/transformer.py", line 198, in transformer_recovery
+    val_loader = torch.utils.data.DataLoader(val_set, batch_size=batch_size, drop_last=False, shuffle=True, collate_fn=my_collate)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap_env/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 394, in __init__
+    sampler = RandomSampler(dataset, generator=generator)  # type: ignore[arg-type]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap_env/lib/python3.12/site-packages/torch/utils/data/sampler.py", line 149, in __init__
+    raise ValueError(
+ValueError: num_samples should be a positive integer value, but got num_samples=0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/script_deepmvi_at_strawberry_06.py", line 3, in <module>
+    bench.eval_classifier(classifiers=["arsenal"],
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1805, in eval_classifier
+    imputer_tr.metrics = {
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'imputer_tr' where it is not associated with a value
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['Strawberry']
+	patterns: ['aligned_timestamps']
+	missing_percentages: [0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with aligned_timestamps on Strawberry, started at 2026-03-14 10:14:38.
+Error during benchmark for DeepMVI, with Strawberry, and 0.8%: num_samples should be a positive integer value, but got num_samples=0
+Traceback (most recent call last):
+  File "/storage/experiments/cleanimp/imputegap/recovery/benchmark.py", line 1701, in eval_classifier
+    imputer_tr, _, miss = utils.prepare_series_by_class(labels=y_train, raw_data=ts.data.copy(), imputer=algorithm, params=None, pattern="aligned", rate_dataset=fixed_rate, rate_series=x, offset=0.05, verbose=verbose)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/tools/utils.py", line 1737, in prepare_series_by_class
+    alg.impute()
+  File "/storage/experiments/cleanimp/imputegap/recovery/imputation.py", line 2066, in impute
+    self.recov_data = deep_mvi(incomp_data=self.incomp_data, max_epoch=max_epoch, patience=patience, lr=lr, batch_size=batch_size, tr_ratio=tr_ratio, logs=self.logs, verbose=self.verbose)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/experiments/cleanimp/imputegap/algorithms/deep_mvi.py", line 47, in deep_mvi
+
+... [9658 lines truncated] ...
+
 	imputation by class: True
 	normalizer: z-score
 	contamination_by_class: True
@@ -2001,3 +1913,91 @@ DeepMVI = RMSE=0.498597±0.13424, DOWNSTREAM_ACC=nan±nan, RUNTIME=1.00566e+06±
 
 The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_deepmvi_d9_26_03_14_04_37_25 
 
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['FreezerRegularTrain', 'FreezerSmallTrain', 'GunPoint', 'GunPointAgeSpan', 'GunPointMaleVersusFemale', 'GunPointOldVersusYoung', 'Ham', 'Haptics', 'Herring', 'InlineSkate', 'InsectEPGRegularTrain', 'InsectWingbeatSound', 'LargeKitchenAppliances']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on FreezerRegularTrain, started at 2026-03-11 17:41:59.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['Lightning2', 'Lightning7', 'Meat', 'MedicalImages', 'MoteStrain', 'OSULeaf', 'OliveOil', 'PhalangesOutlinesCorrect', 'Plane', 'PowerCons', 'ProximalPhalanxOutlineAgeGroup', 'ProximalPhalanxOutlineCorrect']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on Lightning2, started at 2026-03-11 17:41:59.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['RefrigerationDevices', 'Rock', 'ScreenType', 'SemgHandGenderCh2', 'SemgHandMovementCh2', 'SemgHandSubjectCh2', 'ShapeletSim', 'ShapesAll', 'SharePriceIncrease', 'SmallKitchenAppliances', 'SonyAIBORobotSurface1', 'Strawberry', 'SwedishLeaf']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on RefrigerationDevices, started at 2026-03-11 17:41:59.
+
+The benchmark has been called:
+	classifiers: ['arsenal']
+	algorithms: ['DeepMVI']
+	datasets: ['ToeSegmentation1', 'ToeSegmentation2', 'Trace', 'TwoLeadECG', 'TwoPatterns', 'UMD', 'Wafer', 'Wine', 'Worms', 'WormsTwoClass', 'Yoga']
+	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
+	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
+	contamination by class: True
+	imputation by class: True
+	normalizer: z-score
+	contamination_by_class: True
+	imputation_by_class: True
+	fixed_rate: 0.2
+	to_cache: True
+	use_cache: True
+	run_downstream: False
+	runs: 1
+	number max series: 10000
+	number max values: 1000
+
+
+DeepMVI is tested with mcar on ToeSegmentation1, started at 2026-03-11 17:43:36.
