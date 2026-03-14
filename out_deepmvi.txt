@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-
  Rate        DeepMVI       
 
   0.1      0.2773728388    
@@ -2001,3 +2000,4 @@ The benchmark has been called:
 
 
 DeepMVI is tested with mcar on GunPointAgeSpan, started at 2026-03-14 04:37:27.
+	caching stored for recovery and missing matrix: gunpointagespan_mcar_deepmvi_10_20_contbyclass_imputationbyclass
