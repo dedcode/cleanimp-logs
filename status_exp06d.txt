@@ -1,7 +1,7 @@
 ALGO=DeepMVI
 SERVER=colab.nb
-PROGRESS=693
+PROGRESS=694
 TOTAL=1110
 PCT=62
 STATUS=running
-LAST=oliveoil aligned series
+LAST=oliveoil aligned timestamps
