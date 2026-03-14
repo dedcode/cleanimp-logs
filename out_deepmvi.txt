@@ -1001,38 +1001,38 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
 
 
-DeepMVI is tested with mcar on Yoga, started at 2026-03-14 01:08:13.
-	caching stored for recovery and missing matrix: yoga_mcar_deepmvi_10_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: yoga_mcar_deepmvi_20_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: yoga_mcar_deepmvi_40_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: yoga_mcar_deepmvi_60_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: yoga_mcar_deepmvi_80_20_contbyclass_imputationbyclass
-done!
+{mcar, RMSE, none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+     Yoga       0.1       0.3310064425    
+     Yoga       0.2       0.4045061173    
+     Yoga       0.4       0.6628988212    
+     Yoga       0.6       0.5150263857    
+     Yoga       0.8       0.8068554432    
+------------------------------------------
 
 
-DeepMVI is tested with aligned_series on Yoga, started at 2026-03-14 03:07:53.
-	caching stored for recovery and missing matrix: yoga_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: yoga_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: yoga_aligned_series_deepmvi_40_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: yoga_aligned_series_deepmvi_60_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: yoga_aligned_series_deepmvi_80_20_contbyclass_imputationbyclass
-done!
+{mcar, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+     Yoga       0.1    721267.9531574249  
+     Yoga       0.2    1528563.9188289642 
+     Yoga       0.4    1253808.4998130798 
+     Yoga       0.6    2197784.4264507294 
+     Yoga       0.8    1470004.5301914215 
+------------------------------------------
+
+--- Summary (mean ± std) per algorithm ---
+
+DeepMVI = RMSE=0.566732±0.197708, DOWNSTREAM_ACC=nan±nan, RUNTIME=1.07337e+06±413902
 
 
-DeepMVI is tested with aligned_timestamps on Yoga, started at 2026-03-14 04:19:45.
-	caching stored for recovery and missing matrix: yoga_aligned_timestamps_deepmvi_10_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: yoga_aligned_timestamps_deepmvi_20_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: yoga_aligned_timestamps_deepmvi_40_20_contbyclass_imputationbyclass
-	caching stored for recovery and missing matrix: yoga_aligned_timestamps_deepmvi_60_20_contbyclass_imputationbyclass
+The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_deepmvi_d54_26_03_14_01_08_11 
+
 
 The benchmark has been called:
 	classifiers: ['arsenal']
