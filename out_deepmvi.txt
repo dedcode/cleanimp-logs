@@ -1001,11 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-------------------------------------------
-
-
-{aligned_timestamps, RMSE, none}
-------------------------------------------
    Dataset      Rate        DeepMVI       
 ------------------------------------------
     Wafer       0.1           nan         
@@ -1128,6 +1123,11 @@ DeepMVI is tested with mcar on Worms, started at 2026-03-14 00:05:07.
 	caching stored for recovery and missing matrix: worms_mcar_deepmvi_20_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: worms_mcar_deepmvi_40_20_contbyclass_imputationbyclass
 	caching stored for recovery and missing matrix: worms_mcar_deepmvi_60_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: worms_mcar_deepmvi_80_20_contbyclass_imputationbyclass
+done!
+
+
+DeepMVI is tested with aligned_series on Worms, started at 2026-03-14 03:06:54.
 
 The benchmark has been called:
 	classifiers: ['arsenal']
