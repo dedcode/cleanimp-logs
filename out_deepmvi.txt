@@ -1001,7 +1001,6 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-
 {aligned_timestamps, RUNTIME[ms], none}
 ------------------------------------------
    Dataset      Rate        DeepMVI       
@@ -1238,6 +1237,7 @@ done!
 
 DeepMVI is tested with aligned_series on Yoga, started at 2026-03-14 03:07:53.
 	caching stored for recovery and missing matrix: yoga_aligned_series_deepmvi_10_20_contbyclass_imputationbyclass
+	caching stored for recovery and missing matrix: yoga_aligned_series_deepmvi_20_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
