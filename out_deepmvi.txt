@@ -1001,9 +1001,54 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 
 ... [-1978 lines truncated] ...
 
-     Fish       0.4      116.1899566650   
-     Fish       0.6      102.5671958923   
-     Fish       0.8      106.8909168243   
+Wafer: {aligned_timestamps, RMSE, arsenal}
+
+ Rate        DeepMVI       
+
+  0.1          nan         
+  0.2          nan         
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+Wafer: {aligned_timestamps, RUNTIME[ms], arsenal}
+
+ Rate        DeepMVI       
+
+  0.1          nan         
+  0.2          nan         
+  0.4          nan         
+  0.6          nan         
+  0.8          nan         
+
+
+
+The plots have been generated...
+
+
+{aligned_series, RMSE, none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+    Wafer       0.1           nan         
+    Wafer       0.2           nan         
+    Wafer       0.4           nan         
+    Wafer       0.6           nan         
+    Wafer       0.8           nan         
+------------------------------------------
+
+
+{aligned_series, RUNTIME[ms], none}
+------------------------------------------
+   Dataset      Rate        DeepMVI       
+------------------------------------------
+    Wafer       0.1           nan         
+    Wafer       0.2           nan         
+    Wafer       0.4           nan         
+    Wafer       0.6           nan         
+    Wafer       0.8           nan         
 ------------------------------------------
 
 
@@ -1011,11 +1056,11 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 ------------------------------------------
    Dataset      Rate        DeepMVI       
 ------------------------------------------
-     Fish       0.1       0.0921558656    
-     Fish       0.2       0.1483538071    
-     Fish       0.4       0.3021722748    
-     Fish       0.6       0.3052075582    
-     Fish       0.8       1.0826830269    
+    Wafer       0.1           nan         
+    Wafer       0.2           nan         
+    Wafer       0.4           nan         
+    Wafer       0.6           nan         
+    Wafer       0.8           nan         
 ------------------------------------------
 
 
@@ -1023,11 +1068,11 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 ------------------------------------------
    Dataset      Rate        DeepMVI       
 ------------------------------------------
-     Fish       0.1      110.5277538300   
-     Fish       0.2      114.1645908356   
-     Fish       0.4      104.7396659851   
-     Fish       0.6    1786895.6601619720 
-     Fish       0.8    2029809.7445964813 
+    Wafer       0.1           nan         
+    Wafer       0.2           nan         
+    Wafer       0.4           nan         
+    Wafer       0.6           nan         
+    Wafer       0.8           nan         
 ------------------------------------------
 
 
@@ -1035,11 +1080,11 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 ------------------------------------------
    Dataset      Rate        DeepMVI       
 ------------------------------------------
-     Fish       0.1       0.2329924743    
-     Fish       0.2       0.2168322291    
-     Fish       0.4       0.2938172021    
-     Fish       0.6       0.4358247520    
-     Fish       0.8       0.7067608823    
+    Wafer       0.1       0.6461117591    
+    Wafer       0.2       0.5698443501    
+    Wafer       0.4           nan         
+    Wafer       0.6           nan         
+    Wafer       0.8           nan         
 ------------------------------------------
 
 
@@ -1047,65 +1092,20 @@ EthanolLevel: {aligned_timestamps, RUNTIME[ms], none}
 ------------------------------------------
    Dataset      Rate        DeepMVI       
 ------------------------------------------
-     Fish       0.1      132.6320171356   
-     Fish       0.2      105.1089763641   
-     Fish       0.4      103.8293838501   
-     Fish       0.6      105.1092147827   
-     Fish       0.8      103.9202213287   
+    Wafer       0.1    988537.3582839966  
+    Wafer       0.2    2702334.8090648651 
+    Wafer       0.4           nan         
+    Wafer       0.6           nan         
+    Wafer       0.8           nan         
 ------------------------------------------
 
 --- Summary (mean ± std) per algorithm ---
 
-DeepMVI = RMSE=0.313461±0.26082, DOWNSTREAM_ACC=nan±nan, RUNTIME=254541±673013
+DeepMVI = RMSE=0.607978±0.0539292, DOWNSTREAM_ACC=nan±nan, RUNTIME=1.84544e+06±1.21184e+06
 
 
-The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_deepmvi_d5_26_03_13_14_48_41 
+The results are saved in :  ./imputegap_assets/benchmark/benchmark_classifiers_cleanimp_benchmark_06_deepmvi_d50_26_03_13_23_33_04 
 
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['DeepMVI']
-	datasets: ['Wafer']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-DeepMVI is tested with mcar on Wafer, started at 2026-03-11 18:17:49.
-
-The benchmark has been called:
-	classifiers: ['arsenal']
-	algorithms: ['DeepMVI']
-	datasets: ['Wafer']
-	patterns: ['mcar', 'aligned_series', 'aligned_timestamps']
-	missing_percentages: [0.1, 0.2, 0.4, 0.6, 0.8]
-	contamination by class: True
-	imputation by class: True
-	normalizer: z-score
-	contamination_by_class: True
-	imputation_by_class: True
-	fixed_rate: 0.2
-	to_cache: True
-	use_cache: True
-	run_downstream: False
-	runs: 1
-	number max series: 10000
-	number max values: 1000
-
-
-DeepMVI is tested with mcar on Wafer, started at 2026-03-13 23:33:06.
-	caching stored for recovery and missing matrix: wafer_mcar_deepmvi_10_20_contbyclass_imputationbyclass
 
 The benchmark has been called:
 	classifiers: ['arsenal']
