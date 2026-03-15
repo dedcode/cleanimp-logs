@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.8
-PROGRESS=1060
+PROGRESS=1061
 TOTAL=1110
 PCT=95
 STATUS=stopped
-LAST=semghandgenderch2 aligned timestamps
+LAST=semghandgenderch2 mcar
