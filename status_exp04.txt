@@ -1,7 +1,7 @@
 ALGO=PRISTI
 SERVER=bigdata.7
-PROGRESS=1010
+PROGRESS=1011
 TOTAL=1110
-PCT=90
+PCT=91
 STATUS=running
 LAST=inlineskate aligned timestamps
