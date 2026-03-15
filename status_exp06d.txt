@@ -1,7 +1,7 @@
 ALGO=DeepMVI
 SERVER=colab.nb
-PROGRESS=1100
+PROGRESS=1102
 TOTAL=1110
 PCT=99
 STATUS=running
-LAST=shapesall mcar
+LAST=shapesall aligned timestamps
