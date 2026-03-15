@@ -9,4 +9,4 @@ Live experiment logs pushed every 30 seconds.
 | 06d | DeepMVI | colab.nb | 1100 / 1110 | 99% | running | shapesall mcar |
 | 06h | HKMFT | bigdata.6 | 1060 / 1110 | 95% | running | largekitchenappliances aligned timestamps |
 
-_Last updated: 2026-03-15 02:45 UTC_
+_Last updated: 2026-03-15 02:46 UTC_
