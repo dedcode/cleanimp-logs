@@ -1,7 +1,7 @@
 ALGO=HKMFT
 SERVER=bigdata.6
-PROGRESS=1078
+PROGRESS=1079
 TOTAL=1110
 PCT=97
 STATUS=running
-LAST=eogverticalsignal aligned timestamps
+LAST=semghandgenderch2 aligned timestamps
