@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.8
-PROGRESS=1048
+PROGRESS=1049
 TOTAL=1110
 PCT=94
 STATUS=running
-LAST=wormstwoclass aligned series
+LAST=wormstwoclass aligned timestamps
