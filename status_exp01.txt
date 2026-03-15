@@ -3,5 +3,5 @@ SERVER=bigdata.8
 PROGRESS=1057
 TOTAL=1110
 PCT=95
-STATUS=running
+STATUS=stopped
 LAST=wormstwoclass mcar
