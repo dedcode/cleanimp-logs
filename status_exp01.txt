@@ -1,7 +1,7 @@
 ALGO=CSDI
 SERVER=bigdata.8
-PROGRESS=1031
+PROGRESS=1032
 TOTAL=1110
 PCT=92
 STATUS=running
-LAST=worms aligned series
+LAST=yoga aligned series
