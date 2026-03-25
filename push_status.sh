@@ -11,7 +11,7 @@ cd "$REPO_DIR"
 # Generate status
 cd "$ORCH_DIR" && $PYTHON $COORD --status 2>/dev/null | sed '/Fetching/d' > "$REPO_DIR/status.txt"
 
-# Generate progress
+# Generate progress (markdown table)
 cd "$ORCH_DIR" && $PYTHON $COORD --progress 2>/dev/null | sed '/Fetching/d' > "$REPO_DIR/progress.txt"
 
 cd "$REPO_DIR"
@@ -31,9 +31,7 @@ $(cat status.txt)
 
 ## Progress (horizon × algorithm)
 
-\`\`\`
 $(cat progress.txt)
-\`\`\`
 EOF
 
 # Push
