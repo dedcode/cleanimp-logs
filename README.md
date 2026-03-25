@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-03-25 08:00:51 UTC
+Last updated: 2026-03-25 08:05:05 UTC
 
 ## Status
 
@@ -8,20 +8,28 @@ Last updated: 2026-03-25 08:00:51 UTC
 
 Job status (22800 total):
   completed   :   3551  (15.6%)
-  in progress :  19249  (84.4%)
+  in progress :   4931  (21.6%)
+  failed      :  14318
 
-  active now  :    256  (across 8 servers)
+  active now  :     64  (across 2 servers)
 
 Per server:
   server        active  completed  remaining
   bigdata.1         32        361       2489
-  bigdata.2         32        456       2394
-  bigdata.3         32        359       2491
-  bigdata.4         32        443       2407
-  bigdata.5         32        363       2487
-  bigdata.6         32        801       2049
+  bigdata.2       DOWN        456       2394
+  bigdata.3       DOWN        359       2491
+  bigdata.4       DOWN        443       2407
+  bigdata.5       DOWN        363       2487
+  bigdata.6       DOWN        801       2049
   bigdata.7         32        408       2442
-  bigdata.8         32        360       2490
+  bigdata.8       DOWN        360       2490
+
+Failed (server dead):
+  #22795 XGBOOST/wind_speed/aligned_timestamps/h64/r0.8: A process in the process pool was terminated abruptly while the future was runni
+  #22796 ZeroImpute/wind_speed/aligned_timestamps/h64/r0.1: A process in the process pool was terminated abruptly while the future was runni
+  #22797 ZeroImpute/wind_speed/aligned_timestamps/h64/r0.2: A process in the process pool was terminated abruptly while the future was runni
+  #22798 ZeroImpute/wind_speed/aligned_timestamps/h64/r0.4: A process in the process pool was terminated abruptly while the future was runni
+  #22800 ZeroImpute/wind_speed/aligned_timestamps/h64/r0.8: A process in the process pool was terminated abruptly while the future was runni
 ```
 
 ## Progress (horizon × algorithm)
