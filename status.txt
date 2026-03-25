@@ -1,17 +1,25 @@
 
 Job status (22800 total):
   completed   :   3868  (17.0%)
-  in progress :  18932  (83.0%)
+  in progress :   4832  (21.2%)
+  failed      :  14100
 
-  active now  :    256  (across 8 servers)
+  active now  :     64  (across 2 servers)
 
 Per server:
   server        active  completed  remaining
   bigdata.1         32        361       2489
-  bigdata.2         32        456       2394
-  bigdata.3         32        359       2491
-  bigdata.4         32        444       2406
-  bigdata.5         32        460       2390
-  bigdata.6         32        824       2026
+  bigdata.2       DOWN        456       2394
+  bigdata.3       DOWN        359       2491
+  bigdata.4       DOWN        444       2406
+  bigdata.5       DOWN        460       2390
+  bigdata.6       DOWN        824       2026
   bigdata.7         32        507       2343
-  bigdata.8         32        457       2393
+  bigdata.8       DOWN        457       2393
+
+Failed (server dead):
+  #22795 XGBOOST/wind_speed/aligned_timestamps/h64/r0.8: A process in the process pool was terminated abruptly while the future was runni
+  #22796 ZeroImpute/wind_speed/aligned_timestamps/h64/r0.1: A process in the process pool was terminated abruptly while the future was runni
+  #22797 ZeroImpute/wind_speed/aligned_timestamps/h64/r0.2: A process in the process pool was terminated abruptly while the future was runni
+  #22798 ZeroImpute/wind_speed/aligned_timestamps/h64/r0.4: A process in the process pool was terminated abruptly while the future was runni
+  #22800 ZeroImpute/wind_speed/aligned_timestamps/h64/r0.8: A process in the process pool was terminated abruptly while the future was runni
