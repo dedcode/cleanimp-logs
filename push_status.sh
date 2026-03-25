@@ -1,21 +1,20 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_DIR="/Users/dd115/Documents/repo/cleanimp-logs"
-ORCH_CMD="/storage/experiments/cleanimp/imputegap/imputegap_env/bin/python /storage/experiments/cleanimp/imputegap/orchestrator/coordinator.py"
-
-# Filter out NYU SSH banner noise
-filter_banner() {
-  grep -v -E '~~~|WARNING.*UNAUTHORIZED|DO NOT PROCEED|computer system|accessed only|privileges|may not be|strictly pro|hibited|criminal|initiated|monitored|monitoring|Questions|directed|AskITS|UNAUTHORIZED|prior approval|212-998|phone|Access and use|NYU' | sed '/^[[:space:]]*$/d'
-}
+REPO_DIR=/storage/experiments/cleanimp/imputegap/cleanimp-logs
+ORCH_DIR=/storage/experiments/cleanimp/imputegap/orchestrator
+PYTHON=/storage/experiments/cleanimp/imputegap/imputegap_env/bin/python
+COORD=$ORCH_DIR/coordinator.py
 
 cd "$REPO_DIR"
 
 # Generate status
-ssh bigdata.1 "cd /storage/experiments/cleanimp/imputegap/orchestrator && $ORCH_CMD --status 2>/dev/null" | filter_banner > status.txt
+cd "$ORCH_DIR" && $PYTHON $COORD --status 2>/dev/null | sed '/Fetching/d' > "$REPO_DIR/status.txt"
 
-# Generate progress matrix
-ssh bigdata.1 "cd /storage/experiments/cleanimp/imputegap/orchestrator && $ORCH_CMD --progress 2>/dev/null" | filter_banner > progress.txt
+# Generate progress
+cd "$ORCH_DIR" && $PYTHON $COORD --progress 2>/dev/null | sed '/Fetching/d' > "$REPO_DIR/progress.txt"
+
+cd "$REPO_DIR"
 
 # Build README
 TS=$(date -u '+%Y-%m-%d %H:%M:%S UTC')

@@ -1,15 +1,17 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-03-25 07:54:00 UTC
+Last updated: 2026-03-25 07:57:39 UTC
 
 ## Status
 
 ```
-Fetching status from all servers...
+
 Job status (22800 total):
-  completed   :   3400  (14.9%)
-  in progress :  19400  (85.1%)
+  completed   :   3472  (15.2%)
+  in progress :  19328  (84.8%)
+
   active now  :    256  (across 8 servers)
+
 Per server:
   server        active  completed  remaining
   bigdata.1         32        361       2489
@@ -17,7 +19,7 @@ Per server:
   bigdata.3         32        359       2491
   bigdata.4         32        443       2407
   bigdata.5         32        363       2487
-  bigdata.6         32        651       2199
+  bigdata.6         32        723       2127
   bigdata.7         32        408       2442
   bigdata.8         32        360       2490
 ```
@@ -25,47 +27,49 @@ Per server:
 ## Progress (horizon × algorithm)
 
 ```
-Fetching status from all servers...
-Progress: 3400/22800 (14.9%)
+
+Progress: 3472/22800 (15.2%)
+
   algorithm                  h24     h36     h48     h64     total
   ---------------------- ------- ------- ------- ------- ---------
-  BRITS                    95/150    2/150       -       -    97/600
-  BayOTIDE                100/150    1/150       -       -   101/600
+  BRITS                    95/150    4/150       -       -    99/600
+  BayOTIDE                100/150    4/150       -       -   104/600
   BitGraph                 73/150    1/150       -       -    74/600
-  CDRec                    99/150    2/150       -       -   101/600
+  CDRec                    99/150    5/150       -       -   104/600
   CSDI                     57/150       -       -       -    57/600
   DeepMVI                  66/150    2/150       -       -    68/600
-  DynaMMo                  93/150    1/150       -       -    94/600
-  GAIN                     97/150    1/150       -       -    98/600
+  DynaMMo                  93/150    3/150       -       -    96/600
+  GAIN                     97/150    3/150       -       -   100/600
   GPT4TS                   60/150    2/150       -       -    62/600
   GRIN                     88/150    1/150       -       -    89/600
-  GROUSE                   92/150    1/150       -       -    93/600
-  HKMFT                    87/150    2/150       -       -    89/600
-  IIM                      93/150       -       -       -    93/600
-  Interpolation            95/150    2/150       -       -    97/600
-  IterativeSVD             93/150    1/150       -       -    94/600
-  KNNImpute                98/150    1/150       -       -    99/600
-  MICE                     92/150    2/150       -       -    94/600
-  MPIN                     98/150    1/150       -       -    99/600
+  GROUSE                   92/150    3/150       -       -    95/600
+  HKMFT                    87/150    4/150       -       -    91/600
+  IIM                      93/150    2/150       -       -    95/600
+  Interpolation            95/150    5/150       -       -   100/600
+  IterativeSVD             93/150    3/150       -       -    96/600
+  KNNImpute                98/150    4/150       -       -   102/600
+  MICE                     92/150    4/150       -       -    96/600
+  MPIN                     98/150    4/150       -       -   102/600
   MRNN                     93/150    1/150       -       -    94/600
-  MeanImpute               97/150    2/150       -       -    99/600
-  MeanImputeBySeries       94/150       -       -       -    94/600
-  MinImpute                95/150    2/150       -       -    97/600
+  MeanImpute               97/150    5/150       -       -   102/600
+  MeanImputeBySeries       94/150    2/150       -       -    96/600
+  MinImpute                95/150    5/150       -       -   100/600
   MissForest               86/150    1/150       -       -    87/600
-  MissNet                 101/150    1/150       -       -   102/600
+  MissNet                 101/150    3/150       -       -   104/600
   Moment                   81/150    2/150       -       -    83/600
-  NuwaTS                   47/150    1/150       -       -    48/600
+  NuwaTS                   48/150    1/150       -       -    49/600
   PRISTI                   54/150       -       -       -    54/600
-  ROSL                     96/150    1/150       -       -    97/600
-  SAITS                    96/150       -       -       -    96/600
-  SPIRIT                   96/150    1/150       -       -    97/600
-  STMVL                    92/150    1/150       -       -    93/600
-  SVT                     100/150       -       -       -   100/600
-  SoftImpute               91/150    1/150       -       -    92/600
-  TKCM                     99/150    1/150       -       -   100/600
-  TRMF                     94/150       -       -       -    94/600
-  TimesNet                 81/150    1/150       -       -    82/600
-  XGBOOST                  96/150       -       -       -    96/600
-  ZeroImpute               95/150    1/150       -       -    96/600
-  TOTAL                  3360/5700  40/5700   0/5700   0/5700  3400/22800
+  ROSL                     96/150    5/150       -       -   101/600
+  SAITS                    96/150    2/150       -       -    98/600
+  SPIRIT                   96/150    5/150       -       -   101/600
+  STMVL                    92/150    3/150       -       -    95/600
+  SVT                     100/150    4/150       -       -   104/600
+  SoftImpute               91/150    4/150       -       -    95/600
+  TKCM                     99/150    4/150       -       -   103/600
+  TRMF                     94/150    2/150       -       -    96/600
+  TimesNet                 81/150    2/150       -       -    83/600
+  XGBOOST                  96/150    2/150       -       -    98/600
+  ZeroImpute               95/150    4/150       -       -    99/600
+
+  TOTAL                  3361/5700 111/5700   0/5700   0/5700  3472/22800
 ```
