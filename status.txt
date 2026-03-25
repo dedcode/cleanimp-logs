@@ -1,8 +1,8 @@
 
 Job status (22800 total):
-  completed   :   3849  (16.9%)
-  in progress :   4837  (21.2%)
-  failed      :  14114
+  completed   :   3859  (16.9%)
+  in progress :   4836  (21.2%)
+  failed      :  14105
 
   active now  :     64  (across 2 servers)
 
@@ -12,10 +12,10 @@ Per server:
   bigdata.2       DOWN        456       2394
   bigdata.3       DOWN        359       2491
   bigdata.4       DOWN        444       2406
-  bigdata.5       DOWN        453       2397
-  bigdata.6       DOWN        820       2030
-  bigdata.7         32        502       2348
-  bigdata.8       DOWN        454       2396
+  bigdata.5       DOWN        457       2393
+  bigdata.6       DOWN        822       2028
+  bigdata.7         32        503       2347
+  bigdata.8       DOWN        457       2393
 
 Failed (server dead):
   #22795 XGBOOST/wind_speed/aligned_timestamps/h64/r0.8: A process in the process pool was terminated abruptly while the future was runni
