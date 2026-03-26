@@ -1,14 +1,14 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-03-26 14:00:06 UTC
+Last updated: 2026-03-26 14:05:06 UTC
 
 ## Status
 
 ```
 
 Job status (22800 total):
-  completed   :   9615  (42.2%)
-  in progress :  13185  (57.8%)
+  completed   :   9617  (42.2%)
+  in progress :  13183  (57.8%)
 
   active now  :    256  (across 8 servers)
 
@@ -19,15 +19,15 @@ Per server:
   bigdata.3         32       1236       1614
   bigdata.4         32       1109       1741
   bigdata.5         32       1296       1554
-  bigdata.6         32       1417       1433
-  bigdata.7         32       1219       1631
+  bigdata.6         32       1418       1432
+  bigdata.7         32       1220       1630
   bigdata.8         32       1068       1782
 ```
 
 ## Progress (horizon × algorithm)
 
 
-Progress: 9616/22800 (42.2%) — $\color{green}{completed}$ / $\color{orange}{running}$ / $\color{red}{failed}$ (done%)
+Progress: 9618/22800 (42.2%) — $\color{green}{completed}$ / $\color{orange}{running}$ / $\color{red}{failed}$ (done%)
 
 | Algorithm | h24 | h36 | h48 | h64 | Total |
 |:--|:--:|:--:|:--:|:--:|:--|
@@ -39,7 +39,7 @@ Progress: 9616/22800 (42.2%) — $\color{green}{completed}$ / $\color{orange}{ru
 | DeepMVI | $\color{green}{116}$ / $\color{orange}{3}$ / $\color{red}{34}$ (100%) | $\color{green}{92}$ / $\color{orange}{15}$ / $\color{red}{47}$ (92%) | $\color{green}{5}$ / $\color{orange}{0}$ / $\color{red}{93}$ (65%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{97}$ (64%) | $\color{green}{213}$ / $\color{orange}{18}$ / $\color{red}{271}$ (80%) |
 | DynaMMo | ✅ | $\color{green}{118}$ / $\color{orange}{0}$ / $\color{red}{19}$ (91%) | $\color{green}{2}$ / $\color{orange}{0}$ / $\color{red}{87}$ (59%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{91}$ (60%) | $\color{green}{270}$ / $\color{orange}{0}$ / $\color{red}{197}$ (77%) |
 | GAIN | $\color{green}{146}$ / $\color{orange}{4}$ / $\color{red}{4}$ (100%) | $\color{green}{118}$ / $\color{orange}{0}$ / $\color{red}{20}$ (92%) | $\color{green}{5}$ / $\color{orange}{0}$ / $\color{red}{94}$ (66%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{96}$ (64%) | $\color{green}{269}$ / $\color{orange}{4}$ / $\color{red}{214}$ (80%) |
-| GPT4TS | $\color{green}{114}$ / $\color{orange}{3}$ / $\color{red}{36}$ (100%) | $\color{green}{93}$ / $\color{orange}{15}$ / $\color{red}{43}$ (90%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{86}$ (59%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{91}$ (60%) | $\color{green}{210}$ / $\color{orange}{18}$ / $\color{red}{256}$ (77%) |
+| GPT4TS | $\color{green}{115}$ / $\color{orange}{2}$ / $\color{red}{35}$ (100%) | $\color{green}{93}$ / $\color{orange}{16}$ / $\color{red}{43}$ (90%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{86}$ (59%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{91}$ (60%) | $\color{green}{211}$ / $\color{orange}{18}$ / $\color{red}{255}$ (77%) |
 | GRIN | $\color{green}{139}$ / $\color{orange}{2}$ / $\color{red}{11}$ (100%) | $\color{green}{103}$ / $\color{orange}{9}$ / $\color{red}{37}$ (93%) | $\color{green}{4}$ / $\color{orange}{0}$ / $\color{red}{93}$ (64%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{98}$ (65%) | $\color{green}{246}$ / $\color{orange}{11}$ / $\color{red}{239}$ (80%) |
 | GROUSE | $\color{green}{147}$ / $\color{orange}{3}$ / $\color{red}{3}$ (100%) | $\color{green}{117}$ / $\color{orange}{0}$ / $\color{red}{18}$ (90%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{88}$ (60%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{89}$ (59%) | $\color{green}{267}$ / $\color{orange}{3}$ / $\color{red}{198}$ (77%) |
 | HKMFT | $\color{green}{137}$ / $\color{orange}{3}$ / $\color{red}{13}$ (100%) | $\color{green}{110}$ / $\color{orange}{4}$ / $\color{red}{29}$ (92%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{93}$ (64%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{99}$ (66%) | $\color{green}{250}$ / $\color{orange}{7}$ / $\color{red}{234}$ (80%) |
@@ -57,7 +57,7 @@ Progress: 9616/22800 (42.2%) — $\color{green}{completed}$ / $\color{orange}{ru
 | MissNet | $\color{green}{149}$ / $\color{orange}{1}$ / $\color{red}{1}$ (100%) | $\color{green}{115}$ / $\color{orange}{0}$ / $\color{red}{23}$ (92%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{96}$ (66%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{96}$ (64%) | $\color{green}{267}$ / $\color{orange}{1}$ / $\color{red}{216}$ (80%) |
 | Moment | $\color{green}{137}$ / $\color{orange}{3}$ / $\color{red}{13}$ (100%) | $\color{green}{103}$ / $\color{orange}{8}$ / $\color{red}{31}$ (89%) | $\color{green}{2}$ / $\color{orange}{0}$ / $\color{red}{87}$ (59%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{91}$ (60%) | $\color{green}{242}$ / $\color{orange}{11}$ / $\color{red}{222}$ (77%) |
 | NuwaTS | $\color{green}{99}$ / $\color{orange}{10}$ / $\color{red}{51}$ (100%) | $\color{green}{65}$ / $\color{orange}{26}$ / $\color{red}{71}$ (90%) | $\color{green}{1}$ / $\color{orange}{0}$ / $\color{red}{96}$ (64%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{98}$ (65%) | $\color{green}{165}$ / $\color{orange}{36}$ / $\color{red}{316}$ (80%) |
-| PRISTI | $\color{green}{105}$ / $\color{orange}{5}$ / $\color{red}{45}$ (100%) | $\color{green}{84}$ / $\color{orange}{22}$ / $\color{red}{50}$ (89%) | $\color{green}{1}$ / $\color{orange}{0}$ / $\color{red}{90}$ (60%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{89}$ (59%) | $\color{green}{190}$ / $\color{orange}{27}$ / $\color{red}{274}$ (77%) |
+| PRISTI | $\color{green}{106}$ / $\color{orange}{4}$ / $\color{red}{44}$ (100%) | $\color{green}{84}$ / $\color{orange}{22}$ / $\color{red}{50}$ (89%) | $\color{green}{1}$ / $\color{orange}{0}$ / $\color{red}{90}$ (60%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{89}$ (59%) | $\color{green}{191}$ / $\color{orange}{26}$ / $\color{red}{273}$ (77%) |
 | ROSL | $\color{green}{146}$ / $\color{orange}{4}$ / $\color{red}{4}$ (100%) | $\color{green}{114}$ / $\color{orange}{0}$ / $\color{red}{24}$ (92%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{93}$ (64%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{99}$ (66%) | $\color{green}{263}$ / $\color{orange}{4}$ / $\color{red}{220}$ (80%) |
 | SAITS | ✅ | $\color{green}{116}$ / $\color{orange}{0}$ / $\color{red}{19}$ (90%) | $\color{green}{2}$ / $\color{orange}{0}$ / $\color{red}{89}$ (60%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{89}$ (59%) | $\color{green}{268}$ / $\color{orange}{0}$ / $\color{red}{197}$ (77%) |
 | SPIRIT | $\color{green}{146}$ / $\color{orange}{4}$ / $\color{red}{4}$ (100%) | $\color{green}{115}$ / $\color{orange}{0}$ / $\color{red}{22}$ (91%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{95}$ (65%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{97}$ (64%) | $\color{green}{264}$ / $\color{orange}{4}$ / $\color{red}{218}$ (80%) |
@@ -66,7 +66,7 @@ Progress: 9616/22800 (42.2%) — $\color{green}{completed}$ / $\color{orange}{ru
 | SoftImpute | $\color{green}{147}$ / $\color{orange}{3}$ / $\color{red}{3}$ (100%) | $\color{green}{116}$ / $\color{orange}{0}$ / $\color{red}{18}$ (89%) | $\color{green}{2}$ / $\color{orange}{0}$ / $\color{red}{87}$ (59%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{91}$ (60%) | $\color{green}{265}$ / $\color{orange}{3}$ / $\color{red}{199}$ (77%) |
 | TKCM | $\color{green}{148}$ / $\color{orange}{2}$ / $\color{red}{2}$ (100%) | $\color{green}{114}$ / $\color{orange}{0}$ / $\color{red}{24}$ (92%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{94}$ (64%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{98}$ (65%) | $\color{green}{265}$ / $\color{orange}{2}$ / $\color{red}{218}$ (80%) |
 | TRMF | $\color{green}{147}$ / $\color{orange}{3}$ / $\color{red}{3}$ (100%) | $\color{green}{115}$ / $\color{orange}{0}$ / $\color{red}{18}$ (88%) | $\color{green}{2}$ / $\color{orange}{0}$ / $\color{red}{89}$ (60%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{89}$ (59%) | $\color{green}{264}$ / $\color{orange}{3}$ / $\color{red}{199}$ (77%) |
-| TimesNet | $\color{green}{132}$ / $\color{orange}{3}$ / $\color{red}{18}$ (100%) | $\color{green}{104}$ / $\color{orange}{7}$ / $\color{red}{34}$ (92%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{93}$ (64%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{99}$ (66%) | $\color{green}{239}$ / $\color{orange}{10}$ / $\color{red}{244}$ (80%) |
+| TimesNet | $\color{green}{132}$ / $\color{orange}{3}$ / $\color{red}{18}$ (100%) | $\color{green}{104}$ / $\color{orange}{8}$ / $\color{red}{34}$ (92%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{93}$ (64%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{99}$ (66%) | $\color{green}{239}$ / $\color{orange}{11}$ / $\color{red}{244}$ (80%) |
 | XGBOOST | $\color{green}{149}$ / $\color{orange}{1}$ / $\color{red}{1}$ (100%) | $\color{green}{116}$ / $\color{orange}{0}$ / $\color{red}{18}$ (89%) | $\color{green}{2}$ / $\color{orange}{0}$ / $\color{red}{89}$ (60%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{89}$ (59%) | $\color{green}{267}$ / $\color{orange}{1}$ / $\color{red}{197}$ (77%) |
 | ZeroImpute | $\color{green}{147}$ / $\color{orange}{3}$ / $\color{red}{3}$ (100%) | $\color{green}{115}$ / $\color{orange}{0}$ / $\color{red}{22}$ (91%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{95}$ (65%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{97}$ (64%) | $\color{green}{265}$ / $\color{orange}{3}$ / $\color{red}{217}$ (80%) |
-| **TOTAL** | **$\color{green}{5344}$ / $\color{orange}{100}$ / $\color{red}{356}$ (100%)** | **$\color{green}{4169}$ / $\color{orange}{156}$ / $\color{red}{1024}$ (91%)** | **$\color{green}{103}$ / $\color{orange}{0}$ / $\color{red}{3459}$ (62%)** | **$\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{3563}$ (62%)** | **$\color{green}{9616}$ / $\color{orange}{256}$ / $\color{red}{8402}$ (79%)** |
+| **TOTAL** | **$\color{green}{5346}$ / $\color{orange}{98}$ / $\color{red}{354}$ (100%)** | **$\color{green}{4169}$ / $\color{orange}{158}$ / $\color{red}{1024}$ (91%)** | **$\color{green}{103}$ / $\color{orange}{0}$ / $\color{red}{3459}$ (62%)** | **$\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{3563}$ (62%)** | **$\color{green}{9618}$ / $\color{orange}{256}$ / $\color{red}{8400}$ (79%)** |
