@@ -1,14 +1,14 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-03-26 13:55:06 UTC
+Last updated: 2026-03-26 14:00:06 UTC
 
 ## Status
 
 ```
 
 Job status (22800 total):
-  completed   :   9613  (42.2%)
-  in progress :  13187  (57.8%)
+  completed   :   9615  (42.2%)
+  in progress :  13185  (57.8%)
 
   active now  :    256  (across 8 servers)
 
@@ -17,7 +17,7 @@ Per server:
   bigdata.1         32       1023       1827
   bigdata.2         32       1247       1603
   bigdata.3         32       1236       1614
-  bigdata.4         32       1107       1743
+  bigdata.4         32       1109       1741
   bigdata.5         32       1296       1554
   bigdata.6         32       1417       1433
   bigdata.7         32       1219       1631
@@ -27,15 +27,15 @@ Per server:
 ## Progress (horizon × algorithm)
 
 
-Progress: 9614/22800 (42.2%) — $\color{green}{completed}$ / $\color{orange}{running}$ / $\color{red}{failed}$ (done%)
+Progress: 9616/22800 (42.2%) — $\color{green}{completed}$ / $\color{orange}{running}$ / $\color{red}{failed}$ (done%)
 
 | Algorithm | h24 | h36 | h48 | h64 | Total |
 |:--|:--:|:--:|:--:|:--:|:--|
 | BRITS | $\color{green}{147}$ / $\color{orange}{3}$ / $\color{red}{3}$ (100%) | $\color{green}{114}$ / $\color{orange}{3}$ / $\color{red}{22}$ (90%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{86}$ (59%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{91}$ (60%) | $\color{green}{264}$ / $\color{orange}{6}$ / $\color{red}{202}$ (77%) |
 | BayOTIDE | $\color{green}{149}$ / $\color{orange}{1}$ / $\color{red}{1}$ (100%) | $\color{green}{120}$ / $\color{orange}{0}$ / $\color{red}{20}$ (93%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{94}$ (64%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{98}$ (65%) | $\color{green}{272}$ / $\color{orange}{1}$ / $\color{red}{213}$ (80%) |
-| BitGraph | $\color{green}{125}$ / $\color{orange}{4}$ / $\color{red}{25}$ (100%) | $\color{green}{91}$ / $\color{orange}{15}$ / $\color{red}{44}$ (90%) | $\color{green}{4}$ / $\color{orange}{0}$ / $\color{red}{87}$ (60%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{89}$ (59%) | $\color{green}{220}$ / $\color{orange}{19}$ / $\color{red}{245}$ (77%) |
+| BitGraph | $\color{green}{125}$ / $\color{orange}{4}$ / $\color{red}{25}$ (100%) | $\color{green}{91}$ / $\color{orange}{16}$ / $\color{red}{44}$ (90%) | $\color{green}{4}$ / $\color{orange}{0}$ / $\color{red}{87}$ (60%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{89}$ (59%) | $\color{green}{220}$ / $\color{orange}{20}$ / $\color{red}{245}$ (77%) |
 | CDRec | $\color{green}{148}$ / $\color{orange}{2}$ / $\color{red}{2}$ (100%) | $\color{green}{117}$ / $\color{orange}{0}$ / $\color{red}{23}$ (93%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{93}$ (64%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{99}$ (66%) | $\color{green}{268}$ / $\color{orange}{2}$ / $\color{red}{217}$ (80%) |
-| CSDI | $\color{green}{107}$ / $\color{orange}{4}$ / $\color{red}{43}$ (100%) | $\color{green}{93}$ / $\color{orange}{17}$ / $\color{red}{42}$ (90%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{88}$ (60%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{89}$ (59%) | $\color{green}{203}$ / $\color{orange}{21}$ / $\color{red}{262}$ (77%) |
+| CSDI | $\color{green}{109}$ / $\color{orange}{2}$ / $\color{red}{41}$ (100%) | $\color{green}{93}$ / $\color{orange}{17}$ / $\color{red}{42}$ (90%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{88}$ (60%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{89}$ (59%) | $\color{green}{205}$ / $\color{orange}{19}$ / $\color{red}{260}$ (77%) |
 | DeepMVI | $\color{green}{116}$ / $\color{orange}{3}$ / $\color{red}{34}$ (100%) | $\color{green}{92}$ / $\color{orange}{15}$ / $\color{red}{47}$ (92%) | $\color{green}{5}$ / $\color{orange}{0}$ / $\color{red}{93}$ (65%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{97}$ (64%) | $\color{green}{213}$ / $\color{orange}{18}$ / $\color{red}{271}$ (80%) |
 | DynaMMo | ✅ | $\color{green}{118}$ / $\color{orange}{0}$ / $\color{red}{19}$ (91%) | $\color{green}{2}$ / $\color{orange}{0}$ / $\color{red}{87}$ (59%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{91}$ (60%) | $\color{green}{270}$ / $\color{orange}{0}$ / $\color{red}{197}$ (77%) |
 | GAIN | $\color{green}{146}$ / $\color{orange}{4}$ / $\color{red}{4}$ (100%) | $\color{green}{118}$ / $\color{orange}{0}$ / $\color{red}{20}$ (92%) | $\color{green}{5}$ / $\color{orange}{0}$ / $\color{red}{94}$ (66%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{96}$ (64%) | $\color{green}{269}$ / $\color{orange}{4}$ / $\color{red}{214}$ (80%) |
@@ -66,7 +66,7 @@ Progress: 9614/22800 (42.2%) — $\color{green}{completed}$ / $\color{orange}{ru
 | SoftImpute | $\color{green}{147}$ / $\color{orange}{3}$ / $\color{red}{3}$ (100%) | $\color{green}{116}$ / $\color{orange}{0}$ / $\color{red}{18}$ (89%) | $\color{green}{2}$ / $\color{orange}{0}$ / $\color{red}{87}$ (59%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{91}$ (60%) | $\color{green}{265}$ / $\color{orange}{3}$ / $\color{red}{199}$ (77%) |
 | TKCM | $\color{green}{148}$ / $\color{orange}{2}$ / $\color{red}{2}$ (100%) | $\color{green}{114}$ / $\color{orange}{0}$ / $\color{red}{24}$ (92%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{94}$ (64%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{98}$ (65%) | $\color{green}{265}$ / $\color{orange}{2}$ / $\color{red}{218}$ (80%) |
 | TRMF | $\color{green}{147}$ / $\color{orange}{3}$ / $\color{red}{3}$ (100%) | $\color{green}{115}$ / $\color{orange}{0}$ / $\color{red}{18}$ (88%) | $\color{green}{2}$ / $\color{orange}{0}$ / $\color{red}{89}$ (60%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{89}$ (59%) | $\color{green}{264}$ / $\color{orange}{3}$ / $\color{red}{199}$ (77%) |
-| TimesNet | $\color{green}{132}$ / $\color{orange}{3}$ / $\color{red}{18}$ (100%) | $\color{green}{104}$ / $\color{orange}{6}$ / $\color{red}{34}$ (92%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{93}$ (64%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{99}$ (66%) | $\color{green}{239}$ / $\color{orange}{9}$ / $\color{red}{244}$ (80%) |
+| TimesNet | $\color{green}{132}$ / $\color{orange}{3}$ / $\color{red}{18}$ (100%) | $\color{green}{104}$ / $\color{orange}{7}$ / $\color{red}{34}$ (92%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{93}$ (64%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{99}$ (66%) | $\color{green}{239}$ / $\color{orange}{10}$ / $\color{red}{244}$ (80%) |
 | XGBOOST | $\color{green}{149}$ / $\color{orange}{1}$ / $\color{red}{1}$ (100%) | $\color{green}{116}$ / $\color{orange}{0}$ / $\color{red}{18}$ (89%) | $\color{green}{2}$ / $\color{orange}{0}$ / $\color{red}{89}$ (60%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{89}$ (59%) | $\color{green}{267}$ / $\color{orange}{1}$ / $\color{red}{197}$ (77%) |
 | ZeroImpute | $\color{green}{147}$ / $\color{orange}{3}$ / $\color{red}{3}$ (100%) | $\color{green}{115}$ / $\color{orange}{0}$ / $\color{red}{22}$ (91%) | $\color{green}{3}$ / $\color{orange}{0}$ / $\color{red}{95}$ (65%) | $\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{97}$ (64%) | $\color{green}{265}$ / $\color{orange}{3}$ / $\color{red}{217}$ (80%) |
-| **TOTAL** | **$\color{green}{5342}$ / $\color{orange}{102}$ / $\color{red}{358}$ (100%)** | **$\color{green}{4169}$ / $\color{orange}{154}$ / $\color{red}{1024}$ (91%)** | **$\color{green}{103}$ / $\color{orange}{0}$ / $\color{red}{3459}$ (62%)** | **$\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{3563}$ (62%)** | **$\color{green}{9614}$ / $\color{orange}{256}$ / $\color{red}{8404}$ (79%)** |
+| **TOTAL** | **$\color{green}{5344}$ / $\color{orange}{100}$ / $\color{red}{356}$ (100%)** | **$\color{green}{4169}$ / $\color{orange}{156}$ / $\color{red}{1024}$ (91%)** | **$\color{green}{103}$ / $\color{orange}{0}$ / $\color{red}{3459}$ (62%)** | **$\color{green}{0}$ / $\color{orange}{0}$ / $\color{red}{3563}$ (62%)** | **$\color{green}{9616}$ / $\color{orange}{256}$ / $\color{red}{8402}$ (79%)** |
