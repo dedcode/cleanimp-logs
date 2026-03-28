@@ -1,5 +1,5 @@
 
-Progress: 12882/17100 (75.3%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
+Progress: 12883/17100 (75.3%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
 
 | Algorithm | h24 | h36 | h48 | Total |
 |:--|:--:|:--:|:--:|:--|
@@ -14,7 +14,7 @@ Progress: 12882/17100 (75.3%) — $\color{green}{completed}$ / $\color{blue}{run
 | GPT4TS | ✅ | ✅ | $\color{green}{37}$ / $\color{blue}{7}$ / $\color{red}{4}$ (27%) | $\color{green}{337}$ / $\color{blue}{7}$ / $\color{red}{4}$ (75%) |
 | GRIN | ✅ | $\color{green}{149}$ / $\color{blue}{0}$ / $\color{red}{1}$ (100%) | $\color{green}{39}$ / $\color{blue}{6}$ / $\color{red}{3}$ (28%) | $\color{green}{338}$ / $\color{blue}{6}$ / $\color{red}{4}$ (76%) |
 | GROUSE | ✅ | ✅ | $\color{green}{39}$ / $\color{blue}{10}$ / $\color{red}{0}$ (26%) | $\color{green}{339}$ / $\color{blue}{10}$ / $\color{red}{0}$ (75%) |
-| HKMFT | ✅ | $\color{green}{149}$ / $\color{blue}{0}$ / $\color{red}{1}$ (100%) | $\color{green}{40}$ / $\color{blue}{6}$ / $\color{red}{1}$ (27%) | $\color{green}{339}$ / $\color{blue}{6}$ / $\color{red}{2}$ (75%) |
+| HKMFT | ✅ | ✅ | $\color{green}{40}$ / $\color{blue}{6}$ / $\color{red}{1}$ (27%) | $\color{green}{340}$ / $\color{blue}{6}$ / $\color{red}{1}$ (75%) |
 | IIM | ✅ | ✅ | $\color{green}{39}$ / $\color{blue}{8}$ / $\color{red}{0}$ (26%) | $\color{green}{339}$ / $\color{blue}{8}$ / $\color{red}{0}$ (75%) |
 | Interpolation | ✅ | ✅ | $\color{green}{40}$ / $\color{blue}{9}$ / $\color{red}{0}$ (26%) | $\color{green}{340}$ / $\color{blue}{9}$ / $\color{red}{0}$ (75%) |
 | IterativeSVD | ✅ | ✅ | $\color{green}{41}$ / $\color{blue}{4}$ / $\color{red}{0}$ (27%) | $\color{green}{341}$ / $\color{blue}{4}$ / $\color{red}{0}$ (75%) |
@@ -41,4 +41,4 @@ Progress: 12882/17100 (75.3%) — $\color{green}{completed}$ / $\color{blue}{run
 | TimesNet | ✅ | ✅ | $\color{green}{39}$ / $\color{blue}{7}$ / $\color{red}{0}$ (26%) | $\color{green}{339}$ / $\color{blue}{7}$ / $\color{red}{0}$ (75%) |
 | XGBOOST | ✅ | ✅ | $\color{green}{38}$ / $\color{blue}{5}$ / $\color{red}{0}$ (25%) | $\color{green}{338}$ / $\color{blue}{5}$ / $\color{red}{0}$ (75%) |
 | ZeroImpute | ✅ | ✅ | $\color{green}{38}$ / $\color{blue}{6}$ / $\color{red}{0}$ (25%) | $\color{green}{338}$ / $\color{blue}{6}$ / $\color{red}{0}$ (75%) |
-| **TOTAL** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{5698}$ / $\color{blue}{0}$ / $\color{red}{2}$ (100%)** | **$\color{green}{1484}$ / $\color{blue}{256}$ / $\color{red}{23}$ (26%)** | **$\color{green}{12882}$ / $\color{blue}{256}$ / $\color{red}{25}$ (75%)** |
+| **TOTAL** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{5699}$ / $\color{blue}{0}$ / $\color{red}{1}$ (100%)** | **$\color{green}{1484}$ / $\color{blue}{256}$ / $\color{red}{23}$ (26%)** | **$\color{green}{12883}$ / $\color{blue}{256}$ / $\color{red}{24}$ (75%)** |
