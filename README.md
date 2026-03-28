@@ -1,14 +1,14 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-03-28 04:40:06 UTC
+Last updated: 2026-03-28 04:45:05 UTC
 
 ## Status
 
 ```
 
 Job status (17100 total):
-  completed   :  12145  (71.0%)
-  in progress :   4955  (29.0%)
+  completed   :  12146  (71.0%)
+  in progress :   4954  (29.0%)
 
   active now  :    256  (across 8 servers)
 
@@ -19,7 +19,7 @@ Per server:
   bigdata.3         32       1576        562
   bigdata.4         32       1507        631
   bigdata.5         32       1507        630
-  bigdata.6         32       1590        547
+  bigdata.6         32       1591        546
   bigdata.7         32       1494        643
   bigdata.8         32       1460        677
 ```
@@ -27,7 +27,7 @@ Per server:
 ## Progress (horizon × algorithm)
 
 
-Progress: 12147/17100 (71.0%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
+Progress: 12148/17100 (71.0%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
 
 | Algorithm | h24 | h36 | h48 | Total |
 |:--|:--:|:--:|:--:|:--|
@@ -35,7 +35,7 @@ Progress: 12147/17100 (71.0%) — $\color{green}{completed}$ / $\color{blue}{run
 | BayOTIDE | ✅ | ✅ | $\color{green}{36}$ / $\color{blue}{6}$ / $\color{red}{0}$ (24%) | $\color{green}{336}$ / $\color{blue}{6}$ / $\color{red}{0}$ (74%) |
 | BitGraph | $\color{green}{128}$ / $\color{blue}{0}$ / $\color{red}{22}$ (100%) | $\color{green}{127}$ / $\color{blue}{0}$ / $\color{red}{23}$ (100%) | $\color{green}{31}$ / $\color{blue}{6}$ / $\color{red}{3}$ (22%) | $\color{green}{286}$ / $\color{blue}{6}$ / $\color{red}{48}$ (74%) |
 | CDRec | ✅ | ✅ | $\color{green}{34}$ / $\color{blue}{8}$ / $\color{red}{0}$ (22%) | $\color{green}{334}$ / $\color{blue}{8}$ / $\color{red}{0}$ (74%) |
-| CSDI | $\color{green}{111}$ / $\color{blue}{0}$ / $\color{red}{39}$ (100%) | $\color{green}{126}$ / $\color{blue}{0}$ / $\color{red}{24}$ (100%) | $\color{green}{31}$ / $\color{blue}{8}$ / $\color{red}{1}$ (21%) | $\color{green}{268}$ / $\color{blue}{8}$ / $\color{red}{64}$ (73%) |
+| CSDI | $\color{green}{111}$ / $\color{blue}{0}$ / $\color{red}{39}$ (100%) | $\color{green}{126}$ / $\color{blue}{0}$ / $\color{red}{24}$ (100%) | $\color{green}{32}$ / $\color{blue}{7}$ / $\color{red}{1}$ (22%) | $\color{green}{269}$ / $\color{blue}{7}$ / $\color{red}{64}$ (74%) |
 | DeepMVI | $\color{green}{118}$ / $\color{blue}{0}$ / $\color{red}{32}$ (100%) | $\color{green}{127}$ / $\color{blue}{0}$ / $\color{red}{23}$ (100%) | $\color{green}{33}$ / $\color{blue}{6}$ / $\color{red}{1}$ (22%) | $\color{green}{278}$ / $\color{blue}{6}$ / $\color{red}{56}$ (74%) |
 | DynaMMo | ✅ | ✅ | $\color{green}{34}$ / $\color{blue}{8}$ / $\color{red}{0}$ (22%) | $\color{green}{334}$ / $\color{blue}{8}$ / $\color{red}{0}$ (74%) |
 | GAIN | ✅ | ✅ | $\color{green}{36}$ / $\color{blue}{4}$ / $\color{red}{0}$ (24%) | $\color{green}{336}$ / $\color{blue}{4}$ / $\color{red}{0}$ (74%) |
@@ -63,10 +63,10 @@ Progress: 12147/17100 (71.0%) — $\color{green}{completed}$ / $\color{blue}{run
 | SPIRIT | ✅ | ✅ | $\color{green}{32}$ / $\color{blue}{4}$ / $\color{red}{0}$ (21%) | $\color{green}{332}$ / $\color{blue}{4}$ / $\color{red}{0}$ (73%) |
 | STMVL | ✅ | ✅ | $\color{green}{29}$ / $\color{blue}{9}$ / $\color{red}{0}$ (19%) | $\color{green}{329}$ / $\color{blue}{9}$ / $\color{red}{0}$ (73%) |
 | SVT | ✅ | ✅ | $\color{green}{32}$ / $\color{blue}{5}$ / $\color{red}{0}$ (21%) | $\color{green}{332}$ / $\color{blue}{5}$ / $\color{red}{0}$ (73%) |
-| SoftImpute | ✅ | ✅ | $\color{green}{30}$ / $\color{blue}{5}$ / $\color{red}{0}$ (20%) | $\color{green}{330}$ / $\color{blue}{5}$ / $\color{red}{0}$ (73%) |
+| SoftImpute | ✅ | ✅ | $\color{green}{30}$ / $\color{blue}{6}$ / $\color{red}{0}$ (20%) | $\color{green}{330}$ / $\color{blue}{6}$ / $\color{red}{0}$ (73%) |
 | TKCM | ✅ | ✅ | $\color{green}{30}$ / $\color{blue}{8}$ / $\color{red}{0}$ (20%) | $\color{green}{330}$ / $\color{blue}{8}$ / $\color{red}{0}$ (73%) |
 | TRMF | ✅ | ✅ | $\color{green}{31}$ / $\color{blue}{4}$ / $\color{red}{0}$ (20%) | $\color{green}{331}$ / $\color{blue}{4}$ / $\color{red}{0}$ (73%) |
 | TimesNet | $\color{green}{134}$ / $\color{blue}{0}$ / $\color{red}{16}$ (100%) | $\color{green}{140}$ / $\color{blue}{0}$ / $\color{red}{10}$ (100%) | $\color{green}{30}$ / $\color{blue}{6}$ / $\color{red}{0}$ (20%) | $\color{green}{304}$ / $\color{blue}{6}$ / $\color{red}{26}$ (73%) |
 | XGBOOST | ✅ | ✅ | $\color{green}{29}$ / $\color{blue}{9}$ / $\color{red}{0}$ (19%) | $\color{green}{329}$ / $\color{blue}{9}$ / $\color{red}{0}$ (73%) |
 | ZeroImpute | ✅ | ✅ | $\color{green}{31}$ / $\color{blue}{4}$ / $\color{red}{0}$ (20%) | $\color{green}{331}$ / $\color{blue}{4}$ / $\color{red}{0}$ (73%) |
-| **TOTAL** | **$\color{green}{5437}$ / $\color{blue}{0}$ / $\color{red}{263}$ (100%)** | **$\color{green}{5515}$ / $\color{blue}{0}$ / $\color{red}{185}$ (100%)** | **$\color{green}{1195}$ / $\color{blue}{256}$ / $\color{red}{18}$ (21%)** | **$\color{green}{12147}$ / $\color{blue}{256}$ / $\color{red}{466}$ (73%)** |
+| **TOTAL** | **$\color{green}{5437}$ / $\color{blue}{0}$ / $\color{red}{263}$ (100%)** | **$\color{green}{5515}$ / $\color{blue}{0}$ / $\color{red}{185}$ (100%)** | **$\color{green}{1196}$ / $\color{blue}{256}$ / $\color{red}{18}$ (21%)** | **$\color{green}{12148}$ / $\color{blue}{256}$ / $\color{red}{466}$ (73%)** |
