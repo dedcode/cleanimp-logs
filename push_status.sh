@@ -7,6 +7,11 @@ REPO_DIR=/storage/experiments/cleanimp/imputegap/cleanimp-logs
 ORCH_DIR=/storage/experiments/cleanimp/imputegap/orchestrator
 PYTHON=/storage/experiments/cleanimp/imputegap/imputegap_env/bin/python
 COORD=$ORCH_DIR/coordinator.py
+CACHE_DIR=/storage/experiments/cleanimp/imputegap/imputegap/_caching
+
+# Sync cache + status from colab.nb
+rsync -az --update -e 'ssh' colab-nb:/home/ubuntu/imputegap/imputegap/_caching/ $CACHE_DIR/ 2>/dev/null || true
+scp colab-nb:/home/ubuntu/imputegap/orchestrator/status_retry_h24.csv $ORCH_DIR/status_colab.csv 2>/dev/null || true
 
 cd "$REPO_DIR"
 
