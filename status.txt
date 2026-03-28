@@ -1,7 +1,7 @@
 
 Job status (17100 total):
-  completed   :  12439  (72.7%)
-  in progress :   4661  (27.3%)
+  completed   :  12465  (72.9%)
+  in progress :   4635  (27.1%)
 
   active now  :    256  (across 8 servers)
 
