@@ -1,14 +1,14 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-03-28 12:45:08 UTC
+Last updated: 2026-03-28 12:50:07 UTC
 
 ## Status
 
 ```
 
 Job status (17100 total):
-  completed   :  12878  (75.3%)
-  in progress :   4222  (24.7%)
+  completed   :  12882  (75.3%)
+  in progress :   4218  (24.7%)
 
   active now  :    256  (across 8 servers)
 
@@ -27,7 +27,7 @@ Per server:
 ## Progress (horizon × algorithm)
 
 
-Progress: 12878/17100 (75.3%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
+Progress: 12882/17100 (75.3%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
 
 | Algorithm | h24 | h36 | h48 | Total |
 |:--|:--:|:--:|:--:|:--|
@@ -35,8 +35,8 @@ Progress: 12878/17100 (75.3%) — $\color{green}{completed}$ / $\color{blue}{run
 | BayOTIDE | ✅ | ✅ | $\color{green}{42}$ / $\color{blue}{6}$ / $\color{red}{0}$ (28%) | $\color{green}{342}$ / $\color{blue}{6}$ / $\color{red}{0}$ (76%) |
 | BitGraph | ✅ | ✅ | $\color{green}{38}$ / $\color{blue}{9}$ / $\color{red}{3}$ (27%) | $\color{green}{338}$ / $\color{blue}{9}$ / $\color{red}{3}$ (75%) |
 | CDRec | ✅ | ✅ | $\color{green}{44}$ / $\color{blue}{3}$ / $\color{red}{0}$ (29%) | $\color{green}{344}$ / $\color{blue}{3}$ / $\color{red}{0}$ (76%) |
-| CSDI | ✅ | $\color{green}{149}$ / $\color{blue}{0}$ / $\color{red}{1}$ (100%) | $\color{green}{38}$ / $\color{blue}{8}$ / $\color{red}{2}$ (26%) | $\color{green}{337}$ / $\color{blue}{8}$ / $\color{red}{3}$ (75%) |
-| DeepMVI | ✅ | $\color{green}{147}$ / $\color{blue}{0}$ / $\color{red}{3}$ (100%) | $\color{green}{41}$ / $\color{blue}{8}$ / $\color{red}{1}$ (28%) | $\color{green}{338}$ / $\color{blue}{8}$ / $\color{red}{4}$ (76%) |
+| CSDI | ✅ | ✅ | $\color{green}{38}$ / $\color{blue}{8}$ / $\color{red}{2}$ (26%) | $\color{green}{338}$ / $\color{blue}{8}$ / $\color{red}{2}$ (75%) |
+| DeepMVI | ✅ | ✅ | $\color{green}{41}$ / $\color{blue}{8}$ / $\color{red}{1}$ (28%) | $\color{green}{341}$ / $\color{blue}{8}$ / $\color{red}{1}$ (76%) |
 | DynaMMo | ✅ | ✅ | $\color{green}{43}$ / $\color{blue}{3}$ / $\color{red}{0}$ (28%) | $\color{green}{343}$ / $\color{blue}{3}$ / $\color{red}{0}$ (76%) |
 | GAIN | ✅ | ✅ | $\color{green}{41}$ / $\color{blue}{8}$ / $\color{red}{0}$ (27%) | $\color{green}{341}$ / $\color{blue}{8}$ / $\color{red}{0}$ (75%) |
 | GPT4TS | ✅ | ✅ | $\color{green}{37}$ / $\color{blue}{7}$ / $\color{red}{4}$ (27%) | $\color{green}{337}$ / $\color{blue}{7}$ / $\color{red}{4}$ (75%) |
@@ -69,4 +69,4 @@ Progress: 12878/17100 (75.3%) — $\color{green}{completed}$ / $\color{blue}{run
 | TimesNet | ✅ | ✅ | $\color{green}{39}$ / $\color{blue}{7}$ / $\color{red}{0}$ (26%) | $\color{green}{339}$ / $\color{blue}{7}$ / $\color{red}{0}$ (75%) |
 | XGBOOST | ✅ | ✅ | $\color{green}{38}$ / $\color{blue}{5}$ / $\color{red}{0}$ (25%) | $\color{green}{338}$ / $\color{blue}{5}$ / $\color{red}{0}$ (75%) |
 | ZeroImpute | ✅ | ✅ | $\color{green}{38}$ / $\color{blue}{6}$ / $\color{red}{0}$ (25%) | $\color{green}{338}$ / $\color{blue}{6}$ / $\color{red}{0}$ (75%) |
-| **TOTAL** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{5694}$ / $\color{blue}{0}$ / $\color{red}{6}$ (100%)** | **$\color{green}{1484}$ / $\color{blue}{256}$ / $\color{red}{23}$ (26%)** | **$\color{green}{12878}$ / $\color{blue}{256}$ / $\color{red}{29}$ (75%)** |
+| **TOTAL** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{5698}$ / $\color{blue}{0}$ / $\color{red}{2}$ (100%)** | **$\color{green}{1484}$ / $\color{blue}{256}$ / $\color{red}{23}$ (26%)** | **$\color{green}{12882}$ / $\color{blue}{256}$ / $\color{red}{25}$ (75%)** |
