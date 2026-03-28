@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-03-28 16:30:09 UTC
+Last updated: 2026-03-28 16:35:09 UTC
 
 ## Status
 
@@ -17,7 +17,7 @@ Per server:
   bigdata.1         32       1512        626
   bigdata.2         32       1591        547
   bigdata.3         32       1735        403
-  bigdata.4         32       1539        599
+  bigdata.4         32       1540        598
   bigdata.5         32       1603        534
   bigdata.6         32       1691        446
   bigdata.7         32       1527        610
