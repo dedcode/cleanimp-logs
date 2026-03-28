@@ -1,5 +1,5 @@
 
-Progress: 13140/17100 (76.8%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
+Progress: 13144/17100 (76.9%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
 
 | Algorithm | h24 | h36 | h48 | Total |
 |:--|:--:|:--:|:--:|:--|
@@ -8,13 +8,13 @@ Progress: 13140/17100 (76.8%) — $\color{green}{completed}$ / $\color{blue}{run
 | BitGraph | ✅ | ✅ | $\color{green}{51}$ / $\color{blue}{6}$ / $\color{red}{0}$ (34%) | $\color{green}{351}$ / $\color{blue}{6}$ / $\color{red}{0}$ (78%) |
 | CDRec | ✅ | ✅ | $\color{green}{48}$ / $\color{blue}{4}$ / $\color{red}{0}$ (32%) | $\color{green}{348}$ / $\color{blue}{4}$ / $\color{red}{0}$ (77%) |
 | CSDI | ✅ | ✅ | $\color{green}{48}$ / $\color{blue}{6}$ / $\color{red}{0}$ (32%) | $\color{green}{348}$ / $\color{blue}{6}$ / $\color{red}{0}$ (77%) |
-| DeepMVI | ✅ | ✅ | $\color{green}{48}$ / $\color{blue}{5}$ / $\color{red}{0}$ (32%) | $\color{green}{348}$ / $\color{blue}{5}$ / $\color{red}{0}$ (77%) |
+| DeepMVI | ✅ | ✅ | $\color{green}{51}$ / $\color{blue}{5}$ / $\color{red}{0}$ (34%) | $\color{green}{351}$ / $\color{blue}{5}$ / $\color{red}{0}$ (78%) |
 | DynaMMo | ✅ | ✅ | $\color{green}{47}$ / $\color{blue}{5}$ / $\color{red}{0}$ (31%) | $\color{green}{347}$ / $\color{blue}{5}$ / $\color{red}{0}$ (77%) |
 | GAIN | ✅ | ✅ | $\color{green}{48}$ / $\color{blue}{5}$ / $\color{red}{0}$ (32%) | $\color{green}{348}$ / $\color{blue}{5}$ / $\color{red}{0}$ (77%) |
 | GPT4TS | ✅ | ✅ | $\color{green}{48}$ / $\color{blue}{5}$ / $\color{red}{0}$ (32%) | $\color{green}{348}$ / $\color{blue}{5}$ / $\color{red}{0}$ (77%) |
 | GRIN | ✅ | ✅ | $\color{green}{46}$ / $\color{blue}{7}$ / $\color{red}{0}$ (30%) | $\color{green}{346}$ / $\color{blue}{7}$ / $\color{red}{0}$ (76%) |
 | GROUSE | ✅ | ✅ | $\color{green}{48}$ / $\color{blue}{5}$ / $\color{red}{0}$ (32%) | $\color{green}{348}$ / $\color{blue}{5}$ / $\color{red}{0}$ (77%) |
-| HKMFT | ✅ | ✅ | $\color{green}{47}$ / $\color{blue}{4}$ / $\color{red}{1}$ (32%) | $\color{green}{347}$ / $\color{blue}{4}$ / $\color{red}{1}$ (77%) |
+| HKMFT | ✅ | ✅ | $\color{green}{48}$ / $\color{blue}{4}$ / $\color{red}{0}$ (32%) | $\color{green}{348}$ / $\color{blue}{4}$ / $\color{red}{0}$ (77%) |
 | IIM | ✅ | ✅ | $\color{green}{47}$ / $\color{blue}{6}$ / $\color{red}{0}$ (31%) | $\color{green}{347}$ / $\color{blue}{6}$ / $\color{red}{0}$ (77%) |
 | Interpolation | ✅ | ✅ | $\color{green}{48}$ / $\color{blue}{5}$ / $\color{red}{0}$ (32%) | $\color{green}{348}$ / $\color{blue}{5}$ / $\color{red}{0}$ (77%) |
 | IterativeSVD | ✅ | ✅ | $\color{green}{46}$ / $\color{blue}{6}$ / $\color{red}{0}$ (30%) | $\color{green}{346}$ / $\color{blue}{6}$ / $\color{red}{0}$ (76%) |
@@ -41,4 +41,4 @@ Progress: 13140/17100 (76.8%) — $\color{green}{completed}$ / $\color{blue}{run
 | TimesNet | ✅ | ✅ | $\color{green}{43}$ / $\color{blue}{7}$ / $\color{red}{0}$ (28%) | $\color{green}{343}$ / $\color{blue}{7}$ / $\color{red}{0}$ (76%) |
 | XGBOOST | ✅ | ✅ | $\color{green}{42}$ / $\color{blue}{8}$ / $\color{red}{0}$ (28%) | $\color{green}{342}$ / $\color{blue}{8}$ / $\color{red}{0}$ (76%) |
 | ZeroImpute | ✅ | ✅ | $\color{green}{43}$ / $\color{blue}{9}$ / $\color{red}{0}$ (28%) | $\color{green}{343}$ / $\color{blue}{9}$ / $\color{red}{0}$ (76%) |
-| **TOTAL** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{1740}$ / $\color{blue}{256}$ / $\color{red}{1}$ (30%)** | **$\color{green}{13140}$ / $\color{blue}{256}$ / $\color{red}{1}$ (76%)** |
+| **TOTAL** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{1744}$ / $\color{blue}{256}$ / $\color{red}{0}$ (30%)** | **$\color{green}{13144}$ / $\color{blue}{256}$ / $\color{red}{0}$ (76%)** |
