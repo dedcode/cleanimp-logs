@@ -1,5 +1,5 @@
 
-Progress: 16217/17100 (94.8%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
+Progress: 16218/17100 (94.8%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
 
 | Algorithm | h24 | h36 | h48 | Total |
 |:--|:--:|:--:|:--:|:--|
@@ -28,7 +28,7 @@ Progress: 16217/17100 (94.8%) — $\color{green}{completed}$ / $\color{blue}{run
 | MissForest | ✅ | ✅ | $\color{green}{127}$ / $\color{blue}{0}$ / $\color{red}{0}$ (84%) | $\color{green}{427}$ / $\color{blue}{0}$ / $\color{red}{0}$ (94%) |
 | MissNet | ✅ | ✅ | $\color{green}{128}$ / $\color{blue}{0}$ / $\color{red}{0}$ (85%) | $\color{green}{428}$ / $\color{blue}{0}$ / $\color{red}{0}$ (95%) |
 | Moment | ✅ | ✅ | $\color{green}{128}$ / $\color{blue}{0}$ / $\color{red}{0}$ (85%) | $\color{green}{428}$ / $\color{blue}{0}$ / $\color{red}{0}$ (95%) |
-| NuwaTS | ✅ | ✅ | $\color{green}{118}$ / $\color{blue}{7}$ / $\color{red}{0}$ (78%) | $\color{green}{418}$ / $\color{blue}{7}$ / $\color{red}{0}$ (92%) |
+| NuwaTS | ✅ | ✅ | $\color{green}{119}$ / $\color{blue}{7}$ / $\color{red}{0}$ (79%) | $\color{green}{419}$ / $\color{blue}{7}$ / $\color{red}{0}$ (93%) |
 | PRISTI | ✅ | ✅ | $\color{green}{128}$ / $\color{blue}{0}$ / $\color{red}{0}$ (85%) | $\color{green}{428}$ / $\color{blue}{0}$ / $\color{red}{0}$ (95%) |
 | ROSL | ✅ | ✅ | $\color{green}{126}$ / $\color{blue}{0}$ / $\color{red}{0}$ (84%) | $\color{green}{426}$ / $\color{blue}{0}$ / $\color{red}{0}$ (94%) |
 | SAITS | ✅ | ✅ | $\color{green}{127}$ / $\color{blue}{0}$ / $\color{red}{0}$ (84%) | $\color{green}{427}$ / $\color{blue}{0}$ / $\color{red}{0}$ (94%) |
@@ -41,4 +41,4 @@ Progress: 16217/17100 (94.8%) — $\color{green}{completed}$ / $\color{blue}{run
 | TimesNet | ✅ | ✅ | $\color{green}{126}$ / $\color{blue}{7}$ / $\color{red}{0}$ (84%) | $\color{green}{426}$ / $\color{blue}{7}$ / $\color{red}{0}$ (94%) |
 | XGBOOST | ✅ | ✅ | $\color{green}{123}$ / $\color{blue}{8}$ / $\color{red}{0}$ (82%) | $\color{green}{423}$ / $\color{blue}{8}$ / $\color{red}{0}$ (94%) |
 | ZeroImpute | ✅ | ✅ | $\color{green}{123}$ / $\color{blue}{11}$ / $\color{red}{0}$ (82%) | $\color{green}{423}$ / $\color{blue}{11}$ / $\color{red}{0}$ (94%) |
-| **TOTAL** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{4817}$ / $\color{blue}{128}$ / $\color{red}{0}$ (84%)** | **$\color{green}{16217}$ / $\color{blue}{128}$ / $\color{red}{0}$ (94%)** |
+| **TOTAL** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{4818}$ / $\color{blue}{128}$ / $\color{red}{0}$ (84%)** | **$\color{green}{16218}$ / $\color{blue}{128}$ / $\color{red}{0}$ (94%)** |
