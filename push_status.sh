@@ -16,7 +16,7 @@ rsync -az --update -e 'ssh' colab-nb:/home/ubuntu/imputegap/imputegap/_caching/ 
 # Sync all colab status files directly by name
 for f in $(ssh colab-nb 'ls $COLAB_ORCH/status_*.csv 2>/dev/null' 2>/dev/null); do
     base=$(basename $f)
-    scp colab-nb:$f $ORCH_DIR/status_colab_$base 2>/dev/null || true
+    scp colab-nb:$f $ORCH_DIR/$base 2>/dev/null || true
 done
 
 cd "$REPO_DIR"
