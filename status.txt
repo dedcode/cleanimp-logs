@@ -1,19 +1,26 @@
 
 Job status (17100 total):
   completed   :  16279  (95.2%)
-  in progress :    575  (3.4%)
-  remaining   :    246
+  remaining   :    816
+  failed      :      5
 
-  active now  :    160  (across 5 servers)
+  active now  :      0  (across 0 servers)
 
 Per server:
   server        active  completed  remaining
-  bigdata.1         32        155         24
-  bigdata.2         32         94         85
-  bigdata.3         32        127         52
-  bigdata.4         32         67        112
+  bigdata.1       DOWN        160         19
+  bigdata.2       DOWN         94         85
+  bigdata.3       DOWN        127         52
+  bigdata.4       DOWN         67        112
   bigdata.5       DOWN        179          0
   bigdata.6       DOWN        179          0
-  bigdata.7         32        179          0
+  bigdata.7       DOWN        179          0
   bigdata.8       DOWN        179          0
   colab.nb        DOWN        100          0
+
+Failed jobs:
+  #14376 NuwaTS/electricity/mcar/h48/r0.1: A process in the process pool was terminated abruptly while the future was runni
+  #14377 NuwaTS/electricity/mcar/h48/r0.2: A process in the process pool was terminated abruptly while the future was runni
+  #14383 PRISTI/electricity/mcar/h48/r0.4: A process in the process pool was terminated abruptly while the future was runni
+  #14384 PRISTI/electricity/mcar/h48/r0.6: A process in the process pool was terminated abruptly while the future was runni
+  #14385 PRISTI/electricity/mcar/h48/r0.8: A process in the process pool was terminated abruptly while the future was runni
