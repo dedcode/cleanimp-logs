@@ -1,7 +1,7 @@
 
 Job status (17100 total):
-  completed   :  16331  (95.5%)
-  in progress :    760  (4.4%)
+  completed   :  16334  (95.5%)
+  in progress :    757  (4.4%)
   failed      :      9
 
   active now  :    256  (across 8 servers)
@@ -15,7 +15,7 @@ Per server:
   bigdata.5         32         96         83
   bigdata.6         32         62        117
   bigdata.7         32         28        151
-  bigdata.8         32        121         58
+  bigdata.8         32        124         55
   colab.nb        DOWN        555          0
 
 Failed jobs:
