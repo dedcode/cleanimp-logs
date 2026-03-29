@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-03-29 19:55:17 UTC
+Last updated: 2026-03-29 20:00:16 UTC
 
 ## Status
 
@@ -11,7 +11,7 @@ Job status (17100 total):
   in progress :    711  (4.2%)
   remaining   :    172
 
-  active now  :    277  (across 8 servers)
+  active now  :    224  (across 7 servers)
 
 Per server:
   server        active  completed  remaining
@@ -23,7 +23,7 @@ Per server:
   bigdata.6         32        179          0
   bigdata.7         32        179          0
   bigdata.8       DOWN        179          0
-  colab.nb          53        100          0
+  colab.nb        DOWN        100          0
 ```
 
 ## Progress (horizon × algorithm)
