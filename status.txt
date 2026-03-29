@@ -1,10 +1,10 @@
 
 Job status (17100 total):
-  completed   :  16020  (93.7%)
-  in progress :   1070  (6.3%)
+  completed   :  16056  (93.9%)
+  in progress :   1034  (6.0%)
   failed      :     10
 
-  active now  :    672  (across 9 servers)
+  active now  :    588  (across 9 servers)
 
 Per server:
   server        active  completed  remaining
@@ -15,8 +15,8 @@ Per server:
   bigdata.5         32         63        116
   bigdata.6         32         61        118
   bigdata.7         32         28        151
-  bigdata.8         32         60        119
-  colab.nb         416        500         55
+  bigdata.8         32         61        118
+  colab.nb         332        535         20
 
 Failed jobs:
   #16572 GPT4TS/wind_speed/mcar/h48/r0.2: A process in the process pool was terminated abruptly while the future was runni
