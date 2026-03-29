@@ -1,7 +1,7 @@
 
 Job status (17100 total):
-  completed   :  14096  (82.4%)
-  in progress :   3004  (17.6%)
+  completed   :  14099  (82.5%)
+  in progress :   3001  (17.5%)
 
   active now  :    256  (across 8 servers)
 
@@ -12,6 +12,6 @@ Per server:
   bigdata.3         32       1832        306
   bigdata.4         32       1605        533
   bigdata.5         32       1795        342
-  bigdata.6         32       1877        260
+  bigdata.6         32       1880        257
   bigdata.7         32       1591        546
   bigdata.8         32       1583        554
