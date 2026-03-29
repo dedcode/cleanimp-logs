@@ -1,14 +1,14 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-03-29 01:05:09 UTC
+Last updated: 2026-03-29 01:10:09 UTC
 
 ## Status
 
 ```
 
 Job status (17100 total):
-  completed   :  13792  (80.7%)
-  in progress :   3308  (19.3%)
+  completed   :  13793  (80.7%)
+  in progress :   3307  (19.3%)
 
   active now  :    256  (across 8 servers)
 
@@ -16,7 +16,7 @@ Per server:
   server        active  completed  remaining
   bigdata.1         32       1544        594
   bigdata.2         32       1687        451
-  bigdata.3         32       1830        308
+  bigdata.3         32       1831        307
   bigdata.4         32       1541        597
   bigdata.5         32       1728        409
   bigdata.6         32       1786        351
@@ -27,7 +27,7 @@ Per server:
 ## Progress (horizon × algorithm)
 
 
-Progress: 13792/17100 (80.7%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
+Progress: 13793/17100 (80.7%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
 
 | Algorithm | h24 | h36 | h48 | Total |
 |:--|:--:|:--:|:--:|:--|
@@ -57,7 +57,7 @@ Progress: 13792/17100 (80.7%) — $\color{green}{completed}$ / $\color{blue}{run
 | MissNet | ✅ | ✅ | $\color{green}{62}$ / $\color{blue}{7}$ / $\color{red}{1}$ (42%) | $\color{green}{362}$ / $\color{blue}{7}$ / $\color{red}{1}$ (80%) |
 | Moment | ✅ | ✅ | $\color{green}{59}$ / $\color{blue}{14}$ / $\color{red}{2}$ (40%) | $\color{green}{359}$ / $\color{blue}{14}$ / $\color{red}{2}$ (80%) |
 | NuwaTS | ✅ | ✅ | $\color{green}{53}$ / $\color{blue}{19}$ / $\color{red}{3}$ (37%) | $\color{green}{353}$ / $\color{blue}{19}$ / $\color{red}{3}$ (79%) |
-| PRISTI | ✅ | ✅ | $\color{green}{61}$ / $\color{blue}{11}$ / $\color{red}{1}$ (41%) | $\color{green}{361}$ / $\color{blue}{11}$ / $\color{red}{1}$ (80%) |
+| PRISTI | ✅ | ✅ | $\color{green}{62}$ / $\color{blue}{10}$ / $\color{red}{1}$ (42%) | $\color{green}{362}$ / $\color{blue}{10}$ / $\color{red}{1}$ (80%) |
 | ROSL | ✅ | ✅ | $\color{green}{61}$ / $\color{blue}{11}$ / $\color{red}{0}$ (40%) | $\color{green}{361}$ / $\color{blue}{11}$ / $\color{red}{0}$ (80%) |
 | SAITS | ✅ | ✅ | $\color{green}{63}$ / $\color{blue}{8}$ / $\color{red}{0}$ (42%) | $\color{green}{363}$ / $\color{blue}{8}$ / $\color{red}{0}$ (80%) |
 | SPIRIT | ✅ | ✅ | $\color{green}{60}$ / $\color{blue}{10}$ / $\color{red}{0}$ (40%) | $\color{green}{360}$ / $\color{blue}{10}$ / $\color{red}{0}$ (80%) |
@@ -68,5 +68,5 @@ Progress: 13792/17100 (80.7%) — $\color{green}{completed}$ / $\color{blue}{run
 | TRMF | ✅ | ✅ | $\color{green}{61}$ / $\color{blue}{8}$ / $\color{red}{0}$ (40%) | $\color{green}{361}$ / $\color{blue}{8}$ / $\color{red}{0}$ (80%) |
 | TimesNet | ✅ | ✅ | $\color{green}{58}$ / $\color{blue}{13}$ / $\color{red}{0}$ (38%) | $\color{green}{358}$ / $\color{blue}{13}$ / $\color{red}{0}$ (79%) |
 | XGBOOST | ✅ | ✅ | $\color{green}{61}$ / $\color{blue}{8}$ / $\color{red}{0}$ (40%) | $\color{green}{361}$ / $\color{blue}{8}$ / $\color{red}{0}$ (80%) |
-| ZeroImpute | ✅ | ✅ | $\color{green}{60}$ / $\color{blue}{6}$ / $\color{red}{0}$ (40%) | $\color{green}{360}$ / $\color{blue}{6}$ / $\color{red}{0}$ (80%) |
-| **TOTAL** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{2392}$ / $\color{blue}{356}$ / $\color{red}{7}$ (42%)** | **$\color{green}{13792}$ / $\color{blue}{356}$ / $\color{red}{7}$ (80%)** |
+| ZeroImpute | ✅ | ✅ | $\color{green}{60}$ / $\color{blue}{7}$ / $\color{red}{0}$ (40%) | $\color{green}{360}$ / $\color{blue}{7}$ / $\color{red}{0}$ (80%) |
+| **TOTAL** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{2393}$ / $\color{blue}{356}$ / $\color{red}{7}$ (42%)** | **$\color{green}{13793}$ / $\color{blue}{356}$ / $\color{red}{7}$ (80%)** |
