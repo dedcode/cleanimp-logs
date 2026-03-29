@@ -1,14 +1,14 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-03-29 18:10:17 UTC
+Last updated: 2026-03-29 18:15:18 UTC
 
 ## Status
 
 ```
 
 Job status (17100 total):
-  completed   :  16360  (95.7%)
-  in progress :    731  (4.3%)
+  completed   :  16361  (95.7%)
+  in progress :    730  (4.3%)
   failed      :      9
 
   active now  :    256  (across 8 servers)
@@ -19,7 +19,7 @@ Per server:
   bigdata.2         32         91         88
   bigdata.3         32        122         57
   bigdata.4         32         60        119
-  bigdata.5         32        122         57
+  bigdata.5         32        123         56
   bigdata.6         32         62        117
   bigdata.7         32         28        151
   bigdata.8         32        124         55
@@ -36,7 +36,7 @@ Failed jobs:
 ## Progress (horizon × algorithm)
 
 
-Progress: 16360/17100 (95.7%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
+Progress: 16361/17100 (95.7%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
 
 | Algorithm | h24 | h36 | h48 | Total |
 |:--|:--:|:--:|:--:|:--|
@@ -45,7 +45,7 @@ Progress: 16360/17100 (95.7%) — $\color{green}{completed}$ / $\color{blue}{run
 | BitGraph | ✅ | ✅ | $\color{green}{127}$ / $\color{blue}{13}$ / $\color{red}{0}$ (84%) | $\color{green}{427}$ / $\color{blue}{13}$ / $\color{red}{0}$ (94%) |
 | CDRec | ✅ | ✅ | $\color{green}{126}$ / $\color{blue}{12}$ / $\color{red}{0}$ (84%) | $\color{green}{426}$ / $\color{blue}{12}$ / $\color{red}{0}$ (94%) |
 | CSDI | ✅ | ✅ | $\color{green}{126}$ / $\color{blue}{11}$ / $\color{red}{0}$ (84%) | $\color{green}{426}$ / $\color{blue}{11}$ / $\color{red}{0}$ (94%) |
-| DeepMVI | ✅ | ✅ | $\color{green}{130}$ / $\color{blue}{6}$ / $\color{red}{0}$ (86%) | $\color{green}{430}$ / $\color{blue}{6}$ / $\color{red}{0}$ (95%) |
+| DeepMVI | ✅ | ✅ | $\color{green}{130}$ / $\color{blue}{7}$ / $\color{red}{0}$ (86%) | $\color{green}{430}$ / $\color{blue}{7}$ / $\color{red}{0}$ (95%) |
 | DynaMMo | ✅ | ✅ | $\color{green}{128}$ / $\color{blue}{4}$ / $\color{red}{0}$ (85%) | $\color{green}{428}$ / $\color{blue}{4}$ / $\color{red}{0}$ (95%) |
 | GAIN | ✅ | ✅ | $\color{green}{127}$ / $\color{blue}{4}$ / $\color{red}{0}$ (84%) | $\color{green}{427}$ / $\color{blue}{4}$ / $\color{red}{0}$ (94%) |
 | GPT4TS | ✅ | ✅ | $\color{green}{128}$ / $\color{blue}{4}$ / $\color{red}{2}$ (86%) | $\color{green}{428}$ / $\color{blue}{4}$ / $\color{red}{2}$ (95%) |
@@ -75,7 +75,7 @@ Progress: 16360/17100 (95.7%) — $\color{green}{completed}$ / $\color{blue}{run
 | SoftImpute | ✅ | ✅ | $\color{green}{137}$ / $\color{blue}{11}$ / $\color{red}{0}$ (91%) | $\color{green}{437}$ / $\color{blue}{11}$ / $\color{red}{0}$ (97%) |
 | TKCM | ✅ | ✅ | $\color{green}{132}$ / $\color{blue}{15}$ / $\color{red}{0}$ (88%) | $\color{green}{432}$ / $\color{blue}{15}$ / $\color{red}{0}$ (96%) |
 | TRMF | ✅ | ✅ | $\color{green}{129}$ / $\color{blue}{18}$ / $\color{red}{0}$ (86%) | $\color{green}{429}$ / $\color{blue}{18}$ / $\color{red}{0}$ (95%) |
-| TimesNet | ✅ | ✅ | $\color{green}{127}$ / $\color{blue}{20}$ / $\color{red}{0}$ (84%) | $\color{green}{427}$ / $\color{blue}{20}$ / $\color{red}{0}$ (94%) |
+| TimesNet | ✅ | ✅ | $\color{green}{128}$ / $\color{blue}{19}$ / $\color{red}{0}$ (85%) | $\color{green}{428}$ / $\color{blue}{19}$ / $\color{red}{0}$ (95%) |
 | XGBOOST | ✅ | ✅ | $\color{green}{126}$ / $\color{blue}{18}$ / $\color{red}{0}$ (84%) | $\color{green}{426}$ / $\color{blue}{18}$ / $\color{red}{0}$ (94%) |
 | ZeroImpute | ✅ | ✅ | $\color{green}{122}$ / $\color{blue}{20}$ / $\color{red}{0}$ (81%) | $\color{green}{422}$ / $\color{blue}{20}$ / $\color{red}{0}$ (93%) |
-| **TOTAL** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{4960}$ / $\color{blue}{256}$ / $\color{red}{9}$ (87%)** | **$\color{green}{16360}$ / $\color{blue}{256}$ / $\color{red}{9}$ (95%)** |
+| **TOTAL** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{4961}$ / $\color{blue}{256}$ / $\color{red}{9}$ (87%)** | **$\color{green}{16361}$ / $\color{blue}{256}$ / $\color{red}{9}$ (95%)** |
