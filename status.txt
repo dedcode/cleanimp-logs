@@ -1,4 +1,4 @@
 Job Server Status (4794 total)
-  completed:    4672  (97.9%)
-  running:        99
+  completed:    4673  (98.0%)
+  running:        98
   failed:         23
