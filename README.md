@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-03-29 16:50:07 UTC
+Last updated: 2026-03-29 16:50:32 UTC
 
 ## Status
 
@@ -8,8 +8,7 @@ Last updated: 2026-03-29 16:50:07 UTC
 
 Job status (17100 total):
   completed   :  15113  (88.4%)
-  in progress :      0  (0.0%)
-  failed      :   1987
+  remaining   :   1987
 
   active now  :      0  (across 0 servers)
 
@@ -23,13 +22,6 @@ Per server:
   bigdata.6       DOWN       2074         63
   bigdata.7       DOWN       1687        450
   bigdata.8       DOWN       1711        426
-
-Failed (server dead):
-  #17095 XGBOOST/wind_speed/aligned_timestamps/h48/r0.8: 
-  #17096 ZeroImpute/wind_speed/aligned_timestamps/h48/r0.1: 
-  #17097 ZeroImpute/wind_speed/aligned_timestamps/h48/r0.2: 
-  #17098 ZeroImpute/wind_speed/aligned_timestamps/h48/r0.4: 
-  #17100 ZeroImpute/wind_speed/aligned_timestamps/h48/r0.8: 
 ```
 
 ## Progress (horizon × algorithm)
