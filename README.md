@@ -1,20 +1,20 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-03-29 10:55:10 UTC
+Last updated: 2026-03-29 11:00:11 UTC
 
 ## Status
 
 ```
 
 Job status (17100 total):
-  completed   :  14516  (84.9%)
-  in progress :   2584  (15.1%)
+  completed   :  14517  (84.9%)
+  in progress :   2583  (15.1%)
 
   active now  :    256  (across 8 servers)
 
 Per server:
   server        active  completed  remaining
-  bigdata.1         32       1608        530
+  bigdata.1         32       1609        529
   bigdata.2         32       1751        387
   bigdata.3         32       2023        115
   bigdata.4         32       1637        501
@@ -27,7 +27,7 @@ Per server:
 ## Progress (horizon × algorithm)
 
 
-Progress: 14516/17100 (84.9%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
+Progress: 14517/17100 (84.9%) — $\color{green}{completed}$ / $\color{blue}{running}$ / $\color{red}{failed}$ (done%)
 
 | Algorithm | h24 | h36 | h48 | Total |
 |:--|:--:|:--:|:--:|:--|
@@ -39,7 +39,7 @@ Progress: 14516/17100 (84.9%) — $\color{green}{completed}$ / $\color{blue}{run
 | DeepMVI | ✅ | ✅ | $\color{green}{86}$ / $\color{blue}{11}$ / $\color{red}{0}$ (57%) | $\color{green}{386}$ / $\color{blue}{11}$ / $\color{red}{0}$ (85%) |
 | DynaMMo | ✅ | ✅ | $\color{green}{86}$ / $\color{blue}{6}$ / $\color{red}{0}$ (57%) | $\color{green}{386}$ / $\color{blue}{6}$ / $\color{red}{0}$ (85%) |
 | GAIN | ✅ | ✅ | $\color{green}{82}$ / $\color{blue}{10}$ / $\color{red}{0}$ (54%) | $\color{green}{382}$ / $\color{blue}{10}$ / $\color{red}{0}$ (84%) |
-| GPT4TS | ✅ | ✅ | $\color{green}{84}$ / $\color{blue}{12}$ / $\color{red}{0}$ (56%) | $\color{green}{384}$ / $\color{blue}{12}$ / $\color{red}{0}$ (85%) |
+| GPT4TS | ✅ | ✅ | $\color{green}{85}$ / $\color{blue}{10}$ / $\color{red}{0}$ (56%) | $\color{green}{385}$ / $\color{blue}{10}$ / $\color{red}{0}$ (85%) |
 | GRIN | ✅ | ✅ | $\color{green}{85}$ / $\color{blue}{4}$ / $\color{red}{0}$ (56%) | $\color{green}{385}$ / $\color{blue}{4}$ / $\color{red}{0}$ (85%) |
 | GROUSE | ✅ | ✅ | $\color{green}{82}$ / $\color{blue}{12}$ / $\color{red}{0}$ (54%) | $\color{green}{382}$ / $\color{blue}{12}$ / $\color{red}{0}$ (84%) |
 | HKMFT | ✅ | ✅ | $\color{green}{85}$ / $\color{blue}{7}$ / $\color{red}{0}$ (56%) | $\color{green}{385}$ / $\color{blue}{7}$ / $\color{red}{0}$ (85%) |
@@ -63,10 +63,10 @@ Progress: 14516/17100 (84.9%) — $\color{green}{completed}$ / $\color{blue}{run
 | SPIRIT | ✅ | ✅ | $\color{green}{78}$ / $\color{blue}{14}$ / $\color{red}{0}$ (52%) | $\color{green}{378}$ / $\color{blue}{14}$ / $\color{red}{0}$ (84%) |
 | STMVL | ✅ | ✅ | $\color{green}{82}$ / $\color{blue}{12}$ / $\color{red}{0}$ (54%) | $\color{green}{382}$ / $\color{blue}{12}$ / $\color{red}{0}$ (84%) |
 | SVT | ✅ | ✅ | $\color{green}{81}$ / $\color{blue}{8}$ / $\color{red}{0}$ (54%) | $\color{green}{381}$ / $\color{blue}{8}$ / $\color{red}{0}$ (84%) |
-| SoftImpute | ✅ | ✅ | $\color{green}{78}$ / $\color{blue}{15}$ / $\color{red}{0}$ (52%) | $\color{green}{378}$ / $\color{blue}{15}$ / $\color{red}{0}$ (84%) |
+| SoftImpute | ✅ | ✅ | $\color{green}{78}$ / $\color{blue}{17}$ / $\color{red}{0}$ (52%) | $\color{green}{378}$ / $\color{blue}{17}$ / $\color{red}{0}$ (84%) |
 | TKCM | ✅ | ✅ | $\color{green}{81}$ / $\color{blue}{6}$ / $\color{red}{0}$ (54%) | $\color{green}{381}$ / $\color{blue}{6}$ / $\color{red}{0}$ (84%) |
 | TRMF | ✅ | ✅ | $\color{green}{80}$ / $\color{blue}{8}$ / $\color{red}{0}$ (53%) | $\color{green}{380}$ / $\color{blue}{8}$ / $\color{red}{0}$ (84%) |
 | TimesNet | ✅ | ✅ | $\color{green}{79}$ / $\color{blue}{12}$ / $\color{red}{0}$ (52%) | $\color{green}{379}$ / $\color{blue}{12}$ / $\color{red}{0}$ (84%) |
 | XGBOOST | ✅ | ✅ | $\color{green}{81}$ / $\color{blue}{6}$ / $\color{red}{0}$ (54%) | $\color{green}{381}$ / $\color{blue}{6}$ / $\color{red}{0}$ (84%) |
 | ZeroImpute | ✅ | ✅ | $\color{green}{78}$ / $\color{blue}{10}$ / $\color{red}{0}$ (52%) | $\color{green}{378}$ / $\color{blue}{10}$ / $\color{red}{0}$ (84%) |
-| **TOTAL** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{3116}$ / $\color{blue}{385}$ / $\color{red}{0}$ (54%)** | **$\color{green}{14516}$ / $\color{blue}{385}$ / $\color{red}{0}$ (84%)** |
+| **TOTAL** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{5700}$ / $\color{blue}{0}$ / $\color{red}{0}$ (100%)** | **$\color{green}{3117}$ / $\color{blue}{385}$ / $\color{red}{0}$ (54%)** | **$\color{green}{14517}$ / $\color{blue}{385}$ / $\color{red}{0}$ (84%)** |
