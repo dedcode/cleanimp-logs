@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-07 21:15:02 UTC
+Last updated: 2026-04-07 21:20:02 UTC
 
 ## Classification Downstream
 
@@ -9,7 +9,7 @@ Classification Downstream Experiments
 4 algorithms (MeanImpute, DynaMMo, MICE, GPT4TS) x 75 datasets x 3 patterns x 5 rates x 16 classifiers
 
 Job Server Status (72000 total jobs)
-  completed:    2229  (3.1%)
+  completed:    2239  (3.1%)
   running:       279
-  pending:     69492
+  pending:     69482
 ```
