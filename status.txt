@@ -2,6 +2,6 @@ Classification Downstream Experiments
 4 algorithms (MeanImpute, DynaMMo, MICE, GPT4TS) x 75 datasets x 3 patterns x 5 rates x 16 classifiers
 
 Job Server Status (72000 total jobs)
-  completed:     899  (1.2%)
-  running:       903
-  pending:     70198
+  completed:     913  (1.3%)
+  running:       999
+  pending:     70088
