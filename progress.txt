@@ -2,18 +2,18 @@
 |:--|:--:|:--:|:--:|:--:|:--|
 | arsenal | $\color{green}{778}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
 | catch22 | $\color{green}{779}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
-| cboss | $\color{green}{778}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
+| cboss | $\color{green}{779}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
 | cif | $\color{green}{443}$ (39%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 9% |
 | cnn | $\color{green}{778}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
 | itde | $\color{green}{779}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
-| knn | $\color{green}{777}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
+| knn | $\color{green}{778}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
 | lstm | $\color{green}{760}$ (67%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 16% |
 | proxstump | $\color{green}{777}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
-| shapedtw | $\color{green}{777}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
-| signature | $\color{green}{778}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
-| stc | $\color{green}{774}$ (68%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
+| shapedtw | $\color{green}{778}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
+| signature | $\color{green}{779}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
+| stc | $\color{green}{776}$ (68%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
 | svc | $\color{green}{761}$ (67%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 16% |
 | tsf | $\color{green}{778}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
 | tsfresh | $\color{green}{778}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
 | weasel | $\color{green}{778}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
-| **TOTAL** | **12073** (67%) | **0** (0%) | **0** (0%) | **0** (0%) | **16%** |
+| **TOTAL** | **12079** (67%) | **0** (0%) | **0** (0%) | **0** (0%) | **16%** |
