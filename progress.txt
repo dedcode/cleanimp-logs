@@ -3,7 +3,7 @@
 | arsenal | $\color{green}{667}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | catch22 | $\color{green}{667}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | cboss | $\color{green}{667}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
-| cif | $\color{green}{300}$ (26%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 6% |
+| cif | $\color{green}{301}$ (26%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 6% |
 | cnn | $\color{green}{666}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | itde | $\color{green}{667}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | knn | $\color{green}{667}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
@@ -16,4 +16,4 @@
 | tsf | $\color{green}{666}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | tsfresh | $\color{green}{666}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | weasel | $\color{green}{666}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
-| **TOTAL** | **10285** (57%) | **0** (0%) | **0** (0%) | **0** (0%) | **14%** |
+| **TOTAL** | **10286** (57%) | **0** (0%) | **0** (0%) | **0** (0%) | **14%** |
