@@ -1,19 +1,19 @@
 | Classifier | MeanImpute | DynaMMo | MICE | GPT4TS | Total |
 |:--|:--:|:--:|:--:|:--:|:--|
-| arsenal | $\color{green}{713}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| catch22 | $\color{green}{713}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| cboss | $\color{green}{713}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| cif | $\color{green}{364}$ (32%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 8% |
-| cnn | $\color{green}{711}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| itde | $\color{green}{713}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| knn | $\color{green}{713}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| lstm | $\color{green}{696}$ (61%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| proxstump | $\color{green}{713}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| shapedtw | $\color{green}{712}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| signature | $\color{green}{713}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| stc | $\color{green}{702}$ (62%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| svc | $\color{green}{712}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| tsf | $\color{green}{713}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| tsfresh | $\color{green}{712}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| weasel | $\color{green}{713}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| **TOTAL** | **11026** (61%) | **0** (0%) | **0** (0%) | **0** (0%) | **15%** |
+| arsenal | $\color{green}{715}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
+| catch22 | $\color{green}{715}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
+| cboss | $\color{green}{715}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
+| cif | $\color{green}{365}$ (32%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 8% |
+| cnn | $\color{green}{712}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
+| itde | $\color{green}{715}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
+| knn | $\color{green}{715}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
+| lstm | $\color{green}{698}$ (62%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
+| proxstump | $\color{green}{715}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
+| shapedtw | $\color{green}{714}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
+| signature | $\color{green}{714}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
+| stc | $\color{green}{703}$ (62%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
+| svc | $\color{green}{714}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
+| tsf | $\color{green}{714}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
+| tsfresh | $\color{green}{714}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
+| weasel | $\color{green}{714}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
+| **TOTAL** | **11052** (61%) | **0** (0%) | **0** (0%) | **0** (0%) | **15%** |
