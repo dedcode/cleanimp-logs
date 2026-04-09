@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-09 17:45:08 UTC
+Last updated: 2026-04-09 17:50:08 UTC
 
 ## Status
 
@@ -9,9 +9,9 @@ Classification Downstream Experiments
 4 algorithms x 75 datasets x 3 patterns x 5 rates x 16 classifiers = 72000 jobs
 
 Job Server Status
-  completed:   11861  (16.5%)
+  completed:   11869  (16.5%)
   running:       383
-  pending:     59756
+  pending:     59748
 ```
 
 ## Progress (classifier x algorithm)
@@ -22,10 +22,10 @@ Job Server Status
 | catch22 | $\color{green}{766}$ (68%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
 | cboss | $\color{green}{765}$ (68%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
 | cif | $\color{green}{420}$ (37%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 9% |
-| cnn | $\color{green}{763}$ (67%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 16% |
-| itde | $\color{green}{765}$ (68%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
+| cnn | $\color{green}{766}$ (68%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
+| itde | $\color{green}{766}$ (68%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
 | knn | $\color{green}{765}$ (68%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
-| lstm | $\color{green}{744}$ (66%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 16% |
+| lstm | $\color{green}{748}$ (66%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 16% |
 | proxstump | $\color{green}{765}$ (68%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
 | shapedtw | $\color{green}{765}$ (68%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
 | signature | $\color{green}{765}$ (68%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
@@ -34,4 +34,4 @@ Job Server Status
 | tsf | $\color{green}{765}$ (68%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
 | tsfresh | $\color{green}{765}$ (68%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
 | weasel | $\color{green}{765}$ (68%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
-| **TOTAL** | **11861** (65%) | **0** (0%) | **0** (0%) | **0** (0%) | **16%** |
+| **TOTAL** | **11869** (65%) | **0** (0%) | **0** (0%) | **0** (0%) | **16%** |
