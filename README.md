@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-09 09:55:06 UTC
+Last updated: 2026-04-09 10:00:06 UTC
 
 ## Status
 
@@ -9,16 +9,16 @@ Classification Downstream Experiments
 4 algorithms x 75 datasets x 3 patterns x 5 rates x 16 classifiers = 72000 jobs
 
 Job Server Status
-  completed:   10242  (14.2%)
+  completed:   10243  (14.2%)
   running:       383
-  pending:     61375
+  pending:     61374
 ```
 
 ## Progress (classifier x algorithm)
 
 | Classifier | MeanImpute | DynaMMo | MICE | GPT4TS | Total |
 |:--|:--:|:--:|:--:|:--:|:--|
-| arsenal | $\color{green}{664}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
+| arsenal | $\color{green}{665}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | catch22 | $\color{green}{664}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | cboss | $\color{green}{664}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | cif | $\color{green}{295}$ (26%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 6% |
@@ -34,4 +34,4 @@ Job Server Status
 | tsf | $\color{green}{664}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | tsfresh | $\color{green}{663}$ (58%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | weasel | $\color{green}{664}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
-| **TOTAL** | **10242** (56%) | **0** (0%) | **0** (0%) | **0** (0%) | **14%** |
+| **TOTAL** | **10243** (56%) | **0** (0%) | **0** (0%) | **0** (0%) | **14%** |

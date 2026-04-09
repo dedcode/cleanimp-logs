@@ -1,6 +1,6 @@
 | Classifier | MeanImpute | DynaMMo | MICE | GPT4TS | Total |
 |:--|:--:|:--:|:--:|:--:|:--|
-| arsenal | $\color{green}{664}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
+| arsenal | $\color{green}{665}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | catch22 | $\color{green}{664}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | cboss | $\color{green}{664}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | cif | $\color{green}{295}$ (26%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 6% |
@@ -16,4 +16,4 @@
 | tsf | $\color{green}{664}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | tsfresh | $\color{green}{663}$ (58%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
 | weasel | $\color{green}{664}$ (59%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
-| **TOTAL** | **10242** (56%) | **0** (0%) | **0** (0%) | **0** (0%) | **14%** |
+| **TOTAL** | **10243** (56%) | **0** (0%) | **0** (0%) | **0** (0%) | **14%** |
