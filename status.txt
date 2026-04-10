@@ -2,7 +2,7 @@ Classification Downstream Experiments
 4 algorithms x 75 datasets x 3 patterns x 5 rates x 16 classifiers = 72000 jobs
 
 Job Server Status
-  completed:   19714  (27.4%)
+  completed:   19750  (27.4%)
   running:       924
-  pending:     51362
+  pending:     51326
   failed:          1
