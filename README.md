@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-10 01:50:10 UTC
+Last updated: 2026-04-10 01:55:09 UTC
 
 ## Status
 
@@ -9,9 +9,9 @@ Classification Downstream Experiments
 4 algorithms x 75 datasets x 3 patterns x 5 rates x 16 classifiers = 72000 jobs
 
 Job Server Status
-  completed:   12630  (17.5%)
+  completed:   12631  (17.5%)
   running:       383
-  pending:     58987
+  pending:     58986
 ```
 
 ## Progress (classifier x algorithm)
@@ -22,7 +22,7 @@ Job Server Status
 | catch22 | $\color{green}{814}$ (72%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 18% |
 | cboss | $\color{green}{811}$ (72%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 18% |
 | cif | $\color{green}{507}$ (45%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 11% |
-| cnn | $\color{green}{811}$ (72%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 18% |
+| cnn | $\color{green}{812}$ (72%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 18% |
 | itde | $\color{green}{813}$ (72%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 18% |
 | knn | $\color{green}{810}$ (72%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 18% |
 | lstm | $\color{green}{780}$ (69%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 17% |
@@ -34,4 +34,4 @@ Job Server Status
 | tsf | $\color{green}{813}$ (72%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 18% |
 | tsfresh | $\color{green}{813}$ (72%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 18% |
 | weasel | $\color{green}{813}$ (72%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 18% |
-| **TOTAL** | **12630** (70%) | **0** (0%) | **0** (0%) | **0** (0%) | **17%** |
+| **TOTAL** | **12631** (70%) | **0** (0%) | **0** (0%) | **0** (0%) | **17%** |
