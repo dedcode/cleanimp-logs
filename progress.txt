@@ -4,16 +4,16 @@
 | catch22 | $\color{green}{1095}$ (97%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
 | cboss | $\color{green}{1092}$ (97%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
 | cif | $\color{green}{662}$ (58%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 14% |
-| cnn | $\color{green}{1078}$ (95%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 23% |
-| itde | $\color{green}{1092}$ (97%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
-| knn | $\color{green}{1091}$ (96%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
-| lstm | $\color{green}{1037}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 23% |
-| proxstump | $\color{green}{1093}$ (97%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
+| cnn | $\color{green}{1079}$ (95%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 23% |
+| itde | $\color{green}{1093}$ (97%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
+| knn | $\color{green}{1092}$ (97%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
+| lstm | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 23% |
+| proxstump | $\color{green}{1094}$ (97%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
 | shapedtw | $\color{green}{1088}$ (96%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
-| signature | $\color{green}{1091}$ (96%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
-| stc | $\color{green}{1088}$ (96%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
-| svc | $\color{green}{1071}$ (95%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 23% |
-| tsf | $\color{green}{1094}$ / $\color{red}{1}$ (97%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
+| signature | $\color{green}{1092}$ (97%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
+| stc | $\color{green}{1090}$ (96%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
+| svc | $\color{green}{1072}$ (95%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 23% |
+| tsf | $\color{green}{1095}$ / $\color{red}{1}$ (97%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
 | tsfresh | $\color{green}{1094}$ (97%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
-| weasel | $\color{green}{1090}$ (96%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
-| **TOTAL** | **16947** (94%) | **0** (0%) | **0** (0%) | **0** (0%) | **23%** |
+| weasel | $\color{green}{1091}$ (96%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
+| **TOTAL** | **16959** (94%) | **0** (0%) | **0** (0%) | **0** (0%) | **23%** |
