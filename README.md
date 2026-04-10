@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-10 15:10:05 UTC
+Last updated: 2026-04-10 15:15:08 UTC
 
 ## Status
 
@@ -9,9 +9,9 @@ Classification Downstream Experiments
 4 algorithms x 75 datasets x 3 patterns x 5 rates x 16 classifiers = 72000 jobs
 
 Job Server Status
-  completed:   19545  (27.1%)
+  completed:   19583  (27.2%)
   running:       925
-  pending:     51530
+  pending:     51492
   failed:          1
 ```
 
@@ -20,19 +20,19 @@ Job Server Status
 | Classifier | MeanImpute | DynaMMo | MICE | GPT4TS | Total |
 |:--|:--:|:--:|:--:|:--:|:--|
 | arsenal | $\color{green}{1121}$ (99%) | $\color{green}{150}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
-| catch22 | $\color{green}{1124}$ (99%) | $\color{green}{152}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
+| catch22 | $\color{green}{1124}$ (99%) | $\color{green}{156}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
 | cboss | $\color{green}{1122}$ (99%) | $\color{green}{149}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
 | cif | $\color{green}{675}$ (60%) | $\color{green}{4}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 15% |
-| cnn | $\color{green}{1110}$ (98%) | $\color{green}{116}$ (10%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 27% |
-| itde | $\color{green}{1122}$ (99%) | $\color{green}{153}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
+| cnn | $\color{green}{1110}$ (98%) | $\color{green}{126}$ (11%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 27% |
+| itde | $\color{green}{1122}$ (99%) | $\color{green}{156}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
 | knn | $\color{green}{1122}$ (99%) | $\color{green}{150}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
-| lstm | $\color{green}{1054}$ (93%) | $\color{green}{60}$ (5%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
+| lstm | $\color{green}{1054}$ (93%) | $\color{green}{64}$ (5%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 24% |
 | proxstump | $\color{green}{1123}$ (99%) | $\color{green}{138}$ (12%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
-| shapedtw | $\color{green}{1118}$ (99%) | $\color{green}{150}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
-| signature | $\color{green}{1121}$ (99%) | $\color{green}{152}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
-| stc | $\color{green}{1124}$ (99%) | $\color{green}{145}$ (12%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
-| svc | $\color{green}{1119}$ (99%) | $\color{green}{147}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
-| tsf | $\color{green}{1124}$ / $\color{red}{1}$ (100%) | $\color{green}{153}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
-| tsfresh | $\color{green}{1124}$ (99%) | $\color{green}{150}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
-| weasel | $\color{green}{1120}$ (99%) | $\color{green}{153}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
-| **TOTAL** | **17423** (96%) | **2122** (11%) | **0** (0%) | **0** (0%) | **27%** |
+| shapedtw | $\color{green}{1118}$ (99%) | $\color{green}{151}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
+| signature | $\color{green}{1121}$ (99%) | $\color{green}{155}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
+| stc | $\color{green}{1124}$ (99%) | $\color{green}{147}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
+| svc | $\color{green}{1119}$ (99%) | $\color{green}{150}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
+| tsf | $\color{green}{1124}$ / $\color{red}{1}$ (100%) | $\color{green}{155}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
+| tsfresh | $\color{green}{1124}$ (99%) | $\color{green}{153}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
+| weasel | $\color{green}{1120}$ (99%) | $\color{green}{156}$ (13%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 28% |
+| **TOTAL** | **17423** (96%) | **2160** (12%) | **0** (0%) | **0** (0%) | **27%** |
