@@ -1,19 +1,19 @@
 | Classifier | MeanImpute | DynaMMo | MICE | GPT4TS | Total |
 |:--|:--:|:--:|:--:|:--:|:--|
-| arsenal | ✅ | ✅ | $\color{green}{203}$ / $\color{red}{478}$ (60%) | $\color{green}{163}$ (14%) | 68% |
-| catch22 | ✅ | ✅ | $\color{green}{88}$ / $\color{red}{534}$ (55%) | $\color{green}{8}$ (0%) | 64% |
-| cboss | ✅ | ✅ | $\color{green}{83}$ / $\color{red}{539}$ (55%) | $\color{green}{8}$ (0%) | 64% |
-| cif | $\color{green}{842}$ (74%) | $\color{green}{938}$ / $\color{red}{12}$ (84%) | $\color{green}{0}$ / $\color{red}{533}$ (47%) | $\color{green}{8}$ (0%) | 51% |
-| cnn | ✅ | ✅ | $\color{green}{46}$ / $\color{red}{499}$ (48%) | $\color{green}{0}$ (0%) | 62% |
-| itde | ✅ | ✅ | $\color{green}{83}$ / $\color{red}{538}$ (55%) | $\color{green}{8}$ (0%) | 63% |
-| knn | ✅ | ✅ | $\color{green}{86}$ / $\color{red}{536}$ (55%) | $\color{green}{8}$ (0%) | 64% |
-| lstm | ✅ | $\color{green}{1099}$ / $\color{red}{9}$ (98%) | $\color{green}{8}$ / $\color{red}{289}$ (26%) | $\color{green}{8}$ (0%) | 56% |
-| proxstump | ✅ | ✅ | $\color{green}{80}$ / $\color{red}{543}$ (55%) | $\color{green}{8}$ (0%) | 64% |
-| shapedtw | ✅ | ✅ | $\color{green}{85}$ / $\color{red}{526}$ (54%) | $\color{green}{8}$ (0%) | 63% |
-| signature | ✅ | ✅ | $\color{green}{87}$ / $\color{red}{534}$ (55%) | $\color{green}{8}$ (0%) | 63% |
-| stc | ✅ | $\color{green}{1122}$ / $\color{red}{3}$ (100%) | $\color{green}{81}$ / $\color{red}{539}$ (55%) | $\color{green}{8}$ (0%) | 63% |
-| svc | ✅ | $\color{green}{1118}$ / $\color{red}{4}$ (99%) | $\color{green}{81}$ / $\color{red}{445}$ (46%) | $\color{green}{8}$ (0%) | 61% |
-| tsf | ✅ | ✅ | $\color{green}{85}$ / $\color{red}{536}$ (55%) | $\color{green}{8}$ (0%) | 63% |
-| tsfresh | ✅ | ✅ | $\color{green}{86}$ / $\color{red}{521}$ (53%) | $\color{green}{8}$ (0%) | 63% |
-| weasel | ✅ | ✅ | $\color{green}{83}$ / $\color{red}{537}$ (55%) | $\color{green}{8}$ (0%) | 63% |
-| **TOTAL** | **17717** (98%) | **17777** (98%) | **1265** (52%) | **275** (1%) | **62%** |
+| arsenal | ✅ | ✅ | $\color{green}{203}$ / $\color{red}{499}$ (62%) | $\color{green}{163}$ (14%) | 69% |
+| catch22 | ✅ | ✅ | $\color{green}{88}$ / $\color{red}{553}$ (56%) | $\color{green}{8}$ (0%) | 64% |
+| cboss | ✅ | ✅ | $\color{green}{83}$ / $\color{red}{559}$ (57%) | $\color{green}{8}$ (0%) | 64% |
+| cif | $\color{green}{842}$ (74%) | $\color{green}{938}$ / $\color{red}{13}$ (84%) | $\color{green}{0}$ / $\color{red}{554}$ (49%) | $\color{green}{8}$ (0%) | 52% |
+| cnn | ✅ | ✅ | $\color{green}{46}$ / $\color{red}{515}$ (49%) | $\color{green}{0}$ (0%) | 62% |
+| itde | ✅ | ✅ | $\color{green}{83}$ / $\color{red}{561}$ (57%) | $\color{green}{8}$ (0%) | 64% |
+| knn | ✅ | ✅ | $\color{green}{86}$ / $\color{red}{557}$ (57%) | $\color{green}{8}$ (0%) | 64% |
+| lstm | ✅ | $\color{green}{1099}$ / $\color{red}{9}$ (98%) | $\color{green}{8}$ / $\color{red}{297}$ (27%) | $\color{green}{8}$ (0%) | 56% |
+| proxstump | ✅ | ✅ | $\color{green}{80}$ / $\color{red}{561}$ (56%) | $\color{green}{8}$ (0%) | 64% |
+| shapedtw | ✅ | ✅ | $\color{green}{85}$ / $\color{red}{544}$ (55%) | $\color{green}{8}$ (0%) | 64% |
+| signature | ✅ | ✅ | $\color{green}{87}$ / $\color{red}{553}$ (56%) | $\color{green}{8}$ (0%) | 64% |
+| stc | ✅ | $\color{green}{1122}$ / $\color{red}{3}$ (100%) | $\color{green}{81}$ / $\color{red}{558}$ (56%) | $\color{green}{8}$ (0%) | 64% |
+| svc | ✅ | $\color{green}{1118}$ / $\color{red}{5}$ (99%) | $\color{green}{81}$ / $\color{red}{466}$ (48%) | $\color{green}{8}$ (0%) | 62% |
+| tsf | ✅ | ✅ | $\color{green}{85}$ / $\color{red}{555}$ (56%) | $\color{green}{8}$ (0%) | 64% |
+| tsfresh | ✅ | ✅ | $\color{green}{86}$ / $\color{red}{543}$ (55%) | $\color{green}{8}$ (0%) | 64% |
+| weasel | ✅ | ✅ | $\color{green}{83}$ / $\color{red}{557}$ (56%) | $\color{green}{8}$ (0%) | 64% |
+| **TOTAL** | **17717** (98%) | **17777** (98%) | **1265** (53%) | **275** (1%) | **63%** |
