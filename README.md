@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-11 06:40:05 UTC
+Last updated: 2026-04-11 06:45:04 UTC
 
 ## Status
 
@@ -10,9 +10,9 @@ Classification Downstream Experiments
 
 Job Server Status
   completed:   24453  (40.0%)
-  running:       282
+  running:       281
   pending:     42918
-  failed:       4357
+  failed:       4358
 ```
 
 ## Progress (classifier x algorithm)
@@ -26,7 +26,7 @@ Job Server Status
 | cnn | $\color{green}{1110}$ (98%) | $\color{green}{452}$ / $\color{red}{263}$ (63%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 40% |
 | itde | $\color{green}{1122}$ (99%) | $\color{green}{460}$ / $\color{red}{264}$ (64%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 41% |
 | knn | $\color{green}{1122}$ (99%) | $\color{green}{455}$ / $\color{red}{268}$ (64%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 41% |
-| lstm | $\color{green}{1103}$ (98%) | $\color{green}{402}$ / $\color{red}{254}$ (58%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 39% |
+| lstm | $\color{green}{1103}$ (98%) | $\color{green}{402}$ / $\color{red}{255}$ (58%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 39% |
 | proxstump | $\color{green}{1123}$ (99%) | $\color{green}{450}$ / $\color{red}{273}$ (64%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 41% |
 | shapedtw | $\color{green}{1118}$ (99%) | $\color{green}{447}$ / $\color{red}{274}$ (64%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 40% |
 | signature | $\color{green}{1121}$ (99%) | $\color{green}{450}$ / $\color{red}{272}$ (64%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 40% |
