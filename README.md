@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-11 03:50:04 UTC
+Last updated: 2026-04-11 03:55:04 UTC
 
 ## Status
 
@@ -9,30 +9,30 @@ Classification Downstream Experiments
 4 algorithms x 75 datasets x 3 patterns x 5 rates x 16 classifiers = 72000 jobs
 
 Job Server Status
-  completed:   24203  (35.9%)
+  completed:   24207  (35.9%)
   running:       840
-  pending:     45325
-  failed:       1633
+  pending:     45279
+  failed:       1675
 ```
 
 ## Progress (classifier x algorithm)
 
 | Classifier | MeanImpute | DynaMMo | MICE | GPT4TS | Total |
 |:--|:--:|:--:|:--:|:--:|:--|
-| arsenal | $\color{green}{1121}$ (99%) | $\color{green}{440}$ / $\color{red}{102}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 36% |
-| catch22 | $\color{green}{1124}$ (99%) | $\color{green}{440}$ / $\color{red}{101}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 37% |
-| cboss | $\color{green}{1122}$ (99%) | $\color{green}{438}$ / $\color{red}{102}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 36% |
-| cif | $\color{green}{794}$ / $\color{red}{1}$ (70%) | $\color{green}{105}$ / $\color{red}{120}$ (20%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 22% |
-| cnn | $\color{green}{1110}$ (98%) | $\color{green}{440}$ / $\color{red}{93}$ (47%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 36% |
-| itde | $\color{green}{1122}$ (99%) | $\color{green}{439}$ / $\color{red}{103}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 36% |
-| knn | $\color{green}{1122}$ (99%) | $\color{green}{439}$ / $\color{red}{103}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 36% |
-| lstm | $\color{green}{1103}$ (98%) | $\color{green}{391}$ / $\color{red}{69}$ (40%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 34% |
-| proxstump | $\color{green}{1123}$ (99%) | $\color{green}{438}$ / $\color{red}{104}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 37% |
+| arsenal | $\color{green}{1121}$ (99%) | $\color{green}{440}$ / $\color{red}{105}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 37% |
+| catch22 | $\color{green}{1124}$ (99%) | $\color{green}{441}$ / $\color{red}{103}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 37% |
+| cboss | $\color{green}{1122}$ (99%) | $\color{green}{439}$ / $\color{red}{104}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 37% |
+| cif | $\color{green}{795}$ / $\color{red}{1}$ (70%) | $\color{green}{105}$ / $\color{red}{125}$ (20%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 22% |
+| cnn | $\color{green}{1110}$ (98%) | $\color{green}{440}$ / $\color{red}{97}$ (47%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 36% |
+| itde | $\color{green}{1122}$ (99%) | $\color{green}{440}$ / $\color{red}{105}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 37% |
+| knn | $\color{green}{1122}$ (99%) | $\color{green}{439}$ / $\color{red}{105}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 37% |
+| lstm | $\color{green}{1103}$ (98%) | $\color{green}{391}$ / $\color{red}{73}$ (41%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 34% |
+| proxstump | $\color{green}{1123}$ (99%) | $\color{green}{438}$ / $\color{red}{107}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 37% |
 | shapedtw | $\color{green}{1118}$ (99%) | $\color{green}{437}$ / $\color{red}{103}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 36% |
-| signature | $\color{green}{1121}$ (99%) | $\color{green}{439}$ / $\color{red}{102}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 36% |
-| stc | $\color{green}{1124}$ (99%) | $\color{green}{436}$ / $\color{red}{105}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 37% |
-| svc | $\color{green}{1124}$ (99%) | $\color{green}{409}$ / $\color{red}{118}$ (46%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 36% |
-| tsf | $\color{green}{1124}$ / $\color{red}{1}$ (100%) | $\color{green}{437}$ / $\color{red}{104}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 37% |
-| tsfresh | $\color{green}{1124}$ (99%) | $\color{green}{437}$ / $\color{red}{103}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 36% |
-| weasel | $\color{green}{1120}$ (99%) | $\color{green}{442}$ / $\color{red}{99}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 36% |
-| **TOTAL** | **17596** (97%) | **6607** (45%) | **0** (0%) | **0** (0%) | **35%** |
+| signature | $\color{green}{1121}$ (99%) | $\color{green}{439}$ / $\color{red}{104}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 36% |
+| stc | $\color{green}{1124}$ (99%) | $\color{green}{436}$ / $\color{red}{108}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 37% |
+| svc | $\color{green}{1124}$ (99%) | $\color{green}{409}$ / $\color{red}{120}$ (47%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 36% |
+| tsf | $\color{green}{1124}$ / $\color{red}{1}$ (100%) | $\color{green}{437}$ / $\color{red}{107}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 37% |
+| tsfresh | $\color{green}{1124}$ (99%) | $\color{green}{437}$ / $\color{red}{105}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 37% |
+| weasel | $\color{green}{1120}$ (99%) | $\color{green}{442}$ / $\color{red}{102}$ (48%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 36% |
+| **TOTAL** | **17597** (97%) | **6610** (46%) | **0** (0%) | **0** (0%) | **35%** |
