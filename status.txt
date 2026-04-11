@@ -3,6 +3,6 @@ Classification Downstream Experiments
 
 Job Server Status
   completed:   24453  (40.0%)
-  running:       317
+  running:       304
   pending:     42918
-  failed:       4322
+  failed:       4335
