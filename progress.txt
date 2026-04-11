@@ -3,7 +3,7 @@
 | arsenal | ✅ | $\color{green}{1069}$ (95%) | $\color{green}{165}$ (14%) | $\color{green}{163}$ (14%) | 56% |
 | catch22 | ✅ | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
 | cboss | ✅ | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
-| cif | $\color{green}{837}$ (74%) | $\color{green}{360}$ / $\color{red}{3}$ (32%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 26% |
+| cif | $\color{green}{837}$ (74%) | $\color{green}{363}$ / $\color{red}{3}$ (32%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 26% |
 | cnn | ✅ | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 48% |
 | itde | ✅ | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
 | knn | ✅ | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
@@ -12,8 +12,8 @@
 | shapedtw | ✅ | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
 | signature | ✅ | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
 | stc | ✅ | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
-| svc | ✅ | $\color{green}{970}$ (86%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 46% |
+| svc | ✅ | $\color{green}{972}$ (86%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 46% |
 | tsf | ✅ | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
 | tsfresh | ✅ | $\color{green}{1038}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
 | weasel | ✅ | $\color{green}{1038}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
-| **TOTAL** | **17712** (98%) | **15789** (87%) | **165** (0%) | **275** (1%) | **47%** |
+| **TOTAL** | **17712** (98%) | **15794** (87%) | **165** (0%) | **275** (1%) | **47%** |
