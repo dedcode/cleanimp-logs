@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-11 10:20:04 UTC
+Last updated: 2026-04-11 10:25:04 UTC
 
 ## Status
 
@@ -9,8 +9,8 @@ Classification Downstream Experiments
 4 algorithms x 75 datasets x 3 patterns x 5 rates x 16 classifiers = 72000 jobs
 
 Job Server Status
-  completed:   33736  (46.9%)
-  running:      1394
+  completed:   33743  (46.9%)
+  running:      1387
   pending:     36870
   failed:          3
 ```
@@ -26,13 +26,13 @@ Job Server Status
 | cnn | ✅ | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 48% |
 | itde | ✅ | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
 | knn | ✅ | $\color{green}{1038}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
-| lstm | ✅ | $\color{green}{866}$ (76%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 44% |
+| lstm | ✅ | $\color{green}{872}$ (77%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 44% |
 | proxstump | ✅ | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
 | shapedtw | ✅ | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
 | signature | ✅ | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
 | stc | ✅ | $\color{green}{1025}$ (91%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 47% |
-| svc | ✅ | $\color{green}{934}$ (83%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 45% |
+| svc | ✅ | $\color{green}{935}$ (83%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 45% |
 | tsf | ✅ | $\color{green}{1039}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
 | tsfresh | ✅ | $\color{green}{1038}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
 | weasel | ✅ | $\color{green}{1038}$ (92%) | $\color{green}{0}$ (0%) | $\color{green}{8}$ (0%) | 48% |
-| **TOTAL** | **17704** (98%) | **15592** (86%) | **165** (0%) | **275** (1%) | **46%** |
+| **TOTAL** | **17704** (98%) | **15599** (86%) | **165** (0%) | **275** (1%) | **46%** |
