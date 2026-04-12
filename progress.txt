@@ -14,6 +14,6 @@
 | stc | ✅ | $\color{green}{1119}$ (99%) | $\color{green}{1112}$ (98%) | $\color{green}{994}$ (88%) | 96% |
 | svc | ✅ | $\color{green}{1052}$ (93%) | ✅ | $\color{green}{889}$ (79%) | 93% |
 | tsf | ✅ | $\color{green}{1118}$ (99%) | ✅ | $\color{green}{1033}$ (91%) | 97% |
-| tsfresh | $\color{green}{1124}$ (99%) | $\color{green}{1118}$ (99%) | $\color{green}{1098}$ (97%) | $\color{green}{1038}$ (92%) | 97% |
+| tsfresh | $\color{green}{1124}$ (99%) | $\color{green}{1118}$ (99%) | $\color{green}{1098}$ (97%) | $\color{green}{1039}$ (92%) | 97% |
 | weasel | $\color{green}{1110}$ (98%) | $\color{green}{1105}$ (98%) | $\color{green}{1110}$ (98%) | $\color{green}{1040}$ (92%) | 97% |
-| **TOTAL** | **17547** (97%) | **16823** (93%) | **16867** (93%) | **14901** (82%) | **91%** |
+| **TOTAL** | **17547** (97%) | **16823** (93%) | **16867** (93%) | **14902** (82%) | **91%** |
