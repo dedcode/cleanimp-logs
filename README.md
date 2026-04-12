@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-12 18:26:48 UTC
+Last updated: 2026-04-12 18:31:43 UTC
 
 ## Status
 
@@ -9,9 +9,9 @@ Classification Downstream Experiments
 4 algorithms x 75 datasets x 3 patterns x 5 rates x 16 classifiers = 72000 jobs
 
 Job Server Status
-  completed:   68575  (95.2%)
-  running:       971
-  pending:      2473
+  completed:   68586  (95.3%)
+  running:       703
+  pending:      2736
 ```
 
 ## Progress (classifier x algorithm)
@@ -21,10 +21,10 @@ Job Server Status
 | arsenal | ✅ | $\color{green}{1121}$ (99%) | ✅ | $\color{green}{1019}$ (90%) | 97% |
 | catch22 | ✅ | $\color{green}{1118}$ (99%) | ✅ | $\color{green}{1023}$ (90%) | 97% |
 | cboss | ✅ | $\color{green}{1115}$ (99%) | $\color{green}{1124}$ (99%) | $\color{green}{1007}$ (89%) | 97% |
-| cif | $\color{green}{894}$ (79%) | $\color{green}{463}$ (41%) | $\color{green}{295}$ (26%) | $\color{green}{31}$ (2%) | 37% |
+| cif | $\color{green}{894}$ (79%) | $\color{green}{463}$ (41%) | $\color{green}{295}$ (26%) | $\color{green}{32}$ (2%) | 37% |
 | cnn | ✅ | $\color{green}{1114}$ (99%) | $\color{green}{1067}$ (94%) | $\color{green}{985}$ (87%) | 95% |
 | itde | ✅ | $\color{green}{1119}$ (99%) | $\color{green}{1124}$ (99%) | $\color{green}{1030}$ (91%) | 97% |
-| knn | ✅ | $\color{green}{1119}$ (99%) | $\color{green}{1122}$ (99%) | $\color{green}{990}$ (88%) | 96% |
+| knn | ✅ | $\color{green}{1119}$ (99%) | $\color{green}{1123}$ (99%) | $\color{green}{990}$ (88%) | 96% |
 | lstm | ✅ | $\color{green}{981}$ (87%) | $\color{green}{1075}$ (95%) | $\color{green}{690}$ (61%) | 86% |
 | proxstump | ✅ | $\color{green}{1119}$ (99%) | $\color{green}{1123}$ (99%) | $\color{green}{964}$ (85%) | 96% |
 | shapedtw | ✅ | $\color{green}{1115}$ (99%) | $\color{green}{1124}$ (99%) | $\color{green}{988}$ (87%) | 96% |
@@ -34,4 +34,4 @@ Job Server Status
 | tsf | ✅ | $\color{green}{1118}$ (99%) | ✅ | $\color{green}{1029}$ (91%) | 97% |
 | tsfresh | $\color{green}{1124}$ (99%) | $\color{green}{1118}$ (99%) | $\color{green}{1098}$ (97%) | $\color{green}{1023}$ (90%) | 96% |
 | weasel | $\color{green}{1110}$ (98%) | $\color{green}{1105}$ (98%) | $\color{green}{1110}$ (98%) | $\color{green}{1028}$ (91%) | 96% |
-| **TOTAL** | **17543** (97%) | **16803** (93%) | **16781** (93%) | **14453** (80%) | **91%** |
+| **TOTAL** | **17543** (97%) | **16803** (93%) | **16782** (93%) | **14454** (80%) | **91%** |
