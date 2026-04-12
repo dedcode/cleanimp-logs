@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-12 08:25:03 UTC
+Last updated: 2026-04-12 08:30:03 UTC
 
 ## Status
 
@@ -9,9 +9,8 @@ Classification Downstream Experiments
 4 algorithms x 75 datasets x 3 patterns x 5 rates x 16 classifiers = 72000 jobs
 
 Job Server Status
-  completed:   42790  (59.4%)
-  running:     29272
-  pending:        12
+  completed:   42826  (59.5%)
+  running:     29247
 ```
 
 ## Progress (classifier x algorithm)
@@ -21,17 +20,17 @@ Job Server Status
 | arsenal | ✅ | ✅ | $\color{green}{554}$ (49%) | $\color{green}{163}$ (14%) | 65% |
 | catch22 | ✅ | ✅ | $\color{green}{465}$ (41%) | $\color{green}{8}$ (0%) | 60% |
 | cboss | ✅ | ✅ | $\color{green}{459}$ (40%) | $\color{green}{8}$ (0%) | 60% |
-| cif | $\color{green}{850}$ (75%) | $\color{green}{955}$ (84%) | $\color{green}{56}$ (4%) | $\color{green}{8}$ (0%) | 41% |
-| cnn | ✅ | ✅ | $\color{green}{473}$ (42%) | $\color{green}{0}$ (0%) | 60% |
+| cif | $\color{green}{856}$ (76%) | $\color{green}{958}$ (85%) | $\color{green}{61}$ (5%) | $\color{green}{8}$ (0%) | 41% |
+| cnn | ✅ | ✅ | $\color{green}{475}$ (42%) | $\color{green}{0}$ (0%) | 60% |
 | itde | ✅ | ✅ | $\color{green}{460}$ (40%) | $\color{green}{8}$ (0%) | 60% |
-| knn | ✅ | ✅ | $\color{green}{455}$ (40%) | $\color{green}{8}$ (0%) | 60% |
-| lstm | ✅ | $\color{green}{1115}$ (99%) | $\color{green}{452}$ (40%) | $\color{green}{8}$ (0%) | 60% |
+| knn | ✅ | ✅ | $\color{green}{456}$ (40%) | $\color{green}{8}$ (0%) | 60% |
+| lstm | ✅ | $\color{green}{1115}$ (99%) | $\color{green}{463}$ (41%) | $\color{green}{8}$ (0%) | 60% |
 | proxstump | ✅ | ✅ | $\color{green}{453}$ (40%) | $\color{green}{8}$ (0%) | 60% |
 | shapedtw | ✅ | ✅ | $\color{green}{479}$ (42%) | $\color{green}{8}$ (0%) | 60% |
 | signature | ✅ | ✅ | $\color{green}{464}$ (41%) | $\color{green}{8}$ (0%) | 60% |
-| stc | ✅ | $\color{green}{1122}$ (99%) | $\color{green}{414}$ (36%) | $\color{green}{8}$ (0%) | 59% |
-| svc | ✅ | $\color{green}{1118}$ (99%) | $\color{green}{389}$ (34%) | $\color{green}{8}$ (0%) | 58% |
+| stc | ✅ | $\color{green}{1122}$ (99%) | $\color{green}{415}$ (36%) | $\color{green}{8}$ (0%) | 59% |
+| svc | ✅ | $\color{green}{1118}$ (99%) | $\color{green}{396}$ (35%) | $\color{green}{8}$ (0%) | 58% |
 | tsf | ✅ | ✅ | $\color{green}{464}$ (41%) | $\color{green}{8}$ (0%) | 60% |
 | tsfresh | ✅ | ✅ | $\color{green}{483}$ (42%) | $\color{green}{8}$ (0%) | 60% |
 | weasel | ✅ | ✅ | $\color{green}{460}$ (40%) | $\color{green}{8}$ (0%) | 60% |
-| **TOTAL** | **17725** (98%) | **17810** (98%) | **6980** (38%) | **275** (1%) | **59%** |
+| **TOTAL** | **17731** (98%) | **17813** (98%) | **7007** (38%) | **275** (1%) | **59%** |
