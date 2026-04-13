@@ -7,7 +7,7 @@
 | cnn | ✅ | $\color{green}{1124}$ (99%) | ✅ | $\color{green}{1051}$ (93%) | 98% |
 | itde | ✅ | $\color{green}{1124}$ (99%) | ✅ | $\color{green}{1051}$ (93%) | 98% |
 | knn | ✅ | $\color{green}{1124}$ (99%) | ✅ | $\color{green}{1051}$ (93%) | 98% |
-| lstm | ✅ | $\color{green}{1116}$ (99%) | ✅ | $\color{green}{929}$ (82%) | 95% |
+| lstm | ✅ | $\color{green}{1119}$ (99%) | ✅ | $\color{green}{929}$ (82%) | 95% |
 | proxstump | ✅ | $\color{green}{1124}$ (99%) | ✅ | $\color{green}{1051}$ (93%) | 98% |
 | shapedtw | ✅ | $\color{green}{1124}$ (99%) | ✅ | $\color{green}{1051}$ (93%) | 98% |
 | signature | $\color{green}{915}$ (81%) | $\color{green}{914}$ (81%) | $\color{green}{915}$ (81%) | $\color{green}{841}$ (74%) | 79% |
@@ -16,4 +16,4 @@
 | tsf | ✅ | $\color{green}{1124}$ (99%) | ✅ | $\color{green}{1051}$ (93%) | 98% |
 | tsfresh | $\color{green}{1124}$ (99%) | $\color{green}{1124}$ (99%) | $\color{green}{1098}$ (97%) | $\color{green}{1051}$ (93%) | 97% |
 | weasel | $\color{green}{1110}$ (98%) | $\color{green}{1110}$ (98%) | $\color{green}{1110}$ (98%) | $\color{green}{1051}$ (93%) | 97% |
-| **TOTAL** | **17550** (97%) | **17098** (94%) | **17084** (94%) | **15500** (86%) | **93%** |
+| **TOTAL** | **17550** (97%) | **17101** (95%) | **17084** (94%) | **15500** (86%) | **93%** |
