@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-13 13:36:15 UTC
+Last updated: 2026-04-13 13:41:14 UTC
 
 ## Status
 
@@ -9,8 +9,8 @@ Classification Downstream Experiments
 4 algorithms x 75 datasets x 3 patterns x 5 rates x 16 classifiers = 72000 jobs
 
 Job Server Status
-  completed:   67213  (93.4%)
-  running:      2122
+  completed:   67215  (93.4%)
+  running:      2120
   failed:       2665
 ```
 
@@ -21,7 +21,7 @@ Job Server Status
 | arsenal | ✅ | $\color{green}{1124}$ (99%) | ✅ | $\color{green}{1051}$ (93%) | 98% |
 | catch22 | ✅ | $\color{green}{1124}$ (99%) | ✅ | $\color{green}{1051}$ (93%) | 98% |
 | cboss | ✅ | $\color{green}{1124}$ (99%) | $\color{green}{1124}$ (99%) | $\color{green}{1051}$ (93%) | 98% |
-| cif | $\color{green}{901}$ (80%) | $\color{green}{497}$ (44%) | $\color{green}{451}$ (40%) | $\color{green}{168}$ (14%) | 44% |
+| cif | $\color{green}{901}$ (80%) | $\color{green}{497}$ (44%) | $\color{green}{453}$ (40%) | $\color{green}{168}$ (14%) | 44% |
 | cnn | ✅ | $\color{green}{1124}$ (99%) | ✅ | $\color{green}{1051}$ (93%) | 98% |
 | itde | ✅ | $\color{green}{1124}$ (99%) | ✅ | $\color{green}{1051}$ (93%) | 98% |
 | knn | ✅ | $\color{green}{1124}$ (99%) | ✅ | $\color{green}{1051}$ (93%) | 98% |
@@ -34,4 +34,4 @@ Job Server Status
 | tsf | ✅ | $\color{green}{1124}$ (99%) | ✅ | $\color{green}{1051}$ (93%) | 98% |
 | tsfresh | $\color{green}{1124}$ (99%) | $\color{green}{1124}$ (99%) | $\color{green}{1098}$ (97%) | $\color{green}{1051}$ (93%) | 97% |
 | weasel | $\color{green}{1110}$ (98%) | $\color{green}{1110}$ (98%) | $\color{green}{1110}$ (98%) | $\color{green}{1051}$ (93%) | 97% |
-| **TOTAL** | **17550** (97%) | **17089** (94%) | **17073** (94%) | **15500** (86%) | **93%** |
+| **TOTAL** | **17550** (97%) | **17089** (94%) | **17075** (94%) | **15500** (86%) | **93%** |
