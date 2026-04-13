@@ -12,8 +12,8 @@
 | shapedtw | ✅ | $\color{green}{1124}$ (99%) | ✅ | $\color{green}{1051}$ (93%) | 98% |
 | signature | $\color{green}{915}$ (81%) | $\color{green}{914}$ (81%) | $\color{green}{915}$ (81%) | $\color{green}{841}$ (74%) | 79% |
 | stc | ✅ | $\color{green}{1124}$ (99%) | ✅ | $\color{green}{1045}$ (92%) | 98% |
-| svc | ✅ | $\color{green}{1110}$ (98%) | ✅ | $\color{green}{956}$ (84%) | 95% |
+| svc | ✅ | $\color{green}{1113}$ (98%) | ✅ | $\color{green}{956}$ (84%) | 95% |
 | tsf | ✅ | $\color{green}{1124}$ (99%) | ✅ | $\color{green}{1051}$ (93%) | 98% |
 | tsfresh | $\color{green}{1124}$ (99%) | $\color{green}{1124}$ (99%) | $\color{green}{1098}$ (97%) | $\color{green}{1051}$ (93%) | 97% |
 | weasel | $\color{green}{1110}$ (98%) | $\color{green}{1110}$ (98%) | $\color{green}{1110}$ (98%) | $\color{green}{1051}$ (93%) | 97% |
-| **TOTAL** | **17550** (97%) | **17119** (95%) | **17084** (94%) | **15500** (86%) | **93%** |
+| **TOTAL** | **17550** (97%) | **17122** (95%) | **17084** (94%) | **15500** (86%) | **93%** |
