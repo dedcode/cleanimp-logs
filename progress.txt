@@ -1,7 +1,7 @@
 | Classifier | MissNet | TRMF | Total |
 |:--|:--:|:--:|:--|
 | arsenal | $\color{green}{321}$ (28%) | $\color{green}{211}$ (18%) | 23% |
-| catch22 | $\color{green}{194}$ (17%) | $\color{green}{106}$ (9%) | 13% |
+| catch22 | $\color{green}{195}$ (17%) | $\color{green}{106}$ (9%) | 13% |
 | cboss | $\color{green}{197}$ (17%) | $\color{green}{106}$ (9%) | 13% |
 | cif | $\color{green}{115}$ (10%) | $\color{green}{105}$ (9%) | 9% |
 | cnn | $\color{green}{185}$ (16%) | $\color{green}{105}$ (9%) | 12% |
@@ -15,5 +15,5 @@
 | svc | $\color{green}{191}$ (16%) | $\color{green}{90}$ (8%) | 12% |
 | tsf | $\color{green}{204}$ (18%) | $\color{green}{90}$ (8%) | 13% |
 | tsfresh | $\color{green}{124}$ (11%) | $\color{green}{90}$ (8%) | 9% |
-| weasel | $\color{green}{205}$ (18%) | $\color{green}{90}$ (8%) | 13% |
-| **TOTAL** | **3146** (17%) | **1698** (9%) | **13%** |
+| weasel | $\color{green}{206}$ (18%) | $\color{green}{90}$ (8%) | 13% |
+| **TOTAL** | **3148** (17%) | **1698** (9%) | **13%** |
