@@ -11,9 +11,9 @@
 | proxstump | $\color{green}{241}$ (21%) | $\color{green}{105}$ (9%) | 15% |
 | shapedtw | $\color{green}{298}$ (26%) | $\color{green}{105}$ (9%) | 17% |
 | signature | $\color{green}{229}$ (20%) | $\color{green}{90}$ (8%) | 14% |
-| stc | $\color{green}{292}$ (25%) | $\color{green}{90}$ (8%) | 16% |
+| stc | $\color{green}{293}$ (26%) | $\color{green}{90}$ (8%) | 17% |
 | svc | $\color{green}{229}$ (20%) | $\color{green}{90}$ (8%) | 14% |
 | tsf | $\color{green}{292}$ (25%) | $\color{green}{90}$ (8%) | 16% |
 | tsfresh | $\color{green}{131}$ (11%) | $\color{green}{90}$ (8%) | 9% |
 | weasel | $\color{green}{299}$ (26%) | $\color{green}{90}$ (8%) | 17% |
-| **TOTAL** | **4209** (23%) | **1698** (9%) | **16%** |
+| **TOTAL** | **4210** (23%) | **1698** (9%) | **16%** |
