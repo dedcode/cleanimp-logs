@@ -6,7 +6,7 @@
 | cif | $\color{green}{117}$ (10%) | $\color{green}{105}$ (9%) | 9% |
 | cnn | $\color{green}{253}$ (22%) | $\color{green}{105}$ (9%) | 15% |
 | itde | $\color{green}{303}$ (26%) | $\color{green}{105}$ (9%) | 18% |
-| knn | $\color{green}{299}$ (26%) | $\color{green}{105}$ (9%) | 17% |
+| knn | $\color{green}{300}$ (26%) | $\color{green}{105}$ (9%) | 18% |
 | lstm | $\color{green}{273}$ (24%) | $\color{green}{105}$ (9%) | 16% |
 | proxstump | $\color{green}{244}$ (21%) | $\color{green}{105}$ (9%) | 15% |
 | shapedtw | $\color{green}{299}$ (26%) | $\color{green}{105}$ (9%) | 17% |
@@ -16,4 +16,4 @@
 | tsf | $\color{green}{294}$ (26%) | $\color{green}{90}$ (8%) | 17% |
 | tsfresh | $\color{green}{133}$ (11%) | $\color{green}{90}$ (8%) | 9% |
 | weasel | $\color{green}{301}$ (26%) | $\color{green}{90}$ (8%) | 17% |
-| **TOTAL** | **4242** (23%) | **1698** (9%) | **16%** |
+| **TOTAL** | **4243** (23%) | **1698** (9%) | **16%** |
