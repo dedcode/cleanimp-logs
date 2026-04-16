@@ -1,19 +1,19 @@
-| Classifier | MeanImpute | DynaMMo | MICE | GPT4TS | Total |
-|:--|:--:|:--:|:--:|:--:|:--|
-| arsenal | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| catch22 | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| cboss | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| cif | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| cnn | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| itde | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| knn | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| lstm | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| proxstump | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| shapedtw | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| signature | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| stc | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| svc | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| tsf | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| tsfresh | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| weasel | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | $\color{green}{0}$ (0%) | 0% |
-| **TOTAL** | **0** (0%) | **0** (0%) | **0** (0%) | **0** (0%) | **0%** |
+| Classifier | MissNet | TRMF | Total |
+|:--|:--:|:--:|:--|
+| arsenal | $\color{green}{293}$ (26%) | $\color{green}{211}$ (18%) | 22% |
+| catch22 | $\color{green}{181}$ (16%) | $\color{green}{106}$ (9%) | 12% |
+| cboss | $\color{green}{184}$ (16%) | $\color{green}{106}$ (9%) | 12% |
+| cif | $\color{green}{115}$ (10%) | $\color{green}{105}$ (9%) | 9% |
+| cnn | $\color{green}{176}$ (15%) | $\color{green}{105}$ (9%) | 12% |
+| itde | $\color{green}{186}$ (16%) | $\color{green}{105}$ (9%) | 12% |
+| knn | $\color{green}{186}$ (16%) | $\color{green}{105}$ (9%) | 12% |
+| lstm | $\color{green}{181}$ (16%) | $\color{green}{105}$ (9%) | 12% |
+| proxstump | $\color{green}{187}$ (16%) | $\color{green}{105}$ (9%) | 12% |
+| shapedtw | $\color{green}{181}$ (16%) | $\color{green}{105}$ (9%) | 12% |
+| signature | $\color{green}{157}$ (13%) | $\color{green}{90}$ (8%) | 10% |
+| stc | $\color{green}{183}$ (16%) | $\color{green}{90}$ (8%) | 12% |
+| svc | $\color{green}{168}$ (14%) | $\color{green}{90}$ (8%) | 11% |
+| tsf | $\color{green}{184}$ (16%) | $\color{green}{90}$ (8%) | 12% |
+| tsfresh | $\color{green}{118}$ (10%) | $\color{green}{90}$ (8%) | 9% |
+| weasel | $\color{green}{186}$ (16%) | $\color{green}{90}$ (8%) | 12% |
+| **TOTAL** | **2866** (15%) | **1698** (9%) | **12%** |
