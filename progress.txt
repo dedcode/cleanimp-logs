@@ -8,7 +8,7 @@
 | itde | $\color{green}{301}$ (26%) | $\color{green}{105}$ (9%) | 18% |
 | knn | $\color{green}{297}$ (26%) | $\color{green}{105}$ (9%) | 17% |
 | lstm | $\color{green}{266}$ (23%) | $\color{green}{105}$ (9%) | 16% |
-| proxstump | $\color{green}{238}$ (21%) | $\color{green}{105}$ (9%) | 15% |
+| proxstump | $\color{green}{239}$ (21%) | $\color{green}{105}$ (9%) | 15% |
 | shapedtw | $\color{green}{297}$ (26%) | $\color{green}{105}$ (9%) | 17% |
 | signature | $\color{green}{229}$ (20%) | $\color{green}{90}$ (8%) | 14% |
 | stc | $\color{green}{290}$ (25%) | $\color{green}{90}$ (8%) | 16% |
@@ -16,4 +16,4 @@
 | tsf | $\color{green}{289}$ (25%) | $\color{green}{90}$ (8%) | 16% |
 | tsfresh | $\color{green}{131}$ (11%) | $\color{green}{90}$ (8%) | 9% |
 | weasel | $\color{green}{298}$ (26%) | $\color{green}{90}$ (8%) | 17% |
-| **TOTAL** | **4190** (23%) | **1698** (9%) | **16%** |
+| **TOTAL** | **4191** (23%) | **1698** (9%) | **16%** |
