@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-17 20:20:08 UTC
+Last updated: 2026-04-17 20:25:07 UTC
 
 ## Status
 
@@ -9,9 +9,9 @@ Classification Downstream Experiments
 75 datasets x 3 patterns x 5 rates x 16 classifiers = 36000 jobs
 
 Job Server Status
-  completed:    6712  (18.6%)
+  completed:    6714  (18.6%)
   running:      3508
-  pending:     25780
+  pending:     25778
 ```
 
 ## Progress (classifier x algorithm)
@@ -29,10 +29,10 @@ Job Server Status
 | proxstump | $\color{green}{266}$ (23%) | $\color{green}{105}$ (9%) | 16% |
 | shapedtw | $\color{green}{321}$ (28%) | $\color{green}{105}$ (9%) | 18% |
 | signature | $\color{green}{249}$ (22%) | $\color{green}{90}$ (8%) | 15% |
-| stc | $\color{green}{325}$ (28%) | $\color{green}{90}$ (8%) | 18% |
+| stc | $\color{green}{326}$ (28%) | $\color{green}{90}$ (8%) | 18% |
 | svc | $\color{green}{249}$ (22%) | $\color{green}{90}$ (8%) | 15% |
 | tsf | $\color{green}{329}$ (29%) | $\color{green}{90}$ (8%) | 18% |
 | tsfresh | $\color{green}{147}$ (13%) | $\color{green}{90}$ (8%) | 10% |
 | weasel | $\color{green}{333}$ (29%) | $\color{green}{90}$ (8%) | 18% |
-| **TOTAL** | **4651** (25%) | **1698** (9%) | **17%** |
+| **TOTAL** | **4652** (25%) | **1698** (9%) | **17%** |
 
