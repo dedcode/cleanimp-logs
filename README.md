@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-17 00:20:08 UTC
+Last updated: 2026-04-17 00:25:08 UTC
 
 ## Status
 
@@ -9,9 +9,9 @@ Classification Downstream Experiments
 75 datasets x 3 patterns x 5 rates x 16 classifiers = 36000 jobs
 
 Job Server Status
-  completed:    6362  (17.7%)
-  running:      3444
-  pending:     26194
+  completed:    6365  (17.7%)
+  running:      3442
+  pending:     26193
 ```
 
 ## Progress (classifier x algorithm)
@@ -20,19 +20,19 @@ Job Server Status
 |:--|:--:|:--:|:--|
 | arsenal | $\color{green}{416}$ (36%) | $\color{green}{211}$ (18%) | 27% |
 | catch22 | $\color{green}{299}$ (26%) | $\color{green}{106}$ (9%) | 18% |
-| cboss | $\color{green}{272}$ (24%) | $\color{green}{106}$ (9%) | 16% |
+| cboss | $\color{green}{273}$ (24%) | $\color{green}{106}$ (9%) | 16% |
 | cif | $\color{green}{119}$ (10%) | $\color{green}{105}$ (9%) | 9% |
 | cnn | $\color{green}{257}$ (22%) | $\color{green}{105}$ (9%) | 16% |
 | itde | $\color{green}{308}$ (27%) | $\color{green}{105}$ (9%) | 18% |
 | knn | $\color{green}{304}$ (27%) | $\color{green}{105}$ (9%) | 18% |
 | lstm | $\color{green}{276}$ (24%) | $\color{green}{105}$ (9%) | 16% |
 | proxstump | $\color{green}{248}$ (22%) | $\color{green}{105}$ (9%) | 15% |
-| shapedtw | $\color{green}{305}$ (27%) | $\color{green}{105}$ (9%) | 18% |
+| shapedtw | $\color{green}{306}$ (27%) | $\color{green}{105}$ (9%) | 18% |
 | signature | $\color{green}{233}$ (20%) | $\color{green}{90}$ (8%) | 14% |
-| stc | $\color{green}{298}$ (26%) | $\color{green}{90}$ (8%) | 17% |
+| stc | $\color{green}{299}$ (26%) | $\color{green}{90}$ (8%) | 17% |
 | svc | $\color{green}{239}$ (21%) | $\color{green}{90}$ (8%) | 14% |
 | tsf | $\color{green}{299}$ (26%) | $\color{green}{90}$ (8%) | 17% |
 | tsfresh | $\color{green}{135}$ (12%) | $\color{green}{90}$ (8%) | 10% |
 | weasel | $\color{green}{308}$ (27%) | $\color{green}{90}$ (8%) | 17% |
-| **TOTAL** | **4316** (23%) | **1698** (9%) | **16%** |
+| **TOTAL** | **4319** (23%) | **1698** (9%) | **16%** |
 
