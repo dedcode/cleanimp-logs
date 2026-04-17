@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-17 13:00:08 UTC
+Last updated: 2026-04-17 13:05:08 UTC
 
 ## Status
 
@@ -9,16 +9,16 @@ Classification Downstream Experiments
 75 datasets x 3 patterns x 5 rates x 16 classifiers = 36000 jobs
 
 Job Server Status
-  completed:    6587  (18.3%)
-  running:      3503
-  pending:     25910
+  completed:    6588  (18.3%)
+  running:      3505
+  pending:     25907
 ```
 
 ## Progress (classifier x algorithm)
 
 | Classifier | MissNet | TRMF | Total |
 |:--|:--:|:--:|:--|
-| arsenal | $\color{green}{429}$ (38%) | $\color{green}{211}$ (18%) | 28% |
+| arsenal | $\color{green}{430}$ (38%) | $\color{green}{211}$ (18%) | 28% |
 | catch22 | $\color{green}{315}$ (28%) | $\color{green}{106}$ (9%) | 18% |
 | cboss | $\color{green}{294}$ (26%) | $\color{green}{106}$ (9%) | 17% |
 | cif | $\color{green}{124}$ (11%) | $\color{green}{105}$ (9%) | 10% |
@@ -34,5 +34,5 @@ Job Server Status
 | tsf | $\color{green}{320}$ (28%) | $\color{green}{90}$ (8%) | 18% |
 | tsfresh | $\color{green}{143}$ (12%) | $\color{green}{90}$ (8%) | 10% |
 | weasel | $\color{green}{329}$ (29%) | $\color{green}{90}$ (8%) | 18% |
-| **TOTAL** | **4532** (25%) | **1698** (9%) | **17%** |
+| **TOTAL** | **4533** (25%) | **1698** (9%) | **17%** |
 
