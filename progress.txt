@@ -15,5 +15,5 @@
 | svc | $\color{green}{244}$ (21%) | $\color{green}{90}$ (8%) | 14% |
 | tsf | $\color{green}{317}$ (28%) | $\color{green}{90}$ (8%) | 18% |
 | tsfresh | $\color{green}{139}$ (12%) | $\color{green}{90}$ (8%) | 10% |
-| weasel | $\color{green}{325}$ (28%) | $\color{green}{90}$ (8%) | 18% |
-| **TOTAL** | **4490** (24%) | **1698** (9%) | **17%** |
+| weasel | $\color{green}{326}$ (28%) | $\color{green}{90}$ (8%) | 18% |
+| **TOTAL** | **4491** (24%) | **1698** (9%) | **17%** |
