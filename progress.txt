@@ -4,7 +4,7 @@
 | catch22 | $\color{green}{300}$ (26%) | $\color{green}{106}$ (9%) | 18% |
 | cboss | $\color{green}{274}$ (24%) | $\color{green}{106}$ (9%) | 16% |
 | cif | $\color{green}{119}$ (10%) | $\color{green}{105}$ (9%) | 9% |
-| cnn | $\color{green}{259}$ (23%) | $\color{green}{105}$ (9%) | 16% |
+| cnn | $\color{green}{261}$ (23%) | $\color{green}{105}$ (9%) | 16% |
 | itde | $\color{green}{309}$ (27%) | $\color{green}{105}$ (9%) | 18% |
 | knn | $\color{green}{306}$ (27%) | $\color{green}{105}$ (9%) | 18% |
 | lstm | $\color{green}{279}$ (24%) | $\color{green}{105}$ (9%) | 17% |
@@ -16,4 +16,4 @@
 | tsf | $\color{green}{301}$ (26%) | $\color{green}{90}$ (8%) | 17% |
 | tsfresh | $\color{green}{135}$ (12%) | $\color{green}{90}$ (8%) | 10% |
 | weasel | $\color{green}{313}$ (27%) | $\color{green}{90}$ (8%) | 17% |
-| **TOTAL** | **4343** (24%) | **1698** (9%) | **16%** |
+| **TOTAL** | **4345** (24%) | **1698** (9%) | **16%** |
