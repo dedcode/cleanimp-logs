@@ -13,7 +13,7 @@
 | signature | $\color{green}{245}$ (21%) | $\color{green}{90}$ (8%) | 14% |
 | stc | $\color{green}{311}$ (27%) | $\color{green}{90}$ (8%) | 17% |
 | svc | $\color{green}{244}$ (21%) | $\color{green}{90}$ (8%) | 14% |
-| tsf | $\color{green}{317}$ (28%) | $\color{green}{90}$ (8%) | 18% |
+| tsf | $\color{green}{318}$ (28%) | $\color{green}{90}$ (8%) | 18% |
 | tsfresh | $\color{green}{139}$ (12%) | $\color{green}{90}$ (8%) | 10% |
 | weasel | $\color{green}{326}$ (28%) | $\color{green}{90}$ (8%) | 18% |
-| **TOTAL** | **4498** (24%) | **1698** (9%) | **17%** |
+| **TOTAL** | **4499** (24%) | **1698** (9%) | **17%** |
