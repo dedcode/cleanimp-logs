@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-18 16:05:22 UTC
+Last updated: 2026-04-18 16:10:22 UTC
 
 ## Status
 
@@ -9,9 +9,9 @@ Classification Downstream Experiments
 75 datasets x 3 patterns x 5 rates x 16 classifiers = 36000 jobs
 
 Job Server Status
-  completed:    9150  (25.4%)
-  running:       463
-  pending:     26387
+  completed:    9188  (25.5%)
+  running:       461
+  pending:     26351
 ```
 
 ## Progress (classifier x algorithm)
@@ -21,18 +21,18 @@ Job Server Status
 | arsenal | $\color{green}{566}$ (50%) | $\color{green}{231}$ (20%) | 35% |
 | catch22 | $\color{green}{515}$ (45%) | $\color{green}{163}$ (14%) | 30% |
 | cboss | $\color{green}{422}$ (37%) | $\color{green}{135}$ (12%) | 24% |
-| cif | $\color{green}{155}$ (13%) | $\color{green}{105}$ (9%) | 11% |
-| cnn | $\color{green}{419}$ (37%) | $\color{green}{121}$ (10%) | 24% |
+| cif | $\color{green}{156}$ (13%) | $\color{green}{105}$ (9%) | 11% |
+| cnn | $\color{green}{420}$ (37%) | $\color{green}{121}$ (10%) | 24% |
 | itde | $\color{green}{515}$ (45%) | $\color{green}{163}$ (14%) | 30% |
-| knn | $\color{green}{481}$ (42%) | $\color{green}{154}$ (13%) | 28% |
-| lstm | $\color{green}{410}$ (36%) | $\color{green}{119}$ (10%) | 23% |
+| knn | $\color{green}{482}$ (42%) | $\color{green}{154}$ (13%) | 28% |
+| lstm | $\color{green}{412}$ (36%) | $\color{green}{119}$ (10%) | 23% |
 | proxstump | $\color{green}{368}$ (32%) | $\color{green}{125}$ (11%) | 21% |
 | shapedtw | $\color{green}{397}$ (35%) | $\color{green}{112}$ (9%) | 22% |
 | signature | $\color{green}{429}$ (38%) | $\color{green}{142}$ (12%) | 25% |
 | stc | $\color{green}{429}$ (38%) | $\color{green}{105}$ (9%) | 23% |
-| svc | $\color{green}{373}$ (33%) | $\color{green}{120}$ (10%) | 21% |
+| svc | $\color{green}{374}$ (33%) | $\color{green}{120}$ (10%) | 21% |
 | tsf | $\color{green}{491}$ (43%) | $\color{green}{145}$ (12%) | 28% |
-| tsfresh | $\color{green}{327}$ (29%) | $\color{green}{106}$ (9%) | 19% |
+| tsfresh | $\color{green}{328}$ (29%) | $\color{green}{106}$ (9%) | 19% |
 | weasel | $\color{green}{499}$ (44%) | $\color{green}{139}$ (12%) | 28% |
-| **TOTAL** | **6796** (37%) | **2185** (12%) | **24%** |
+| **TOTAL** | **6803** (37%) | **2185** (12%) | **24%** |
 
