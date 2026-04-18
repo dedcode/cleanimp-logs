@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-18 13:55:21 UTC
+Last updated: 2026-04-18 14:00:21 UTC
 
 ## Status
 
@@ -9,9 +9,9 @@ Classification Downstream Experiments
 75 datasets x 3 patterns x 5 rates x 16 classifiers = 36000 jobs
 
 Job Server Status
-  completed:    8872  (24.6%)
+  completed:    8878  (24.7%)
   running:       231
-  pending:     26897
+  pending:     26891
 ```
 
 ## Progress (classifier x algorithm)
@@ -22,17 +22,17 @@ Job Server Status
 | catch22 | $\color{green}{510}$ (45%) | $\color{green}{163}$ (14%) | 29% |
 | cboss | $\color{green}{412}$ (36%) | $\color{green}{135}$ (12%) | 24% |
 | cif | $\color{green}{143}$ (12%) | $\color{green}{105}$ (9%) | 11% |
-| cnn | $\color{green}{412}$ (36%) | $\color{green}{121}$ (10%) | 23% |
-| itde | $\color{green}{511}$ (45%) | $\color{green}{163}$ (14%) | 29% |
-| knn | $\color{green}{476}$ (42%) | $\color{green}{154}$ (13%) | 28% |
+| cnn | $\color{green}{413}$ (36%) | $\color{green}{121}$ (10%) | 23% |
+| itde | $\color{green}{512}$ (45%) | $\color{green}{163}$ (14%) | 30% |
+| knn | $\color{green}{477}$ (42%) | $\color{green}{154}$ (13%) | 28% |
 | lstm | $\color{green}{404}$ (35%) | $\color{green}{118}$ (10%) | 23% |
 | proxstump | $\color{green}{355}$ (31%) | $\color{green}{125}$ (11%) | 21% |
 | shapedtw | $\color{green}{397}$ (35%) | $\color{green}{112}$ (9%) | 22% |
 | signature | $\color{green}{429}$ (38%) | $\color{green}{142}$ (12%) | 25% |
-| stc | $\color{green}{414}$ (36%) | $\color{green}{105}$ (9%) | 23% |
-| svc | $\color{green}{362}$ (32%) | $\color{green}{120}$ (10%) | 21% |
+| stc | $\color{green}{416}$ (36%) | $\color{green}{105}$ (9%) | 23% |
+| svc | $\color{green}{363}$ (32%) | $\color{green}{120}$ (10%) | 21% |
 | tsf | $\color{green}{489}$ (43%) | $\color{green}{145}$ (12%) | 28% |
 | tsfresh | $\color{green}{320}$ (28%) | $\color{green}{106}$ (9%) | 18% |
 | weasel | $\color{green}{494}$ (43%) | $\color{green}{139}$ (12%) | 28% |
-| **TOTAL** | **6688** (37%) | **2184** (12%) | **24%** |
+| **TOTAL** | **6694** (37%) | **2184** (12%) | **24%** |
 
