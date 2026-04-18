@@ -5,7 +5,7 @@
 | cboss | $\color{green}{303}$ (26%) | $\color{green}{106}$ (9%) | 18% |
 | cif | $\color{green}{129}$ (11%) | $\color{green}{105}$ (9%) | 10% |
 | cnn | $\color{green}{284}$ (25%) | $\color{green}{105}$ (9%) | 17% |
-| itde | $\color{green}{339}$ (30%) | $\color{green}{105}$ (9%) | 19% |
+| itde | $\color{green}{340}$ (30%) | $\color{green}{105}$ (9%) | 19% |
 | knn | $\color{green}{336}$ (29%) | $\color{green}{105}$ (9%) | 19% |
 | lstm | $\color{green}{304}$ (27%) | $\color{green}{105}$ (9%) | 18% |
 | proxstump | $\color{green}{267}$ (23%) | $\color{green}{105}$ (9%) | 16% |
@@ -16,4 +16,4 @@
 | tsf | $\color{green}{332}$ (29%) | $\color{green}{90}$ (8%) | 18% |
 | tsfresh | $\color{green}{147}$ (13%) | $\color{green}{90}$ (8%) | 10% |
 | weasel | $\color{green}{337}$ (29%) | $\color{green}{90}$ (8%) | 18% |
-| **TOTAL** | **4708** (26%) | **1698** (9%) | **17%** |
+| **TOTAL** | **4709** (26%) | **1698** (9%) | **17%** |
