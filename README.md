@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-18 11:30:11 UTC
+Last updated: 2026-04-18 11:35:11 UTC
 
 ## Status
 
@@ -9,9 +9,9 @@ Classification Downstream Experiments
 75 datasets x 3 patterns x 5 rates x 16 classifiers = 36000 jobs
 
 Job Server Status
-  completed:    7982  (22.2%)
-  running:      2265
-  pending:     25753
+  completed:    8007  (22.2%)
+  running:      2262
+  pending:     25731
 ```
 
 ## Progress (classifier x algorithm)
@@ -20,19 +20,19 @@ Job Server Status
 |:--|:--:|:--:|:--|
 | arsenal | $\color{green}{530}$ (47%) | $\color{green}{213}$ (18%) | 33% |
 | catch22 | $\color{green}{434}$ (38%) | $\color{green}{112}$ (9%) | 24% |
-| cboss | $\color{green}{381}$ (33%) | $\color{green}{112}$ (9%) | 21% |
+| cboss | $\color{green}{381}$ (33%) | $\color{green}{115}$ (10%) | 22% |
 | cif | $\color{green}{135}$ (12%) | $\color{green}{105}$ (9%) | 10% |
-| cnn | $\color{green}{386}$ (34%) | $\color{green}{106}$ (9%) | 21% |
-| itde | $\color{green}{434}$ (38%) | $\color{green}{108}$ (9%) | 24% |
-| knn | $\color{green}{420}$ (37%) | $\color{green}{111}$ (9%) | 23% |
-| lstm | $\color{green}{373}$ (33%) | $\color{green}{105}$ (9%) | 21% |
-| proxstump | $\color{green}{332}$ (29%) | $\color{green}{109}$ (9%) | 19% |
-| shapedtw | $\color{green}{384}$ (34%) | $\color{green}{105}$ (9%) | 21% |
-| signature | $\color{green}{328}$ (29%) | $\color{green}{93}$ (8%) | 18% |
-| stc | $\color{green}{396}$ (35%) | $\color{green}{91}$ (8%) | 21% |
-| svc | $\color{green}{337}$ (29%) | $\color{green}{94}$ (8%) | 19% |
-| tsf | $\color{green}{400}$ (35%) | $\color{green}{92}$ (8%) | 21% |
-| tsfresh | $\color{green}{281}$ (24%) | $\color{green}{92}$ (8%) | 16% |
-| weasel | $\color{green}{429}$ (38%) | $\color{green}{93}$ (8%) | 23% |
-| **TOTAL** | **5980** (33%) | **1741** (9%) | **21%** |
+| cnn | $\color{green}{387}$ (34%) | $\color{green}{108}$ (9%) | 22% |
+| itde | $\color{green}{434}$ (38%) | $\color{green}{110}$ (9%) | 24% |
+| knn | $\color{green}{420}$ (37%) | $\color{green}{112}$ (9%) | 23% |
+| lstm | $\color{green}{377}$ (33%) | $\color{green}{105}$ (9%) | 21% |
+| proxstump | $\color{green}{332}$ (29%) | $\color{green}{112}$ (9%) | 19% |
+| shapedtw | $\color{green}{384}$ (34%) | $\color{green}{106}$ (9%) | 21% |
+| signature | $\color{green}{328}$ (29%) | $\color{green}{94}$ (8%) | 18% |
+| stc | $\color{green}{396}$ (35%) | $\color{green}{92}$ (8%) | 21% |
+| svc | $\color{green}{337}$ (29%) | $\color{green}{96}$ (8%) | 19% |
+| tsf | $\color{green}{400}$ (35%) | $\color{green}{93}$ (8%) | 21% |
+| tsfresh | $\color{green}{281}$ (24%) | $\color{green}{94}$ (8%) | 16% |
+| weasel | $\color{green}{429}$ (38%) | $\color{green}{94}$ (8%) | 23% |
+| **TOTAL** | **5985** (33%) | **1761** (9%) | **21%** |
 
