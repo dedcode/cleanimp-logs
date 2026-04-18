@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-18 15:05:19 UTC
+Last updated: 2026-04-18 15:10:19 UTC
 
 ## Status
 
@@ -9,9 +9,9 @@ Classification Downstream Experiments
 75 datasets x 3 patterns x 5 rates x 16 classifiers = 36000 jobs
 
 Job Server Status
-  completed:    8942  (24.8%)
-  running:       213
-  pending:     26845
+  completed:    8946  (24.9%)
+  running:       212
+  pending:     26842
 ```
 
 ## Progress (classifier x algorithm)
@@ -20,13 +20,13 @@ Job Server Status
 |:--|:--:|:--:|:--|
 | arsenal | $\color{green}{563}$ (50%) | $\color{green}{231}$ (20%) | 35% |
 | catch22 | $\color{green}{514}$ (45%) | $\color{green}{163}$ (14%) | 30% |
-| cboss | $\color{green}{419}$ (37%) | $\color{green}{135}$ (12%) | 24% |
-| cif | $\color{green}{149}$ (13%) | $\color{green}{105}$ (9%) | 11% |
+| cboss | $\color{green}{420}$ (37%) | $\color{green}{135}$ (12%) | 24% |
+| cif | $\color{green}{150}$ (13%) | $\color{green}{105}$ (9%) | 11% |
 | cnn | $\color{green}{418}$ (37%) | $\color{green}{121}$ (10%) | 23% |
 | itde | $\color{green}{513}$ (45%) | $\color{green}{163}$ (14%) | 30% |
 | knn | $\color{green}{480}$ (42%) | $\color{green}{154}$ (13%) | 28% |
-| lstm | $\color{green}{405}$ (36%) | $\color{green}{118}$ (10%) | 23% |
-| proxstump | $\color{green}{363}$ (32%) | $\color{green}{125}$ (11%) | 21% |
+| lstm | $\color{green}{406}$ (36%) | $\color{green}{118}$ (10%) | 23% |
+| proxstump | $\color{green}{364}$ (32%) | $\color{green}{125}$ (11%) | 21% |
 | shapedtw | $\color{green}{397}$ (35%) | $\color{green}{112}$ (9%) | 22% |
 | signature | $\color{green}{429}$ (38%) | $\color{green}{142}$ (12%) | 25% |
 | stc | $\color{green}{425}$ (37%) | $\color{green}{105}$ (9%) | 23% |
@@ -34,5 +34,5 @@ Job Server Status
 | tsf | $\color{green}{491}$ (43%) | $\color{green}{145}$ (12%) | 28% |
 | tsfresh | $\color{green}{325}$ (28%) | $\color{green}{106}$ (9%) | 19% |
 | weasel | $\color{green}{496}$ (44%) | $\color{green}{139}$ (12%) | 28% |
-| **TOTAL** | **6758** (37%) | **2184** (12%) | **24%** |
+| **TOTAL** | **6762** (37%) | **2184** (12%) | **24%** |
 
