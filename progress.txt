@@ -1,19 +1,19 @@
 | Classifier | MissNet | TRMF | Total |
 |:--|:--:|:--:|:--|
-| arsenal | $\color{green}{658}$ (58%) | $\color{green}{248}$ (22%) | 40% |
-| catch22 | $\color{green}{628}$ (55%) | $\color{green}{181}$ (16%) | 35% |
-| cboss | $\color{green}{528}$ (46%) | $\color{green}{162}$ (14%) | 30% |
+| arsenal | $\color{green}{660}$ (58%) | $\color{green}{248}$ (22%) | 40% |
+| catch22 | $\color{green}{629}$ (55%) | $\color{green}{182}$ (16%) | 36% |
+| cboss | $\color{green}{529}$ (47%) | $\color{green}{162}$ (14%) | 30% |
 | cif | $\color{green}{174}$ (15%) | $\color{green}{110}$ (9%) | 12% |
-| cnn | $\color{green}{517}$ (45%) | $\color{green}{139}$ (12%) | 29% |
-| itde | $\color{green}{615}$ (54%) | $\color{green}{191}$ (16%) | 35% |
-| knn | $\color{green}{582}$ (51%) | $\color{green}{185}$ (16%) | 34% |
-| lstm | $\color{green}{495}$ (44%) | $\color{green}{125}$ (11%) | 27% |
-| proxstump | $\color{green}{485}$ (43%) | $\color{green}{158}$ (14%) | 28% |
-| shapedtw | $\color{green}{422}$ (37%) | $\color{green}{125}$ (11%) | 24% |
-| signature | $\color{green}{526}$ (46%) | $\color{green}{170}$ (15%) | 30% |
-| stc | $\color{green}{510}$ (45%) | $\color{green}{132}$ (11%) | 28% |
-| svc | $\color{green}{470}$ (41%) | $\color{green}{144}$ (12%) | 27% |
-| tsf | $\color{green}{597}$ (53%) | $\color{green}{181}$ (16%) | 34% |
-| tsfresh | $\color{green}{451}$ (40%) | $\color{green}{135}$ (12%) | 26% |
-| weasel | $\color{green}{606}$ (53%) | $\color{green}{174}$ (15%) | 34% |
-| **TOTAL** | **8264** (45%) | **2560** (14%) | **30%** |
+| cnn | $\color{green}{521}$ (46%) | $\color{green}{143}$ (12%) | 29% |
+| itde | $\color{green}{616}$ (54%) | $\color{green}{194}$ (17%) | 36% |
+| knn | $\color{green}{582}$ (51%) | $\color{green}{189}$ (16%) | 34% |
+| lstm | $\color{green}{498}$ (44%) | $\color{green}{125}$ (11%) | 27% |
+| proxstump | $\color{green}{485}$ (43%) | $\color{green}{159}$ (14%) | 28% |
+| shapedtw | $\color{green}{423}$ (37%) | $\color{green}{126}$ (11%) | 24% |
+| signature | $\color{green}{527}$ (46%) | $\color{green}{172}$ (15%) | 31% |
+| stc | $\color{green}{513}$ (45%) | $\color{green}{134}$ (11%) | 28% |
+| svc | $\color{green}{471}$ (41%) | $\color{green}{144}$ (12%) | 27% |
+| tsf | $\color{green}{598}$ (53%) | $\color{green}{182}$ (16%) | 34% |
+| tsfresh | $\color{green}{452}$ (40%) | $\color{green}{136}$ (12%) | 26% |
+| weasel | $\color{green}{607}$ (53%) | $\color{green}{175}$ (15%) | 34% |
+| **TOTAL** | **8285** (46%) | **2581** (14%) | **30%** |
