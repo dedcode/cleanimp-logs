@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-18 11:20:10 UTC
+Last updated: 2026-04-18 11:25:10 UTC
 
 ## Status
 
@@ -9,30 +9,30 @@ Classification Downstream Experiments
 75 datasets x 3 patterns x 5 rates x 16 classifiers = 36000 jobs
 
 Job Server Status
-  completed:    7917  (22.0%)
-  running:      2260
-  pending:     25823
+  completed:    7962  (22.1%)
+  running:      2258
+  pending:     25780
 ```
 
 ## Progress (classifier x algorithm)
 
 | Classifier | MissNet | TRMF | Total |
 |:--|:--:|:--:|:--|
-| arsenal | $\color{green}{524}$ (46%) | $\color{green}{211}$ (18%) | 32% |
-| catch22 | $\color{green}{434}$ (38%) | $\color{green}{106}$ (9%) | 24% |
-| cboss | $\color{green}{379}$ (33%) | $\color{green}{106}$ (9%) | 21% |
+| arsenal | $\color{green}{530}$ (47%) | $\color{green}{212}$ (18%) | 32% |
+| catch22 | $\color{green}{434}$ (38%) | $\color{green}{111}$ (9%) | 24% |
+| cboss | $\color{green}{381}$ (33%) | $\color{green}{111}$ (9%) | 21% |
 | cif | $\color{green}{134}$ (11%) | $\color{green}{105}$ (9%) | 10% |
-| cnn | $\color{green}{383}$ (34%) | $\color{green}{105}$ (9%) | 21% |
-| itde | $\color{green}{434}$ (38%) | $\color{green}{105}$ (9%) | 23% |
-| knn | $\color{green}{419}$ (37%) | $\color{green}{105}$ (9%) | 23% |
-| lstm | $\color{green}{364}$ (32%) | $\color{green}{105}$ (9%) | 20% |
-| proxstump | $\color{green}{331}$ (29%) | $\color{green}{105}$ (9%) | 19% |
+| cnn | $\color{green}{384}$ (34%) | $\color{green}{105}$ (9%) | 21% |
+| itde | $\color{green}{434}$ (38%) | $\color{green}{107}$ (9%) | 24% |
+| knn | $\color{green}{420}$ (37%) | $\color{green}{108}$ (9%) | 23% |
+| lstm | $\color{green}{370}$ (32%) | $\color{green}{105}$ (9%) | 21% |
+| proxstump | $\color{green}{332}$ (29%) | $\color{green}{108}$ (9%) | 19% |
 | shapedtw | $\color{green}{384}$ (34%) | $\color{green}{105}$ (9%) | 21% |
-| signature | $\color{green}{328}$ (29%) | $\color{green}{90}$ (8%) | 18% |
+| signature | $\color{green}{328}$ (29%) | $\color{green}{93}$ (8%) | 18% |
 | stc | $\color{green}{396}$ (35%) | $\color{green}{90}$ (8%) | 21% |
-| svc | $\color{green}{337}$ (29%) | $\color{green}{90}$ (8%) | 18% |
-| tsf | $\color{green}{400}$ (35%) | $\color{green}{91}$ (8%) | 21% |
-| tsfresh | $\color{green}{281}$ (24%) | $\color{green}{90}$ (8%) | 16% |
-| weasel | $\color{green}{429}$ (38%) | $\color{green}{90}$ (8%) | 23% |
-| **TOTAL** | **5957** (33%) | **1699** (9%) | **21%** |
+| svc | $\color{green}{337}$ (29%) | $\color{green}{92}$ (8%) | 19% |
+| tsf | $\color{green}{400}$ (35%) | $\color{green}{92}$ (8%) | 21% |
+| tsfresh | $\color{green}{281}$ (24%) | $\color{green}{91}$ (8%) | 16% |
+| weasel | $\color{green}{429}$ (38%) | $\color{green}{92}$ (8%) | 23% |
+| **TOTAL** | **5974** (33%) | **1727** (9%) | **21%** |
 
