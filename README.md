@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-19 00:55:39 UTC
+Last updated: 2026-04-19 01:00:33 UTC
 
 ## Status
 
@@ -9,8 +9,8 @@ Classification Downstream Experiments
 75 datasets x 3 patterns x 5 rates x 16 classifiers = 36000 jobs
 
 Job Server Status
-  completed:   11105  (30.8%)
-  running:       182
+  completed:   11108  (30.9%)
+  running:       180
   failed:      24754
 ```
 
@@ -22,10 +22,10 @@ Job Server Status
 | catch22 | $\color{green}{630}$ (56%) | $\color{green}{187}$ (16%) | 36% |
 | cboss | $\color{green}{532}$ (47%) | $\color{green}{170}$ (15%) | 31% |
 | cif | $\color{green}{174}$ (15%) | $\color{green}{110}$ (9%) | 12% |
-| cnn | $\color{green}{537}$ (47%) | $\color{green}{165}$ (14%) | 31% |
+| cnn | $\color{green}{537}$ (47%) | $\color{green}{166}$ (14%) | 31% |
 | itde | $\color{green}{616}$ (54%) | $\color{green}{202}$ (17%) | 36% |
 | knn | $\color{green}{588}$ (52%) | $\color{green}{194}$ (17%) | 34% |
-| lstm | $\color{green}{515}$ (45%) | $\color{green}{142}$ (12%) | 29% |
+| lstm | $\color{green}{517}$ (45%) | $\color{green}{142}$ (12%) | 29% |
 | proxstump | $\color{green}{498}$ (44%) | $\color{green}{165}$ (14%) | 29% |
 | shapedtw | $\color{green}{426}$ (37%) | $\color{green}{127}$ (11%) | 24% |
 | signature | $\color{green}{528}$ (46%) | $\color{green}{176}$ (15%) | 31% |
@@ -34,5 +34,5 @@ Job Server Status
 | tsf | $\color{green}{599}$ (53%) | $\color{green}{184}$ (16%) | 34% |
 | tsfresh | $\color{green}{463}$ (41%) | $\color{green}{149}$ (13%) | 27% |
 | weasel | $\color{green}{610}$ (54%) | $\color{green}{180}$ (16%) | 35% |
-| **TOTAL** | **8397** (46%) | **2705** (15%) | **30%** |
+| **TOTAL** | **8399** (46%) | **2706** (15%) | **30%** |
 
