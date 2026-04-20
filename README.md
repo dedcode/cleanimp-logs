@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-20 13:55:03 UTC
+Last updated: 2026-04-20 14:00:03 UTC
 
 ## Status
 
@@ -10,8 +10,8 @@ Classification Downstream Experiments
 
 Job Server Status
   completed:   33252  (92.4%)
-  running:      2034
-  pending:         2
+  running:      2031
+  pending:         5
   failed:        712
 ```
 
