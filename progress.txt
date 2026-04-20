@@ -1,19 +1,19 @@
 | Classifier | MissNet | TRMF | Total |
 |:--|:--:|:--:|:--|
-| arsenal | $\color{green}{1105}$ (98%) | $\color{green}{788}$ (70%) | 84% |
-| catch22 | $\color{green}{1109}$ (98%) | $\color{green}{776}$ (68%) | 83% |
-| cboss | $\color{green}{1109}$ (98%) | $\color{green}{765}$ (68%) | 83% |
-| cif | $\color{green}{391}$ (34%) | $\color{green}{140}$ (12%) | 23% |
-| cnn | $\color{green}{1103}$ (98%) | $\color{green}{635}$ (56%) | 77% |
-| itde | $\color{green}{1109}$ (98%) | $\color{green}{781}$ (69%) | 84% |
-| knn | $\color{green}{1109}$ (98%) | $\color{green}{747}$ (66%) | 82% |
-| lstm | $\color{green}{1061}$ (94%) | $\color{green}{482}$ (42%) | 68% |
-| proxstump | $\color{green}{1108}$ (98%) | $\color{green}{757}$ (67%) | 82% |
-| shapedtw | $\color{green}{645}$ (57%) | $\color{green}{352}$ (31%) | 44% |
-| signature | $\color{green}{897}$ (79%) | $\color{green}{628}$ (55%) | 67% |
-| stc | $\color{green}{1109}$ (98%) | $\color{green}{711}$ (63%) | 80% |
-| svc | $\color{green}{1078}$ (95%) | $\color{green}{708}$ (62%) | 79% |
-| tsf | $\color{green}{1109}$ (98%) | $\color{green}{772}$ (68%) | 83% |
-| tsfresh | $\color{green}{1106}$ (98%) | $\color{green}{758}$ (67%) | 82% |
-| weasel | $\color{green}{1101}$ (97%) | $\color{green}{768}$ (68%) | 83% |
-| **TOTAL** | **16249** (90%) | **10568** (58%) | **74%** |
+| arsenal | $\color{green}{1105}$ (98%) | ✅ | 99% |
+| catch22 | $\color{green}{1109}$ (98%) | ✅ | 99% |
+| cboss | $\color{green}{1109}$ (98%) | ✅ | 99% |
+| cif | $\color{green}{459}$ (40%) | $\color{green}{554}$ (49%) | 45% |
+| cnn | $\color{green}{1103}$ (98%) | ✅ | 99% |
+| itde | $\color{green}{1109}$ (98%) | ✅ | 99% |
+| knn | $\color{green}{1109}$ (98%) | ✅ | 99% |
+| lstm | $\color{green}{1109}$ (98%) | ✅ | 99% |
+| proxstump | $\color{green}{1108}$ (98%) | ✅ | 99% |
+| shapedtw | $\color{green}{687}$ (61%) | $\color{green}{515}$ (45%) | 53% |
+| signature | $\color{green}{897}$ (79%) | $\color{green}{915}$ (81%) | 80% |
+| stc | $\color{green}{1109}$ (98%) | ✅ | 99% |
+| svc | $\color{green}{1111}$ (98%) | ✅ | 99% |
+| tsf | $\color{green}{1109}$ (98%) | ✅ | 99% |
+| tsfresh | $\color{green}{1106}$ (98%) | ✅ | 99% |
+| weasel | $\color{green}{1101}$ (97%) | $\color{green}{1110}$ (98%) | 98% |
+| **TOTAL** | **16440** (91%) | **16594** (92%) | **91%** |
