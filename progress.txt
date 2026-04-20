@@ -3,7 +3,7 @@
 | arsenal | $\color{green}{1105}$ (98%) | $\color{green}{788}$ (70%) | 84% |
 | catch22 | $\color{green}{1109}$ (98%) | $\color{green}{776}$ (68%) | 83% |
 | cboss | $\color{green}{1109}$ (98%) | $\color{green}{765}$ (68%) | 83% |
-| cif | $\color{green}{390}$ (34%) | $\color{green}{140}$ (12%) | 23% |
+| cif | $\color{green}{391}$ (34%) | $\color{green}{140}$ (12%) | 23% |
 | cnn | $\color{green}{1103}$ (98%) | $\color{green}{635}$ (56%) | 77% |
 | itde | $\color{green}{1109}$ (98%) | $\color{green}{781}$ (69%) | 84% |
 | knn | $\color{green}{1109}$ (98%) | $\color{green}{747}$ (66%) | 82% |
@@ -16,4 +16,4 @@
 | tsf | $\color{green}{1109}$ (98%) | $\color{green}{772}$ (68%) | 83% |
 | tsfresh | $\color{green}{1106}$ (98%) | $\color{green}{758}$ (67%) | 82% |
 | weasel | $\color{green}{1101}$ (97%) | $\color{green}{768}$ (68%) | 83% |
-| **TOTAL** | **16248** (90%) | **10568** (58%) | **74%** |
+| **TOTAL** | **16249** (90%) | **10568** (58%) | **74%** |
