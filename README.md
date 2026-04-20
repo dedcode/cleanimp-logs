@@ -1,6 +1,6 @@
 # CleanImp Benchmark Status
 
-Last updated: 2026-04-20 04:55:03 UTC
+Last updated: 2026-04-20 05:00:03 UTC
 
 ## Status
 
@@ -9,10 +9,10 @@ Classification Downstream Experiments
 75 datasets x 3 patterns x 5 rates x 16 classifiers = 36000 jobs
 
 Job Server Status
-  completed:   32822  (91.2%)
-  running:      2046
-  pending:       461
-  failed:        671
+  completed:   32826  (91.2%)
+  running:      2048
+  pending:       414
+  failed:        712
 ```
 
 ## Progress (classifier x algorithm)
