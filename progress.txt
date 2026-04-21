@@ -1,6 +1,6 @@
 | Classifier | MissNet | TRMF | Total |
 |:--|:--:|:--:|:--|
-| arsenal | $\color{green}{1105}$ (98%) | ✅ | 99% |
+| arsenal | $\color{green}{1106}$ (98%) | ✅ | 99% |
 | catch22 | $\color{green}{1109}$ (98%) | ✅ | 99% |
 | cboss | $\color{green}{1109}$ (98%) | ✅ | 99% |
 | cif | $\color{green}{655}$ (58%) | $\color{green}{657}$ (58%) | 58% |
@@ -16,4 +16,4 @@
 | tsf | $\color{green}{1109}$ (98%) | ✅ | 99% |
 | tsfresh | $\color{green}{1106}$ (98%) | ✅ | 99% |
 | weasel | $\color{green}{1101}$ (97%) | $\color{green}{1110}$ (98%) | 98% |
-| **TOTAL** | **16636** (92%) | **16698** (92%) | **92%** |
+| **TOTAL** | **16637** (92%) | **16698** (92%) | **92%** |
