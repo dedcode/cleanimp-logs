@@ -2,12 +2,12 @@ Classification Downstream Experiments — scripts 01 (Moment) + 02 (STMVL)
 workers run on: jubail
 job server:     bigdata.1:5555
 
-updated:   2026-05-22 08:35:01 -0400
+updated:   2026-05-22 08:40:01 -0400
 epoch:     1779452907
 all_done:  False
 
   total:       32606
-  completed:     895  (2.7%)
-  running:       298
-  pending:     31413
+  completed:    1598  (4.9%)
+  running:       374
+  pending:     30634
   failed:          0
