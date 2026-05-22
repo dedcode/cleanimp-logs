@@ -1,47 +1,42 @@
-# CleanImp — Downstream Forecaster Status
+# CleanImp — Run Status
 
-_Last updated: **2026-05-22 14:35:29 -0400**_
+_Last updated: **2026-05-22 14:53:11 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
-Workers run on **jubail HPC**, job server on **bigdata.1:5555**.
-Scripts in scope: `script_djellel_04` (Dynammo, MICE), `script_djellel_05` (SoftImpute, MeanImpute), `script_djellel_06` (GPT4TS, SAITS).
-Horizon: 12.
+## Forecaster (downstream, horizon=12)
 
-## Summary
-
-| Metric | Value |
-|---|---:|
-| Total jobs | **21,580** |
-| Completed | **15,490** (71.8%) |
-| Running | 3,336 |
-| Pending | 2,784 |
-| Failed | 0 |
-| All done | no |
-
-## Progress by (forecaster × imputation algorithm)
-
-Each cell shows `done / total (%)` for that pair, or **done** when complete.
-
-| Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 32/240 (13%) | 82/240 (34%) | 76/240 (32%) | 91/240 (38%) | 40/240 (17%) | 81/239 (34%) | 28% |
-| `chronos` | 214/240 (89%) | 234/240 (98%) | 230/240 (96%) | 237/239 (99%) | 235/240 (98%) | 234/239 (98%) | 96% |
-| `croston` | **done** | 233/240 (97%) | 236/240 (98%) | 238/240 (99%) | 234/240 (98%) | 234/239 (98%) | 98% |
-| `deepar` | 178/240 (74%) | 233/240 (97%) | 227/240 (95%) | 239/240 (100%) | 234/240 (98%) | 234/239 (98%) | 93% |
-| `dlinear` | 202/240 (84%) | 233/240 (97%) | 228/240 (95%) | 238/239 (100%) | 234/240 (98%) | 233/239 (97%) | 95% |
-| `hw-add` | 239/240 (100%) | 233/240 (97%) | 236/240 (98%) | 239/240 (100%) | 234/240 (98%) | 233/239 (97%) | 98% |
-| `lightgbm` | 0/240 (0%) | 3/240 (1%) | 6/240 (2%) | 29/240 (12%) | 0/240 (0%) | 4/239 (2%) | 3% |
-| `lstm` | 134/240 (56%) | 233/240 (97%) | 229/240 (95%) | 239/240 (100%) | 228/240 (95%) | 233/239 (97%) | 90% |
-| `ltsf` | 234/240 (98%) | 233/240 (97%) | 229/240 (95%) | 238/240 (99%) | 236/240 (98%) | 236/239 (99%) | 98% |
-| `moment` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `nlinear` | 200/240 (83%) | 234/240 (98%) | 225/240 (94%) | 237/239 (99%) | 235/240 (98%) | 235/239 (98%) | 95% |
-| `patchtst` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `prophet` | 239/240 (100%) | 233/240 (97%) | 236/240 (98%) | 238/240 (99%) | 234/240 (98%) | 235/239 (98%) | 98% |
-| `transformer` | 118/240 (49%) | 233/240 (97%) | 227/240 (95%) | 238/240 (99%) | 193/240 (80%) | 235/239 (98%) | 86% |
-| `xgboost` | **done** | 234/240 (98%) | 236/240 (98%) | 237/240 (99%) | 234/240 (98%) | 235/239 (98%) | 98% |
-| **total** | **2270/3600** | **2651/3600** | **2621/3600** | **2738/3595** | **2571/3600** | **2662/3585** | **72%** |
+_Server http://localhost:5555 not reachable: timed out_
 
 ---
 
-**Previous run (classifier downstream):** scripts 01 (Moment) + 02 (STMVL), ~26.6K jobs completed before pivoting to forecaster work; archived predictions at `_caching/classifiers/`.
+## Classifier (downstream, Moment leftover)
 
-_Refreshes every 5 minutes via cron on bigdata.1._
+script 01 (Moment) — remaining slow-classifier tail; fleet on **bigdata.1-8** (20 workers/server, single-threaded)
+
+| Metric | Value |
+|---|---:|
+| Total jobs | **2,722** |
+| Completed | **0** (0.0%) |
+| Running | 160 |
+| Pending | 2,562 |
+| Failed | 0 |
+| All done | no |
+
+### Progress by (Classifier × Algorithm)
+
+| Classifier | Moment | Row % |
+|---|:---:|---:|
+| `cboss` | 0/10 (0%) | 0% |
+| `cif` | 0/1083 (0%) | 0% |
+| `cnn` | 0/18 (0%) | 0% |
+| `knn` | 0/14 (0%) | 0% |
+| `lstm` | 0/442 (0%) | 0% |
+| `shapedtw` | 0/704 (0%) | 0% |
+| `signature` | 0/210 (0%) | 0% |
+| `stc` | 0/39 (0%) | 0% |
+| `svc` | 0/189 (0%) | 0% |
+| `tsf` | 0/1 (0%) | 0% |
+| `tsfresh` | 0/12 (0%) | 0% |
+| **total** | **0/2722** | **0%** |
+
+---
+
