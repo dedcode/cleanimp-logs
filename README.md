@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-22 17:20:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-22 17:25:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -45,9 +45,9 @@ script 01 (Moment) — remaining slow-classifier tail; fleet on **bigdata.1-8** 
 | Metric | Value |
 |---|---:|
 | Total jobs | **2,722** |
-| Completed | **94** (3.5%) |
-| Running | 2,079 |
-| Pending | 550 |
+| Completed | **118** (4.3%) |
+| Running | 2,459 |
+| Pending | 146 |
 | Failed | 0 |
 | All done | no |
 
@@ -57,16 +57,16 @@ script 01 (Moment) — remaining slow-classifier tail; fleet on **bigdata.1-8** 
 |---|:---:|---:|
 | `cboss` | 0/10 (0%) | 0% |
 | `cif` | 15/1083 (1%) | 1% |
-| `cnn` | 2/18 (11%) | 11% |
-| `knn` | 0/14 (0%) | 0% |
+| `cnn` | 3/18 (17%) | 17% |
+| `knn` | 2/14 (14%) | 14% |
 | `lstm` | 27/442 (6%) | 6% |
 | `shapedtw` | 14/704 (2%) | 2% |
 | `signature` | 0/210 (0%) | 0% |
-| `stc` | 0/39 (0%) | 0% |
-| `svc` | 23/189 (12%) | 12% |
+| `stc` | 19/39 (49%) | 49% |
+| `svc` | 25/189 (13%) | 13% |
 | `tsf` | **done** | 100% |
 | `tsfresh` | **done** | 100% |
-| **total** | **94/2722** | **3%** |
+| **total** | **118/2722** | **4%** |
 
 ---
 
