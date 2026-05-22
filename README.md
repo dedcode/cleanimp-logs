@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-22 16:15:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-22 16:20:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -9,8 +9,8 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | Metric | Value |
 |---|---:|
 | Total jobs | **21,580** |
-| Completed | **17,328** (80.3%) |
-| Running | 1,376 |
+| Completed | **17,342** (80.4%) |
+| Running | 1,362 |
 | Pending | 0 |
 | Failed | 2,876 |
 | All done | no |
@@ -25,7 +25,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `dlinear` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `hw-add` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `lightgbm` | 41/240 (17%) | 187/240 (78%) | 65/240 (27%) | 214/240 (89%) | 209/240 (87%) | 140/239 (59%) | 59% |
+| `lightgbm` | 54/240 (22%) | 187/240 (78%) | 65/240 (27%) | 214/240 (89%) | 210/240 (88%) | 140/239 (59%) | 60% |
 | `lstm` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `ltsf` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `moment` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
@@ -34,7 +34,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **2787/3600** | **2932/3600** | **2806/3600** | **2962/3595** | **2968/3600** | **2873/3585** | **80%** |
+| **total** | **2800/3600** | **2932/3600** | **2806/3600** | **2962/3595** | **2969/3600** | **2873/3585** | **80%** |
 
 ---
 
@@ -45,9 +45,9 @@ script 01 (Moment) — remaining slow-classifier tail; fleet on **bigdata.1-8** 
 | Metric | Value |
 |---|---:|
 | Total jobs | **2,722** |
-| Completed | **20** (0.7%) |
+| Completed | **25** (0.9%) |
 | Running | 160 |
-| Pending | 2,543 |
+| Pending | 2,538 |
 | Failed | 0 |
 | All done | no |
 
@@ -56,7 +56,7 @@ script 01 (Moment) — remaining slow-classifier tail; fleet on **bigdata.1-8** 
 | Classifier | Moment | Row % |
 |---|:---:|---:|
 | `cboss` | 0/10 (0%) | 0% |
-| `cif` | 10/1083 (1%) | 1% |
+| `cif` | 15/1083 (1%) | 1% |
 | `cnn` | 2/18 (11%) | 11% |
 | `knn` | 0/14 (0%) | 0% |
 | `lstm` | 8/442 (2%) | 2% |
@@ -66,7 +66,7 @@ script 01 (Moment) — remaining slow-classifier tail; fleet on **bigdata.1-8** 
 | `svc` | 0/189 (0%) | 0% |
 | `tsf` | 0/1 (0%) | 0% |
 | `tsfresh` | 0/12 (0%) | 0% |
-| **total** | **20/2722** | **1%** |
+| **total** | **25/2722** | **1%** |
 
 ---
 
