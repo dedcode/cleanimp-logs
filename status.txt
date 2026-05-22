@@ -1,6 +1,13 @@
-Classification Downstream Experiments
-75 datasets x 3 patterns x 5 rates x 16 classifiers = 36000 jobs
+Classification Downstream Experiments — scripts 01 (Moment) + 02 (STMVL)
+workers run on: jubail
+job server:     bigdata.1:5555
 
-Job Server Status
-  completed:   33547  (93.2%)
-  failed:       2453
+updated:   2026-05-22 08:25:22 -0400
+epoch:     1779452165
+all_done:  False
+
+  total:       32606
+  completed:    1587  (4.9%)
+  running:       829
+  pending:     30190
+  failed:          0
