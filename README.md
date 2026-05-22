@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-22 15:40:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-22 15:45:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -9,9 +9,9 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | Metric | Value |
 |---|---:|
 | Total jobs | **21,580** |
-| Completed | **17,084** (79.2%) |
-| Running | 919 |
-| Pending | 701 |
+| Completed | **17,161** (79.5%) |
+| Running | 1,543 |
+| Pending | 0 |
 | Failed | 2,876 |
 | All done | no |
 
@@ -25,7 +25,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `dlinear` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `hw-add` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `lightgbm` | 22/240 (9%) | 146/240 (61%) | 46/240 (19%) | 193/240 (80%) | 104/240 (43%) | 124/239 (52%) | 44% |
+| `lightgbm` | 22/240 (9%) | 147/240 (61%) | 46/240 (19%) | 193/240 (80%) | 180/240 (75%) | 124/239 (52%) | 49% |
 | `lstm` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `ltsf` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `moment` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
@@ -34,7 +34,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **2768/3600** | **2889/3600** | **2787/3600** | **2934/3595** | **2850/3600** | **2856/3585** | **79%** |
+| **total** | **2768/3600** | **2890/3600** | **2787/3600** | **2934/3595** | **2926/3600** | **2856/3585** | **80%** |
 
 ---
 
