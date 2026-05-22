@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-22 18:50:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-22 18:55:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -46,8 +46,8 @@ script 01 (Moment) — remaining slow-classifier tail; fleet on **bigdata.1-8** 
 |---|---:|
 | Total jobs | **37,754** |
 | Completed | **254** (0.7%) |
-| Running | 1,318 |
-| Pending | 36,182 |
+| Running | 1,322 |
+| Pending | 36,178 |
 | Failed | 0 |
 | All done | no |
 
