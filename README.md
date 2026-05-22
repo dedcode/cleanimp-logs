@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-22 15:30:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-22 15:35:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -9,8 +9,8 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | Metric | Value |
 |---|---:|
 | Total jobs | **21,580** |
-| Completed | **17,030** (78.9%) |
-| Running | 1,674 |
+| Completed | **17,046** (79.0%) |
+| Running | 1,658 |
 | Pending | 0 |
 | Failed | 2,876 |
 | All done | no |
@@ -19,13 +19,13 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 
 | Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 105/240 (44%) | 102/240 (42%) | 98/240 (41%) | 101/240 (42%) | 106/240 (44%) | 102/239 (43%) | 43% |
+| `arima` | 106/240 (44%) | 103/240 (43%) | 99/240 (41%) | 102/240 (42%) | 106/240 (44%) | 102/239 (43%) | 43% |
 | `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `dlinear` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `hw-add` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `lightgbm` | 12/240 (5%) | 143/240 (60%) | 37/240 (15%) | 190/240 (79%) | 89/240 (37%) | 119/239 (50%) | 41% |
+| `lightgbm` | 17/240 (7%) | 143/240 (60%) | 37/240 (15%) | 191/240 (80%) | 92/240 (38%) | 122/239 (51%) | 42% |
 | `lstm` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `ltsf` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `moment` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
@@ -34,7 +34,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **2757/3600** | **2885/3600** | **2775/3600** | **2928/3595** | **2835/3600** | **2850/3585** | **79%** |
+| **total** | **2763/3600** | **2886/3600** | **2776/3600** | **2930/3595** | **2838/3600** | **2853/3585** | **79%** |
 
 ---
 
@@ -47,7 +47,7 @@ script 01 (Moment) — remaining slow-classifier tail; fleet on **bigdata.1-8** 
 | Total jobs | **2,722** |
 | Completed | **1** (0.0%) |
 | Running | 160 |
-| Pending | 2,561 |
+| Pending | 2,562 |
 | Failed | 0 |
 | All done | no |
 
