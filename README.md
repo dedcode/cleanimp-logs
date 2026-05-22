@@ -1,6 +1,6 @@
 # CleanImp — Downstream Classifier Status
 
-_Last updated: **2026-05-22 13:10:01 -0400**_
+_Last updated: **2026-05-22 13:15:01 -0400**_
 
 Workers run on **jubail HPC**, job server on **bigdata.1:5555**.
 Scripts in scope: `script_djellel_01` (Moment) + `script_djellel_02` (STMVL).
@@ -11,8 +11,8 @@ Scripts in scope: `script_djellel_01` (Moment) + `script_djellel_02` (STMVL).
 |---|---:|
 | Total jobs | **32,606** |
 | Completed | **26,640** (81.7%) |
-| Running | 128 |
-| Pending | 5,837 |
+| Running | 64 |
+| Pending | 5,901 |
 | Failed | 1 |
 | All done | no |
 
