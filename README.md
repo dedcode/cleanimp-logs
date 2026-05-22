@@ -1,6 +1,6 @@
 # CleanImp — Downstream Classifier Status
 
-_Last updated: **2026-05-22 12:20:02 -0400**_
+_Last updated: **2026-05-22 12:25:01 -0400**_
 
 Workers run on **jubail HPC**, job server on **bigdata.1:5555**.
 Scripts in scope: `script_djellel_01` (Moment) + `script_djellel_02` (STMVL).
