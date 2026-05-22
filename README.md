@@ -1,10 +1,10 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-22 15:00:11 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-22 15:05:06 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
-_Server http://localhost:5555 not reachable: timed out_
+_Server http://localhost:5555 not reachable: <urlopen error timed out>_
 
 ---
 
