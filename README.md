@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-22 16:50:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-22 16:55:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -9,23 +9,23 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | Metric | Value |
 |---|---:|
 | Total jobs | **21,580** |
-| Completed | **17,561** (81.4%) |
-| Running | 1,140 |
+| Completed | **17,612** (81.6%) |
+| Running | 1,076 |
 | Pending | 0 |
-| Failed | 2,879 |
+| Failed | 2,892 |
 | All done | no |
 
 ### Progress by (Forecaster × Algorithm)
 
 | Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 107/240 (45%) | 110/240 (46%) | 104/240 (43%) | 120/240 (50%) | 125/240 (52%) | 107/239 (45%) | 47% |
+| `arima` | 107/240 (45%) | 113/240 (47%) | 104/240 (43%) | 121/240 (50%) | 127/240 (53%) | 107/239 (45%) | 47% |
 | `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `dlinear` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `hw-add` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `lightgbm` | 128/240 (53%) | 220/240 (92%) | 83/240 (35%) | 236/240 (98%) | 230/240 (96%) | 165/239 (69%) | 74% |
+| `lightgbm` | 139/240 (58%) | 228/240 (95%) | 95/240 (40%) | **done** | 234/240 (98%) | 171/239 (72%) | 77% |
 | `lstm` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `ltsf` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `moment` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
@@ -34,7 +34,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **2875/3600** | **2970/3600** | **2827/3600** | **2993/3595** | **2995/3600** | **2901/3585** | **81%** |
+| **total** | **2886/3600** | **2981/3600** | **2839/3600** | **2998/3595** | **3001/3600** | **2907/3585** | **82%** |
 
 ---
 
