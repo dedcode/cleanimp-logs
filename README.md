@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-22 15:35:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-22 15:40:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -9,9 +9,9 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | Metric | Value |
 |---|---:|
 | Total jobs | **21,580** |
-| Completed | **17,046** (79.0%) |
-| Running | 1,658 |
-| Pending | 0 |
+| Completed | **17,084** (79.2%) |
+| Running | 919 |
+| Pending | 701 |
 | Failed | 2,876 |
 | All done | no |
 
@@ -19,13 +19,13 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 
 | Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 106/240 (44%) | 103/240 (43%) | 99/240 (41%) | 102/240 (42%) | 106/240 (44%) | 102/239 (43%) | 43% |
+| `arima` | 106/240 (44%) | 103/240 (43%) | 101/240 (42%) | 104/240 (43%) | 106/240 (44%) | 103/239 (43%) | 43% |
 | `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `dlinear` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `hw-add` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `lightgbm` | 17/240 (7%) | 143/240 (60%) | 37/240 (15%) | 191/240 (80%) | 92/240 (38%) | 122/239 (51%) | 42% |
+| `lightgbm` | 22/240 (9%) | 146/240 (61%) | 46/240 (19%) | 193/240 (80%) | 104/240 (43%) | 124/239 (52%) | 44% |
 | `lstm` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `ltsf` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `moment` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
@@ -34,7 +34,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **2763/3600** | **2886/3600** | **2776/3600** | **2930/3595** | **2838/3600** | **2853/3585** | **79%** |
+| **total** | **2768/3600** | **2889/3600** | **2787/3600** | **2934/3595** | **2850/3600** | **2856/3585** | **79%** |
 
 ---
 
