@@ -1,13 +1,13 @@
 {
   "total": 32606,
-  "pending": 229,
-  "running": 5217,
-  "completed": 19377,
-  "failed": 7783,
+  "pending": 0,
+  "running": 5055,
+  "completed": 19555,
+  "failed": 7996,
   "epoch": 1779452907,
-  "pct": 59.4,
+  "pct": 60.0,
   "all_done": false,
-  "completed_csv_join": 19377,
+  "completed_csv_join": 19555,
   "expected_csv_join": 32606,
-  "ts": "2026-05-22 10:30:02 -0400"
+  "ts": "2026-05-22 10:35:01 -0400"
 }
