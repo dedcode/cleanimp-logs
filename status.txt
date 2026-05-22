@@ -1,13 +1,13 @@
-Classification Downstream Experiments — scripts 01 (Moment) + 02 (STMVL)
-workers run on: jubail
-job server:     bigdata.1:5555
-
-updated:   2026-05-22 08:45:01 -0400
-epoch:     1779452907
-all_done:  False
-
-  total:       32606
-  completed:    1944  (6.0%)
-  running:       391
-  pending:     30271
-  failed:          0
+{
+  "total": 32606,
+  "pending": 30228,
+  "running": 397,
+  "completed": 1981,
+  "failed": 0,
+  "epoch": 1779452907,
+  "pct": 6.1,
+  "all_done": false,
+  "completed_csv_join": 1981,
+  "expected_csv_join": 32606,
+  "ts": "2026-05-22 08:46:24 -0400"
+}
