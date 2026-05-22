@@ -1,6 +1,6 @@
 # CleanImp — Downstream Classifier Status
 
-_Last updated: **2026-05-22 12:15:02 -0400**_
+_Last updated: **2026-05-22 12:20:02 -0400**_
 
 Workers run on **jubail HPC**, job server on **bigdata.1:5555**.
 Scripts in scope: `script_djellel_01` (Moment) + `script_djellel_02` (STMVL).
@@ -10,8 +10,8 @@ Scripts in scope: `script_djellel_01` (Moment) + `script_djellel_02` (STMVL).
 | Metric | Value |
 |---|---:|
 | Total jobs | **32,606** |
-| Completed | **26,393** (80.9%) |
-| Running | 5,279 |
+| Completed | **26,394** (80.9%) |
+| Running | 5,278 |
 | Pending | 0 |
 | Failed | 934 |
 | All done | no |
@@ -28,7 +28,7 @@ Each cell shows `done / total (%)` for that pair, or **done** when complete.
 | `cnn` | 1070/1095 (98%) | 1036/1073 (97%) | 97% |
 | `itde` | **done** | 987/1073 (92%) | 96% |
 | `knn` | 1080/1095 (99%) | 971/1073 (90%) | 95% |
-| `lstm` | 646/1095 (59%) | 646/1073 (60%) | 60% |
+| `lstm` | 646/1095 (59%) | 647/1073 (60%) | 60% |
 | `proxstump` | **done** | 981/1073 (91%) | 96% |
 | `shapedtw` | 388/1095 (35%) | 397/1073 (37%) | 36% |
 | `signature` | 885/1095 (81%) | 788/1088 (72%) | 77% |
@@ -37,7 +37,7 @@ Each cell shows `done / total (%)` for that pair, or **done** when complete.
 | `tsf` | 1094/1095 (100%) | 995/1088 (91%) | 96% |
 | `tsfresh` | 1077/1095 (98%) | 1040/1088 (96%) | 97% |
 | `weasel` | **done** | 1001/1088 (92%) | 96% |
-| **total** | **13665/16423** | **12728/16183** | **81%** |
+| **total** | **13665/16423** | **12729/16183** | **81%** |
 
 ---
 _Refreshes every 5 minutes via cron on bigdata.1._
