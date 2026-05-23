@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 06:45:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 06:50:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -11,8 +11,8 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | Total jobs | **21,580** |
 | Completed | **18,156** (84.1%) |
 | Running | 500 |
-| Pending | 46 |
-| Failed | 2,878 |
+| Pending | 30 |
+| Failed | 2,894 |
 | All done | no |
 
 ### Progress by (Forecaster × Algorithm)
@@ -45,9 +45,9 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
-| Completed | **32,263** (85.5%) |
+| Completed | **32,285** (85.5%) |
 | Running | 3,360 |
-| Pending | 1,501 |
+| Pending | 1,479 |
 | Failed | 630 |
 | All done | no |
 
@@ -58,20 +58,20 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `arsenal` | **done** | — | **done** | 100% |
 | `catch22` | **done** | — | **done** | 100% |
 | `cboss` | **done** | **done** | **done** | 100% |
-| `cif` | 277/1095 (25%) | 263/1083 (24%) | 241/1095 (22%) | 24% |
+| `cif` | 278/1095 (25%) | 264/1083 (24%) | 248/1095 (23%) | 24% |
 | `cnn` | **done** | **done** | **done** | 100% |
 | `itde` | **done** | — | **done** | 100% |
 | `knn` | **done** | **done** | **done** | 100% |
-| `lstm` | 1080/1095 (99%) | 420/436 (96%) | 997/1095 (91%) | 95% |
+| `lstm` | 1082/1095 (99%) | 427/436 (98%) | 998/1095 (91%) | 95% |
 | `proxstump` | **done** | — | **done** | 100% |
 | `shapedtw` | 405/1095 (37%) | 14/704 (2%) | 405/1095 (37%) | 28% |
 | `signature` | 885/1095 (81%) | 0/210 (0%) | 885/1095 (81%) | 74% |
 | `stc` | **done** | **done** | 1090/1095 (100%) | 100% |
-| `svc` | 1053/1095 (96%) | 154/187 (82%) | 1005/1095 (92%) | 93% |
+| `svc` | 1053/1095 (96%) | 154/187 (82%) | 1008/1095 (92%) | 93% |
 | `tsf` | **done** | **done** | **done** | 100% |
 | `tsfresh` | **done** | **done** | **done** | 100% |
 | `weasel` | **done** | — | **done** | 100% |
-| **total** | **15745/17520** | **945/2714** | **15573/17520** | **85%** |
+| **total** | **15748/17520** | **953/2714** | **15584/17520** | **86%** |
 
 ---
 
