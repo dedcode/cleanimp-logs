@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 14:40:03 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 14:45:03 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -48,9 +48,9 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 |---|---:|
 | Total jobs | **37,754** |
 | Completed | **32,709** (86.6%) |
-| Running | 3,262 |
+| Running | 3,250 |
 | Pending | 0 |
-| Failed | 1,783 |
+| Failed | 1,795 |
 | All done | no |
 
 ### Progress by (Classifier × Algorithm)
@@ -85,8 +85,8 @@ Retrying arima jobs that OOM-failed on big datasets; --workers=8 per node, 48 GB
 |---|---:|
 | Total jobs | **845** |
 | Completed | **417** (49.3%) |
-| Running | 130 |
-| Pending | 298 |
+| Running | 133 |
+| Pending | 295 |
 | Failed | 0 |
 | All done | no |
 
