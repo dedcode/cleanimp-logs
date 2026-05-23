@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 13:10:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 13:15:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -47,9 +47,9 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
-| Completed | **32,674** (86.5%) |
+| Completed | **32,676** (86.5%) |
 | Running | 3,660 |
-| Pending | 74 |
+| Pending | 72 |
 | Failed | 1,346 |
 | All done | no |
 
@@ -60,7 +60,7 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `arsenal` | **done** | — | **done** | 100% |
 | `catch22` | **done** | — | **done** | 100% |
 | `cboss` | **done** | **done** | **done** | 100% |
-| `cif` | 306/1095 (28%) | 312/1083 (29%) | 328/1095 (30%) | 29% |
+| `cif` | 307/1095 (28%) | 312/1083 (29%) | 328/1095 (30%) | 29% |
 | `cnn` | **done** | **done** | **done** | 100% |
 | `itde` | **done** | — | **done** | 100% |
 | `knn` | **done** | **done** | **done** | 100% |
@@ -69,11 +69,11 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `shapedtw` | 405/1095 (37%) | 14/704 (2%) | 405/1095 (37%) | 28% |
 | `signature` | 885/1095 (81%) | 0/210 (0%) | 885/1095 (81%) | 74% |
 | `stc` | **done** | **done** | **done** | 100% |
-| `svc` | 1082/1095 (99%) | 175/187 (94%) | 1067/1095 (97%) | 98% |
+| `svc` | 1082/1095 (99%) | 175/187 (94%) | 1068/1095 (98%) | 98% |
 | `tsf` | **done** | **done** | **done** | 100% |
 | `tsfresh` | **done** | **done** | **done** | 100% |
 | `weasel` | **done** | — | **done** | 100% |
-| **total** | **15818/17520** | **1031/2714** | **15825/17520** | **87%** |
+| **total** | **15819/17520** | **1031/2714** | **15826/17520** | **87%** |
 
 ---
 
