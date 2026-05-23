@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 08:25:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 08:30:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -9,17 +9,17 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | Metric | Value |
 |---|---:|
 | Total jobs | **21,580** |
-| Completed | **18,201** (84.3%) |
-| Running | 180 |
+| Completed | **18,202** (84.3%) |
+| Running | 176 |
 | Pending | 0 |
-| Failed | 3,199 |
+| Failed | 3,202 |
 | All done | no |
 
 ### Progress by (Forecaster × Algorithm)
 
 | Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 157/240 (65%) | 159/240 (66%) | 156/240 (65%) | 155/240 (65%) | 155/240 (65%) | 154/239 (64%) | 65% |
+| `arima` | 157/240 (65%) | 159/240 (66%) | 157/240 (65%) | 155/240 (65%) | 155/240 (65%) | 154/239 (64%) | 65% |
 | `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
@@ -36,7 +36,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **3517/4080** | **3519/4080** | **3516/4080** | **3512/4075** | **3515/4080** | **3502/4065** | **86%** |
+| **total** | **3517/4080** | **3519/4080** | **3517/4080** | **3512/4075** | **3515/4080** | **3502/4065** | **86%** |
 
 ---
 
@@ -47,9 +47,9 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
-| Completed | **32,493** (86.1%) |
+| Completed | **32,499** (86.1%) |
 | Running | 3,360 |
-| Pending | 1,271 |
+| Pending | 1,265 |
 | Failed | 630 |
 | All done | no |
 
@@ -64,16 +64,16 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `cnn` | **done** | **done** | **done** | 100% |
 | `itde` | **done** | — | **done** | 100% |
 | `knn` | **done** | **done** | **done** | 100% |
-| `lstm` | 1082/1095 (99%) | 433/436 (99%) | 1046/1095 (96%) | 98% |
+| `lstm` | 1082/1095 (99%) | 435/436 (100%) | 1049/1095 (96%) | 98% |
 | `proxstump` | **done** | — | **done** | 100% |
 | `shapedtw` | 405/1095 (37%) | 14/704 (2%) | 405/1095 (37%) | 28% |
 | `signature` | 885/1095 (81%) | 0/210 (0%) | 885/1095 (81%) | 74% |
 | `stc` | **done** | **done** | **done** | 100% |
-| `svc` | 1078/1095 (98%) | 169/187 (90%) | 1043/1095 (95%) | 96% |
+| `svc` | 1078/1095 (98%) | 169/187 (90%) | 1044/1095 (95%) | 96% |
 | `tsf` | **done** | **done** | **done** | 100% |
 | `tsfresh` | **done** | **done** | **done** | 100% |
 | `weasel` | **done** | — | **done** | 100% |
-| **total** | **15786/17520** | **1000/2714** | **15707/17520** | **86%** |
+| **total** | **15786/17520** | **1002/2714** | **15711/17520** | **86%** |
 
 ---
 
