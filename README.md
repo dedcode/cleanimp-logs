@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 08:35:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 08:40:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -10,9 +10,9 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 |---|---:|
 | Total jobs | **21,580** |
 | Completed | **18,203** (84.4%) |
-| Running | 170 |
+| Running | 157 |
 | Pending | 0 |
-| Failed | 3,207 |
+| Failed | 3,220 |
 | All done | no |
 
 ### Progress by (Forecaster × Algorithm)
@@ -47,9 +47,9 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
-| Completed | **32,509** (86.1%) |
+| Completed | **32,525** (86.1%) |
 | Running | 3,360 |
-| Pending | 1,255 |
+| Pending | 1,239 |
 | Failed | 630 |
 | All done | no |
 
@@ -60,11 +60,11 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `arsenal` | **done** | — | **done** | 100% |
 | `catch22` | **done** | — | **done** | 100% |
 | `cboss` | **done** | **done** | **done** | 100% |
-| `cif` | 291/1095 (27%) | 290/1083 (27%) | 284/1095 (26%) | 26% |
+| `cif` | 291/1095 (27%) | 290/1083 (27%) | 290/1095 (26%) | 27% |
 | `cnn` | **done** | **done** | **done** | 100% |
 | `itde` | **done** | — | **done** | 100% |
 | `knn` | **done** | **done** | **done** | 100% |
-| `lstm` | 1082/1095 (99%) | 435/436 (100%) | 1052/1095 (96%) | 98% |
+| `lstm` | 1085/1095 (99%) | 435/436 (100%) | 1059/1095 (97%) | 98% |
 | `proxstump` | **done** | — | **done** | 100% |
 | `shapedtw` | 405/1095 (37%) | 14/704 (2%) | 405/1095 (37%) | 28% |
 | `signature` | 885/1095 (81%) | 0/210 (0%) | 885/1095 (81%) | 74% |
@@ -73,7 +73,7 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `tsf` | **done** | **done** | **done** | 100% |
 | `tsfresh` | **done** | **done** | **done** | 100% |
 | `weasel` | **done** | — | **done** | 100% |
-| **total** | **15786/17520** | **1004/2714** | **15719/17520** | **86%** |
+| **total** | **15789/17520** | **1004/2714** | **15732/17520** | **86%** |
 
 ---
 
