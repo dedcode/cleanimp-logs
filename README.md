@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 14:05:04 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 14:10:03 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -9,7 +9,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | Metric | Value |
 |---|---:|
 | Total jobs | **21,580** |
-| Completed | **18,262** (84.6%) |
+| Completed | **18,268** (84.7%) |
 | Running | 0 |
 | Pending | 0 |
 | Failed | 3,345 |
@@ -19,7 +19,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 
 | Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 169/240 (70%) | 166/240 (69%) | 169/240 (70%) | 161/240 (67%) | 168/240 (70%) | 164/239 (69%) | 69% |
+| `arima` | 171/240 (71%) | 166/240 (69%) | 173/240 (72%) | 161/240 (67%) | 168/240 (70%) | 164/239 (69%) | 70% |
 | `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
@@ -36,7 +36,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **3529/4080** | **3526/4080** | **3529/4080** | **3518/4075** | **3528/4080** | **3512/4065** | **86%** |
+| **total** | **3531/4080** | **3526/4080** | **3533/4080** | **3518/4075** | **3528/4080** | **3512/4065** | **86%** |
 
 ---
 
@@ -48,9 +48,9 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 |---|---:|
 | Total jobs | **37,754** |
 | Completed | **32,706** (86.6%) |
-| Running | 3,367 |
+| Running | 3,336 |
 | Pending | 0 |
-| Failed | 1,681 |
+| Failed | 1,712 |
 | All done | no |
 
 ### Progress by (Classifier × Algorithm)
@@ -84,8 +84,8 @@ Retrying arima jobs that OOM-failed on big datasets; --workers=8 per node, 48 GB
 | Metric | Value |
 |---|---:|
 | Total jobs | **845** |
-| Completed | **403** (47.7%) |
-| Running | 134 |
+| Completed | **409** (48.4%) |
+| Running | 128 |
 | Pending | 308 |
 | Failed | 0 |
 | All done | no |
@@ -94,7 +94,7 @@ Retrying arima jobs that OOM-failed on big datasets; --workers=8 per node, 48 GB
 
 | Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 68/139 (49%) | 66/140 (47%) | 79/150 (53%) | 61/140 (44%) | 63/135 (47%) | 66/141 (47%) | 48% |
+| `arima` | 70/139 (50%) | 66/140 (47%) | 83/150 (55%) | 61/140 (44%) | 63/135 (47%) | 66/141 (47%) | 48% |
 | `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
@@ -111,7 +111,7 @@ Retrying arima jobs that OOM-failed on big datasets; --workers=8 per node, 48 GB
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **3908/3979** | **3906/3980** | **3919/3990** | **3901/3980** | **3903/3975** | **3906/3981** | **98%** |
+| **total** | **3910/3979** | **3906/3980** | **3923/3990** | **3901/3980** | **3903/3975** | **3906/3981** | **98%** |
 
 ---
 
