@@ -1,57 +1,51 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 15:05:22 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 15:08:51 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
-scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=12; fleet on **jubail HPC**
+scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS) + retries for arima (OOM-fix with more RAM/worker) and moment/patchtst (after `pip install momentfm`); h=12.
 
 | Metric | Value |
 |---|---:|
-| Total jobs | **2,876** |
-| Completed | **0** (0.0%) |
-| Running | 0 |
-| Pending | 2,876 |
-| Failed | 0 |
-| All done | no |
+| Total jobs | **21,580** |
+| Completed (PRED on disk) | **18,283** (84.7%) |
+| Retry queues (`:5555` moment+patchtst, `:5557` arima) | running=127, pending=3170, failed=0 |
 
 ### Progress by (Forecaster × Algorithm)
 
 | Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `chronos` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `croston` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `deepar` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `dlinear` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `exp-smoothing` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `hw-add` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `lightgbm` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `lstm` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `ltsf` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
+| `arima` | 175/240 (73%) | 166/240 (69%) | 178/240 (74%) | 161/240 (67%) | 168/240 (70%) | 170/239 (71%) | 71% |
+| `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `dlinear` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `hw-add` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `lightgbm` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `lstm` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `ltsf` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `moment` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `nbeats` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `nlinear` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
+| `nlinear` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `patchtst` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `prophet` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `transformer` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `xgboost` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| **total** | **480/4080** | **480/4080** | **480/4080** | **480/4075** | **480/4080** | **480/4065** | **12%** |
+| `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| **total** | **3055/3600** | **3046/3600** | **3058/3600** | **3038/3595** | **3048/3600** | **3038/3585** | **85%** |
 
 ---
 
-## Classifier (downstream, Moment+SVT+GRIN)
+## Classifier (downstream)
 
-scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classifier tail; fleet on **bigdata.1-8** (20 workers/server, single-threaded)
+scripts 01 (Moment leftover) + Quentin add (SVT, GRIN); fleet on **bigdata.1-8** + jubail
 
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
 | Completed | **32,714** (86.7%) |
-| Running | 3,172 |
+| Running | 3,155 |
 | Pending | 0 |
-| Failed | 1,868 |
-| All done | no |
+| Failed | 1,885 |
 
 ### Progress by (Classifier × Algorithm)
 
@@ -74,44 +68,4 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `tsfresh` | **done** | **done** | **done** | 100% |
 | `weasel` | **done** | — | **done** | 100% |
 | **total** | **15830/17520** | **1035/2714** | **15849/17520** | **87%** |
-
----
-
-## Arima retry (forecaster, OOM recovery)
-
-Retrying arima jobs that OOM-failed on big datasets; --workers=8 per node, 48 GB RAM each; fleet on **jubail HPC** (large QOS, 18 nodes)
-
-| Metric | Value |
-|---|---:|
-| Total jobs | **845** |
-| Completed | **424** (50.2%) |
-| Running | 127 |
-| Pending | 294 |
-| Failed | 0 |
-| All done | no |
-
-### Progress by (Forecaster × Algorithm)
-
-| Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 74/139 (53%) | 66/140 (47%) | 88/150 (59%) | 61/140 (44%) | 63/135 (47%) | 72/141 (51%) | 50% |
-| `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `dlinear` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `exp-smoothing` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `hw-add` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `lightgbm` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `lstm` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `ltsf` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `moment` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `nbeats` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `nlinear` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `patchtst` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **3914/3979** | **3906/3980** | **3928/3990** | **3901/3980** | **3903/3975** | **3912/3981** | **98%** |
-
----
 
