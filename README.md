@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 11:55:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 12:00:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -10,10 +10,10 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 |---|---:|
 | Total jobs | **21,580** |
 | Completed | **18,235** (84.5%) |
-| Running | 1 |
+| Running | 0 |
 | Pending | 0 |
-| Failed | 3,344 |
-| All done | no |
+| Failed | 3,345 |
+| All done | **yes** |
 
 ### Progress by (Forecaster × Algorithm)
 
@@ -49,8 +49,8 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | Total jobs | **37,754** |
 | Completed | **32,647** (86.5%) |
 | Running | 3,360 |
-| Pending | 443 |
-| Failed | 1,304 |
+| Pending | 418 |
+| Failed | 1,329 |
 | All done | no |
 
 ### Progress by (Classifier × Algorithm)
