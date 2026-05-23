@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 02:45:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 02:50:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -45,9 +45,9 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
-| Completed | **30,854** (81.7%) |
-| Running | 3,360 |
-| Pending | 3,540 |
+| Completed | **30,887** (81.8%) |
+| Running | 3,359 |
+| Pending | 3,508 |
 | Failed | 0 |
 | All done | no |
 
@@ -58,20 +58,20 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `arsenal` | **done** | — | 1045/1095 (95%) | 98% |
 | `catch22` | **done** | — | **done** | 100% |
 | `cboss` | **done** | **done** | 1049/1095 (96%) | 98% |
-| `cif` | 210/1095 (19%) | 184/1083 (17%) | 120/1095 (11%) | 16% |
+| `cif` | 221/1095 (20%) | 186/1083 (17%) | 120/1095 (11%) | 16% |
 | `cnn` | **done** | **done** | 992/1095 (91%) | 95% |
 | `itde` | **done** | — | 1094/1095 (100%) | 100% |
 | `knn` | **done** | **done** | 1028/1095 (94%) | 97% |
-| `lstm` | 975/1095 (89%) | 323/436 (74%) | 770/1095 (70%) | 79% |
+| `lstm` | 986/1095 (90%) | 327/436 (75%) | 771/1095 (70%) | 79% |
 | `proxstump` | 1092/1095 (100%) | — | 1053/1095 (96%) | 98% |
 | `shapedtw` | 389/1095 (36%) | 14/704 (2%) | 322/1095 (29%) | 25% |
 | `signature` | 885/1095 (81%) | 0/210 (0%) | 885/1095 (81%) | 74% |
 | `stc` | **done** | **done** | 963/1095 (88%) | 94% |
-| `svc` | 1026/1095 (94%) | 125/187 (67%) | 902/1095 (82%) | 86% |
+| `svc` | 1029/1095 (94%) | 126/187 (67%) | 902/1095 (82%) | 87% |
 | `tsf` | **done** | **done** | 1094/1095 (100%) | 100% |
 | `tsfresh` | **done** | **done** | 1081/1095 (99%) | 99% |
 | `weasel` | **done** | — | 1094/1095 (100%) | 100% |
-| **total** | **15527/17520** | **740/2714** | **14587/17520** | **82%** |
+| **total** | **15552/17520** | **747/2714** | **14588/17520** | **82%** |
 
 ---
 
