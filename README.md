@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 11:50:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 11:55:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -10,9 +10,9 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 |---|---:|
 | Total jobs | **21,580** |
 | Completed | **18,235** (84.5%) |
-| Running | 2 |
+| Running | 1 |
 | Pending | 0 |
-| Failed | 3,343 |
+| Failed | 3,344 |
 | All done | no |
 
 ### Progress by (Forecaster × Algorithm)
@@ -47,10 +47,10 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
-| Completed | **32,638** (86.4%) |
+| Completed | **32,647** (86.5%) |
 | Running | 3,360 |
-| Pending | 469 |
-| Failed | 1,287 |
+| Pending | 443 |
+| Failed | 1,304 |
 | All done | no |
 
 ### Progress by (Classifier × Algorithm)
@@ -60,11 +60,11 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `arsenal` | **done** | — | **done** | 100% |
 | `catch22` | **done** | — | **done** | 100% |
 | `cboss` | **done** | **done** | **done** | 100% |
-| `cif` | 302/1095 (28%) | 306/1083 (28%) | 313/1095 (29%) | 28% |
+| `cif` | 302/1095 (28%) | 307/1083 (28%) | 314/1095 (29%) | 28% |
 | `cnn` | **done** | **done** | **done** | 100% |
 | `itde` | **done** | — | **done** | 100% |
 | `knn` | **done** | **done** | **done** | 100% |
-| `lstm` | **done** | **done** | 1085/1095 (99%) | 100% |
+| `lstm` | **done** | **done** | 1092/1095 (100%) | 100% |
 | `proxstump` | **done** | — | **done** | 100% |
 | `shapedtw` | 405/1095 (37%) | 14/704 (2%) | 405/1095 (37%) | 28% |
 | `signature` | 885/1095 (81%) | 0/210 (0%) | 885/1095 (81%) | 74% |
@@ -73,7 +73,7 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `tsf` | **done** | **done** | **done** | 100% |
 | `tsfresh` | **done** | **done** | **done** | 100% |
 | `weasel` | **done** | — | **done** | 100% |
-| **total** | **15813/17520** | **1025/2714** | **15800/17520** | **86%** |
+| **total** | **15813/17520** | **1026/2714** | **15808/17520** | **86%** |
 
 ---
 
