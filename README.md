@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 04:55:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 05:00:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -9,9 +9,9 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | Metric | Value |
 |---|---:|
 | Total jobs | **21,580** |
-| Completed | **17,764** (82.3%) |
-| Running | 300 |
-| Pending | 3,516 |
+| Completed | **17,766** (82.3%) |
+| Running | 380 |
+| Pending | 3,434 |
 | Failed | 0 |
 | All done | no |
 
@@ -25,7 +25,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `dlinear` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `hw-add` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `lightgbm` | 165/240 (69%) | **done** | 132/240 (55%) | **done** | **done** | 204/239 (85%) | 85% |
+| `lightgbm` | 166/240 (69%) | **done** | 133/240 (55%) | **done** | **done** | 204/239 (85%) | 85% |
 | `lstm` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `ltsf` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `moment` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
@@ -34,7 +34,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **2914/3600** | **3005/3600** | **2879/3600** | **3007/3595** | **3017/3600** | **2942/3585** | **82%** |
+| **total** | **2915/3600** | **3005/3600** | **2880/3600** | **3007/3595** | **3017/3600** | **2942/3585** | **82%** |
 
 ---
 
@@ -45,9 +45,9 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
-| Completed | **32,027** (84.8%) |
+| Completed | **32,031** (84.8%) |
 | Running | 3,360 |
-| Pending | 1,737 |
+| Pending | 1,733 |
 | Failed | 630 |
 | All done | no |
 
@@ -61,17 +61,17 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `cif` | 276/1095 (25%) | 261/1083 (24%) | 175/1095 (16%) | 22% |
 | `cnn` | **done** | **done** | **done** | 100% |
 | `itde` | **done** | — | **done** | 100% |
-| `knn` | **done** | **done** | 1094/1095 (100%) | 100% |
+| `knn` | **done** | **done** | **done** | 100% |
 | `lstm` | 1068/1095 (98%) | 405/436 (93%) | 931/1095 (85%) | 92% |
 | `proxstump` | **done** | — | **done** | 100% |
 | `shapedtw` | 405/1095 (37%) | 14/704 (2%) | 405/1095 (37%) | 28% |
 | `signature` | 885/1095 (81%) | 0/210 (0%) | 885/1095 (81%) | 74% |
-| `stc` | **done** | **done** | 1078/1095 (98%) | 99% |
-| `svc` | 1052/1095 (96%) | 150/187 (80%) | 949/1095 (87%) | 90% |
+| `stc` | **done** | **done** | 1080/1095 (99%) | 99% |
+| `svc` | 1052/1095 (96%) | 151/187 (81%) | 949/1095 (87%) | 91% |
 | `tsf` | **done** | **done** | **done** | 100% |
 | `tsfresh` | **done** | **done** | **done** | 100% |
 | `weasel` | **done** | — | **done** | 100% |
-| **total** | **15731/17520** | **924/2714** | **15372/17520** | **85%** |
+| **total** | **15731/17520** | **925/2714** | **15375/17520** | **85%** |
 
 ---
 
