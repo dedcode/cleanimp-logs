@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 07:14:29 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 07:15:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -10,9 +10,9 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 |---|---:|
 | Total jobs | **21,580** |
 | Completed | **18,162** (84.2%) |
-| Running | 414 |
+| Running | 412 |
 | Pending | 0 |
-| Failed | 3,004 |
+| Failed | 3,006 |
 | All done | no |
 
 ### Progress by (Forecaster × Algorithm)
@@ -47,9 +47,9 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
-| Completed | **32,331** (85.6%) |
+| Completed | **32,333** (85.6%) |
 | Running | 3,360 |
-| Pending | 1,433 |
+| Pending | 1,431 |
 | Failed | 630 |
 | All done | no |
 
@@ -69,11 +69,11 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `shapedtw` | 405/1095 (37%) | 14/704 (2%) | 405/1095 (37%) | 28% |
 | `signature` | 885/1095 (81%) | 0/210 (0%) | 885/1095 (81%) | 74% |
 | `stc` | **done** | **done** | 1090/1095 (100%) | 100% |
-| `svc` | 1055/1095 (96%) | 156/187 (83%) | 1017/1095 (93%) | 94% |
+| `svc` | 1057/1095 (97%) | 156/187 (83%) | 1017/1095 (93%) | 94% |
 | `tsf` | **done** | **done** | **done** | 100% |
 | `tsfresh` | **done** | **done** | **done** | 100% |
 | `weasel` | **done** | — | **done** | 100% |
-| **total** | **15753/17520** | **968/2714** | **15610/17520** | **86%** |
+| **total** | **15755/17520** | **968/2714** | **15610/17520** | **86%** |
 
 ---
 
