@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 02:25:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 02:30:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -45,9 +45,9 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
-| Completed | **30,745** (81.4%) |
+| Completed | **30,775** (81.5%) |
 | Running | 3,360 |
-| Pending | 3,649 |
+| Pending | 3,619 |
 | Failed | 0 |
 | All done | no |
 
@@ -58,20 +58,20 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `arsenal` | **done** | — | 1045/1095 (95%) | 98% |
 | `catch22` | **done** | — | **done** | 100% |
 | `cboss` | **done** | **done** | 1049/1095 (96%) | 98% |
-| `cif` | 168/1095 (15%) | 183/1083 (17%) | 117/1095 (11%) | 14% |
+| `cif` | 184/1095 (17%) | 183/1083 (17%) | 117/1095 (11%) | 15% |
 | `cnn` | **done** | **done** | 992/1095 (91%) | 95% |
 | `itde` | **done** | — | 1094/1095 (100%) | 100% |
 | `knn` | **done** | **done** | 1028/1095 (94%) | 97% |
-| `lstm` | 934/1095 (85%) | 317/436 (73%) | 767/1095 (70%) | 77% |
+| `lstm` | 943/1095 (86%) | 317/436 (73%) | 767/1095 (70%) | 77% |
 | `proxstump` | 1092/1095 (100%) | — | 1053/1095 (96%) | 98% |
 | `shapedtw` | 389/1095 (36%) | 14/704 (2%) | 322/1095 (29%) | 25% |
 | `signature` | 885/1095 (81%) | 0/210 (0%) | 885/1095 (81%) | 74% |
 | `stc` | **done** | **done** | 963/1095 (88%) | 94% |
-| `svc` | 1013/1095 (93%) | 125/187 (67%) | 902/1095 (82%) | 86% |
+| `svc` | 1018/1095 (93%) | 125/187 (67%) | 902/1095 (82%) | 86% |
 | `tsf` | **done** | **done** | 1094/1095 (100%) | 100% |
 | `tsfresh` | **done** | **done** | 1081/1095 (99%) | 99% |
 | `weasel` | **done** | — | 1094/1095 (100%) | 100% |
-| **total** | **15431/17520** | **733/2714** | **14581/17520** | **81%** |
+| **total** | **15461/17520** | **733/2714** | **14581/17520** | **82%** |
 
 ---
 
