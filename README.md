@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 18:45:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 18:50:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -43,9 +43,9 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN); fleet on **bigdata.1-8**
 |---|---:|
 | Total jobs | **37,754** |
 | Completed | **32,740** (86.7%) |
-| Running | 1,501 |
+| Running | 1,496 |
 | Pending | 0 |
-| Failed | 3,513 |
+| Failed | 3,518 |
 
 ### Progress by (Classifier × Algorithm)
 
