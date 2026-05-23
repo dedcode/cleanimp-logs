@@ -1,42 +1,10 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 14:50:03 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 14:55:03 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
-scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=12; fleet on **jubail HPC**
-
-| Metric | Value |
-|---|---:|
-| Total jobs | **21,580** |
-| Completed | **18,276** (84.7%) |
-| Running | 0 |
-| Pending | 0 |
-| Failed | 3,345 |
-| All done | **yes** |
-
-### Progress by (Forecaster × Algorithm)
-
-| Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 174/240 (72%) | 166/240 (69%) | 178/240 (74%) | 161/240 (67%) | 168/240 (70%) | 164/239 (69%) | 70% |
-| `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `dlinear` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `exp-smoothing` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `hw-add` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `lightgbm` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `lstm` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `ltsf` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `moment` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `nbeats` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `nlinear` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `patchtst` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
-| `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **3534/4080** | **3526/4080** | **3538/4080** | **3518/4075** | **3528/4080** | **3512/4065** | **86%** |
+_Server http://localhost:5555 not reachable: <urlopen error [Errno 111] Connection refused>_
 
 ---
 
@@ -48,9 +16,9 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 |---|---:|
 | Total jobs | **37,754** |
 | Completed | **32,709** (86.6%) |
-| Running | 3,235 |
+| Running | 3,214 |
 | Pending | 0 |
-| Failed | 1,810 |
+| Failed | 1,831 |
 | All done | no |
 
 ### Progress by (Classifier × Algorithm)
@@ -84,8 +52,8 @@ Retrying arima jobs that OOM-failed on big datasets; --workers=8 per node, 48 GB
 | Metric | Value |
 |---|---:|
 | Total jobs | **845** |
-| Completed | **417** (49.3%) |
-| Running | 133 |
+| Completed | **418** (49.5%) |
+| Running | 132 |
 | Pending | 295 |
 | Failed | 0 |
 | All done | no |
@@ -94,7 +62,7 @@ Retrying arima jobs that OOM-failed on big datasets; --workers=8 per node, 48 GB
 
 | Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 73/139 (53%) | 66/140 (47%) | 88/150 (59%) | 61/140 (44%) | 63/135 (47%) | 66/141 (47%) | 49% |
+| `arima` | 74/139 (53%) | 66/140 (47%) | 88/150 (59%) | 61/140 (44%) | 63/135 (47%) | 66/141 (47%) | 49% |
 | `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
@@ -111,7 +79,7 @@ Retrying arima jobs that OOM-failed on big datasets; --workers=8 per node, 48 GB
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **3913/3979** | **3906/3980** | **3928/3990** | **3901/3980** | **3903/3975** | **3906/3981** | **98%** |
+| **total** | **3914/3979** | **3906/3980** | **3928/3990** | **3901/3980** | **3903/3975** | **3906/3981** | **98%** |
 
 ---
 
