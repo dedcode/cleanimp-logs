@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 14:15:04 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 14:20:03 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -9,7 +9,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | Metric | Value |
 |---|---:|
 | Total jobs | **21,580** |
-| Completed | **18,269** (84.7%) |
+| Completed | **18,271** (84.7%) |
 | Running | 0 |
 | Pending | 0 |
 | Failed | 3,345 |
@@ -19,7 +19,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 
 | Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 172/240 (72%) | 166/240 (69%) | 173/240 (72%) | 161/240 (67%) | 168/240 (70%) | 164/239 (69%) | 70% |
+| `arima` | 173/240 (72%) | 166/240 (69%) | 174/240 (72%) | 161/240 (67%) | 168/240 (70%) | 164/239 (69%) | 70% |
 | `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
@@ -36,7 +36,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **3532/4080** | **3526/4080** | **3533/4080** | **3518/4075** | **3528/4080** | **3512/4065** | **86%** |
+| **total** | **3533/4080** | **3526/4080** | **3534/4080** | **3518/4075** | **3528/4080** | **3512/4065** | **86%** |
 
 ---
 
@@ -47,10 +47,10 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
-| Completed | **32,706** (86.6%) |
-| Running | 3,326 |
+| Completed | **32,707** (86.6%) |
+| Running | 3,313 |
 | Pending | 0 |
-| Failed | 1,722 |
+| Failed | 1,734 |
 | All done | no |
 
 ### Progress by (Classifier × Algorithm)
@@ -60,7 +60,7 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `arsenal` | **done** | — | **done** | 100% |
 | `catch22` | **done** | — | **done** | 100% |
 | `cboss` | **done** | **done** | **done** | 100% |
-| `cif` | 315/1095 (29%) | 314/1083 (29%) | 337/1095 (31%) | 30% |
+| `cif` | 315/1095 (29%) | 315/1083 (29%) | 337/1095 (31%) | 30% |
 | `cnn` | **done** | **done** | **done** | 100% |
 | `itde` | **done** | — | **done** | 100% |
 | `knn` | **done** | **done** | **done** | 100% |
@@ -73,7 +73,7 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `tsf` | **done** | **done** | **done** | 100% |
 | `tsfresh` | **done** | **done** | **done** | 100% |
 | `weasel` | **done** | — | **done** | 100% |
-| **total** | **15827/17520** | **1033/2714** | **15846/17520** | **87%** |
+| **total** | **15827/17520** | **1034/2714** | **15846/17520** | **87%** |
 
 ---
 
@@ -84,8 +84,8 @@ Retrying arima jobs that OOM-failed on big datasets; --workers=8 per node, 48 GB
 | Metric | Value |
 |---|---:|
 | Total jobs | **845** |
-| Completed | **410** (48.5%) |
-| Running | 127 |
+| Completed | **412** (48.8%) |
+| Running | 125 |
 | Pending | 308 |
 | Failed | 0 |
 | All done | no |
@@ -94,7 +94,7 @@ Retrying arima jobs that OOM-failed on big datasets; --workers=8 per node, 48 GB
 
 | Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 71/139 (51%) | 66/140 (47%) | 83/150 (55%) | 61/140 (44%) | 63/135 (47%) | 66/141 (47%) | 49% |
+| `arima` | 72/139 (52%) | 66/140 (47%) | 84/150 (56%) | 61/140 (44%) | 63/135 (47%) | 66/141 (47%) | 49% |
 | `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
@@ -111,7 +111,7 @@ Retrying arima jobs that OOM-failed on big datasets; --workers=8 per node, 48 GB
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **3911/3979** | **3906/3980** | **3923/3990** | **3901/3980** | **3903/3975** | **3906/3981** | **98%** |
+| **total** | **3912/3979** | **3906/3980** | **3924/3990** | **3901/3980** | **3903/3975** | **3906/3981** | **98%** |
 
 ---
 
