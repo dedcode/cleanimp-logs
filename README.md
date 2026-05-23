@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 04:45:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 04:50:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -10,8 +10,8 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS); h=1
 |---|---:|
 | Total jobs | **21,580** |
 | Completed | **17,763** (82.3%) |
-| Running | 0 |
-| Pending | 3,817 |
+| Running | 200 |
+| Pending | 3,617 |
 | Failed | 0 |
 | All done | no |
 
@@ -45,9 +45,9 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
-| Completed | **31,996** (84.7%) |
-| Running | 5,128 |
-| Pending | 0 |
+| Completed | **32,019** (84.8%) |
+| Running | 3,160 |
+| Pending | 1,945 |
 | Failed | 630 |
 | All done | no |
 
@@ -57,21 +57,21 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 |---|:---:|:---:|:---:|---:|
 | `arsenal` | **done** | — | 1094/1095 (100%) | 100% |
 | `catch22` | **done** | — | **done** | 100% |
-| `cboss` | **done** | **done** | 1094/1095 (100%) | 100% |
-| `cif` | 276/1095 (25%) | 261/1083 (24%) | 171/1095 (16%) | 22% |
-| `cnn` | **done** | **done** | 1093/1095 (100%) | 100% |
+| `cboss` | **done** | **done** | **done** | 100% |
+| `cif` | 276/1095 (25%) | 261/1083 (24%) | 173/1095 (16%) | 22% |
+| `cnn` | **done** | **done** | **done** | 100% |
 | `itde` | **done** | — | **done** | 100% |
-| `knn` | **done** | **done** | 1091/1095 (100%) | 100% |
-| `lstm` | 1068/1095 (98%) | 405/436 (93%) | 928/1095 (85%) | 91% |
+| `knn` | **done** | **done** | 1093/1095 (100%) | 100% |
+| `lstm` | 1068/1095 (98%) | 405/436 (93%) | 930/1095 (85%) | 92% |
 | `proxstump` | **done** | — | 1094/1095 (100%) | 100% |
-| `shapedtw` | 391/1095 (36%) | 14/704 (2%) | 405/1095 (37%) | 28% |
+| `shapedtw` | 405/1095 (37%) | 14/704 (2%) | 405/1095 (37%) | 28% |
 | `signature` | 885/1095 (81%) | 0/210 (0%) | 885/1095 (81%) | 74% |
 | `stc` | **done** | **done** | 1077/1095 (98%) | 99% |
 | `svc` | 1052/1095 (96%) | 150/187 (80%) | 948/1095 (87%) | 90% |
 | `tsf` | **done** | **done** | **done** | 100% |
 | `tsfresh` | **done** | **done** | **done** | 100% |
 | `weasel` | **done** | — | **done** | 100% |
-| **total** | **15717/17520** | **924/2714** | **15355/17520** | **85%** |
+| **total** | **15731/17520** | **924/2714** | **15364/17520** | **85%** |
 
 ---
 
