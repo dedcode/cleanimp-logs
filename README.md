@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 04:30:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 04:35:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -45,9 +45,9 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
-| Completed | **31,908** (84.5%) |
-| Running | 3,360 |
-| Pending | 2,486 |
+| Completed | **31,951** (84.6%) |
+| Running | 3,359 |
+| Pending | 2,444 |
 | Failed | 0 |
 | All done | no |
 
@@ -58,20 +58,20 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `arsenal` | **done** | — | 1094/1095 (100%) | 100% |
 | `catch22` | **done** | — | **done** | 100% |
 | `cboss` | **done** | **done** | 1094/1095 (100%) | 100% |
-| `cif` | 276/1095 (25%) | 259/1083 (24%) | 154/1095 (14%) | 21% |
+| `cif` | 276/1095 (25%) | 260/1083 (24%) | 161/1095 (15%) | 21% |
 | `cnn` | **done** | **done** | 1093/1095 (100%) | 100% |
 | `itde` | **done** | — | **done** | 100% |
-| `knn` | **done** | **done** | 1078/1095 (98%) | 99% |
-| `lstm` | 1068/1095 (98%) | 401/436 (92%) | 887/1095 (81%) | 90% |
+| `knn` | **done** | **done** | 1082/1095 (99%) | 99% |
+| `lstm` | 1068/1095 (98%) | 403/436 (92%) | 907/1095 (83%) | 91% |
 | `proxstump` | **done** | — | 1094/1095 (100%) | 100% |
 | `shapedtw` | 390/1095 (36%) | 14/704 (2%) | 405/1095 (37%) | 28% |
 | `signature` | 885/1095 (81%) | 0/210 (0%) | 885/1095 (81%) | 74% |
-| `stc` | **done** | **done** | 1068/1095 (98%) | 99% |
+| `stc` | **done** | **done** | 1077/1095 (98%) | 99% |
 | `svc` | 1052/1095 (96%) | 150/187 (80%) | 947/1095 (86%) | 90% |
 | `tsf` | **done** | **done** | **done** | 100% |
 | `tsfresh` | **done** | **done** | **done** | 100% |
 | `weasel` | **done** | — | **done** | 100% |
-| **total** | **15716/17520** | **918/2714** | **15274/17520** | **85%** |
+| **total** | **15716/17520** | **921/2714** | **15314/17520** | **85%** |
 
 ---
 
