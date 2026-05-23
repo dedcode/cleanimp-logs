@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 13:45:18 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 13:45:40 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -74,6 +74,44 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN) — remaining slow-classi
 | `tsfresh` | **done** | **done** | **done** | 100% |
 | `weasel` | **done** | — | **done** | 100% |
 | **total** | **15821/17520** | **1033/2714** | **15846/17520** | **87%** |
+
+---
+
+## Arima retry (forecaster, OOM recovery)
+
+Retrying arima jobs that OOM-failed on big datasets; --workers=8 per node, 48 GB RAM each; fleet on **jubail HPC** (large QOS, 18 nodes)
+
+| Metric | Value |
+|---|---:|
+| Total jobs | **845** |
+| Completed | **395** (46.7%) |
+| Running | 137 |
+| Pending | 313 |
+| Failed | 0 |
+| All done | no |
+
+### Progress by (Forecaster × Algorithm)
+
+| Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
+| `arima` | 65/139 (47%) | 66/140 (47%) | 74/150 (49%) | 61/140 (44%) | 63/135 (47%) | 66/141 (47%) | 47% |
+| `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `dlinear` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `exp-smoothing` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `hw-add` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `lightgbm` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `lstm` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `ltsf` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `moment` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `nbeats` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `nlinear` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `patchtst` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
+| **total** | **3905/3979** | **3906/3980** | **3914/3990** | **3901/3980** | **3903/3975** | **3906/3981** | **98%** |
 
 ---
 
