@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-24 11:25:01 -0400**. Manual refresh: `bash /storage/experiments/cleanimp/orchestrator/push_status.sh`._
+_Last updated: **2026-05-24 11:30:02 -0400**. Manual refresh: `bash /storage/experiments/cleanimp/orchestrator/push_status.sh`._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -42,7 +42,7 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN); fleet on **bigdata.1-8**
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
-| Completed | **34,353** (91.0%) |
+| Completed | **34,401** (91.1%) |
 | Running | 0 |
 | Pending | 340 |
 | Failed | 4,670 |
@@ -60,12 +60,12 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN); fleet on **bigdata.1-8**
 | `knn` | **done** | **done** | **done** | 100% |
 | `lstm` | **done** | **done** | **done** | 100% |
 | `proxstump` | **done** | — | **done** | 100% |
-| `shapedtw` | 931/1095 (85%) | 539/704 (77%) | 931/1095 (85%) | 83% |
+| `shapedtw` | 947/1095 (86%) | 554/704 (79%) | 948/1095 (87%) | 85% |
 | `signature` | 885/1095 (81%) | 0/210 (0%) | 885/1095 (81%) | 74% |
 | `stc` | **done** | **done** | **done** | 100% |
 | `svc` | **done** | **done** | **done** | 100% |
 | `tsf` | **done** | **done** | **done** | 100% |
 | `tsfresh` | **done** | **done** | **done** | 100% |
 | `weasel` | **done** | — | **done** | 100% |
-| **total** | **16373/17520** | **1577/2714** | **16402/17520** | **91%** |
+| **total** | **16389/17520** | **1592/2714** | **16419/17520** | **91%** |
 
