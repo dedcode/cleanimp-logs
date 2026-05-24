@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-24 07:25:01 -0400**. Manual refresh: `bash /storage/experiments/cleanimp/orchestrator/push_status.sh`._
+_Last updated: **2026-05-24 07:30:01 -0400**. Manual refresh: `bash /storage/experiments/cleanimp/orchestrator/push_status.sh`._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -9,14 +9,14 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS) + re
 | Metric | Value |
 |---|---:|
 | Total jobs | **21,580** |
-| Completed (PRED on disk) | **19,842** (91.9%) |
-| Retry queues (`:5555` moment+patchtst, `:5557` arima) | running=1467, pending=259, failed=12 |
+| Completed (PRED on disk) | **19,844** (92.0%) |
+| Retry queues (`:5555` moment+patchtst, `:5557` arima) | running=1467, pending=255, failed=14 |
 
 ### Progress by (Forecaster × Algorithm)
 
 | Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 194/240 (81%) | 182/240 (76%) | 194/240 (81%) | 192/240 (80%) | 189/240 (79%) | 188/239 (79%) | 79% |
+| `arima` | 194/240 (81%) | 182/240 (76%) | 196/240 (82%) | 192/240 (80%) | 189/240 (79%) | 188/239 (79%) | 79% |
 | `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
@@ -31,7 +31,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS) + re
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **3314/3600** | **3302/3600** | **3314/3600** | **3308/3595** | **3309/3600** | **3295/3585** | **92%** |
+| **total** | **3314/3600** | **3302/3600** | **3316/3600** | **3308/3595** | **3309/3600** | **3295/3585** | **92%** |
 
 ---
 
