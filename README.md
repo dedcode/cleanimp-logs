@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 20:30:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-23 20:35:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -10,7 +10,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS) + re
 |---|---:|
 | Total jobs | **21,580** |
 | Completed (PRED on disk) | **18,283** (84.7%) |
-| Retry queues (`:5555` moment+patchtst, `:5557` arima) | running=36, pending=896, failed=2311 |
+| Retry queues (`:5555` moment+patchtst, `:5557` arima) | running=0, pending=367, failed=2876 |
 
 ### Progress by (Forecaster × Algorithm)
 
