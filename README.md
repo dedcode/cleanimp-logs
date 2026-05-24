@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-24 02:40:33 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-24 02:42:08 -0400**. Manual refresh: `bash /storage/experiments/cleanimp/orchestrator/push_status.sh`._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -9,14 +9,14 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS) + re
 | Metric | Value |
 |---|---:|
 | Total jobs | **21,580** |
-| Completed (PRED on disk) | **18,351** (85.0%) |
+| Completed (PRED on disk) | **19,788** (91.7%) |
 | Retry queues (`:5555` moment+patchtst, `:5557` arima) | running=1470, pending=322, failed=0 |
 
 ### Progress by (Forecaster × Algorithm)
 
 | Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 176/240 (73%) | 180/240 (75%) | 179/240 (75%) | 191/240 (80%) | 179/240 (75%) | 179/239 (75%) | 75% |
+| `arima` | 177/240 (74%) | 180/240 (75%) | 179/240 (75%) | 191/240 (80%) | 179/240 (75%) | 179/239 (75%) | 75% |
 | `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
@@ -27,11 +27,11 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS) + re
 | `ltsf` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `moment` | 0/240 (0%) | 0/240 (0%) | 0/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
 | `nlinear` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| `patchtst` | 1/240 (0%) | 0/240 (0%) | 1/240 (0%) | 0/239 (0%) | 0/240 (0%) | 0/239 (0%) | 0% |
+| `patchtst` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **3057/3600** | **3060/3600** | **3060/3600** | **3068/3595** | **3059/3600** | **3047/3585** | **85%** |
+| **total** | **3297/3600** | **3300/3600** | **3299/3600** | **3307/3595** | **3299/3600** | **3286/3585** | **92%** |
 
 ---
 
