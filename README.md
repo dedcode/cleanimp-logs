@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-24 10:10:01 -0400**. Manual refresh: `bash /storage/experiments/cleanimp/orchestrator/push_status.sh`._
+_Last updated: **2026-05-24 10:15:01 -0400**. Manual refresh: `bash /storage/experiments/cleanimp/orchestrator/push_status.sh`._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -10,7 +10,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS) + re
 |---|---:|
 | Total jobs | **21,580** |
 | Completed (PRED on disk) | **19,866** (92.1%) |
-| Retry queues (`:5555` moment+patchtst, `:5557` arima) | running=28, pending=1640, failed=46 |
+| Retry queues (`:5555` moment+patchtst, `:5557` arima) | running=29, pending=1637, failed=48 |
 
 ### Progress by (Forecaster × Algorithm)
 
