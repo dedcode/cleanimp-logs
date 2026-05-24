@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-23 23:55:01 -0400**. Refreshes every 5 min via cron on bigdata.1._
+_Last updated: **2026-05-24 00:00:02 -0400**. Refreshes every 5 min via cron on bigdata.1._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -9,14 +9,14 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS) + re
 | Metric | Value |
 |---|---:|
 | Total jobs | **21,580** |
-| Completed (PRED on disk) | **18,283** (84.7%) |
-| Retry queues (`:5555` moment+patchtst, `:5557` arima) | running=0, pending=367, failed=2876 |
+| Completed (PRED on disk) | **18,349** (85.0%) |
+| Retry queues (`:5555` moment+patchtst, `:5557` arima) | running=0, pending=355, failed=2876 |
 
 ### Progress by (Forecaster × Algorithm)
 
 | Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 175/240 (73%) | 166/240 (69%) | 178/240 (74%) | 161/240 (67%) | 168/240 (70%) | 170/239 (71%) | 71% |
+| `arima` | 176/240 (73%) | 180/240 (75%) | 179/240 (75%) | 191/240 (80%) | 179/240 (75%) | 179/239 (75%) | 75% |
 | `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
@@ -31,7 +31,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS) + re
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **3055/3600** | **3046/3600** | **3058/3600** | **3038/3595** | **3048/3600** | **3038/3585** | **85%** |
+| **total** | **3056/3600** | **3060/3600** | **3059/3600** | **3068/3595** | **3059/3600** | **3047/3585** | **85%** |
 
 ---
 
