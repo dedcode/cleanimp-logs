@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-24 22:50:01 -0400**. Manual refresh: `bash /storage/experiments/cleanimp/orchestrator/push_status.sh`._
+_Last updated: **2026-05-24 22:55:02 -0400**. Manual refresh: `bash /storage/experiments/cleanimp/orchestrator/push_status.sh`._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -10,7 +10,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS) + re
 |---|---:|
 | Total jobs | **21,580** |
 | Completed (PRED on disk) | **19,959** (92.5%) |
-| Retry queues (`:5555` moment+patchtst, `:5557` arima) | running=9, pending=1438, failed=174 |
+| Retry queues (`:5555` moment+patchtst, `:5557` arima) | running=8, pending=1438, failed=175 |
 
 ### Progress by (Forecaster × Algorithm)
 
@@ -42,7 +42,7 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN); fleet on **bigdata.1-8**
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
-| Completed | **35,215** (93.3%) |
+| Completed | **35,240** (93.3%) |
 | Running | 0 |
 | Pending | 179 |
 | Failed | 4,670 |
@@ -54,7 +54,7 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN); fleet on **bigdata.1-8**
 | `arsenal` | **done** | — | **done** | 100% |
 | `catch22` | **done** | — | **done** | 100% |
 | `cboss` | **done** | **done** | **done** | 100% |
-| `cif` | 463/1095 (42%) | 426/1083 (39%) | 475/1095 (43%) | 42% |
+| `cif` | 474/1095 (43%) | 433/1083 (40%) | 482/1095 (44%) | 42% |
 | `cnn` | **done** | **done** | **done** | 100% |
 | `itde` | **done** | — | **done** | 100% |
 | `knn` | **done** | **done** | **done** | 100% |
@@ -67,5 +67,5 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN); fleet on **bigdata.1-8**
 | `tsf` | **done** | **done** | **done** | 100% |
 | `tsfresh` | **done** | **done** | **done** | 100% |
 | `weasel` | **done** | — | **done** | 100% |
-| **total** | **16678/17520** | **1847/2714** | **16690/17520** | **93%** |
+| **total** | **16689/17520** | **1854/2714** | **16697/17520** | **93%** |
 
