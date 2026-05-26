@@ -1,6 +1,6 @@
 # CleanImp — Run Status
 
-_Last updated: **2026-05-26 12:20:02 -0400**. Manual refresh: `bash /storage/experiments/cleanimp/orchestrator/push_status.sh`._
+_Last updated: **2026-05-26 12:25:02 -0400**. Manual refresh: `bash /storage/experiments/cleanimp/orchestrator/push_status.sh`._
 
 ## Forecaster (downstream, horizon=12)
 
@@ -9,14 +9,14 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS) + re
 | Metric | Value |
 |---|---:|
 | Total jobs | **21,580** |
-| Completed (PRED on disk) | **19,963** (92.5%) |
-| Retry queues (`:5555` moment+patchtst, `:5557` arima) | running=8, pending=1609, failed=0 |
+| Completed (PRED on disk) | **19,964** (92.5%) |
+| Retry queues (`:5555` moment+patchtst, `:5557` arima) | running=8, pending=1608, failed=0 |
 
 ### Progress by (Forecaster × Algorithm)
 
 | Forecaster | Dynammo | GPT4TS | MICE | MeanImpute | SAITS | SoftImpute | Row % |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| `arima` | 211/240 (88%) | 211/240 (88%) | 211/240 (88%) | 210/240 (88%) | 208/240 (87%) | 209/239 (87%) | 88% |
+| `arima` | 211/240 (88%) | 211/240 (88%) | 211/240 (88%) | 210/240 (88%) | 209/240 (87%) | 209/239 (87%) | 88% |
 | `chronos` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `croston` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `deepar` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
@@ -31,7 +31,7 @@ scripts 04 (Dynammo, MICE), 05 (SoftImpute, MeanImpute), 06 (GPT4TS, SAITS) + re
 | `prophet` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `transformer` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
 | `xgboost` | **done** | **done** | **done** | **done** | **done** | **done** | 100% |
-| **total** | **3331/3600** | **3331/3600** | **3331/3600** | **3326/3595** | **3328/3600** | **3316/3585** | **93%** |
+| **total** | **3331/3600** | **3331/3600** | **3331/3600** | **3326/3595** | **3329/3600** | **3316/3585** | **93%** |
 
 ---
 
@@ -42,7 +42,7 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN); fleet on **bigdata.1-8**
 | Metric | Value |
 |---|---:|
 | Total jobs | **37,754** |
-| Completed | **36,660** (97.1%) |
+| Completed | **36,661** (97.1%) |
 | Running | 0 |
 | Pending | 112 |
 | Failed | 4,670 |
@@ -54,7 +54,7 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN); fleet on **bigdata.1-8**
 | `arsenal` | **done** | — | **done** | 100% |
 | `catch22` | **done** | — | **done** | 100% |
 | `cboss` | **done** | **done** | **done** | 100% |
-| `cif` | 645/1095 (59%) | 594/1083 (55%) | 683/1095 (62%) | 59% |
+| `cif` | 645/1095 (59%) | 594/1083 (55%) | 684/1095 (62%) | 59% |
 | `cnn` | **done** | **done** | **done** | 100% |
 | `itde` | **done** | — | **done** | 100% |
 | `knn` | **done** | **done** | **done** | 100% |
@@ -67,5 +67,5 @@ scripts 01 (Moment leftover) + Quentin add (SVT, GRIN); fleet on **bigdata.1-8**
 | `tsf` | **done** | **done** | **done** | 100% |
 | `tsfresh` | **done** | **done** | **done** | 100% |
 | `weasel` | **done** | — | **done** | 100% |
-| **total** | **16860/17520** | **2015/2714** | **16898/17520** | **95%** |
+| **total** | **16860/17520** | **2015/2714** | **16899/17520** | **95%** |
 
