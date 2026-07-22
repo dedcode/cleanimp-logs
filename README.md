@@ -1,10 +1,10 @@
 # CleanImp — Upstream Reconstruction Run (ImputeGAP V.1.0.2)
 
-_Last update: 2026-07-22 09:25:02 (Abu Dhabi) — jobserver :5560_
+_Last update: 2026-07-22 09:30:01 (Abu Dhabi) — jobserver :5560_
 
-## Overall: **1763 / 2400** (73.5%)
+## Overall: **1841 / 2400** (76.7%)
 
-- pending: 0  |  running: 637  |  failed(permanent): 0
+- pending: 0  |  running: 559  |  failed(permanent): 0
 - NodeManagers alive: 33 — bigdata.1-ups, bigdata.2-ups, bigdata.3-ups, bigdata.4-ups, bigdata.5-ups, bigdata.6-ups, bigdata.7-ups, bigdata.8-ups, jubail-ups-16793966, jubail-ups-16793967, jubail-ups-16793968, jubail-ups-16793969, jubail-ups-16793970, jubail-ups-16793971, jubail-ups-16793972, jubail-ups-16793973, jubail-ups-16793974, jubail-ups-16793975, jubail-ups-16793976, jubail-ups-16793977, jubail-ups-16793978, jubail-ups-16793979, jubail-ups-16793980, jubail-ups-16793981, jubail-ups-16793982, jubail-ups-16793983, jubail-ups-16793984, jubail-ups-16793985, jubail-ups-16793986, jubail-ups-16793987, jubail-ups-16793988, jubail-ups-16793989, jubail-ups-16793990
 
 ## Per-algorithm progress
@@ -12,8 +12,8 @@ _Last update: 2026-07-22 09:25:02 (Abu Dhabi) — jobserver :5560_
 | Algorithm | Done | Total | % |
 |---|---|---|---|
 | PriSTI | 1 | 240 | 0% |
-| CSDI | 19 | 240 | 7% |
-| SAITS | 63 | 240 | 26% |
+| CSDI | 29 | 240 | 12% |
+| SAITS | 131 | 240 | 54% |
 | SoftImpute | 240 | 240 | 100% |
 | IterativeSVD | 240 | 240 | 100% |
 | GROUSE | 240 | 240 | 100% |
