@@ -1,11 +1,11 @@
 # CleanImp — Upstream Reconstruction Run (ImputeGAP V.1.0.2)
 
-_Last update: 2026-07-22 12:10:03 (Abu Dhabi) — jobserver :5560_
+_Last update: 2026-07-22 12:15:03 (Abu Dhabi) — jobserver :5560_
 
 ## Overall: **2400 / 2400** (100.0%)
 
 - pending: 0  |  running: 0  |  failed(permanent): 0
-- NodeManagers alive: 3 — jubail-gpu-16794310, jubail-gpu-16794311, jubail-gpu-16794326
+- NodeManagers alive: 0 — 
 
 ## Per-algorithm progress
 
