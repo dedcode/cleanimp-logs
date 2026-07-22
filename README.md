@@ -1,18 +1,18 @@
 # CleanImp — Upstream Reconstruction Run (ImputeGAP V.1.0.2)
 
-_Last update: 2026-07-22 10:40:05 (Abu Dhabi) — jobserver :5560_
+_Last update: 2026-07-22 10:45:05 (Abu Dhabi) — jobserver :5560_
 
-## Overall: **2156 / 2400** (89.8%)
+## Overall: **2186 / 2400** (91.1%)
 
-- pending: 152  |  running: 92  |  failed(permanent): 0
-- NodeManagers alive: 36 — bigdata.1-ups, bigdata.2-ups, bigdata.3-ups, bigdata.4-ups, bigdata.5-ups, bigdata.6-ups, bigdata.7-ups, bigdata.8-ups, jubail-gpu-16794310, jubail-gpu-16794325, jubail-gpu-16794326, jubail-ups-16793966, jubail-ups-16793967, jubail-ups-16793968, jubail-ups-16793969, jubail-ups-16793970, jubail-ups-16793971, jubail-ups-16793972, jubail-ups-16793973, jubail-ups-16793974, jubail-ups-16793975, jubail-ups-16793976, jubail-ups-16793977, jubail-ups-16793978, jubail-ups-16793979, jubail-ups-16793980, jubail-ups-16793981, jubail-ups-16793982, jubail-ups-16793983, jubail-ups-16793984, jubail-ups-16793985, jubail-ups-16793986, jubail-ups-16793987, jubail-ups-16793988, jubail-ups-16793989, jubail-ups-16793990
+- pending: 120  |  running: 94  |  failed(permanent): 0
+- NodeManagers alive: 37 — bigdata.1-ups, bigdata.2-ups, bigdata.3-ups, bigdata.4-ups, bigdata.5-ups, bigdata.6-ups, bigdata.7-ups, bigdata.8-ups, jubail-gpu-16794310, jubail-gpu-16794311, jubail-gpu-16794325, jubail-gpu-16794326, jubail-ups-16793966, jubail-ups-16793967, jubail-ups-16793968, jubail-ups-16793969, jubail-ups-16793970, jubail-ups-16793971, jubail-ups-16793972, jubail-ups-16793973, jubail-ups-16793974, jubail-ups-16793975, jubail-ups-16793976, jubail-ups-16793977, jubail-ups-16793978, jubail-ups-16793979, jubail-ups-16793980, jubail-ups-16793981, jubail-ups-16793982, jubail-ups-16793983, jubail-ups-16793984, jubail-ups-16793985, jubail-ups-16793986, jubail-ups-16793987, jubail-ups-16793988, jubail-ups-16793989, jubail-ups-16793990
 
 ## Per-algorithm progress
 
 | Algorithm | Done | Total | % |
 |---|---|---|---|
-| PriSTI | 75 | 240 | 31% |
-| CSDI | 169 | 240 | 70% |
+| PriSTI | 92 | 240 | 38% |
+| CSDI | 182 | 240 | 75% |
 | SAITS | 232 | 240 | 96% |
 | SoftImpute | 240 | 240 | 100% |
 | IterativeSVD | 240 | 240 | 100% |
