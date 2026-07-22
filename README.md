@@ -1,10 +1,10 @@
 # CleanImp — Upstream Classification Run (ImputeGAP V.1.0.2)
 
-_Last update: 2026-07-22 19:20:06 (Abu Dhabi) — jobserver :5561_
+_Last update: 2026-07-22 19:25:03 (Abu Dhabi) — jobserver :5561_
 
-## Overall: **6965 / 8756** (79.5%)
+## Overall: **6968 / 8756** (79.6%)
 
-- pending: 1759  |  running: 32  |  failed(permanent): 0
+- pending: 1756  |  running: 32  |  failed(permanent): 0
 - NodeManagers alive: 4 — jubail-gpuc-16797686, jubail-gpuc-16797687, jubail-gpuc-16797688, jubail-gpuc-16797689
 
 ## Per-algorithm progress
@@ -12,7 +12,7 @@ _Last update: 2026-07-22 19:20:06 (Abu Dhabi) — jobserver :5561_
 | Algorithm | Done | Total | % |
 |---|---|---|---|
 | PriSTI | 305 | 1095 | 27% |
-| CSDI | 577 | 1095 | 52% |
+| CSDI | 580 | 1095 | 52% |
 | BRITS | 612 | 1095 | 55% |
 | BayOTIDE | 1095 | 1095 | 100% |
 | XGBoost | 1094 | 1094 | 100% |
