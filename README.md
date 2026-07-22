@@ -1,18 +1,18 @@
 # CleanImp — Upstream Classification Run (ImputeGAP V.1.0.2)
 
-_Last update: 2026-07-22 18:45:03 (Abu Dhabi) — jobserver :5561_
+_Last update: 2026-07-22 18:50:03 (Abu Dhabi) — jobserver :5561_
 
-## Overall: **6900 / 8756** (78.8%)
+## Overall: **6905 / 8756** (78.9%)
 
-- pending: 1828  |  running: 28  |  failed(permanent): 0
-- NodeManagers alive: 14 — jubail-gpuc-16797686, jubail-gpuc-16797687, jubail-gpuc-16797688, jubail-gpuc-16797689, jubail-upc-16797633, jubail-upc-16797634, jubail-upc-16797635, jubail-upc-16797636, jubail-upc-16797637, jubail-upc-16797638, jubail-upc-16797639, jubail-upc-16797640, jubail-upc-16797641, jubail-upc-16797642
+- pending: 1821  |  running: 30  |  failed(permanent): 0
+- NodeManagers alive: 10 — jubail-gpuc-16797686, jubail-gpuc-16797687, jubail-gpuc-16797688, jubail-gpuc-16797689, jubail-upc-16797633, jubail-upc-16797636, jubail-upc-16797639, jubail-upc-16797640, jubail-upc-16797641, jubail-upc-16797642
 
 ## Per-algorithm progress
 
 | Algorithm | Done | Total | % |
 |---|---|---|---|
 | PriSTI | 305 | 1095 | 27% |
-| CSDI | 512 | 1095 | 46% |
+| CSDI | 517 | 1095 | 47% |
 | BRITS | 612 | 1095 | 55% |
 | BayOTIDE | 1095 | 1095 | 100% |
 | XGBoost | 1094 | 1094 | 100% |
