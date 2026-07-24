@@ -1,11 +1,11 @@
 # CleanImp — Upstream Classification Run (ImputeGAP V.1.0.2)
 
-_Last update: 2026-07-24 05:25:02 (Abu Dhabi) — jobserver :5561_
+_Last update: 2026-07-24 05:30:02 (Abu Dhabi) — jobserver :5561_
 
 ## Overall: **8713 / 8756** (99.5%)
 
-- pending: 36  |  running: 0  |  failed(permanent): 7
-- NodeManagers alive: 8 — jubail-upc-16800395, jubail-upc-16800396, jubail-upc-16800397, jubail-upc-16800398, jubail-upc-16800399, jubail-upc-16800400, jubail-upc-16800401, jubail-upc-16800402
+- pending: 0  |  running: 43  |  failed(permanent): 0
+- NodeManagers alive: 4 — jubail-upc-16800397, jubail-upc-16800398, jubail-upc-16810241, jubail-upc-16810242
 
 ## Per-algorithm progress
 
@@ -19,8 +19,4 @@ _Last update: 2026-07-24 05:25:02 (Abu Dhabi) — jobserver :5561_
 | SVT | 1094 | 1094 | 100% |
 | DynaMMO | 1094 | 1094 | 100% |
 | IIM | 1094 | 1094 | 100% |
-
-## Permanent failures by error
-
-- `timeout_after_7200s` — 7
 
