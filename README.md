@@ -1,11 +1,11 @@
 # CleanImp — Upstream Classification Run (ImputeGAP V.1.0.2)
 
-_Last update: 2026-07-24 00:00:02 (Abu Dhabi) — jobserver :5561_
+_Last update: 2026-07-24 00:05:02 (Abu Dhabi) — jobserver :5561_
 
 ## Overall: **8713 / 8756** (99.5%)
 
-- pending: 28  |  running: 8  |  failed(permanent): 7
-- NodeManagers alive: 9 — jubail-gpuc-16800111, jubail-upc-16800395, jubail-upc-16800396, jubail-upc-16800397, jubail-upc-16800398, jubail-upc-16800399, jubail-upc-16800400, jubail-upc-16800401, jubail-upc-16800402
+- pending: 36  |  running: 0  |  failed(permanent): 7
+- NodeManagers alive: 8 — jubail-upc-16800395, jubail-upc-16800396, jubail-upc-16800397, jubail-upc-16800398, jubail-upc-16800399, jubail-upc-16800400, jubail-upc-16800401, jubail-upc-16800402
 
 ## Per-algorithm progress
 
