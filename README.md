@@ -1,18 +1,18 @@
 # CleanImp — Cardinality Experiment (contamination/imputation granularity) (ImputeGAP V.1.0.2)
 
-_Last update: 2026-08-07 13:10:03 (Abu Dhabi) — jobserver :5562_
+_Last update: 2026-08-07 13:15:05 (Abu Dhabi) — jobserver :5562_
 
-## Overall: **92 / 4380** (2.1%)
+## Overall: **149 / 4380** (3.4%)
 
-- pending: 3557  |  running: 734  |  failed(permanent): 0
+- pending: 3498  |  running: 736  |  failed(permanent): 0
 - NodeManagers alive: 23 — jubail-card-17123118, jubail-card-17123127, jubail-card-17123128, jubail-card-17123129, jubail-card-17123130, jubail-card-17123131, jubail-card-17123132, jubail-card-17123133, jubail-card-17123134, jubail-card-17123145, jubail-card-17123146, jubail-card-17123147, jubail-card-17123148, jubail-card-17123149, jubail-card-17123150, jubail-card-17123151, jubail-card-17123152, jubail-card-17123153, jubail-card-17123154, jubail-card-17123155, jubail-card-17123156, jubail-card-17123157, jubail-card-17123158
 
 ## Per-script progress
 
 | Script | Done | Total | % |
 |---|---|---|---|
-| script_01 (cont_by_class) | 48 | 2190 | 2% |
-| script_02 (cont_by_dataset) | 41 | 2190 | 1% |
+| script_01 (cont_by_class) | 84 | 2190 | 3% |
+| script_02 (cont_by_dataset) | 62 | 2190 | 2% |
 
 ## Per-algorithm progress
 
@@ -22,6 +22,6 @@ _Last update: 2026-08-07 13:10:03 (Abu Dhabi) — jobserver :5562_
 | SVT | 1 | 730 | 0% |
 | MeanImpute | 1 | 730 | 0% |
 | MICE | 2 | 730 | 0% |
-| GRIN | 5 | 730 | 0% |
-| Moment | 79 | 730 | 10% |
+| GRIN | 15 | 730 | 2% |
+| Moment | 126 | 730 | 17% |
 
